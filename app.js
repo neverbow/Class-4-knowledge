@@ -52,6 +52,18 @@ class App {
         this.updateMistakesCount();
     }
     
+
+    enterFocusMode() {
+        document.body.classList.add('quiz-focus-mode');
+        document.getElementById('quit-focus-btn').classList.remove('hidden');
+    }
+    
+    exitFocusMode() {
+        document.body.classList.remove('quiz-focus-mode');
+        document.getElementById('quit-focus-btn').classList.add('hidden');
+        this.navigate('home-view');
+    }
+
     navigate(targetId) {
         // Stop any active timers
         clearInterval(this.mockTimerInterval);
@@ -74,6 +86,8 @@ class App {
         if (targetId === 'mock-view') {
             document.getElementById('mock-intro').classList.remove('hidden');
             document.getElementById('mock-active').classList.add('hidden');
+        document.body.classList.remove('quiz-focus-mode');
+        document.getElementById('quit-focus-btn').classList.add('hidden');
             document.getElementById('mock-results').classList.add('hidden');
         } else if (targetId === 'mistakes-view') {
             this.updateMistakesCount();
@@ -136,6 +150,7 @@ class App {
         this.mistakeReviewMode = false;
         
         document.getElementById('prac-total-q').textContent = this.activeQuestions.length;
+        this.enterFocusMode();
         this.renderQuestion('practice');
         this.navigate('practice-view');
     }
@@ -178,6 +193,7 @@ class App {
         document.getElementById('mock-active').classList.remove('hidden');
         
         this.startTimer(45 * 60, document.getElementById('mock-timer'));
+        this.enterFocusMode();
         this.renderQuestion('mock');
     }
     
@@ -231,6 +247,7 @@ class App {
         document.getElementById('mistakes-active').classList.remove('hidden');
         document.getElementById('mistake-total-q').textContent = this.activeQuestions.length;
         
+        this.enterFocusMode();
         this.renderQuestion('mistake');
     }
     
@@ -363,19 +380,23 @@ class App {
     nextPracticeQuestion() {
         this.currentQuestionIndex++;
         if (this.currentQuestionIndex < this.activeQuestions.length) {
-            this.renderQuestion('practice');
+            this.enterFocusMode();
+        this.renderQuestion('practice');
         } else {
             alert('Practice completed for this topic!');
-            this.navigate('home-view');
+            this.exitFocusMode();
         }
     }
     
     nextMistakeQuestion() {
         this.currentQuestionIndex++;
         if (this.currentQuestionIndex < this.activeQuestions.length) {
-            this.renderQuestion('mistake');
+            this.enterFocusMode();
+        this.renderQuestion('mistake');
         } else {
             alert('Mistakes review session completed!');
+            document.body.classList.remove('quiz-focus-mode');
+            document.getElementById('quit-focus-btn').classList.add('hidden');
             this.updateMistakesCount();
             this.navigate('mistakes-view');
         }
@@ -384,20 +405,24 @@ class App {
     nextMockQuestion() {
         if (this.currentQuestionIndex < this.activeQuestions.length - 1) {
             this.currentQuestionIndex++;
-            this.renderQuestion('mock');
+            this.enterFocusMode();
+        this.renderQuestion('mock');
         }
     }
     
     prevMockQuestion() {
         if (this.currentQuestionIndex > 0) {
             this.currentQuestionIndex--;
-            this.renderQuestion('mock');
+            this.enterFocusMode();
+        this.renderQuestion('mock');
         }
     }
     
     submitMockExam() {
         clearInterval(this.mockTimerInterval);
         document.getElementById('mock-active').classList.add('hidden');
+        document.body.classList.remove('quiz-focus-mode');
+        document.getElementById('quit-focus-btn').classList.add('hidden');
         
         let score = 0;
         this.activeQuestions.forEach(q => {

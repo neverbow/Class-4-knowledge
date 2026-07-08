@@ -498,3 +498,38 @@ select:focus {
         font-size: 3.5rem;
     }
 }
+
+/* --- FOCUS MODE (Distraction Free Quiz) --- */
+body.quiz-focus-mode .sidebar {
+    display: none !important;
+}
+
+body.quiz-focus-mode .main-content {
+    margin-left: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 1rem !important;
+    padding-top: 3.5rem !important; /* Leave space for quit button */
+}
+
+@media (max-width: 768px) {
+    body.quiz-focus-mode .quiz-header {
+        margin-bottom: 1rem !important;
+        padding-bottom: 0.5rem !important;
+    }
+    body.quiz-focus-mode .quiz-header h2 {
+        font-size: 1.25rem !important;
+        margin: 0 !important;
+    }
+    body.quiz-focus-mode .question-text {
+        font-size: 1.1rem !important;
+        margin-bottom: 1rem !important;
+    }
+    body.quiz-focus-mode .option-btn {
+        padding: 0.75rem !important;
+        font-size: 0.95rem !important;
+    }
+    body.quiz-focus-mode .card {
+        padding: 1rem !important;
+    }
+}

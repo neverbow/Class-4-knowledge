@@ -535,96 +535,101 @@ body.quiz-focus-mode .main-content {
 }
 
 
-/* --- AGGRESSIVE COMPRESSION FOR MOBILE FOCUS MODE --- */
+/* --- REFINED MOBILE FOCUS MODE --- */
 @media (max-width: 768px) {
     body.quiz-focus-mode .main-content {
         padding: 0.5rem !important;
-        padding-top: 3rem !important; /* Space for quit button */
+        padding-top: 3.5rem !important; /* Space for quit button */
     }
 
-    /* Compress Header */
+    /* Hide unnecessary header elements to save space */
     body.quiz-focus-mode .quiz-header {
         margin-bottom: 0.5rem !important;
         padding-bottom: 0 !important;
         border-bottom: none !important;
     }
     
-    body.quiz-focus-mode .quiz-header h2 {
-        display: none !important; /* Hide 'Practice Mode' title completely to save space */
-    }
-    
+    body.quiz-focus-mode .quiz-header h2,
     body.quiz-focus-mode .topic-filter,
     body.quiz-focus-mode .quiz-header p {
-        display: none !important; /* Hide description and filter during active test */
+        display: none !important;
     }
 
     body.quiz-focus-mode .progress-indicator,
     body.quiz-focus-mode .timer {
-        font-size: 0.9rem !important;
-        padding: 0.25rem 0.5rem !important;
-        margin-bottom: 0.5rem !important;
-    }
-
-    /* Compress Question & Options */
-    body.quiz-focus-mode .card {
-        padding: 0.75rem !important;
-        border-radius: 8px !important;
-    }
-
-    body.quiz-focus-mode .question-text {
         font-size: 1rem !important;
+        padding: 0.25rem 0.5rem !important;
+        margin-bottom: 0.25rem !important;
+    }
+
+    /* Keep Question Font Immersive */
+    body.quiz-focus-mode .question-text {
+        font-size: 1.15rem !important; /* Restored immersive size */
         margin-bottom: 0.75rem !important;
         line-height: 1.4 !important;
     }
 
     body.quiz-focus-mode .options-grid {
-        gap: 0.4rem !important;
+        gap: 0.5rem !important;
     }
 
     body.quiz-focus-mode .option-btn {
-        padding: 0.6rem 0.75rem !important;
-        font-size: 0.9rem !important;
-        line-height: 1.2 !important;
+        padding: 0.75rem !important;
+        font-size: 1rem !important; /* Restored immersive size */
+        line-height: 1.3 !important;
     }
     
-    /* Shrink Images if present */
     body.quiz-focus-mode .question-img {
-        max-height: 120px !important;
+        max-height: 140px !important;
         margin-bottom: 0.5rem !important;
     }
 
-    /* Compress Feedback */
+    /* Ultra Compact Feedback Box */
     body.quiz-focus-mode .feedback-container {
         margin-top: 0.5rem !important;
-        padding: 0.75rem !important;
+        padding: 0.75rem 1rem !important;
+        position: relative; /* For absolutely positioning the AI button */
     }
     
     body.quiz-focus-mode .feedback-container h3 {
-        font-size: 1rem !important;
+        font-size: 1.1rem !important;
         margin-bottom: 0.25rem !important;
+        display: inline-block;
     }
     
     body.quiz-focus-mode .feedback-container p {
-        font-size: 0.85rem !important;
+        font-size: 0.9rem !important;
         line-height: 1.3 !important;
-        margin-bottom: 0.5rem !important;
-        max-height: 80px;
+        margin-bottom: 2.5rem !important; /* Leave space at bottom for buttons */
+        max-height: 100px;
         overflow-y: auto;
     }
 
-    /* Buttons Row */
-    body.quiz-focus-mode .controls, 
-    body.quiz-focus-mode .feedback-container {
-        display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    body.quiz-focus-mode .controls button,
+    /* Side-by-side Buttons trick */
     body.quiz-focus-mode .feedback-container button {
+        position: absolute;
+        bottom: 0.75rem;
+        left: 1rem;
+        width: 45% !important;
+        margin-top: 0 !important;
         padding: 0.6rem !important;
         font-size: 0.9rem !important;
-        width: 100% !important;
+    }
+    
+    body.quiz-focus-mode .controls {
+        position: relative;
+        margin-top: -3.3rem !important; /* Pull up to sit next to AI button */
+        z-index: 10;
+        pointer-events: none; /* Let clicks pass through empty space */
+    }
+    
+    body.quiz-focus-mode .controls button {
+        position: absolute;
+        right: 1rem;
+        width: 45% !important;
         margin-top: 0 !important;
+        padding: 0.6rem !important;
+        font-size: 0.9rem !important;
+        pointer-events: auto; /* Re-enable clicks for the button */
     }
 }

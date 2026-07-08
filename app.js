@@ -456,8 +456,17 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         feedbackContainer.innerHTML = `
             <h3>${isCorrect ? 'Correct' : 'Incorrect'}</h3>
             <p>${q.explanation}</p>
-            <button class="secondary-btn mt-4" onclick="app.askAI('${q.id}', '${mode}-feedback')" style="font-size: 0.9rem; padding: 0.5rem 1rem;">Ask AI Expert</button>
         `;
+        
+        const controls = document.getElementById(`${mode}-controls`);
+        let aiBtn = controls.querySelector('.ask-ai-btn');
+        if (!aiBtn) {
+            aiBtn = document.createElement('button');
+            aiBtn.className = 'secondary-btn ask-ai-btn';
+            controls.insertBefore(aiBtn, controls.firstChild);
+        }
+        aiBtn.onclick = () => app.askAI(`${q.id}`, `${mode}-feedback`);
+        aiBtn.textContent = 'Ask AI Expert';
         
         document.getElementById(`${mode}-controls`).classList.remove('hidden');
     }

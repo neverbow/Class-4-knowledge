@@ -637,24 +637,20 @@ body.quiz-focus-mode .main-content {
         margin: 0 !important;
     }
     
-    /* Pull controls into feedback container flow */
+    /* Clean Flexbox for action buttons */
     body.quiz-focus-mode .controls {
         display: flex !important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
         width: 100% !important;
-        margin-top: -3.5rem !important; /* Pull up to overlay into feedback */
-        padding: 0 1rem !important;
-        justify-content: flex-end !important;
-        pointer-events: none;
+        margin-top: 1rem !important;
+        padding: 0 !important;
+        gap: 0.5rem;
     }
     
     body.quiz-focus-mode .controls button {
-        width: 48% !important;
-        pointer-events: auto;
-    }
-    
-    body.quiz-focus-mode .feedback-container > button:last-child {
-        width: 48% !important;
-        align-self: flex-start !important;
-        margin-bottom: 0.5rem !important;
+        flex: 1 !important;
+        margin: 0 !important;
+        padding: 0.8rem 0.5rem !important;
     }
 }

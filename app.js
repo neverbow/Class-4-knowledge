@@ -137,7 +137,7 @@ class App {
             container.appendChild(aiBox);
         }
         
-        aiBox.innerHTML = '<p style="color: var(--primary-color);">🤖 AI Expert is thinking...</p>';
+        aiBox.innerHTML = '<p style="color: var(--primary-color);">AI Expert is thinking...</p>';
         
         const promptText = `I am studying for the ICBC Class 4 Commercial Driving Knowledge Test.
 I encountered this multiple choice question:
@@ -171,7 +171,7 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
             const formattedText = aiText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
             
             aiBox.innerHTML = `
-                <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">🤖 AI Explanation:</h4>
+                <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">AI Explanation:</h4>
                 <div style="font-size: 0.95rem; line-height: 1.6;">${formattedText}</div>
             `;
             
@@ -454,9 +454,9 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         const feedbackContainer = document.getElementById(`${mode}-feedback`);
         feedbackContainer.className = `feedback-container ${isCorrect ? 'correct' : 'wrong'}`;
         feedbackContainer.innerHTML = `
-            <h3>${isCorrect ? '✅ Correct!' : '❌ Incorrect'}</h3>
+            <h3>${isCorrect ? 'Correct' : 'Incorrect'}</h3>
             <p>${q.explanation}</p>
-            <button class="secondary-btn mt-4" onclick="app.askAI('${q.id}', '${mode}-feedback')" style="font-size: 0.9rem; padding: 0.5rem 1rem;">🤖 Ask AI Expert</button>
+            <button class="secondary-btn mt-4" onclick="app.askAI('${q.id}', '${mode}-feedback')" style="font-size: 0.9rem; padding: 0.5rem 1rem;">Ask AI Expert</button>
         `;
         
         document.getElementById(`${mode}-controls`).classList.remove('hidden');
@@ -558,8 +558,8 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         this.activeQuestions.forEach((q, index) => {
             const isSkipped = q.userAnswer === null;
             const isCorrect = q.userAnswer === q.answer;
-            let icon = isCorrect ? '✅' : '❌';
-            if (isSkipped) icon = '⚠️';
+            let icon = isCorrect ? 'Correct' : 'Incorrect';
+            if (isSkipped) icon = 'Skipped';
             
             const userAnsText = q.userAnswer ? `${q.userAnswer}. ${q.options[q.userAnswer]}` : 'Skipped / No Answer';
             const correctAnsText = `${q.answer}. ${q.options[q.answer]}`;

@@ -424,3 +424,77 @@ select:focus {
     margin: 2rem 0;
     text-shadow: 0 0 20px rgba(59, 130, 246, 0.4);
 }
+
+
+/* --- RESPONSIVE MOBILE LAYOUT --- */
+@media (max-width: 768px) {
+    #app {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        padding: 1.5rem;
+        border-right: none;
+        border-bottom: var(--glass-border);
+        z-index: 100;
+    }
+    
+    .logo {
+        margin-bottom: 1rem;
+        justify-content: center;
+    }
+    
+    .nav-links {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+    
+    .nav-btn {
+        padding: 0.5rem 0.75rem;
+        font-size: 0.9rem;
+        flex-grow: 1;
+        justify-content: center;
+    }
+    
+    .class-selector {
+        margin-top: 1rem;
+        padding-top: 1rem;
+    }
+    
+    .main-content {
+        margin-left: 0;
+        padding: 1.5rem 1rem;
+        width: 100%;
+    }
+    
+    .dashboard-cards, .analytics-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .card {
+        padding: 1.5rem;
+    }
+    
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.5rem; }
+    
+    .quiz-header {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+    
+    .option-btn {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    
+    .score-display {
+        font-size: 3.5rem;
+    }
+}

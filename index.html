@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICBC Commercial Driver Test Prep</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Chart.js for Analytics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="logo">ICBC Prep Pro</div>
+            <div class="nav-links">
+                <button class="nav-btn active" data-target="home-view">🏠 Home</button>
+                <button class="nav-btn" data-target="practice-view">📝 Practice</button>
+                <button class="nav-btn" data-target="mock-view">⏱️ Mock Exam</button>
+                <button class="nav-btn" data-target="mistakes-view">📚 Mistakes Book</button>
+                <button class="nav-btn" data-target="analytics-view">📊 Analytics</button>
+            </div>
+            
+            <div class="class-selector">
+                <label for="licence-class">Target Licence:</label>
+                <select id="licence-class">
+                    <option value="class4-rest">Class 4 Restricted</option>
+                    <option value="class4-unrest">Class 4 Unrestricted</option>
+                    <option value="class1">Class 1</option>
+                    <option value="class2">Class 2</option>
+                    <option value="class3">Class 3</option>
+                </select>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            
+            <!-- Home View -->
+            <section id="home-view" class="view active-view">
+                <h1>Welcome Back, Driver!</h1>
+                <p>Select your module on the left to start preparing.</p>
+                
+                <div class="dashboard-cards">
+                    <div class="card stat-card" onclick="app.navigate('practice-view')">
+                        <h3>Practice Mode</h3>
+                        <p>Learn at your own pace with instant feedback and detailed explanations.</p>
+                        <button class="primary-btn">Start Practice</button>
+                    </div>
+                    <div class="card stat-card" onclick="app.navigate('mock-view')">
+                        <h3>Mock Exam</h3>
+                        <p>35 questions in 45 minutes. Simulate the real ICBC test environment.</p>
+                        <button class="primary-btn">Take Exam</button>
+                    </div>
+                    <div class="card stat-card" onclick="app.navigate('mistakes-view')">
+                        <h3>Mistakes Book</h3>
+                        <p>Review the questions you got wrong. Master your weak points.</p>
+                        <button class="secondary-btn">Review Mistakes</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Practice View -->
+            <section id="practice-view" class="view hidden">
+                <div class="quiz-header">
+                    <h2>Practice Mode</h2>
+                    <div class="topic-filter">
+                        <select id="practice-topic-filter">
+                            <option value="all">All Topics</option>
+                            <option value="chapter6">Chapter 6: Passenger Safety & Rules</option>
+                            <option value="chapter10">Chapter 10: Pre-Trip Inspection</option>
+                            <option value="chapter7">Chapter 7: Hours of Service</option>
+                            <option value="chapter11">Chapter 11: Signs & Signals</option>
+                        </select>
+                    </div>
+                    <div class="progress-indicator">Question <span id="prac-current-q">1</span> of <span id="prac-total-q">0</span></div>
+                </div>
+                
+                <div class="question-container card glass" id="practice-question-card">
+                    <!-- Dynamic Question Content -->
+                </div>
+                
+                <div class="feedback-container hidden" id="practice-feedback">
+                    <!-- Dynamic Feedback -->
+                </div>
+                
+                <div class="controls mt-4 hidden" id="practice-controls">
+                    <button id="next-prac-btn" class="primary-btn">Next Question ➡️</button>
+                </div>
+            </section>
+
+            <!-- Mock Exam View -->
+            <section id="mock-view" class="view hidden">
+                <div id="mock-intro">
+                    <h2>Mock Exam</h2>
+                    <p>This exam consists of 35 multiple-choice questions randomly selected based on your target licence class. You have 45 minutes to complete it.</p>
+                    <button class="primary-btn" id="start-mock-btn">Start Exam</button>
+                </div>
+                
+                <div id="mock-active" class="hidden">
+                    <div class="quiz-header">
+                        <h2>Mock Exam</h2>
+                        <div class="timer" id="mock-timer">45:00</div>
+                        <div class="progress-indicator">Question <span id="mock-current-q">1</span> / 35</div>
+                    </div>
+                    
+                    <div class="question-container card glass" id="mock-question-card">
+                        <!-- Dynamic Question Content -->
+                    </div>
+                    
+                    <div class="controls mt-4 flex-between">
+                        <button id="prev-mock-btn" class="secondary-btn hidden">⬅️ Previous</button>
+                        <button id="next-mock-btn" class="primary-btn">Next ➡️</button>
+                        <button id="submit-mock-btn" class="danger-btn hidden">Submit Exam</button>
+                    </div>
+                </div>
+                
+                <div id="mock-results" class="hidden text-center">
+                    <h2>Exam Results</h2>
+                    <div class="score-display">
+                        <span id="final-score">0</span>%
+                    </div>
+                    <p id="score-message"></p>
+                    <button class="primary-btn mt-4" onclick="app.navigate('mistakes-view')">Review Mistakes</button>
+                    <button class="secondary-btn mt-4" onclick="app.navigate('home-view')">Back to Home</button>
+                </div>
+            </section>
+
+            <!-- Mistakes Book View -->
+            <section id="mistakes-view" class="view hidden">
+                <h2>Mistakes Book</h2>
+                <p>Questions here require <strong>2 consecutive correct answers</strong> to be considered mastered.</p>
+                <div class="mistakes-stats mb-4">
+                    <span>Questions to review: <strong id="mistakes-count">0</strong></span>
+                </div>
+                
+                <div id="mistakes-list" class="hidden">
+                    <button class="primary-btn mb-4" id="start-mistakes-btn">Start Review Session</button>
+                </div>
+                
+                <div id="mistakes-empty" class="text-center p-8">
+                    <h3>🎉 Great Job!</h3>
+                    <p>Your mistakes book is empty. Keep up the good work!</p>
+                </div>
+                
+                <div id="mistakes-active" class="hidden">
+                    <!-- Similar to practice view but for mistakes -->
+                     <div class="progress-indicator mb-4">Review Progress: <span id="mistake-current-q">1</span> / <span id="mistake-total-q">0</span></div>
+                     <div class="question-container card glass" id="mistake-question-card"></div>
+                     <div class="feedback-container hidden" id="mistake-feedback"></div>
+                     <div class="controls mt-4 hidden" id="mistake-controls">
+                        <button id="next-mistake-btn" class="primary-btn">Next Review ➡️</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Analytics View -->
+            <section id="analytics-view" class="view hidden">
+                <h2>Knowledge Gap Analytics</h2>
+                <p>Analyze your performance to identify weak spots.</p>
+                
+                <div class="analytics-grid">
+                    <div class="card glass">
+                        <h3>Performance by Topic</h3>
+                        <canvas id="radarChart"></canvas>
+                    </div>
+                    <div class="card glass flex-col">
+                        <h3>Targeted Practice</h3>
+                        <p>Based on your analytics, you need the most help with:</p>
+                        <ul id="weak-topics-list" class="mb-4">
+                            <!-- Populated dynamically -->
+                        </ul>
+                        <button class="primary-btn" id="generate-targeted-btn">Generate Targeted Quiz</button>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

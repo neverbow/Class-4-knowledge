@@ -23,6 +23,7 @@
                 <button class="nav-btn" data-target="mock-view">⏱️ Mock Exam</button>
                 <button class="nav-btn" data-target="mistakes-view">📚 Mistakes Book</button>
                 <button class="nav-btn" data-target="analytics-view">📊 Analytics</button>
+            <button class="nav-btn" data-target="settings-view">⚙️ API Settings</button>
             </div>
             
             <div class="class-selector">
@@ -154,6 +155,23 @@
                      <div class="feedback-container hidden" id="mistake-feedback"></div>
                      <div class="controls mt-4 hidden" id="mistake-controls">
                         <button id="next-mistake-btn" class="primary-btn">Next Review ➡️</button>
+                    </div>
+                </div>
+            </section>
+
+            
+            <!-- Settings View -->
+            <section id="settings-view" class="view hidden">
+                <h2>⚙️ API Settings</h2>
+                <div class="card glass">
+                    <h3>Configure AI Tutor</h3>
+                    <p>To use the 'Ask AI' feature, please enter your Gemini API Key. Your key is stored securely in your browser's local storage and is never sent anywhere except directly to Google's API.</p>
+                    
+                    <div style="margin-top: 1.5rem;">
+                        <label style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary);">Gemini API Key:</label>
+                        <input type="password" id="api-key-input" placeholder="AIzaSy..." style="width: 100%; padding: 0.75rem; background: rgba(0,0,0,0.2); border: 1px solid var(--border-color); border-radius: var(--border-radius-sm); color: white; margin-bottom: 1rem;">
+                        <button class="primary-btn" id="save-key-btn">Save Key</button>
+                        <span id="key-save-status" style="margin-left: 1rem; color: var(--success-color); display: none;">Saved!</span>
                     </div>
                 </div>
             </section>

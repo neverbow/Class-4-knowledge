@@ -15,6 +15,7 @@ class App {
         this.mockTimerInterval = null;
         this.isMockExam = false;
         this.mistakeReviewMode = false;
+        this.geminiApiKey = localStorage.getItem('icbc_gemini_key') || '';
         
         this.init();
     }
@@ -50,6 +51,20 @@ class App {
         document.getElementById('practice-topic-filter').addEventListener('change', () => this.startPractice());
         
         this.updateMistakesCount();
+
+        // Settings bindings
+        const keyInput = document.getElementById('api-key-input');
+        if (keyInput && this.geminiApiKey) keyInput.value = this.geminiApiKey;
+        const saveKeyBtn = document.getElementById('save-key-btn');
+        if (saveKeyBtn) {
+            saveKeyBtn.addEventListener('click', () => {
+                this.geminiApiKey = keyInput.value.trim();
+                localStorage.setItem('icbc_gemini_key', this.geminiApiKey);
+                const status = document.getElementById('key-save-status');
+                status.style.display = 'inline';
+                setTimeout(() => status.style.display = 'none', 2000);
+            });
+        }
     }
     
 
@@ -97,6 +112,74 @@ class App {
         
         this.currentView = targetId;
     }
+    
+    async askAI(questionId, containerId) {
+        if (!this.geminiApiKey) {
+            alert('Please configure your Gemini API Key in the Settings first!');
+            this.navigate('settings-view');
+            return;
+        }
+        
+        const q = window.QUESTION_BANK.find(q => q.id === parseInt(questionId));
+        if (!q) return;
+        
+        const container = document.getElementById(containerId);
+        if (!container) return;
+        
+        // Setup AI UI
+        let aiBox = container.querySelector('.ai-response-box');
+        if (!aiBox) {
+            aiBox = document.createElement('div');
+            aiBox.className = 'ai-response-box mt-4 p-4';
+            aiBox.style.background = 'rgba(59, 130, 246, 0.1)';
+            aiBox.style.borderLeft = '4px solid var(--primary-color)';
+            aiBox.style.borderRadius = 'var(--border-radius-sm)';
+            container.appendChild(aiBox);
+        }
+        
+        aiBox.innerHTML = '<p style="color: var(--primary-color);">🤖 AI Expert is thinking...</p>';
+        
+        const promptText = `I am studying for the ICBC Class 4 Commercial Driving Knowledge Test.
+I encountered this multiple choice question:
+Question: ${q.question}
+Options:
+A: ${q.options.A}
+B: ${q.options.B}
+C: ${q.options.C}
+D: ${q.options.D}
+
+The correct answer is ${q.answer}.
+Please act as an expert driving instructor and explain deeply and clearly why ${q.answer} is correct, and briefly why the other options are incorrect. Keep it encouraging and easy to understand.`;
+
+        try {
+            const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemma-2-27b-it:generateContent?key=${this.geminiApiKey}`, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    contents: [{ parts: [{ text: promptText }] }]
+                })
+            });
+            
+            const data = await response.json();
+            if (data.error) {
+                aiBox.innerHTML = `<p style="color: var(--danger-color);">❌ API Error: ${data.error.message}</p>`;
+                return;
+            }
+            
+            const aiText = data.candidates[0].content.parts[0].text;
+            // Simple markdown parsing for bold and line breaks
+            const formattedText = aiText.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>').replace(/\n/g, '<br>');
+            
+            aiBox.innerHTML = `
+                <h4 style="color: var(--primary-color); margin-bottom: 0.5rem;">🤖 AI Explanation:</h4>
+                <div style="font-size: 0.95rem; line-height: 1.6;">${formattedText}</div>
+            `;
+            
+        } catch (error) {
+            aiBox.innerHTML = `<p style="color: var(--danger-color);">❌ Failed to connect to AI. Check your network or API key.</p>`;
+        }
+    }
+
     shuffleArray(array) {
         let currentIndex = array.length, randomIndex;
         while (currentIndex !== 0) {
@@ -148,6 +231,7 @@ class App {
         this.currentQuestionIndex = 0;
         this.isMockExam = false;
         this.mistakeReviewMode = false;
+        this.geminiApiKey = localStorage.getItem('icbc_gemini_key') || '';
         
         document.getElementById('prac-total-q').textContent = this.activeQuestions.length;
         this.enterFocusMode();
@@ -184,6 +268,7 @@ class App {
         this.currentQuestionIndex = 0;
         this.isMockExam = true;
         this.mistakeReviewMode = false;
+        this.geminiApiKey = localStorage.getItem('icbc_gemini_key') || '';
         this.score = 0;
         
         // Init mock state (user answers)
@@ -371,6 +456,7 @@ class App {
         feedbackContainer.innerHTML = `
             <h3>${isCorrect ? '✅ Correct!' : '❌ Incorrect'}</h3>
             <p>${q.explanation}</p>
+            <button class="secondary-btn mt-4" onclick="app.askAI('${q.id}', '${mode}-feedback')" style="font-size: 0.9rem; padding: 0.5rem 1rem;">🤖 Ask AI Expert</button>
         `;
         
         document.getElementById(`${mode}-controls`).classList.remove('hidden');

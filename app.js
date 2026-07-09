@@ -59,11 +59,28 @@ class App {
         this.users.forEach(user => {
             const btn = document.createElement('div');
             btn.className = 'profile-card';
-            btn.style = 'background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: 0.3s; width: 120px;';
-            btn.onmouseover = () => btn.style.borderColor = 'var(--primary-color)';
-            btn.onmouseout = () => btn.style.borderColor = 'transparent';
+            btn.style = 'background: rgba(255,255,255,0.05); padding: 2rem 1.5rem; border-radius: 12px; cursor: pointer; border: 1px solid rgba(255,255,255,0.1); transition: all 0.3s ease; width: 140px; display: flex; flex-direction: column; align-items: center; gap: 1rem;';
+            btn.onmouseover = () => {
+                btn.style.borderColor = 'var(--primary-color)';
+                btn.style.transform = 'translateY(-4px)';
+                btn.style.boxShadow = '0 10px 20px rgba(0,0,0,0.2)';
+            };
+            btn.onmouseout = () => {
+                btn.style.borderColor = 'rgba(255,255,255,0.1)';
+                btn.style.transform = 'translateY(0)';
+                btn.style.boxShadow = 'none';
+            };
             btn.onclick = () => this.selectProfile(user);
-            btn.innerHTML = `<div style="font-size: 3rem; margin-bottom: 1rem;">🧑‍✈️</div><div style="font-weight: bold;">${user}</div>`;
+            
+            const initial = user.charAt(0).toUpperCase();
+            btn.innerHTML = `
+                <div style="width: 64px; height: 64px; border-radius: 50%; background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); display: flex; align-items: center; justify-content: center; font-size: 2rem; font-weight: bold; color: white;">
+                    ${initial}
+                </div>
+                <div style="font-weight: 500; font-size: 1.1rem; color: var(--text-primary); letter-spacing: 0.5px;">
+                    ${user}
+                </div>
+            `;
             list.appendChild(btn);
         });
     }

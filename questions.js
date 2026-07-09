@@ -4102,5 +4102,1707 @@ window.QUESTION_BANK = [
     },
     "answer": "B",
     "explanation": "Source: Official Manual. The two-second rule is the basic following distance for cars, but commercial drivers need 5 seconds or more."
-}
+},
+
+    {
+        "id": 201,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the basic scientific principle behind how a vehicle's braking system works?",
+        "options": {
+            "A": "It converts the energy of motion into the energy of heat through friction.",
+            "B": "It converts the energy of heat into the energy of motion.",
+            "C": "It uses compressed air to instantly stop the wheels from turning.",
+            "D": "It uses engine compression to completely halt the drivetrain."
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. Brakes convert the energy of motion back into the energy of heat through the friction between the brake drums or rotors and the brake linings or pads."
+    },
+    {
+        "id": 202,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How much stopping power is required if you double the speed of your vehicle?",
+        "options": {
+            "A": "2 times the stopping power",
+            "B": "4 times the stopping power",
+            "C": "6 times the stopping power",
+            "D": "8 times the stopping power"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Speed and weight affect stopping power. If you double your vehicle's speed, it requires 4 times the stopping power."
+    },
+    {
+        "id": 203,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the approximate brake lag time for air brakes?",
+        "options": {
+            "A": "1/10 of a second",
+            "B": "2/10 of a second",
+            "C": "4/10 of a second",
+            "D": "3/4 of a second"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Unlike passenger cars, air brakes do not act instantly. There is a brake lag time of approximately 4/10 of a second between applying the brake and when it begins to function."
+    },
+    {
+        "id": 204,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What components make up the total stopping time of a vehicle equipped with air brakes?",
+        "options": {
+            "A": "Perception time + brake lag time",
+            "B": "Perception time + reaction time + braking time",
+            "C": "Reaction time + brake lag time + braking time",
+            "D": "Perception time + reaction time + brake lag time + braking time"
+        },
+        "answer": "D",
+        "explanation": "Source: Official Manual. Total stopping time includes the driver's perception time, reaction time, brake lag time, and actual braking time."
+    },
+    {
+        "id": 205,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If both the vehicle weight and speed are doubled, how much stopping power is required?",
+        "options": {
+            "A": "4 times the stopping power",
+            "B": "6 times the stopping power",
+            "C": "8 times the stopping power",
+            "D": "10 times the stopping power"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Doubling weight takes 2x power, doubling speed takes 4x power. Doubling both requires 8 times the stopping power."
+    },
+    {
+        "id": 206,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "At what temperature do brake components operate during normal stopping?",
+        "options": {
+            "A": "About 80° C",
+            "B": "About 120° C",
+            "C": "About 200° C",
+            "D": "About 250° C"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. In normal stopping, brake components heat up to about 120° C. They should not exceed 250° C under hard braking."
+    },
+    {
+        "id": 207,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the danger of excessive brake heat?",
+        "options": {
+            "A": "It can increase stopping power abruptly.",
+            "B": "It causes engine failure.",
+            "C": "It can cause brake fade, damage, or failure.",
+            "D": "It improves brake lining friction."
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Excessive heat can exceed the capability of brake components to dissipate heat, leading to brake fade, damage, or failure."
+    },
+    {
+        "id": 208,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the primary purpose of a retarder?",
+        "options": {
+            "A": "To completely stop the vehicle in an emergency.",
+            "B": "To provide auxiliary slowing and save the main brakes.",
+            "C": "To improve engine fuel efficiency on steep grades.",
+            "D": "To increase vehicle traction on icy roads."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Retarders provide auxiliary slowing of the vehicle, controlling speed on long downgrades and saving the main braking system for emergency stopping."
+    },
+    {
+        "id": 209,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Why must you be cautious when using retarders on slippery road surfaces?",
+        "options": {
+            "A": "They may overheat the brakes quickly.",
+            "B": "They consume a lot of extra fuel.",
+            "C": "They can cause the drive wheels to lock up, resulting in a loss of control.",
+            "D": "They disable the Anti-lock Braking System (ABS)."
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Using retarders on slippery roads can cause the drive wheels to lock up, stalling the engine and causing loss of control or a jackknife."
+    },
+    {
+        "id": 210,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When descending a hill, what gear should you be in?",
+        "options": {
+            "A": "A higher gear than the one used to climb the hill.",
+            "B": "The same gear used to climb the hill.",
+            "C": "A lower gear than used to climb the hill.",
+            "D": "Neutral, to save fuel and reduce engine heat."
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. You should be in a lower gear to go down the hill than used to climb it, to avoid overdriving your brakes."
+    },
+    {
+        "id": 211,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the recommended braking technique when driving on icy roads without ABS?",
+        "options": {
+            "A": "Apply firm, continuous pressure to the brake pedal.",
+            "B": "Use extremely light pressure to prevent wheel lockup.",
+            "C": "Pump the brake pedal rapidly.",
+            "D": "Use the retarder at its maximum setting."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. To stop on icy roads without ABS, use extremely light pressure on the brake to control your vehicle's speed and help prevent wheels from locking up."
+    },
+    {
+        "id": 212,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should you do just before coming to a full stop on a level roadway?",
+        "options": {
+            "A": "Reduce the pressure you're placing on the brake pedal.",
+            "B": "Increase brake pressure sharply.",
+            "C": "Apply the parking brake.",
+            "D": "Pump the brakes to alert the driver behind you."
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. Just before your vehicle comes to a full stop, reduce the pressure you're placing on the brake pedal to prevent the vehicle from jerking back."
+    },
+    {
+        "id": 213,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should you do to dry out wet brakes after driving through large pools of water?",
+        "options": {
+            "A": "Avoid using the brakes for several kilometres.",
+            "B": "Shift to a lower gear and let the engine heat dry them.",
+            "C": "Apply slight pressure on the brake pedal for a short distance.",
+            "D": "Pump the brake pedal aggressively."
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. After driving through water, test your brakes by applying a slight pressure with your foot on the brake pedal and keeping it on for a short distance to dry them out."
+    },
+    {
+        "id": 214,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the sole purpose of a runaway lane?",
+        "options": {
+            "A": "To provide a safe area for passing slower vehicles on hills.",
+            "B": "To help slow and stop vehicles if their brakes fail downhill.",
+            "C": "To serve as a rest area for commercial drivers.",
+            "D": "To allow emergency vehicles to bypass heavy traffic."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Runaway lanes are located beside downhill grades to help slow and stop vehicles if their brakes fail. They should only be used to control speed or stop."
+    },
+    {
+        "id": 215,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How does Anti-lock Braking System (ABS) affect braking distance on gravel surfaces?",
+        "options": {
+            "A": "It always shortens the braking distance.",
+            "B": "It has no effect on braking distance.",
+            "C": "It may actually result in a longer braking distance.",
+            "D": "It cuts the braking distance in half."
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Contrary to belief, ABS does not allow you to stop sooner. On some surfaces like gravel, the braking distance needed with ABS may actually be longer."
+    },
+    {
+        "id": 216,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the proper technique for making an emergency stop in a vehicle equipped with ABS?",
+        "options": {
+            "A": "Pump the brakes rapidly to maintain traction.",
+            "B": "Apply firm, hard continuous pressure until the vehicle stops.",
+            "C": "Jab the brake pedal lightly multiple times.",
+            "D": "Use the engine retarder while lightly applying the brakes."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. For emergency stopping with ABS, apply firm, hard continuous pressure to the brake pedal until the vehicle stops. Do not pump the brakes."
+    },
+    {
+        "id": 217,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the most common air brake system defect found during a commercial vehicle inspection?",
+        "options": {
+            "A": "Cracked brake drums",
+            "B": "Worn brake linings",
+            "C": "Brakes that are out of adjustment",
+            "D": "Leaking air lines"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. The most common air brake system defect found during a commercial vehicle inspection is brakes that are out of adjustment, which lengthens stopping time."
+    },
+    {
+        "id": 218,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the recommended minimum following distance for a taxi, limousine, ride-hailing vehicle, ambulance or van under ideal conditions?",
+        "options": {
+            "A": "One second",
+            "B": "Two seconds",
+            "C": "Three seconds",
+            "D": "Four seconds"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Drivers of passenger cars and light trucks should use the two-second rule for keeping a safe following distance."
+    },
+    {
+        "id": 219,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What following distance should you keep when driving a bus, truck, or other heavy vehicle under ideal conditions?",
+        "options": {
+            "A": "Two seconds",
+            "B": "Three seconds",
+            "C": "Four seconds",
+            "D": "At least five seconds"
+        },
+        "answer": "D",
+        "explanation": "Source: Official Manual. Since you need more time and distance to stop if you're driving a bus, truck, or heavy vehicle, keep at least a five-second following distance."
+    },
+    {
+        "id": 220,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should you do to your following distance when driving conditions are less than ideal?",
+        "options": {
+            "A": "Decrease it slightly",
+            "B": "Maintain the same distance",
+            "C": "Increase the following distance",
+            "D": "Match the speed of the vehicle in front"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. If conditions are less than ideal, such as poor weather or road conditions, you should increase your following distance."
+    },
+    {
+        "id": 221,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is a consequence of driving faster than the flow of traffic?",
+        "options": {
+            "A": "It improves your fuel efficiency.",
+            "B": "It increases your chance of crashing into vehicles in front of you.",
+            "C": "It decreases the number of decisions you have to make.",
+            "D": "It allows you to maintain a safe following distance more easily."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Driving faster than the traffic flow increases your chance of crashing into vehicles in front of you because you won't be able to maintain a safe following distance."
+    },
+    {
+        "id": 222,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the safest way to deal with tailgaters?",
+        "options": {
+            "A": "Brake suddenly to warn them.",
+            "B": "Speed up to create more distance.",
+            "C": "Allow them to pass when it is safe.",
+            "D": "Turn on your four-way flashers and maintain speed."
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Tailgaters are easiest to deal with when they're in front of you. It's a good safety practice to allow tailgaters to pass."
+    },
+    {
+        "id": 223,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When driving a large commercial vehicle on a highway, how much space should you leave between your vehicle and other large commercial vehicles?",
+        "options": {
+            "A": "At least 20 metres",
+            "B": "At least 40 metres",
+            "C": "At least 60 metres",
+            "D": "At least 100 metres"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. When you drive a large commercial vehicle on a highway, leave at least 60 m (200 ft) between your vehicle and other large commercial vehicles."
+    },
+    {
+        "id": 224,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What does a red triangle slow moving vehicle sign indicate?",
+        "options": {
+            "A": "A vehicle that is broken down on the side of the road.",
+            "B": "A vehicle, machinery or combination of vehicles travelling at less than 40 km/h.",
+            "C": "A designated construction zone ahead.",
+            "D": "An oversized load that requires a pilot car."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Vehicles, machinery or combinations of vehicles that travel at less than 40 km/h should display a red triangle slow moving vehicle sign."
+    },
+    {
+        "id": 225,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is a vehicle's 'danger zone'?",
+        "options": {
+            "A": "The blind spot directly behind the vehicle.",
+            "B": "The section of road a vehicle travels through before it can stop.",
+            "C": "The area immediately in front of the vehicle where you cannot see.",
+            "D": "The turning radius of the rear wheels during a curve."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. The section of road a vehicle travels through before it can stop is called the vehicle's danger zone because it's physically impossible to stop in time to avoid a collision."
+    },
+    {
+        "id": 226,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How can you reduce your vehicle's danger zone?",
+        "options": {
+            "A": "By increasing your speed to pass hazards quickly.",
+            "B": "By slowing down.",
+            "C": "By using your horn to alert pedestrians.",
+            "D": "By changing lanes frequently."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Reduce your danger zone by slowing down. Your danger zone is reduced when your vehicle's speed is reduced."
+    },
+    {
+        "id": 227,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should you do as soon as you see a potential hazard developing in your danger zone?",
+        "options": {
+            "A": "Sound your horn immediately.",
+            "B": "Steer into the adjacent lane.",
+            "C": "Remove your foot from the accelerator and put it lightly on the brake pedal.",
+            "D": "Apply the brakes as hard as possible."
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. You reduce your danger zone when you cover the brake pedal with your foot any time you see a potential hazard developing, as it reduces your reaction time."
+    },
+    {
+        "id": 228,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What determines the sharpness of a vehicle's turn?",
+        "options": {
+            "A": "The vehicle's weight and cargo load.",
+            "B": "The turning radius and off track.",
+            "C": "The engine's horsepower.",
+            "D": "The type of transmission."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. As the operator of a large vehicle, you'll need to consider two factors which determine the sharpness of your vehicle's turn: turning radius and off track."
+    },
+    {
+        "id": 229,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is 'off track' when a vehicle moves around a curve?",
+        "options": {
+            "A": "The tendency of the vehicle to slide off the road due to speed.",
+            "B": "The loss of traction on the inside wheels.",
+            "C": "The difference between the path of the front wheels and the path of the rear wheels.",
+            "D": "The shifting of cargo to the outside of the curve."
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. When a vehicle moves around a curve, the rear wheels follow a different path than the front wheels. The difference between the paths is called off track."
+    },
+    {
+        "id": 230,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When curving to the right in a large vehicle, where should you keep the front wheels?",
+        "options": {
+            "A": "Close to the centre line",
+            "B": "Close to the right edge of the lane",
+            "C": "On the right shoulder",
+            "D": "In the oncoming traffic lane"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. When you curve to the right, keep the front wheels close to the centre line so that your rear wheels don't drop off the pavement or go onto the pavement shoulder."
+    },
+    {
+        "id": 231,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the most dangerous point during a right turn for a commercial vehicle?",
+        "options": {
+            "A": "When entering the intersection.",
+            "B": "When the tractor has made the turn but the trailer hasn't.",
+            "C": "When waiting for the traffic light to turn green.",
+            "D": "When accelerating after the turn is complete."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. The most dangerous point in a turn is when the tractor has made the turn but the trailer hasn't. At this point, the right rear-view mirror is turned so that it's almost useless."
+    },
+    {
+        "id": 232,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is a recommended safety practice when you must back up a commercial vehicle?",
+        "options": {
+            "A": "Back up quickly to minimize time spent in reverse.",
+            "B": "Always back into traffic rather than out of traffic.",
+            "C": "Use a person to guide your vehicle whenever possible.",
+            "D": "Back into the blind side whenever possible."
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Use a person to guide your vehicle whenever possible. If you can't use a guide, get out of your vehicle and walk completely around it before you start to back up."
+    },
+    {
+        "id": 233,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If you must back up without a guide, what is a good practice to warn others?",
+        "options": {
+            "A": "Turn on your high beam headlights.",
+            "B": "Sound your horn at least once every vehicle length you travel.",
+            "C": "Roll down the windows and yell.",
+            "D": "Only rely on your rear-view mirrors."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Enter the cab, sound your horn and watch both mirrors as you back up very slowly. A good practice is to sound the horn for each vehicle length you travel."
+    },
+    {
+        "id": 234,
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When approaching stopped vehicles displaying flashing lights, what speed must you slow down to if the speed limit is 80 km/h or more?",
+        "options": {
+            "A": "No faster than 40 km/h",
+            "B": "No faster than 50 km/h",
+            "C": "No faster than 60 km/h",
+            "D": "No faster than 70 km/h"
+        },
+        "answer": "D",
+        "explanation": "Source: Official Manual. When approaching these types of vehicles, you must drive no faster than 70 km/h if the speed limit is 80 km/h or more."
+    },
+    {
+        "id": 235,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is your most important concern when operating a commercial passenger vehicle?",
+        "options": {
+            "A": "Meeting schedules on time",
+            "B": "The safety of your passengers",
+            "C": "Ensuring everyone pays the correct fare",
+            "D": "Providing a smooth ride"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Your most important concern must be the safety of your passengers, which is always more important than meeting schedules."
+    },
+    {
+        "id": 236,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "In addition to checking the side mirror, what must you do before leaving the curb in a commercial passenger vehicle?",
+        "options": {
+            "A": "Check over your shoulder to ensure traffic is clear",
+            "B": "Sound your horn",
+            "C": "Turn on your high beams",
+            "D": "Open the passenger door"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. Look in the side mirror and over your shoulder to check that traffic is clear before you leave the curb. Don’t rely on your side mirrors alone."
+    },
+    {
+        "id": 237,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "In what speed zones does a public transit bus have the right-of-way when signalling to pull away from the curb?",
+        "options": {
+            "A": "In all speed zones",
+            "B": "Only in school zones",
+            "C": "In areas where the speed limit is less than 60 km/h",
+            "D": "In areas where the speed limit is more than 80 km/h"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. The Motor Vehicle Act gives public transit buses the right-of-way when signalling to pull away from the curb in areas where the speed limit is less than 60 km/h."
+    },
+    {
+        "id": 238,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When stopping on a highway to take on or let off passengers, how much space must you leave to the left of your vehicle so traffic can pass?",
+        "options": {
+            "A": "At least 1 metre",
+            "B": "At least 2 metres",
+            "C": "At least 3 metres (10 ft)",
+            "D": "At least 5 metres"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. When taking on or letting off passengers on a highway, leave space to the left of your vehicle so that traffic may pass by (at least three metres or 10 ft)."
+    },
+    {
+        "id": 239,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What are the restrictions regarding smoking for drivers of public or limited passenger vehicles?",
+        "options": {
+            "A": "Smoking is permitted if the windows are rolled down",
+            "B": "You must not smoke if passengers are in your vehicle, whether it is moving or not",
+            "C": "Smoking is only permitted when the vehicle is stopped",
+            "D": "You may smoke if all passengers agree"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Don’t smoke if passengers are in your vehicle. This applies whether your vehicle’s moving or not. It is also strictly illegal if any passengers are under 16."
+    },
+    {
+        "id": 240,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Under what conditions are passengers permitted to stand while a commercial passenger vehicle is in motion?",
+        "options": {
+            "A": "Only if there are handrails available",
+            "B": "If the trip is less than 10 minutes long",
+            "C": "Only if the passenger transportation licence for that vehicle allows standing passengers",
+            "D": "Standing passengers are never permitted under any circumstances"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Passengers may not stand while a vehicle’s in motion, unless the passenger transportation licence for that vehicle allows standing passengers."
+    },
+    {
+        "id": 241,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Under which of the following circumstances may you refuse to transport a passenger?",
+        "options": {
+            "A": "The passenger is smoking or using profane language",
+            "B": "The passenger is carrying heavy luggage",
+            "C": "The passenger has a service animal",
+            "D": "The passenger is elderly"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. You may refuse a passenger if the vehicle is already at maximum capacity, or if the passenger is smoking, using profane language, or acting in a disorderly manner."
+    },
+    {
+        "id": 242,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What must you do if a person with a disability is travelling with a service animal, such as a guide dog?",
+        "options": {
+            "A": "You may refuse them transportation",
+            "B": "The animal must be placed in a carrier in the trunk",
+            "C": "You must allow the animal in your vehicle with its owner",
+            "D": "You can charge an extra fare for the animal"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. You must allow service animals in your vehicle with their owners and provide them with space that will keep them safe."
+    },
+    {
+        "id": 243,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "At what times must the inside lights that illuminate the passenger aisle of a public passenger vehicle (with a seating capacity of more than 12) be kept on?",
+        "options": {
+            "A": "Only when boarding and disembarking",
+            "B": "Whenever the doors are open",
+            "C": "Between the hours of sunset and sunrise",
+            "D": "At all times during operation"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. These lights must be kept on between the hours of sunset and sunrise so passengers can move safely in the vehicle."
+    },
+    {
+        "id": 244,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the minimum emergency equipment required in a commercial passenger vehicle with a seating capacity of more than 10 occupants?",
+        "options": {
+            "A": "A flashlight, jumper cables, and a jack",
+            "B": "One first-aid kit, one spare tire, and at least one fire extinguisher",
+            "C": "A GPS device and a mobile phone",
+            "D": "A fire extinguisher and two warning triangles"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. The vehicle must have one first-aid kit (meeting WorkSafe BC guidelines), one spare tire, and at least one fire extinguisher."
+    },
+    {
+        "id": 245,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What action must you take if your commercial passenger vehicle develops a defect that could endanger the safety of your passengers during a trip?",
+        "options": {
+            "A": "Continue to the nearest maintenance facility",
+            "B": "Drive at a reduced speed and notify dispatch",
+            "C": "End the trip and fix the problem or remove the danger before continuing",
+            "D": "Ask the passengers if they want to proceed"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. You must end the trip if your vehicle develops a problem that could endanger the safety or comfort of any of your passengers."
+    },
+    {
+        "id": 246,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When carrying baggage on a bus, where should it NOT be loaded?",
+        "options": {
+            "A": "Under the seats against a barrier",
+            "B": "In overhead racks equipped with elastic cords",
+            "C": "On a passenger's lap",
+            "D": "In a way that blocks or partially blocks any aisle or exit"
+        },
+        "answer": "D",
+        "explanation": "Source: Official Manual. Baggage or cargo must not block or partially block any aisle or exit, and must not obscure the driver's view or hinder safe operation."
+    },
+    {
+        "id": 247,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How often must you test the brakes on a school bus?",
+        "options": {
+            "A": "Once a week",
+            "B": "Every day",
+            "C": "Every 1,000 km",
+            "D": "At the start of each month"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Test the brakes on your school bus every day. Don’t operate any school bus unless the brakes are safe."
+    },
+    {
+        "id": 248,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Can you operate a school bus with a mechanical defect?",
+        "options": {
+            "A": "Yes, if the trip is very short",
+            "B": "Yes, but only to return to the depot",
+            "C": "Never, your first responsibility is to keep passengers safe",
+            "D": "Yes, if a mechanic approves temporary operation"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Never transport passengers on a school bus that’s defective in any way."
+    },
+    {
+        "id": 249,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How often are you required to wash the floor of a school bus with a disinfectant solution?",
+        "options": {
+            "A": "Every day",
+            "B": "At least once a week",
+            "C": "Every month",
+            "D": "Only when visibly dirty"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. The floor of your school bus must be washed with a disinfectant solution at least once a week."
+    },
+    {
+        "id": 250,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "From which side of a school bus must passengers enter or leave?",
+        "options": {
+            "A": "The left side only",
+            "B": "The right side only",
+            "C": "Either side, whichever is closer to the sidewalk",
+            "D": "The rear emergency exit"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Passengers must enter or leave your school bus from the right side only."
+    },
+    {
+        "id": 251,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When operating an ambulance, when are you permitted to use the flashing red lights?",
+        "options": {
+            "A": "Whenever you are in a hurry",
+            "B": "Only when responding to an emergency call or transporting a patient",
+            "C": "When parked at the hospital",
+            "D": "During normal patrols"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Flashing red lights are to be used only when the ambulance is responding to an emergency call or transporting a patient."
+    },
+    {
+        "id": 252,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What vehicles are subject to the National Safety Code (NSC) program?",
+        "options": {
+            "A": "Commercial vehicles licensed with a GVW of more than 5,000 kg and vehicles with a seating capacity of 10 or more passengers plus the driver",
+            "B": "Commercial vehicles licensed with a GVW of more than 3,500 kg",
+            "C": "Only vehicles operating under the Passenger Transportation Act",
+            "D": "All motor vehicles used for any business purpose"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. The NSC applies to commercial vehicles licensed with a GVW of more than 5,000 kg, passenger transportation vehicles (taxis, buses, limousines), and commercial vehicles with a seating capacity of 10 or more passengers plus the driver."
+    },
+    {
+        "id": 253,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How much consecutive off-duty time must a driver take to reset a work shift?",
+        "options": {
+            "A": "10 consecutive hours",
+            "B": "12 consecutive hours",
+            "C": "8 consecutive hours",
+            "D": "24 consecutive hours"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Every off-duty period consisting of 8 consecutive hours or more resets the work shift."
+    },
+    {
+        "id": 254,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the maximum number of driving hours permitted in a day?",
+        "options": {
+            "A": "11 hours",
+            "B": "12 hours",
+            "C": "13 hours",
+            "D": "14 hours"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. A driver is allowed to drive a maximum of 13 hours in a day."
+    },
+    {
+        "id": 255,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "After how many hours of on-duty time in a day is a driver not permitted to drive?",
+        "options": {
+            "A": "13 hours",
+            "B": "14 hours",
+            "C": "15 hours",
+            "D": "16 hours"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. A driver is not allowed to drive after accumulating 14 hours of on-duty time in a day."
+    },
+    {
+        "id": 256,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How many consecutive hours off-duty must all drivers take every 14 days?",
+        "options": {
+            "A": "24 consecutive hours",
+            "B": "36 consecutive hours",
+            "C": "48 consecutive hours",
+            "D": "72 consecutive hours"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. All drivers must take at least 24 consecutive hours off duty every 14 days."
+    },
+    {
+        "id": 257,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the maximum on-duty time permitted under Cycle 1 before you must stop driving?",
+        "options": {
+            "A": "60 on-duty hours in 7 days",
+            "B": "70 on-duty hours in 7 days",
+            "C": "80 on-duty hours in 7 days",
+            "D": "120 on-duty hours in 14 days"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Drivers working on Cycle 1 must not drive after completing 70 on-duty hours in 7 days."
+    },
+    {
+        "id": 258,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How many consecutive off-duty hours must you take to reset Cycle 1?",
+        "options": {
+            "A": "24 hours",
+            "B": "36 hours",
+            "C": "48 hours",
+            "D": "72 hours"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. You can reset Cycle 1 at any time by taking 36 consecutive hours off."
+    },
+    {
+        "id": 259,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Under Cycle 2, how many consecutive hours off-duty are required to reset the cycle?",
+        "options": {
+            "A": "24 hours",
+            "B": "36 hours",
+            "C": "48 hours",
+            "D": "72 hours"
+        },
+        "answer": "D",
+        "explanation": "Source: Official Manual. You can reset Cycle 2 at any time by taking 72 consecutive hours off."
+    },
+    {
+        "id": 260,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When deferring off-duty time to the next day, what is the maximum number of hours you may reduce your daily 10-hour off-duty requirement by?",
+        "options": {
+            "A": "1 hour",
+            "B": "2 hours",
+            "C": "3 hours",
+            "D": "4 hours"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. You may reduce your daily 10-hour off-duty requirement by up to 2 hours, provided the 2 hours are added to your 8 consecutive off-duty hours the next day."
+    },
+    {
+        "id": 261,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If a single driver is splitting their required off-duty time using a sleeper berth, what is the minimum duration allowed for either period?",
+        "options": {
+            "A": "1 hour",
+            "B": "2 hours",
+            "C": "4 hours",
+            "D": "8 hours"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Single drivers using a sleeper berth may split up their required off-duty time into two periods if neither period is less than two hours and the total off-duty time is at least 10 hours."
+    },
+    {
+        "id": 262,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Under the personal use exemption, what is the maximum distance a commercial vehicle can be driven in a day without it being considered on-duty time?",
+        "options": {
+            "A": "50 km",
+            "B": "75 km",
+            "C": "100 km",
+            "D": "160 km"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Driving a commercial vehicle for personal use is not considered on-duty time if driven a maximum of 75 km a day, and the other specific conditions (e.g., unloaded, no trailer) are met."
+    },
+    {
+        "id": 263,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If an Electronic Logging Device (ELD) malfunctions on the road, how long does the carrier have to repair or replace it?",
+        "options": {
+            "A": "3 days",
+            "B": "7 days",
+            "C": "14 days (or at the end of the driver's planned trip if longer)",
+            "D": "30 days"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. The carrier must repair or replace the ELD within 14 days of being informed of the malfunction or at the end of the driver's planned trip if the trip takes longer than 14 days."
+    },
+    {
+        "id": 264,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "For how many days must a carrier ensure a commercial motor vehicle carries blank records of duty status in its ELD information packet in case of malfunction?",
+        "options": {
+            "A": "7 days",
+            "B": "14 days",
+            "C": "15 days",
+            "D": "20 days"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. A carrier must ensure that each commercial vehicle carries a sufficient number of records of duty status to allow the driver to record their status for at least 15 days."
+    },
+    {
+        "id": 265,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Within how many days must you submit your Records of Duty Status (RODS) and all supporting records to your carrier?",
+        "options": {
+            "A": "7 days",
+            "B": "14 days",
+            "C": "20 days",
+            "D": "30 days"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. You must submit your RODS and all supporting records to your carrier within 20 days."
+    },
+    {
+        "id": 266,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which of the following conditions must be met to be exempt from keeping a Record of Duty Status (RODS) logbook?",
+        "options": {
+            "A": "Operate within a radius of 160 km of the home terminal and return each day",
+            "B": "Operate within a radius of 200 km of the home terminal",
+            "C": "Operate exclusively within city limits",
+            "D": "Drive for less than 10 hours a day"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. Drivers are exempt from keeping RODS if they operate within a radius of 160 km of the home terminal, take 10 hours off duty, and return to the home terminal each day to begin 10 consecutive hours off."
+    },
+    {
+        "id": 267,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When operating north of the 60th parallel (e.g., in the Yukon or Northwest Territories), what is the maximum driving time allowed?",
+        "options": {
+            "A": "13 hours",
+            "B": "14 hours",
+            "C": "15 hours",
+            "D": "18 hours"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. When driving north of the 60th parallel, you may drive a maximum of 15 hours and may not drive after 18 hours of on-duty time."
+    },
+    {
+        "id": 268,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When driving a commercial vehicle in the United States, after 10 hours of off-duty time, how many hours are you permitted to drive?",
+        "options": {
+            "A": "11 hours",
+            "B": "12 hours",
+            "C": "13 hours",
+            "D": "14 hours"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. Canadian drivers must obey U.S. regulations while in the U.S., which permit driving for 11 hours after 10 hours of off-duty time."
+    },
+    {
+        "id": 269,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How often must all commercial vehicles that fall under the National Safety Code (NSC) be inspected?",
+        "options": {
+            "A": "Once a week",
+            "B": "Only before they're used each day (pre-trip)",
+            "C": "Before they're used each day (pre-trip) and at the end of the final trip of each day (post-trip)",
+            "D": "At the beginning of each month"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. All commercial vehicles that fall under the NSC must be inspected before they're used each day (pre-trip) and at the end of the final trip of each day (post-trip)."
+    },
+    {
+        "id": 270,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When must you re-inspect your cargo securement system after loading?",
+        "options": {
+            "A": "Within 50 km from the point where the cargo was loaded",
+            "B": "Within 80 km from the point where the cargo was loaded",
+            "C": "Within 100 km from the point where the cargo was loaded",
+            "D": "At the end of the day"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. You must re-inspect the cargo securement system within 80 km from the point where the cargo was loaded."
+    },
+    {
+        "id": 271,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "During a trip, you must re-inspect cargo securement on a regular basis. Which of the following is NOT one of the criteria for when to re-inspect?",
+        "options": {
+            "A": "A change in duty status of the driver",
+            "B": "Three hours of driving",
+            "C": "240 km of driving since the last inspection",
+            "D": "Every 400 km of driving"
+        },
+        "answer": "D",
+        "explanation": "Source: Official Manual. Cargo securement must be re-inspected at the earliest of a change in duty status, 3 hours of driving, or 240 km of driving. Every 400 km is not a criterion."
+    },
+    {
+        "id": 272,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the time frame within which all trip inspection reports must be given to the carrier?",
+        "options": {
+            "A": "Within 5 days",
+            "B": "Within 10 days",
+            "C": "Within 20 days",
+            "D": "Within 30 days"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. All trip inspection reports must be given to the carrier within 20 days."
+    },
+    {
+        "id": 273,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If a trip lasts more than one day, when must new inspection reports be completed?",
+        "options": {
+            "A": "At the end of each day",
+            "B": "No later than the first rest stop of every subsequent day of the trip",
+            "C": "Within 24 hours of the previous report",
+            "D": "Before the start of the next trip"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. If a trip lasts more than one day, new inspection reports must be completed no later than the first rest stop of every subsequent day of the trip."
+    },
+    {
+        "id": 274,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "A peace officer may place your vehicle out of service if the drum brake linings are less than what thickness?",
+        "options": {
+            "A": "1/8 inch (3.2 mm)",
+            "B": "1/4 inch (6.4 mm)",
+            "C": "1/2 inch (12.7 mm)",
+            "D": "3/4 inch (19 mm)"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. A peace officer may place your vehicle out of service if drum brake linings are less than 1/4 inch (6.4 mm) thick."
+    },
+    {
+        "id": 275,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "A peace officer may place your vehicle out of service if air disc brake pads are less than what thickness?",
+        "options": {
+            "A": "1/8 inch (3.2 mm)",
+            "B": "1/4 inch (6.4 mm)",
+            "C": "1/2 inch (12.7 mm)",
+            "D": "3/4 inch (19 mm)"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. A peace officer may place your vehicle out of service if air disc brake pads are less than 1/8 inch (3.2 mm) thick."
+    },
+    {
+        "id": 276,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How often should all air brake reservoirs be drained?",
+        "options": {
+            "A": "Hourly",
+            "B": "Daily",
+            "C": "Weekly",
+            "D": "Monthly"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. All reservoirs should be drained daily."
+    },
+    {
+        "id": 277,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "During an air brake system test, the governor must cause the compressor to cut in before the pressure falls below what level?",
+        "options": {
+            "A": "100 p.s.i. (690 kPa)",
+            "B": "80 p.s.i. (552 kPa)",
+            "C": "60 p.s.i. (414 kPa)",
+            "D": "45 p.s.i. (310 kPa)"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. The governor must cause the compressor to cut in before pressure falls below 80 p.s.i. (552 kPa)."
+    },
+    {
+        "id": 278,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "At what pressure should the low-air warning device(s) activate?",
+        "options": {
+            "A": "At or above 80 p.s.i. (552 kPa)",
+            "B": "At or above 60 p.s.i. (414 kPa)",
+            "C": "At or above 45 p.s.i. (310 kPa)",
+            "D": "At or above 20 p.s.i. (138 kPa)"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Low-air warning device(s) should activate at or above 60 p.s.i. (414 kPa)."
+    },
+    {
+        "id": 279,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "During an air brake system test, the trailer air supply valve should close when the highest reservoir pressure gauge reads between:",
+        "options": {
+            "A": "20 to 45 p.s.i. (138 to 310 kPa)",
+            "B": "45 to 60 p.s.i. (310 to 414 kPa)",
+            "C": "60 to 80 p.s.i. (414 to 552 kPa)",
+            "D": "80 to 100 p.s.i. (552 to 690 kPa)"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. The trailer air supply valve closes when the highest reservoir pressure gauge reads between 20 to 45 p.s.i. (138 to 310 kPa)."
+    },
+    {
+        "id": 280,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When testing the air reservoir pressure buildup, the pressure must build from 50 to 90 p.s.i. (345 to 620 kPa) within what time frame at a fast idle?",
+        "options": {
+            "A": "One minute",
+            "B": "Two minutes",
+            "C": "Three minutes",
+            "D": "Five minutes"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Air reservoir pressure must build from 50 to 90 p.s.i. within three minutes at a fast idle (1,000 to 1,200 r.p.m.)."
+    },
+    {
+        "id": 281,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When testing the system for air leakage on a single-unit vehicle or a tractor-trailer combination (1 trailer), after the initial pressure drop, air loss should not be more than:",
+        "options": {
+            "A": "2 p.s.i. per minute",
+            "B": "4 p.s.i. per minute",
+            "C": "6 p.s.i. per minute",
+            "D": "8 p.s.i. per minute"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Air loss is not more than 4 p.s.i. (27.6 kPa) per minute. (6 p.s.i. per minute with two trailers)."
+    },
+    {
+        "id": 282,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "In what direction should you walk when conducting a circle check of your vehicle?",
+        "options": {
+            "A": "Clockwise",
+            "B": "Counter-clockwise, so you are facing oncoming traffic",
+            "C": "From the front to the back on the driver's side",
+            "D": "It doesn't matter as long as all items are checked"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. You should walk in a counter-clockwise direction when you do the circle check, so you're facing oncoming traffic."
+    },
+    {
+        "id": 283,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is an important safety step before checking underneath the vehicle during a pre-trip inspection?",
+        "options": {
+            "A": "Leave the engine running",
+            "B": "Remove the keys from the ignition to ensure nobody tries to move the vehicle",
+            "C": "Turn on the headlights",
+            "D": "Place the vehicle in neutral without setting parking brakes"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Also remove the keys from the ignition to ensure that nobody tries to move the vehicle while you're checking underneath."
+    },
+    {
+        "id": 284,
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When doing your pre-trip inspection for your road test, which air reservoir are you required to drain?",
+        "options": {
+            "A": "Primary reservoir only",
+            "B": "Secondary reservoir only",
+            "C": "Supply reservoir only",
+            "D": "All reservoirs"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. For your road test, you're only required to drain the supply reservoir."
+    },
+    {
+        "id": 285,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What type of sign tells you about driving laws and regulations?",
+        "options": {
+            "A": "Warning signs",
+            "B": "Regulatory signs",
+            "C": "Information signs",
+            "D": "Object markers"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. Regulatory signs tell you about driving laws and regulations. It is an offence to disregard them."
+    },
+    {
+        "id": 286,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When is the 30 km/h speed limit in effect for a playground zone (unless otherwise posted)?",
+        "options": {
+            "A": "8 a.m. to 5 p.m. on school days",
+            "B": "Dawn to dusk every day",
+            "C": "8 a.m. to 5 p.m. every day",
+            "D": "Only when children are visible"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. A playground zone 30 km/h limit is in effect every day from dawn to dusk."
+    },
+    {
+        "id": 287,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What are you NOT permitted to do if you are in a designated lane according to lane use signs?",
+        "options": {
+            "A": "Follow the direction indicated by the arrows",
+            "B": "Move into or out of a designated lane while you are in an intersection",
+            "C": "Stop for pedestrians",
+            "D": "Signal before turning"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. You may not move into or out of a designated lane while you are in an intersection."
+    },
+    {
+        "id": 288,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What are the typical shape and color of most warning signs?",
+        "options": {
+            "A": "Red and octagonal",
+            "B": "White and rectangular",
+            "C": "Yellow and diamond-shaped",
+            "D": "Fluorescent yellow-green and pentagonal"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Most warning signs are yellow and diamond-shaped. They warn of possible hazards ahead."
+    },
+    {
+        "id": 289,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What painted symbol on the road surface marks a reserved lane?",
+        "options": {
+            "A": "A yellow triangle",
+            "B": "A white square",
+            "C": "A white diamond",
+            "D": "A yellow circle"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. A white diamond painted on the road surface marks reserved lanes."
+    },
+    {
+        "id": 290,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Where are object markers typically mounted?",
+        "options": {
+            "A": "On obstructions",
+            "B": "At school crosswalks",
+            "C": "Above traffic lights",
+            "D": "On the pavement"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. Object markers are mounted on obstructions. Drivers should pay special attention to them."
+    },
+    {
+        "id": 291,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What must a driver do when approaching a flashing red traffic light?",
+        "options": {
+            "A": "Slow down and proceed with caution",
+            "B": "Stop, then continue only when it is safe",
+            "C": "Stop and wait for a green light",
+            "D": "Yield to vehicles on the right without stopping"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. A flashing red light means you must stop, then continue only when it is safe."
+    },
+    {
+        "id": 292,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What does a flashing green traffic light indicate?",
+        "options": {
+            "A": "It is a pedestrian-controlled light; go only if the intersection is clear",
+            "B": "An advanced green for left turns is active",
+            "C": "The light is about to turn yellow",
+            "D": "Proceed without checking the intersection"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. A flashing green light indicates a pedestrian-controlled light. Go only if the intersection is clear."
+    },
+    {
+        "id": 293,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What does a flashing green arrow with a steady red light indicate?",
+        "options": {
+            "A": "Left turn allowed, but yield to oncoming traffic",
+            "B": "All traffic must stop",
+            "C": "Left turn allowed; through traffic must stop for red light",
+            "D": "Right turn allowed only"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. A flashing green arrow with a steady red light means a left turn is allowed, but through traffic must stop for the red light."
+    },
+    {
+        "id": 294,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What does a single yellow line on the road indicate?",
+        "options": {
+            "A": "Passing is strictly prohibited",
+            "B": "Passing is allowed with extra caution",
+            "C": "The lane is for left turns only",
+            "D": "The road is a one-way street"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. A single yellow line means passing is allowed with extra caution."
+    },
+    {
+        "id": 295,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the rule regarding double solid yellow lines?",
+        "options": {
+            "A": "No passing allowed",
+            "B": "Passing allowed if the way is clear",
+            "C": "Passing allowed only for commercial vehicles",
+            "D": "Passing allowed for left turns only"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. A double solid yellow line means no passing is allowed."
+    },
+    {
+        "id": 296,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When driving on a road with a broken yellow line beside a solid yellow line, when are you permitted to pass?",
+        "options": {
+            "A": "Whenever the road ahead is clear",
+            "B": "Only when the solid line is on your side",
+            "C": "Passing is never permitted",
+            "D": "Only when it is safe and the broken line is on your side"
+        },
+        "answer": "D",
+        "explanation": "Source: Official Manual. You may pass only when it is safe and the broken line is on your side."
+    },
+    {
+        "id": 297,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the primary purpose of white lines painted on the road?",
+        "options": {
+            "A": "To separate lanes of traffic moving in the same direction",
+            "B": "To separate traffic moving in opposite directions",
+            "C": "To mark school zones exclusively",
+            "D": "To indicate no-stopping zones"
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual. White lines are used to separate lanes of traffic moving in the same direction, as well as to mark crosswalks, stopping positions, and right shoulders."
+    },
+    {
+        "id": 298,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What must a driver do when approaching a steady yellow traffic light?",
+        "options": {
+            "A": "Speed up to clear the intersection",
+            "B": "Slow down and stop before the intersection unless you can't safely stop in time",
+            "C": "Stop immediately regardless of position",
+            "D": "Proceed quickly with caution"
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual. A steady yellow light means slow down and stop before the intersection unless you can't safely stop in time."
+    },
+    {
+        "id": 299,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the purpose of a two-way left-turn lane?",
+        "options": {
+            "A": "It is a passing lane for slow vehicles",
+            "B": "It is reserved for high occupancy vehicles (HOVs)",
+            "C": "Drivers travelling in opposite directions share this lane for left turns",
+            "D": "It is for emergency vehicles only"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. Drivers travelling in opposite directions share a two-way left-turn lane to make left turns."
+    },
+    {
+        "id": 300,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If a school zone sign indicates a 50 km/h speed limit on its tab, when is this limit in effect?",
+        "options": {
+            "A": "8 a.m. to 5 p.m. every day",
+            "B": "Dawn to dusk on school days",
+            "C": "8 a.m. to 5 p.m. on school days when children are on the roadway or shoulder",
+            "D": "24 hours a day"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual. If the sign specifically indicates a 50 km/h limit, it is in effect from 8 a.m. to 5 p.m. on school days when children are on the roadway or shoulder."
+    }
+
 ];

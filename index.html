@@ -10,10 +10,36 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+
+    <!-- Profile Selection Gate (Netflix Style) -->
+    <div id="profile-gate" class="active-gate" style="display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 100vh; background: var(--bg-color);">
+        <div class="profile-container" style="text-align: center; width: 100%; max-width: 800px;">
+            <h1 style="font-size: 2.5rem; margin-bottom: 3rem; color: white;">Who is practicing?</h1>
+            <div id="profile-list" class="profile-list" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem;">
+                <!-- Dynamic profiles injected here -->
+            </div>
+            <div style="margin-top: 4rem;">
+                <button class="secondary-btn" onclick="app.showCreateProfile()" style="font-size: 1.1rem; padding: 0.75rem 2rem;">+ Add New Profile</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Create Profile Modal -->
+    <div id="create-profile-modal" class="hidden" style="position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 2000; display: flex; justify-content: center; align-items: center;">
+        <div class="card glass" style="padding: 2rem; width: 90%; max-width: 400px; text-align: center;">
+            <h3 style="margin-bottom: 1rem;">Add Profile</h3>
+            <input type="text" id="new-profile-name" placeholder="Name (e.g. Kent)" style="width: 100%; padding: 0.75rem; background: rgba(0,0,0,0.2); border: 1px solid var(--border-color); border-radius: var(--border-radius-sm); color: white; margin-bottom: 1rem;">
+            <div style="display: flex; gap: 1rem;">
+                <button class="secondary-btn" onclick="document.getElementById('create-profile-modal').classList.add('hidden')" style="flex: 1;">Cancel</button>
+                <button class="primary-btn" onclick="app.createNewProfile()" style="flex: 1;">Create</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Focus Mode Quit Button -->
     <button id='quit-focus-btn' class='hidden' onclick='app.exitFocusMode()' style='position: fixed; top: 10px; right: 10px; z-index: 1000; background: var(--danger-color); color: white; border: none; padding: 0.5rem 1rem; border-radius: var(--border-radius-sm); font-weight: bold; cursor: pointer; box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);'>✕ Exit Quiz</button>
 
-    <div id="app">
+    <div id="app" class="hidden">
         <!-- Sidebar Navigation -->
         <nav class="sidebar">
             <div class="logo">ICBC Prep Pro</div>

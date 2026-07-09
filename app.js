@@ -3,10 +3,14 @@ class App {
         this.currentView = 'home-view';
         this.licenceClass = 'class4-rest';
         
-        // Data states
-        this.userHistory = JSON.parse(localStorage.getItem('icbc_history')) || [];
-        this.mistakesBook = JSON.parse(localStorage.getItem('icbc_mistakes')) || {};
-        this.practiceProgress = JSON.parse(localStorage.getItem('icbc_practice_progress')) || [];
+        // Multi-user system
+        this.users = JSON.parse(localStorage.getItem('icbc_users')) || [];
+        this.currentUser = null;
+        
+        // Data states (will be loaded per user)
+        this.userHistory = [];
+        this.mistakesBook = {};
+        this.practiceProgress = [];
         
         // Quiz states
         this.activeQuestions = [];
@@ -17,7 +21,93 @@ class App {
         this.mistakeReviewMode = false;
         this.geminiApiKey = localStorage.getItem('icbc_gemini_key') || '';
         
+        this.migrateLegacyData();
         this.init();
+        this.renderProfiles();
+    }
+    
+    migrateLegacyData() {
+        // If users list is empty but legacy data exists, migrate to KENT
+        if (this.users.length === 0) {
+            const legacyHistory = localStorage.getItem('icbc_history');
+            const legacyMistakes = localStorage.getItem('icbc_mistakes');
+            const legacyProgress = localStorage.getItem('icbc_practice_progress');
+            
+            if (legacyHistory || legacyMistakes || legacyProgress) {
+                this.users.push('KENT');
+                localStorage.setItem('icbc_users', JSON.stringify(this.users));
+                
+                if (legacyHistory) localStorage.setItem('icbc_history_KENT', legacyHistory);
+                if (legacyMistakes) localStorage.setItem('icbc_mistakes_KENT', legacyMistakes);
+                if (legacyProgress) localStorage.setItem('icbc_practice_progress_KENT', legacyProgress);
+                
+                // Clean up legacy
+                localStorage.removeItem('icbc_history');
+                localStorage.removeItem('icbc_mistakes');
+                localStorage.removeItem('icbc_practice_progress');
+            } else {
+                // First time ever using app
+                this.users.push('KENT');
+                localStorage.setItem('icbc_users', JSON.stringify(this.users));
+            }
+        }
+    }
+    
+    renderProfiles() {
+        const list = document.getElementById('profile-list');
+        list.innerHTML = '';
+        this.users.forEach(user => {
+            const btn = document.createElement('div');
+            btn.className = 'profile-card';
+            btn.style = 'background: rgba(255,255,255,0.1); padding: 2rem; border-radius: 8px; cursor: pointer; border: 2px solid transparent; transition: 0.3s; width: 120px;';
+            btn.onmouseover = () => btn.style.borderColor = 'var(--primary-color)';
+            btn.onmouseout = () => btn.style.borderColor = 'transparent';
+            btn.onclick = () => this.selectProfile(user);
+            btn.innerHTML = `<div style="font-size: 3rem; margin-bottom: 1rem;">🧑‍✈️</div><div style="font-weight: bold;">${user}</div>`;
+            list.appendChild(btn);
+        });
+    }
+    
+    selectProfile(username) {
+        this.currentUser = username;
+        document.getElementById('active-user-display').textContent = username;
+        
+        // Load user-specific data
+        this.userHistory = JSON.parse(localStorage.getItem(`icbc_history_${username}`)) || [];
+        this.mistakesBook = JSON.parse(localStorage.getItem(`icbc_mistakes_${username}`)) || {};
+        this.practiceProgress = JSON.parse(localStorage.getItem(`icbc_practice_progress_${username}`)) || [];
+        
+        document.getElementById('profile-gate').classList.add('hidden');
+        document.getElementById('app').classList.remove('hidden');
+        
+        this.updateMistakesCount();
+        this.navigate('home-view');
+    }
+    
+    switchProfile() {
+        document.getElementById('profile-gate').classList.remove('hidden');
+        document.getElementById('app').classList.add('hidden');
+    }
+    
+    showCreateProfile() {
+        document.getElementById('create-profile-modal').classList.remove('hidden');
+    }
+    
+    createNewProfile() {
+        const name = document.getElementById('new-profile-name').value.trim().toUpperCase();
+        if (!name) return;
+        if (this.users.includes(name)) {
+            alert('Profile already exists!');
+            return;
+        }
+        
+        this.users.push(name);
+        localStorage.setItem('icbc_users', JSON.stringify(this.users));
+        document.getElementById('new-profile-name').value = '';
+        document.getElementById('create-profile-modal').classList.add('hidden');
+        
+        this.renderProfiles();
+        this.selectProfile(name);
     }
     
     init() {
@@ -357,9 +447,10 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
     }
     
     saveData() {
-        localStorage.setItem('icbc_mistakes', JSON.stringify(this.mistakesBook));
-        localStorage.setItem('icbc_history', JSON.stringify(this.userHistory));
-        localStorage.setItem('icbc_practice_progress', JSON.stringify(this.practiceProgress));
+        if (!this.currentUser) return;
+        localStorage.setItem(`icbc_mistakes_${this.currentUser}`, JSON.stringify(this.mistakesBook));
+        localStorage.setItem(`icbc_history_${this.currentUser}`, JSON.stringify(this.userHistory));
+        localStorage.setItem(`icbc_practice_progress_${this.currentUser}`, JSON.stringify(this.practiceProgress));
     }
     
     // --- SHARED RENDER LOGIC ---

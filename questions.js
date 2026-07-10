@@ -6313,5 +6313,1481 @@ window.QUESTION_BANK = [
         "answer": "C",
         "explanation": "A red circle with a slash across a bicycle indicates that bicycles are prohibited on this road or pathway.",
         "id": 319
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/111.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Construction zone ends",
+            "B": "Detour ahead",
+            "C": "Road closed ahead",
+            "D": "Merge left"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. This sign indicates a detour ahead.",
+        "id": 320
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/120.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Radio station ahead",
+            "B": "Construction zone ends",
+            "C": "Blasting zone ahead - shut off your radio transmitter",
+            "D": "No loud music allowed"
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual. This sign warns of a blasting zone and instructs drivers to turn off radio transmitters to prevent accidental detonation.",
+        "id": 321
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/126.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Helicopter landing pad",
+            "B": "Hotel ahead",
+            "C": "Highway route",
+            "D": "Hospital nearby"
+        },
+        "answer": "D",
+        "explanation": "Source: Official ICBC manual. A white 'H' on a green background indicates a hospital.",
+        "id": 322
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/23.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Left turn only",
+            "B": "No left turn",
+            "C": "One way traffic to the left",
+            "D": "Hidden intersection on the left"
+        },
+        "answer": "A",
+        "explanation": "Source: Official ICBC manual. A green circle indicates a permitted or mandatory action. This sign means vehicles must turn left.",
+        "id": 323
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/31.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Bus stop ahead",
+            "B": "No buses allowed in this lane",
+            "C": "Reserved lane for buses",
+            "D": "School bus crossing"
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual. The diamond symbol indicates a reserved lane, and the bus symbol specifies it is for buses.",
+        "id": 324
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/318.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Pedestrian activated crosswalk — prepare to stop if the light is flashing",
+            "B": "Traffic signal is broken",
+            "C": "Stop sign ahead",
+            "D": "Intersection ahead - slow down"
+        },
+        "answer": "A",
+        "explanation": "Source: Official ICBC manual. This warns drivers of a pedestrian activated crosswalk and to prepare to stop if the light flashes.",
+        "id": 325
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/34.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Slippery when wet",
+            "B": "Winding road ahead",
+            "C": "Steep hill ahead",
+            "D": "Uneven pavement"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. This sign warns of a winding road ahead.",
+        "id": 326
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/52.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Divided highway begins",
+            "B": "Narrow bridge ahead",
+            "C": "Right lane ends ahead",
+            "D": "Road narrows on both sides"
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual. This sign warns that the right lane is ending and vehicles must merge left.",
+        "id": 327
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/60.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Yield sign ahead",
+            "B": "Stop sign ahead",
+            "C": "Traffic signal ahead",
+            "D": "Do not enter"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. The red octagon with an arrow warns of a stop sign ahead.",
+        "id": 328
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/68.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Fire truck entrance or crossing ahead",
+            "B": "Fire station driveway parking only",
+            "C": "Do not block intersection",
+            "D": "Ambulance station ahead"
+        },
+        "answer": "A",
+        "explanation": "Source: Official ICBC manual. This warns drivers of a fire truck entrance or crossing ahead.",
+        "id": 329
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/76.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Overpass ahead",
+            "B": "Low clearance ahead",
+            "C": "Tunnel ahead",
+            "D": "Bridge ahead"
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual. This sign warns of a tunnel ahead.",
+        "id": 330
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/112.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "The shoulder is soft and may not support a vehicle.",
+            "B": "Shoulder ends ahead.",
+            "C": "Paved shoulder ahead.",
+            "D": "Watch for pedestrians on the shoulder."
+        },
+        "answer": "A",
+        "explanation": "This warning sign means the shoulder of the road is soft. Avoid driving or parking on it as your vehicle may sink or get stuck.",
+        "id": 331
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/121.png",
+        "question": "What does this flashing arrow board mean?",
+        "options": {
+            "A": "There is a detour to the left.",
+            "B": "The lane is closed ahead; you must merge to the right.",
+            "C": "You are approaching a four-way stop.",
+            "D": "Construction vehicles are crossing the road."
+        },
+        "answer": "B",
+        "explanation": "A flashing arrow board with the arrow pointing to the right indicates that the current lane is closed ahead and you must merge right.",
+        "id": 332
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/127.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Electric vehicle charging station ahead.",
+            "B": "Gas station or fuel available ahead.",
+            "C": "Propane refilling station.",
+            "D": "Mechanic or repair shop."
+        },
+        "answer": "B",
+        "explanation": "This service sign indicates that a gas station or fuel services are available nearby.",
+        "id": 333
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/24.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "You must drive straight through the intersection.",
+            "B": "One-way traffic straight ahead.",
+            "C": "Left turns are permitted.",
+            "D": "Highway ends ahead."
+        },
+        "answer": "A",
+        "explanation": "A white square sign with a green circle indicates a permitted action. The straight arrow means you must go straight through the intersection; no turns are allowed.",
+        "id": 334
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/311.png",
+        "question": "In a lane control signal, what does an illuminated yellow X mean?",
+        "options": {
+            "A": "You may drive in this lane with caution.",
+            "B": "The lane is for turning left only.",
+            "C": "The lane is about to close; move out of this lane safely.",
+            "D": "The lane is closed and you must stop immediately."
+        },
+        "answer": "C",
+        "explanation": "An illuminated yellow X means the lane is about to close. You must prepare to vacate the lane safely and move into a lane with a green arrow.",
+        "id": 335
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/319.png",
+        "question": "What does a flashing green traffic light indicate in British Columbia?",
+        "options": {
+            "A": "Proceed with caution, the light is broken.",
+            "B": "It is a pedestrian-controlled light; proceed if clear, but be prepared to stop if a pedestrian pushes the button.",
+            "C": "You have the right-of-way to turn left.",
+            "D": "The intersection is a four-way stop."
+        },
+        "answer": "B",
+        "explanation": "In BC, a flashing green light indicates a pedestrian-controlled intersection. The light will remain green until a pedestrian pushes the button to activate the red light.",
+        "id": 336
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/35.png",
+        "question": "What does this sign indicate?",
+        "options": {
+            "A": "A T-intersection ahead.",
+            "B": "A side road intersects with the main road from the right.",
+            "C": "Merging traffic from the right.",
+            "D": "The main road curves to the right."
+        },
+        "answer": "B",
+        "explanation": "This warning sign indicates that a side road intersects the highway from the right. Watch for entering traffic.",
+        "id": 337
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/53.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Divided highway begins ahead.",
+            "B": "Two-way traffic ends ahead.",
+            "C": "Divided highway ends ahead; prepare for two-way traffic.",
+            "D": "Keep right of the median."
+        },
+        "answer": "C",
+        "explanation": "The symbol shows the median at the bottom, indicating that the divided highway you are on is ending. You will soon be on a road with two-way traffic.",
+        "id": 338
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/61.png",
+        "question": "What does this sign warn you about?",
+        "options": {
+            "A": "A roundabout ahead.",
+            "B": "A winding road ahead.",
+            "C": "U-turns are permitted.",
+            "D": "Keep moving in a circle."
+        },
+        "answer": "A",
+        "explanation": "This sign warns that you are approaching a roundabout. You must yield to traffic already in the roundabout.",
+        "id": 339
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/69.png",
+        "question": "What does this sign warn you about?",
+        "options": {
+            "A": "Steep hill ahead, check your brakes.",
+            "B": "Loose gravel on the road surface.",
+            "C": "Watch for dump trucks or construction vehicles entering or crossing the road.",
+            "D": "Fire station ahead."
+        },
+        "answer": "C",
+        "explanation": "This warning sign indicates that dump trucks or construction vehicles may be entering or crossing the roadway ahead.",
+        "id": 340
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/77.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Snow plows are operating ahead.",
+            "B": "You must use snow tires.",
+            "C": "You are approaching a snow shed structure covering the road.",
+            "D": "Severe snowstorms are expected in this area."
+        },
+        "answer": "C",
+        "explanation": "This sign indicates you are approaching a snow shed, which is a structure over the road designed to protect it from avalanches and heavy snow.",
+        "id": 341
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/113.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Detour ahead",
+            "B": "Construction ahead",
+            "C": "Road ends ahead",
+            "D": "Merge with traffic"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. The sign indicates construction ahead.",
+        "id": 342
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/122.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Speed limit to Kelowna is 53 km/h",
+            "B": "Distances in kilometres to the destinations listed",
+            "C": "Highway numbers for Kelowna and Penticton",
+            "D": "Exit numbers for Kelowna and Penticton"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. Guide signs indicate distances to destinations.",
+        "id": 343
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/128.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Hospital ahead",
+            "B": "Rest area ahead",
+            "C": "Accommodation or lodging ahead",
+            "D": "Camping site ahead"
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual. The bed symbol indicates accommodation.",
+        "id": 344
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/25.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Vehicles must go straight or turn right",
+            "B": "Vehicles must turn left or turn right",
+            "C": "Left turn only",
+            "D": "No left or right turns permitted"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. A green circle means permitted actions, left or right turn.",
+        "id": 345
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/312.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Proceed straight ahead only",
+            "B": "Protected left turn permitted",
+            "C": "Stop and yield to all traffic before turning left",
+            "D": "Left turn is not permitted"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. A green left arrow signal means you have a protected left turn.",
+        "id": 346
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/32.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Lane is reserved for buses and high-occupancy vehicles (3 or more people)",
+            "B": "Lane is reserved for transit buses only",
+            "C": "Carpool parking only",
+            "D": "Diamond lane ends ahead"
+        },
+        "answer": "A",
+        "explanation": "Source: Official ICBC manual. The diamond symbol indicates a reserved lane for specific vehicles.",
+        "id": 347
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/37.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Maximum speed limit is 30 km/h",
+            "B": "Sharp curve to the right, recommended speed is 30 km/h",
+            "C": "Winding road ahead, speed limit 30 km/h",
+            "D": "Right turn only at 30 km/h"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. Advisory speed sign for a sharp curve.",
+        "id": 348
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/54.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Passing lane ahead",
+            "B": "Divided highway ends",
+            "C": "Two-way traffic ahead",
+            "D": "Merge ahead"
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual. Warns of two-way traffic ahead.",
+        "id": 349
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/62.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Stop sign ahead",
+            "B": "Traffic control person ahead",
+            "C": "Traffic signals ahead",
+            "D": "Intersection ahead"
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual. Warns of traffic signals ahead.",
+        "id": 350
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/70.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Maximum speed limit is 40 km/h on the highway",
+            "B": "Exit ahead, recommended exit speed is 40 km/h",
+            "C": "Construction zone speed limit is 40 km/h",
+            "D": "Minimum speed on the highway is 40 km/h"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. Recommended safe speed for an exit.",
+        "id": 351
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/114.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "School zone ahead",
+            "B": "Construction zone ends",
+            "C": "Traffic control person ahead",
+            "D": "Pedestrian crosswalk ahead"
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual. This sign warns that a traffic control person is ahead.",
+        "id": 352
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/123.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Directions to destinations",
+            "B": "Distance to upcoming cities",
+            "C": "Scenic route ahead",
+            "D": "Highway exit information"
+        },
+        "answer": "A",
+        "explanation": "Source: Official ICBC manual. This is a destination sign that shows directions to various locations.",
+        "id": 353
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/129.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Provincial park boundary",
+            "B": "Visitor information ahead",
+            "C": "Scenic viewpoint ahead",
+            "D": "Campground ahead"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. Indicates that a visitor information centre is ahead.",
+        "id": 354
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/26.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "No right turn allowed at any time",
+            "B": "Right turn only from 5 PM to 7 PM",
+            "C": "Parking is prohibited between 5 PM and 7 PM",
+            "D": "No right turn between 5 PM and 7 PM on weekdays"
+        },
+        "answer": "D",
+        "explanation": "Source: Official ICBC manual. Prohibits right turns between 5 PM and 7 PM, from Monday to Friday.",
+        "id": 355
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/313.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "You must stop immediately in this lane",
+            "B": "Do not drive in this lane",
+            "C": "The lane is for turning traffic only",
+            "D": "Merge into this lane safely"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. A steady red X over a lane means you must not drive in that lane.",
+        "id": 356
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/321.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Stop and yield to all other traffic",
+            "B": "Treat it as a four-way stop",
+            "C": "Slow down and proceed with caution",
+            "D": "Speed up to clear the intersection quickly"
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual. A flashing yellow light means slow down and proceed with caution.",
+        "id": 357
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/38.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Curve to the left ahead",
+            "B": "Sharp turn to the left ahead",
+            "C": "One-way street ahead",
+            "D": "Merge from the left"
+        },
+        "answer": "A",
+        "explanation": "Source: Official ICBC manual. Warns that the road curves to the left ahead.",
+        "id": 358
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/55.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Bridge clearance is low",
+            "B": "Right lane ends ahead",
+            "C": "Two-way traffic begins",
+            "D": "Road narrows ahead"
+        },
+        "answer": "D",
+        "explanation": "Source: Official ICBC manual. Warns that the road narrows ahead.",
+        "id": 359
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/63.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Pedestrian crossing ahead; stop when lights are flashing",
+            "B": "Traffic signals ahead; prepare to stop when lights are flashing",
+            "C": "Railway crossing ahead; stop when lights are flashing",
+            "D": "School zone ahead; prepare to stop when lights are flashing"
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual. Indicates traffic signals are ahead; prepare to stop if the lights are flashing.",
+        "id": 360
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/71.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Gravel road ends ahead",
+            "B": "Steep hill ahead",
+            "C": "Paved surface ends ahead",
+            "D": "Rough road surface ahead"
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual. Warns that the paved road ends ahead and changes to a different surface.",
+        "id": 361
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/115.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Maximum speed limit for all roads is 50 km/h",
+            "B": "Construction zone speed limit is 50 km/h",
+            "C": "Survey crew ahead, prepare to stop",
+            "D": "Traffic fines double in work zones"
+        },
+        "answer": "B",
+        "explanation": "This sign indicates a construction zone with a maximum speed limit of 50 km/h.",
+        "id": 362
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/12311.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "The left lane ends ahead",
+            "B": "No left turn allowed",
+            "C": "This lane is for going straight or turning left",
+            "D": "One way traffic only"
+        },
+        "answer": "C",
+        "explanation": "This lane control sign indicates that vehicles in this lane may proceed straight through or turn left.",
+        "id": 363
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/130.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Crossroad ahead",
+            "B": "Hospital zone ahead",
+            "C": "Road narrows ahead",
+            "D": "Railway crossing ahead"
+        },
+        "answer": "D",
+        "explanation": "This warning sign indicates that there is a railway crossing ahead.",
+        "id": 364
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/27.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Parking is permitted for one hour between 9 a.m. and 5 p.m.",
+            "B": "Parking is not allowed between 9 a.m. and 5 p.m.",
+            "C": "Parking is allowed at all times",
+            "D": "Pay parking is in effect for one hour"
+        },
+        "answer": "A",
+        "explanation": "This regulatory sign permits parking for up to one hour between the hours of 9 a.m. and 5 p.m.",
+        "id": 365
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/314.png",
+        "question": "What does this lane control signal mean?",
+        "options": {
+            "A": "The lane is for high occupancy vehicles only",
+            "B": "You may drive in this lane",
+            "C": "You must exit this lane",
+            "D": "The lane is closed to traffic"
+        },
+        "answer": "B",
+        "explanation": "A steady green downward arrow over a lane means you are permitted to drive in that lane.",
+        "id": 366
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/322.png",
+        "question": "What does this traffic signal mean?",
+        "options": {
+            "A": "You must turn left",
+            "B": "You must yield to oncoming traffic",
+            "C": "You may proceed straight through the intersection",
+            "D": "The intersection is closed"
+        },
+        "answer": "C",
+        "explanation": "A green arrow pointing up means you may proceed straight through the intersection.",
+        "id": 367
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/39.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Lane ends on the right",
+            "B": "Side road on the right",
+            "C": "Right lane must exit",
+            "D": "Merging traffic from the right"
+        },
+        "answer": "D",
+        "explanation": "This sign warns that traffic is merging onto your road from the right.",
+        "id": 368
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/56.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Road narrows ahead",
+            "B": "Divided highway ends",
+            "C": "One-way bridge ahead",
+            "D": "Slippery when wet"
+        },
+        "answer": "A",
+        "explanation": "This warning sign indicates that the road narrows ahead.",
+        "id": 369
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/64.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "School crosswalk ahead",
+            "B": "Pedestrian crosswalk ahead",
+            "C": "Playground zone ahead",
+            "D": "Construction zone ahead"
+        },
+        "answer": "B",
+        "explanation": "This sign warns drivers that there is a pedestrian crosswalk ahead.",
+        "id": 370
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/72.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Two-way traffic ahead",
+            "B": "Sharp curve to the left or right",
+            "C": "Road ends, turn left or right",
+            "D": "Obstruction in road, pass on either side"
+        },
+        "answer": "C",
+        "explanation": "This sign is placed at a T-intersection where the road ends, indicating you must turn either left or right.",
+        "id": 371
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/116.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Traffic observer ahead, slow down.",
+            "B": "Survey crew ahead, maximum speed is 70 km/h.",
+            "C": "Maximum speed limit is 70 km/h on this highway.",
+            "D": "End of construction zone, resume speed of 70 km/h."
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual.",
+        "id": 372
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/1235.png",
+        "question": "What do these pavement markings indicate?",
+        "options": {
+            "A": "A designated lane for high-occupancy vehicles (HOV).",
+            "B": "A painted island indicating a hazard or obstruction; keep to the right and do not drive over it.",
+            "C": "A passing zone for vehicles traveling in the same direction.",
+            "D": "A designated stopping area for public transit buses."
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual.",
+        "id": 373
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/131.png",
+        "question": "What does this warning sign indicate?",
+        "options": {
+            "A": "T-intersection ahead.",
+            "B": "Railway crossing on the intersecting road ahead.",
+            "C": "Train station ahead.",
+            "D": "Hidden intersection ahead."
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual.",
+        "id": 374
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/28.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "No parking at any time in either direction.",
+            "B": "Do not stop in this area at any time.",
+            "C": "Parking is permitted during designated hours.",
+            "D": "No passing zone in either direction."
+        },
+        "answer": "A",
+        "explanation": "Source: Official ICBC manual.",
+        "id": 375
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/315.png",
+        "question": "What must you do when facing a solid red traffic light?",
+        "options": {
+            "A": "Slow down and proceed with caution if the intersection is clear.",
+            "B": "Stop and proceed straight when it is safe to do so.",
+            "C": "Come to a complete stop and wait for the light to turn green.",
+            "D": "Yield to crossing traffic and pedestrians, then proceed."
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual.",
+        "id": 376
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/323.png",
+        "question": "What does a flashing green left-turning arrow mean?",
+        "options": {
+            "A": "You may proceed straight through the intersection only.",
+            "B": "You may turn left, but you must yield to oncoming traffic.",
+            "C": "You have a protected left turn; oncoming traffic faces a red light.",
+            "D": "Left turns are not permitted at this time."
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual.",
+        "id": 377
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/51.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Divided highway begins ahead.",
+            "B": "Two-way traffic ahead.",
+            "C": "Right lane ends ahead.",
+            "D": "Added lane ahead."
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual.",
+        "id": 378
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/57.png",
+        "question": "What does this warning sign indicate?",
+        "options": {
+            "A": "Construction zone ahead.",
+            "B": "Speed bumps ahead.",
+            "C": "Uneven or bumpy road ahead.",
+            "D": "Winding road ahead."
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual.",
+        "id": 379
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/65.png",
+        "question": "What does this sign warn you about?",
+        "options": {
+            "A": "Pedestrians are not permitted.",
+            "B": "Playground zone ahead.",
+            "C": "School crosswalk ahead.",
+            "D": "Intersection ahead."
+        },
+        "answer": "C",
+        "explanation": "Source: Official ICBC manual.",
+        "id": 380
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/73.png",
+        "question": "What does this sign warn you about?",
+        "options": {
+            "A": "Zoo or animal park ahead.",
+            "B": "Watch for deer or wildlife crossing the road.",
+            "C": "Hunting area ahead.",
+            "D": "Equestrian crossing ahead."
+        },
+        "answer": "B",
+        "explanation": "Source: Official ICBC manual.",
+        "id": 381
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/117.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "End of construction zone, resume normal speed",
+            "B": "Increase your speed immediately",
+            "C": "Speed limit is lifted, drive at any speed",
+            "D": "End of school zone"
+        },
+        "answer": "A",
+        "explanation": "This sign indicates the end of a construction or work zone and that you may resume the regular posted speed limit.",
+        "id": 382
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/124.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Provincial highway marker",
+            "B": "Trans-Canada Highway route marker",
+            "C": "Rest area ahead",
+            "D": "National park boundary"
+        },
+        "answer": "B",
+        "explanation": "This is a Trans-Canada Highway route marker.",
+        "id": 383
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/132.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Railway crossing, slow down",
+            "B": "Railway crossing, stop only if a train is visible",
+            "C": "Railway crossing with flashing lights; stop and wait until the lights stop flashing",
+            "D": "Road closed ahead"
+        },
+        "answer": "C",
+        "explanation": "A railway crossing sign with flashing red lights means you must stop. Proceed only when the lights stop flashing and it is safe.",
+        "id": 384
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/29.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "No stopping between 9 AM and 5 PM",
+            "B": "No parking between 9 AM and 5 PM",
+            "C": "Parking is allowed only between 9 AM and 5 PM",
+            "D": "Tow-away zone between 9 AM and 5 PM"
+        },
+        "answer": "B",
+        "explanation": "This sign indicates that parking is prohibited between the hours of 9 AM and 5 PM.",
+        "id": 385
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/316.png",
+        "question": "What does this traffic light mean?",
+        "options": {
+            "A": "Stop and wait for a green arrow",
+            "B": "Yield to oncoming traffic",
+            "C": "Proceed if the intersection is clear",
+            "D": "Pedestrians have the right of way"
+        },
+        "answer": "C",
+        "explanation": "A solid green light means you may proceed if the intersection is clear of traffic and pedestrians.",
+        "id": 386
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/324.png",
+        "question": "What does this traffic light mean?",
+        "options": {
+            "A": "You may turn left only after yielding to oncoming traffic",
+            "B": "Left turn is prohibited",
+            "C": "You may proceed straight through the intersection",
+            "D": "You may turn left, and opposing traffic faces a red light"
+        },
+        "answer": "D",
+        "explanation": "A flashing green arrow with a solid red light means you may turn left, and oncoming traffic has a red light.",
+        "id": 387
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/511.png",
+        "question": "What does this white vertical bar signal mean?",
+        "options": {
+            "A": "Go straight only",
+            "B": "Transit vehicles may proceed",
+            "C": "Stop line for bicycles",
+            "D": "Pedestrian crossing ahead"
+        },
+        "answer": "B",
+        "explanation": "A white vertical bar on a black background is a transit signal that allows public transit vehicles to proceed.",
+        "id": 388
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/58.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Winding road ahead",
+            "B": "Slippery when wet",
+            "C": "Steep hill ahead",
+            "D": "Uneven road surface"
+        },
+        "answer": "B",
+        "explanation": "This warning sign indicates that the road surface ahead is slippery when wet.",
+        "id": 389
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/66.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "School zone ahead",
+            "B": "Pedestrian crosswalk ahead",
+            "C": "Watch for school bus stopping ahead",
+            "D": "Children playing"
+        },
+        "answer": "C",
+        "explanation": "This warning sign tells drivers to be prepared for a school bus that may be stopped ahead.",
+        "id": 390
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/74.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Bridge clearance is low",
+            "B": "Opening bridge ahead",
+            "C": "Ferry terminal ahead",
+            "D": "Bridge surface may be slippery"
+        },
+        "answer": "B",
+        "explanation": "This sign warns that there is an opening bridge ahead. Be prepared to stop if the bridge is open.",
+        "id": 391
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/118.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Construction zone ends in 196 metres",
+            "B": "Minimum $196 fine for speeding in a work zone",
+            "C": "Speed limit is 196 km/h in work zones",
+            "D": "Work zone ahead, speed limit is 196 km/h"
+        },
+        "answer": "B",
+        "explanation": "This sign warns drivers that the minimum fine for speeding in a work zone is $196.",
+        "id": 392
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/125.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Maximum vehicle weight is 99 tonnes",
+            "B": "Speed limit is 99 km/h",
+            "C": "Highway 99 route marker",
+            "D": "Exit 99 ahead"
+        },
+        "answer": "C",
+        "explanation": "This is a primary highway route marker for Highway 99 in British Columbia.",
+        "id": 393
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/133.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Railway crossing with 3 tracks ahead, prepare to stop if flashing",
+            "B": "Train station ahead with 3 platforms",
+            "C": "Only 3 vehicles allowed to cross the tracks at a time",
+            "D": "Railway crossing closed"
+        },
+        "answer": "A",
+        "explanation": "This sign indicates a railway crossing with 3 tracks. Flashing red lights and a gate mean you must stop and wait for the train to pass.",
+        "id": 394
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/30.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Parking is allowed for everyone",
+            "B": "No parking allowed at any time",
+            "C": "Wheelchair ramp ahead",
+            "D": "No parking, except for vehicles displaying a valid disabled parking permit"
+        },
+        "answer": "D",
+        "explanation": "The top symbol means no parking, and the bottom symbol indicates an exception for vehicles displaying a valid disabled parking permit.",
+        "id": 395
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/317.png",
+        "question": "What does a solid yellow traffic light mean?",
+        "options": {
+            "A": "Proceed with caution, the light is broken",
+            "B": "Stop immediately, the light is red",
+            "C": "The signal is about to turn red; prepare to stop if you can do so safely",
+            "D": "You have the right-of-way"
+        },
+        "answer": "C",
+        "explanation": "A solid yellow light means the signal is about to turn red. You must stop before the intersection if you can do so safely.",
+        "id": 396
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/33.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Reserved lane begins ahead, you must change lanes if not permitted",
+            "B": "Left lane ends ahead, merge right into the reserved lane",
+            "C": "Right lane ends ahead, merge left",
+            "D": "Merge left into the regular lane"
+        },
+        "answer": "B",
+        "explanation": "This sign warns that the left lane ends and traffic must merge into the right lane, which features a reserved lane symbol.",
+        "id": 397
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/512.png",
+        "question": "What does a solid green light with a solid yellow left arrow mean?",
+        "options": {
+            "A": "You must turn left immediately",
+            "B": "The protected left turn is ending; prepare to stop or yield to oncoming traffic",
+            "C": "Left turn is prohibited",
+            "D": "Oncoming traffic must stop"
+        },
+        "answer": "B",
+        "explanation": "A solid yellow left-turn arrow indicates that the protected left turn phase is ending. You must prepare to stop, or yield to oncoming traffic if making a left turn once the arrow turns off.",
+        "id": 398
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/59.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Truck route ahead",
+            "B": "Runaway truck ramp ahead",
+            "C": "Steep hill or downgrade ahead",
+            "D": "Watch for slow-moving trucks"
+        },
+        "answer": "C",
+        "explanation": "This sign warns drivers of a steep hill or downgrade ahead. Drivers, especially of large vehicles, should be prepared to use a lower gear.",
+        "id": 399
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/67.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Bicycles are not allowed on this road",
+            "B": "Bicycle parking ahead",
+            "C": "Cyclists share the road with motor vehicles",
+            "D": "Bike lane ends"
+        },
+        "answer": "C",
+        "explanation": "This sign warns drivers that cyclists and motor vehicles share the road. Drivers should watch for cyclists and maintain a safe passing distance.",
+        "id": 400
+    },
+    {
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "image": "images/signs/75.png",
+        "question": "What does this sign mean?",
+        "options": {
+            "A": "Gravel road ahead",
+            "B": "Rock quarry ahead",
+            "C": "Falling rocks or rock fall hazard ahead",
+            "D": "Uneven pavement ahead"
+        },
+        "answer": "C",
+        "explanation": "This sign warns drivers of a potential rock fall hazard. Be alert for fallen rocks on the roadway.",
+        "id": 401
     }
 ];

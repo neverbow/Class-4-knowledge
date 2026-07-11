@@ -5726,7 +5726,7 @@ window.QUESTION_BANK = [
             "class4-rest",
             "class4-unrest"
         ],
-        "image": "images/signs/111.png",
+        "image": "images/signs/111_old.png",
         "question": "What does this sign mean?",
         "options": {
             "A": "Two-way traffic ahead",
@@ -5762,7 +5762,7 @@ window.QUESTION_BANK = [
             "class4-rest",
             "class4-unrest"
         ],
-        "image": "images/signs/121.png",
+        "image": "images/signs/121_old.png",
         "question": "What does this sign indicate?",
         "options": {
             "A": "School crosswalk ahead",
@@ -5996,7 +5996,7 @@ window.QUESTION_BANK = [
             "class4-rest",
             "class4-unrest"
         ],
-        "image": "images/signs/33.png",
+        "image": "images/signs/33_old.png",
         "question": "What does this sign mean?",
         "options": {
             "A": "Left turn only",
@@ -6176,7 +6176,7 @@ window.QUESTION_BANK = [
             "class4-rest",
             "class4-unrest"
         ],
-        "image": "images/signs/77.png",
+        "image": "images/signs/77_old.png",
         "question": "What does this sign indicate?",
         "options": {
             "A": "Right lane ends, merge left",
@@ -6284,7 +6284,7 @@ window.QUESTION_BANK = [
             "class4-rest",
             "class4-unrest"
         ],
-        "image": "images/signs/55.png",
+        "image": "images/signs/55_old.png",
         "question": "What does this sign mean?",
         "options": {
             "A": "Evacuation route for all vehicles during an emergency",

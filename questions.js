@@ -7789,5 +7789,56 @@ window.QUESTION_BANK = [
         "answer": "C",
         "explanation": "This sign warns drivers of a potential rock fall hazard. Be alert for fallen rocks on the roadway.",
         "id": 401
+    },
+    {
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How far away must you park from the nearest rail of a railway crossing?",
+        "options": {
+            "A": "At least 5 metres",
+            "B": "At least 10 metres",
+            "C": "At least 15 metres",
+            "D": "At least 30 metres"
+        },
+        "answer": "C",
+        "explanation": "According to BC driving rules, you must not park within 15 metres of the nearest rail of a railway crossing.",
+        "id": 402
+    },
+    {
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When you are preparing to pull out from a parallel parking spot into traffic, what is the correct procedure?",
+        "options": {
+            "A": "Signal and pull out quickly before traffic arrives",
+            "B": "Check your mirrors, shoulder check your blind spot, signal, and yield to all traffic",
+            "C": "Honk your horn to warn drivers, then pull out safely",
+            "D": "Wait until the street is completely empty for one full block"
+        },
+        "answer": "B",
+        "explanation": "When pulling out of a parked position, you must check your mirrors, do a shoulder check, signal your intention, and you must yield the right-of-way to all vehicles already on the roadway.",
+        "id": 403
+    },
+    {
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When driving past parked vehicles on the side of the road, you should be alert for:",
+        "options": {
+            "A": "Exhaust smoke or reverse lights coming from the parked cars",
+            "B": "Front wheels of a parked car turning toward the road",
+            "C": "A person suddenly opening a vehicle door",
+            "D": "All of the above"
+        },
+        "answer": "D",
+        "explanation": "When passing parked cars, you must scan for clues that a vehicle might pull out (exhaust smoke, lights, wheels turning) or that a door might suddenly open.",
+        "id": 404
     }
 ];

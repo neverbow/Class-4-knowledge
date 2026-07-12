@@ -7832,13 +7832,13 @@ window.QUESTION_BANK = [
         ],
         "question": "When driving past parked vehicles on the side of the road, you should be alert for:",
         "options": {
-            "A": "Exhaust smoke or reverse lights coming from the parked cars",
-            "B": "Front wheels of a parked car turning toward the road",
-            "C": "A person suddenly opening a vehicle door",
+            "A": "Exhaust smoke or brake lights coming from the parked cars",
+            "B": "Front wheels of a parked car turned OUT toward the street",
+            "C": "Turn signals flashing or a person sitting in the driver seat",
             "D": "All of the above"
         },
         "answer": "D",
-        "explanation": "When passing parked cars, you must scan for clues that a vehicle might pull out (exhaust smoke, lights, wheels turning) or that a door might suddenly open.",
+        "explanation": "When passing parked cars, you must scan for clues that a vehicle might pull out. Key clues include: exhaust smoke, brake/tail lights, a person in the driver seat, turn signals, and the front wheels turned OUT (toward the street).",
         "id": 404
     }
 ];

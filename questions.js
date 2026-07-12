@@ -5691,12 +5691,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/1.png",
-        "question": "What does a green circle on a sign indicate?",
+        "question": "While operating a commercial vehicle, you encounter a regulatory sign displaying a prominent green circle. What is the legal implication of this symbol?",
         "options": {
-            "A": "You must stop immediately",
-            "B": "The action inside the circle is permitted",
-            "C": "The action inside the circle is prohibited",
-            "D": "Warning of a hazard ahead"
+            "A": "You are required to yield right-of-way before proceeding with caution.",
+            "B": "The specific action depicted within the circle is explicitly permitted.",
+            "C": "The action depicted within the circle is strictly prohibited under the Motor Vehicle Act.",
+            "D": "You are approaching a hazardous zone and must reduce your speed accordingly."
         },
         "answer": "B",
         "explanation": "A green circle on a regulatory sign means that the action or activity shown inside is permitted or required.",
@@ -5709,12 +5709,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/11.png",
-        "question": "What does this sign mean?",
+        "question": "While operating a commercial vehicle, you approach an intersection and observe this regulatory sign ahead. What is the required action?",
         "options": {
-            "A": "Yield to oncoming traffic",
-            "B": "Do not enter",
-            "C": "Dead end street ahead",
-            "D": "Stop sign ahead"
+            "A": "Yield the right-of-way to all oncoming traffic before proceeding.",
+            "B": "You must not drive your vehicle into the street or roadway marked by this sign.",
+            "C": "Proceed with caution as the roadway terminates in a cul-de-sac.",
+            "D": "Come to a complete stop and proceed only when the intersection is clear."
         },
         "answer": "B",
         "explanation": "This sign indicates 'Do not enter'. You must not drive your vehicle into a street or roadway marked with this sign.",
@@ -5727,12 +5727,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/111_old.png",
-        "question": "What does this sign mean?",
+        "question": "While operating a commercial vehicle, you approach a traffic island displaying this regulatory sign. What is your legal obligation?",
         "options": {
-            "A": "Two-way traffic ahead",
-            "B": "Keep right of the obstruction",
-            "C": "Lane ends, merge left",
-            "D": "Divided highway ends"
+            "A": "Yield to oncoming traffic as the divided highway transitions into a two-way traffic zone.",
+            "B": "Maneuver your vehicle to the right side of the approaching physical obstruction or median.",
+            "C": "Execute a lane change to the left as the current lane terminates ahead.",
+            "D": "Reduce speed and prepare for the conclusion of the divided highway section."
         },
         "answer": "B",
         "explanation": "This sign tells drivers to keep to the right of an obstruction, such as a traffic island or median.",
@@ -5745,12 +5745,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/12.png",
-        "question": "What does this sign mean?",
+        "question": "While operating a commercial passenger vehicle, you observe this flashing light system ahead. What is your primary obligation?",
         "options": {
-            "A": "School zone ahead",
-            "B": "Pedestrian activated crosswalk",
-            "C": "No pedestrians allowed",
-            "D": "Playground zone"
+            "A": "Prepare to yield only during designated school zone hours.",
+            "B": "Anticipate a pedestrian-activated crosswalk and be prepared to yield the right-of-way if pedestrians are approaching or occupying the crosswalk.",
+            "C": "Maintain your speed as pedestrians are restricted from crossing at this intersection.",
+            "D": "Reduce your speed to 30 km/h immediately, as you are entering an active playground zone."
         },
         "answer": "B",
         "explanation": "This sign indicates a pedestrian activated crosswalk. Drivers must be prepared to stop if the lights are flashing or if pedestrians are entering the crosswalk.",
@@ -5763,12 +5763,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/121_old.png",
-        "question": "What does this sign indicate?",
+        "question": "As a commercial vehicle operator approaching this regulatory sign, what is your legal obligation?",
         "options": {
-            "A": "School crosswalk ahead",
-            "B": "Pedestrian crossing",
-            "C": "Hitchhiking permitted",
-            "D": "Hiking trail crossing"
+            "A": "Prepare to stop as you are approaching a designated school crosswalk zone.",
+            "B": "Recognize an upcoming pedestrian crossing and be prepared to yield the right-of-way.",
+            "C": "Reduce speed as pedestrian hitchhiking activities are strictly permitted in this zone.",
+            "D": "Maintain current speed while monitoring for a designated wilderness hiking trail crossing."
         },
         "answer": "B",
         "explanation": "This sign indicates a pedestrian crossing. Drivers must yield to pedestrians who are using the crosswalk.",
@@ -5781,12 +5781,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/1b.png",
-        "question": "What does this sign indicate?",
+        "question": "While operating a commercial vehicle, you approach an intersection and observe this regulatory lane use sign above your lane. What maneuver is legally mandated?",
         "options": {
-            "A": "One-way street",
-            "B": "Vehicles in this lane must go straight through",
-            "C": "Merge ahead",
-            "D": "No turns permitted at any time"
+            "A": "You are entering a designated one-way commercial route and must yield.",
+            "B": "Operators within this lane must proceed straight through the intersection without deviating.",
+            "C": "You must prepare to merge into the adjacent lane before reaching the intersection.",
+            "D": "All turning movements are strictly prohibited at any intersection within this zone."
         },
         "answer": "B",
         "explanation": "A white arrow on a black background is a lane use sign indicating the permitted movement. This sign means vehicles in the lane must proceed straight through.",
@@ -5799,12 +5799,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/2.png",
-        "question": "What does a red circle with a diagonal slash indicate?",
+        "question": "While operating a commercial vehicle, you encounter a sign featuring a red circle with a diagonal slash. What is the legal implication of this sign?",
         "options": {
-            "A": "The action is permitted conditionally",
-            "B": "The action shown inside is prohibited",
-            "C": "Yield the right-of-way",
-            "D": "Stop before proceeding"
+            "A": "The depicted action is conditionally permitted during off-peak hours.",
+            "B": "The specific action depicted within the circle is strictly prohibited.",
+            "C": "You must yield the right-of-way to vehicles performing the depicted action.",
+            "D": "You are required to come to a complete stop before performing the depicted action."
         },
         "answer": "B",
         "explanation": "A red circle with a slash through it is a regulatory sign that means the action shown inside the circle is not allowed.",
@@ -5817,12 +5817,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/777.png",
-        "question": "What does this sign mean?",
+        "question": "While operating a commercial vehicle on a two-lane highway, you encounter this regulatory sign. What is your legal obligation?",
         "options": {
-            "A": "Slow vehicles must maintain a minimum speed of 5 km/h",
-            "B": "Slow-moving vehicles delaying 5 or more vehicles must use a pullout",
-            "C": "Maximum of 5 vehicles are allowed in the pullout",
-            "D": "Slow vehicles must pull over every 5 kilometres"
+            "A": "Maintain a minimum operating speed of 5 km/h unless approaching a designated pullout area.",
+            "B": "If operating a slow-moving vehicle and delaying a platoon of 5 or more trailing vehicles, you must exit the roadway at the next designated pullout.",
+            "C": "Ensure that no more than 5 commercial vehicles occupy the upcoming pullout simultaneously.",
+            "D": "Pull over to the shoulder at 5-kilometre intervals to allow trailing traffic to proceed safely."
         },
         "answer": "B",
         "explanation": "Drivers of slow-moving vehicles that are delaying 5 or more vehicles must use a pullout to let them pass.",
@@ -5835,12 +5835,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/7a.png",
-        "question": "When does the 30 km/h speed limit apply for this school zone sign?",
+        "question": "While operating a commercial vehicle, you approach a school zone marked with this sign. Under which of the following conditions must you restrict your maximum speed to 30 km/h?",
         "options": {
-            "A": "Every day from dawn to dusk",
-            "B": "Between 8 AM and 5 PM on school days",
-            "C": "At all times on school days",
-            "D": "Only when children are visible"
+            "A": "On any calendar day from sunrise to sunset, provided children are present on the roadway.",
+            "B": "Exclusively between 8:00 a.m. and 5:00 p.m. on days when school is regularly in session.",
+            "C": "At all times on designated school days, regardless of the time of day.",
+            "D": "Only during instructional hours when children are actively occupying the crosswalk or adjacent shoulder."
         },
         "answer": "B",
         "explanation": "A school zone sign with a 30 km/h tab means the speed limit is 30 km/h between 8 AM and 5 PM on school days.",
@@ -5853,12 +5853,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/88.png",
-        "question": "What does this sign mean?",
+        "question": "While operating a commercial vehicle on a two-lane highway, you observe this regulatory sign. What driving action is strictly prohibited?",
         "options": {
-            "A": "Yield to oncoming traffic",
-            "B": "Do not enter",
-            "C": "Do not pass",
-            "D": "No parking allowed"
+            "A": "Failing to yield the right-of-way to oncoming commercial traffic.",
+            "B": "Entering the roadway ahead under any circumstances.",
+            "C": "Overtaking and passing another vehicle travelling in the same direction.",
+            "D": "Stopping or parking the vehicle on the shoulder."
         },
         "answer": "C",
         "explanation": "The red circle with a slash indicates an action is not permitted. Over two cars, it means do not pass.",
@@ -5871,12 +5871,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/8a.png",
-        "question": "When does the 30 km/h speed limit apply for this sign?",
+        "question": "You are driving a passenger van through a school zone and observe this speed limit sign. Under what specific conditions are you legally bound to restrict your speed to 30 km/h?",
         "options": {
-            "A": "Every day from dawn to dusk",
-            "B": "Between 8 AM and 5 PM on school days",
-            "C": "At all times on school days",
-            "D": "When children are on the road"
+            "A": "Continuously from dawn until dusk on all weekdays, excluding statutory holidays.",
+            "B": "Exclusively between the hours of 8:00 AM and 5:00 PM on official school days.",
+            "C": "At all times during any school day, regardless of the presence of children.",
+            "D": "Only when school children are physically present on or near the roadway."
         },
         "answer": "B",
         "explanation": "The sign explicitly states that the 30 km/h speed limit applies between 8 AM and 5 PM on school days.",
@@ -5889,12 +5889,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/99.png",
-        "question": "What does this sign mean?",
+        "question": "As you travel along a highway, you encounter this warning sign. What does it indicate regarding the road conditions ahead?",
         "options": {
-            "A": "Divided highway ends",
-            "B": "Two-way traffic ahead",
-            "C": "Passing is permitted in both directions",
-            "D": "Keep right of the median"
+            "A": "The divided highway is ending and converging into a single lane.",
+            "B": "You are approaching a roadway with two-way traffic; prepare to share the road with oncoming vehicles.",
+            "C": "The roadway is expanding, and overtaking slower vehicles is permitted in both directions.",
+            "D": "You must keep your vehicle to the right of the center traffic island or median."
         },
         "answer": "B",
         "explanation": "Two arrows pointing in opposite directions indicate two-way traffic ahead.",
@@ -5907,12 +5907,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/PdfImage.png",
-        "question": "What does this sign instruct drivers to do?",
+        "question": "When encountering this regulatory sign on a steep grade, how must operators of slow-moving vehicles respond to trailing traffic?",
         "options": {
-            "A": "Slow vehicles must use pullouts to let others pass",
-            "B": "Slow vehicles must park in pullouts",
-            "C": "Passing is permitted using pullouts",
-            "D": "Faster vehicles must use pullouts to pass slow traffic"
+            "A": "Mandatorily utilize designated pullouts to yield the right-of-way to faster-moving overtaking vehicles.",
+            "B": "Come to a complete stop within designated pullouts to perform mandatory commercial brake inspections.",
+            "C": "Permit following vehicles to execute passing maneuvers by utilizing the oncoming traffic lane when safe.",
+            "D": "Maintain the current lane position and speed, as faster vehicles are required to use pullouts to pass."
         },
         "answer": "A",
         "explanation": "This sign directs slow-moving traffic that is delaying other vehicles to use pullouts to allow them to pass.",
@@ -5925,12 +5925,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/aa.png",
-        "question": "What does this lane control sign mean?",
+        "question": "While navigating a multi-lane intersection in a Class 4 vehicle, you observe this overhead lane control sign. What action is legally required?",
         "options": {
-            "A": "One-way traffic to the left",
-            "B": "This lane must turn left",
-            "C": "Left turn permitted but not required",
-            "D": "Sharp curve to the left ahead"
+            "A": "Proceed cautiously, as the roadway transitions to a one-way street positioned to the left.",
+            "B": "You must execute a left turn from the current lane; proceeding straight through the intersection is prohibited.",
+            "C": "You are permitted to execute a left turn if safe, but proceeding straight is also a legal maneuver.",
+            "D": "Reduce speed significantly to navigate an impending sharp curve to the left."
         },
         "answer": "B",
         "explanation": "A white arrow on a black background is a lane control sign. A left-curving arrow means the lane must turn left.",
@@ -5943,12 +5943,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/22.png",
-        "question": "What does this sign mean?",
+        "question": "While navigating a complex highway interchange in your commercial vehicle, you observe this sign. What critical error does it indicate?",
         "options": {
-            "A": "Road closed ahead",
-            "B": "You are driving in the wrong direction",
-            "C": "Do not pass",
-            "D": "Two-way traffic ahead"
+            "A": "The roadway ahead is temporarily closed due to construction or maintenance.",
+            "B": "You are currently proceeding in the wrong direction on a one-way thoroughfare or ramp.",
+            "C": "You are entering a high-risk zone where overtaking other vehicles is strictly prohibited.",
+            "D": "The divided highway is ending, transitioning into a two-way traffic zone."
         },
         "answer": "B",
         "explanation": "This sign indicates that you are driving in the wrong direction on a one-way street or highway ramp.",
@@ -5961,12 +5961,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/222.png",
-        "question": "What does this sign mean?",
+        "question": "As a professional driver, you encounter this regulatory sign posted along a congested roadway. How must you comply with its restriction?",
         "options": {
-            "A": "Do not park here",
-            "B": "Stop sign ahead",
-            "C": "Do not stop in the area between the signs",
-            "D": "Yield to oncoming traffic"
+            "A": "You may halt momentarily to discharge passengers but parking is strictly prohibited.",
+            "B": "You must prepare for a mandatory stop at a controlled intersection ahead.",
+            "C": "You are prohibited from halting your vehicle for any reason within the zone designated by the arrows.",
+            "D": "You must yield the right-of-way to all oncoming commercial traffic before proceeding."
         },
         "answer": "C",
         "explanation": "The red circle and slash over a black octagon means 'do not stop'. The arrows indicate the area where the restriction applies.",
@@ -5979,12 +5979,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/3.png",
-        "question": "What does a sign with this shape and color indicate?",
+        "question": "As you navigate a commercial route, you observe a yellow, diamond-shaped sign. What category of information does this sign convey to a driver?",
         "options": {
-            "A": "Warning of a hazard ahead",
-            "B": "Regulatory rule",
-            "C": "Information or guidance",
-            "D": "Construction zone"
+            "A": "It provides a warning of a potential hazard or unusual road condition ahead.",
+            "B": "It indicates a mandatory regulatory rule that must be immediately obeyed.",
+            "C": "It offers informational guidance regarding upcoming commercial vehicle facilities.",
+            "D": "It signifies a designated construction zone requiring reduced speeds."
         },
         "answer": "A",
         "explanation": "A yellow diamond-shaped sign is a warning sign, cautioning drivers of a hazard or unusual condition ahead.",
@@ -5997,12 +5997,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/33_old.png",
-        "question": "What does this sign mean?",
+        "question": "As you approach an intersection in your commercial vehicle, you observe this regulatory sign. What does it dictate regarding traffic flow?",
         "options": {
-            "A": "Left turn only",
-            "B": "Detour to the left",
-            "C": "No left turn",
-            "D": "One-way traffic in the direction of the arrow"
+            "A": "All traffic in the current lane must execute a mandatory left turn at the intersection.",
+            "B": "A temporary detour mandates that all vehicles must divert to the left.",
+            "C": "Left turns are strictly prohibited at this intersection during posted hours.",
+            "D": "Traffic on the intersecting roadway is restricted to flowing solely in the direction indicated by the arrow."
         },
         "answer": "D",
         "explanation": "This sign indicates that traffic is permitted to travel only in the direction indicated by the arrow.",
@@ -6015,12 +6015,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/333.png",
-        "question": "What does this sign mean?",
+        "question": "While navigating an urban route in a commercial vehicle, you encounter this regulatory sign. What restriction does it enforce upon your operation?",
         "options": {
-            "A": "Do not stop between the posted times and days",
-            "B": "Do not park between the posted times",
-            "C": "Stopping is only allowed during the posted times",
-            "D": "School zone speed limit in effect during the posted times"
+            "A": "It strictly prohibits the halting of the vehicle within the designated zone during the explicitly specified hours and days.",
+            "B": "It permits momentary stopping for loading and unloading passengers, but prohibits long-term parking during the indicated hours.",
+            "C": "It authorizes stopping exclusively within the posted timeframe, subject to municipal bylaws.",
+            "D": "It designates a commercial loading zone that is active only during the explicitly stated hours."
         },
         "answer": "A",
         "explanation": "This sign prohibits stopping in the area indicated by the arrows during the specific times and days listed.",
@@ -6033,12 +6033,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/3a.png",
-        "question": "What does this sign mean?",
+        "question": "As you approach an intersection in your Class 4 vehicle, you encounter this fluorescent yellow-green pentagon sign. What hazard does this sign warn you of?",
         "options": {
-            "A": "Playground zone",
-            "B": "School zone or school crosswalk",
-            "C": "Pedestrian crosswalk",
-            "D": "Pedestrians not permitted"
+            "A": "An active playground zone requiring a speed reduction to 30 km/h from dawn to dusk.",
+            "B": "An upcoming school zone or school crosswalk where extreme caution and speed reduction may be required.",
+            "C": "A standard pedestrian crosswalk where you must yield to crossing pedestrians.",
+            "D": "A designated safe route for school children where commercial vehicles are prohibited."
         },
         "answer": "B",
         "explanation": "A pentagon-shaped sign with two figures indicates a school zone or a school crosswalk ahead.",
@@ -6051,12 +6051,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/3b.png",
-        "question": "What does this sign mean?",
+        "question": "As you approach a multi-lane intersection in a heavy commercial vehicle, you notice this lane use sign positioned overhead. What maneuver are you legally required to perform if you remain in this lane?",
         "options": {
-            "A": "Left turn only",
-            "B": "No left turn allowed",
-            "C": "Vehicles in this lane must go straight or turn left",
-            "D": "Merge left ahead"
+            "A": "You must execute a left turn and yield to oncoming traffic.",
+            "B": "You are prohibited from turning left and must proceed straight through the intersection.",
+            "C": "You must either proceed straight through the intersection or execute a left turn.",
+            "D": "You must merge into the adjacent left lane before the intersection."
         },
         "answer": "C",
         "explanation": "This is a lane use sign indicating that vehicles in the lane must either proceed straight or turn left.",
@@ -6069,12 +6069,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/5a.png",
-        "question": "What does this sign mean?",
+        "question": "You are driving a commercial passenger vehicle when you see this sign. What are the specific speed restrictions you must obey?",
         "options": {
-            "A": "School zone, 30 km/h limit during school hours",
-            "B": "Playground nearby, drive with caution",
-            "C": "Playground zone, speed limit is 30 km/h every day from dawn to dusk",
-            "D": "Pedestrian crossing ahead, maximum speed 30 km/h"
+            "A": "Reduce your speed to a maximum of 30 km/h only on school days between 8:00 a.m. and 5:00 p.m.",
+            "B": "Exercise extreme caution and yield to children playing near the roadway, but maintain the posted municipal speed limit.",
+            "C": "You must restrict your speed to a maximum of 30 km/h every day from dawn until dusk.",
+            "D": "Prepare to stop for pedestrians; the maximum speed is 30 km/h when pedestrians are visibly present."
         },
         "answer": "C",
         "explanation": "The sign shows a person running with a ball, indicating a playground zone. The 30 km/h tab means the speed limit is 30 km/h every day from dawn to dusk.",
@@ -6087,12 +6087,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/5b.png",
-        "question": "What does this sign mean?",
+        "question": "You observe this sign mounted above a central lane in an urban environment. What does it dictate regarding lane usage?",
         "options": {
-            "A": "Vehicles in both lanes must turn left",
-            "B": "Two-way left-turn lane",
-            "C": "U-turn permitted from this lane",
-            "D": "Left lane ends, merge right"
+            "A": "The lane is designated as a dual-turning lane where traffic from adjacent lanes must simultaneously execute left turns.",
+            "B": "The lane is a shared facility intended exclusively for vehicles traveling in either direction to execute left turns.",
+            "C": "The lane provides authorization for commercial vehicles to execute U-turns to reverse their direction of travel.",
+            "D": "The designated left lane is concluding, requiring operators to execute a mandatory merge to the adjacent right lane."
         },
         "answer": "B",
         "explanation": "This sign indicates a center lane that is shared by traffic from both directions for making left turns.",
@@ -6105,12 +6105,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/6.png",
-        "question": "What does a sign with a green background usually indicate?",
+        "question": "During a pre-trip planning session, you note several signs with a green background along your route. According to the Motor Vehicle Act regulations, what is the primary function of these signs?",
         "options": {
-            "A": "A regulatory sign (e.g., speed limits)",
-            "B": "A warning sign for upcoming hazards",
-            "C": "Construction or maintenance ahead",
-            "D": "A guide sign showing distance and direction"
+            "A": "To enforce regulatory speed limits specific to commercial vehicles operating on highways.",
+            "B": "To provide advance warning of upcoming roadway hazards or sharp curvature.",
+            "C": "To demarcate active construction zones and indicate mandatory detours.",
+            "D": "To serve as guide signs, conveying essential directional information and distances to various destinations."
         },
         "answer": "D",
         "explanation": "Signs with a green background are guide signs that show direction and distance to destinations.",
@@ -6123,12 +6123,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/666.png",
-        "question": "What does this sign indicate?",
+        "question": "You are positioned at an intersection displaying a red traffic signal alongside this specific sign. Which maneuver is legally required?",
         "options": {
-            "A": "Right turn permitted on a red light after a full stop",
-            "B": "No right turn on a red light",
-            "C": "No right turn at any time",
-            "D": "Traffic light ahead is red"
+            "A": "You may execute a right turn only after coming to a complete stop and yielding to all traffic.",
+            "B": "You must refrain from executing a right turn for the entire duration the traffic signal remains red.",
+            "C": "You are strictly prohibited from executing a right turn at this intersection at any time.",
+            "D": "You must prepare to stop, as it serves as an advanced warning of a red traffic signal ahead."
         },
         "answer": "B",
         "explanation": "The sign features a red circle with a slash over a right-turning arrow and a red traffic light, meaning you must not turn right when the traffic light is red.",
@@ -6141,12 +6141,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/6a.png",
-        "question": "What does this sign mean?",
+        "question": "While navigating a designated school zone in your commercial vehicle, you observe this specific sign configuration. What are your legal obligations regarding speed?",
         "options": {
-            "A": "School zone, maximum speed is 50 km/h when children are on the highway",
-            "B": "School zone, maximum speed is 30 km/h during school hours",
-            "C": "Playground zone, 50 km/h limit every day",
-            "D": "Pedestrian crossing ahead, reduce speed to 50 km/h"
+            "A": "You must restrict your speed to a maximum of 50 km/h strictly when children are present on the roadway or its shoulders.",
+            "B": "A mandatory speed limit of 30 km/h is enforced exclusively during active school hours on regular school days.",
+            "C": "A universal speed limit of 50 km/h applies every day from dawn until dusk, regardless of pedestrian presence.",
+            "D": "You must reduce your speed to 50 km/h and prepare to yield at an upcoming marked crosswalk."
         },
         "answer": "A",
         "explanation": "The pentagon shape indicates a school zone. The tab beneath it specifies that the maximum speed is 50 km/h when children are on the highway.",
@@ -6159,12 +6159,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/6b.png",
-        "question": "What does this sign mean?",
+        "question": "When approaching an intersection in a Class 4 vehicle, you see this lane control sign positioned overhead. What maneuver is legally required?",
         "options": {
-            "A": "Left lane must turn left, right lane may go straight",
-            "B": "Two-way left-turn lane",
-            "C": "Traffic from both lanes must turn left",
-            "D": "Left turn permitted, but yield to oncoming traffic"
+            "A": "Vehicles in the left lane are mandated to turn left, while the right lane may proceed straight or turn left.",
+            "B": "The center lane is designated as a shared two-way left-turn lane for both directions of traffic.",
+            "C": "Traffic occupying both of the indicated lanes must execute a left turn at the intersection.",
+            "D": "A left turn is permitted from either lane, provided you first yield the right-of-way to oncoming traffic."
         },
         "answer": "C",
         "explanation": "This is a lane control sign showing dual left turn lanes. Vehicles in both the left and right lanes indicated must turn left.",
@@ -6177,12 +6177,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/77_old.png",
-        "question": "What does this sign indicate?",
+        "question": "You are driving a bus entering a major highway and observe this sign. What action is required of you and other drivers?",
         "options": {
-            "A": "Right lane ends, merge left",
-            "B": "Yield to merging traffic from the right",
-            "C": "Two lanes merging into one",
-            "D": "An added lane; merging is not necessary"
+            "A": "The rightmost lane is terminating; drivers must perform a safe lane change to the left.",
+            "B": "Mainline traffic must yield the right-of-way to vehicles entering from the acceleration lane on the right.",
+            "C": "Two parallel lanes are converging into a single lane, requiring an alternating zipper merge.",
+            "D": "A new lane is added to the roadway for entering traffic; an immediate merge or yield is not required."
         },
         "answer": "D",
         "explanation": "This sign indicates a free-flow condition where a new lane is added to the roadway. Entering traffic does not need to merge.",
@@ -6195,12 +6195,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/4.png",
-        "question": "What does this sign mean?",
+        "question": "You are driving a passenger bus and observe an orange diamond-shaped sign ahead. What condition does this temporary regulatory or warning sign indicate?",
         "options": {
-            "A": "Construction or maintenance warning",
-            "B": "Yield to oncoming traffic",
-            "C": "School zone ahead",
-            "D": "Playground ahead"
+            "A": "Approaching a construction zone, roadwork, or maintenance activity requiring reduced speed and heightened vigilance.",
+            "B": "A requirement to yield the right-of-way to oncoming traffic navigating a single-lane bridge.",
+            "C": "An upcoming school zone where fines for traffic violations are strictly doubled.",
+            "D": "A hazardous materials route detour requiring immediate diversion from the current lane."
         },
         "answer": "A",
         "explanation": "An orange diamond-shaped sign warns of construction or maintenance activities ahead. Drivers should be prepared to slow down or follow instructions.",
@@ -6213,12 +6213,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/44.png",
-        "question": "What does this sign indicate?",
+        "question": "You are planning a trip through a mountain pass in a commercial vehicle and see this regulatory sign. What are your legal obligations regarding winter equipment?",
         "options": {
-            "A": "Winter tires are recommended but not required",
-            "B": "Specific vehicles must use winter tires or carry tire chains from October 1 to March 31",
-            "C": "The road is completely closed to all traffic from October 1 to March 31",
-            "D": "Only commercial trucks are allowed on this road during winter"
+            "A": "Winter tires are highly recommended for all vehicles traversing this route during the specified dates.",
+            "B": "Between October 1 and March 31, designated vehicles must be equipped with winter tires or carry acceptable tire chains.",
+            "C": "The highway is restricted to emergency and maintenance vehicles only during the winter season.",
+            "D": "Heavy commercial vehicles are required to deploy tire chains immediately upon passing this sign."
         },
         "answer": "B",
         "explanation": "This sign indicates that passenger vehicles must use winter tires (M+S or mountain snowflake symbol) and commercial vehicles must carry tire chains between October 1 and March 31 on designated highways.",
@@ -6231,12 +6231,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/4a.png",
-        "question": "What does this sign mean?",
+        "question": "While navigating a residential area, you observe this yellow diamond-shaped sign depicting a person running with a ball. What hazard does this sign warn you of, and what action should you take?",
         "options": {
-            "A": "School zone crosswalk ahead",
-            "B": "Pedestrian crossing ahead",
-            "C": "Playground nearby, watch for children",
-            "D": "Children crossing for a school"
+            "A": "You are approaching a designated school crosswalk and must prepare to yield right-of-way to crossing pedestrians.",
+            "B": "You are approaching a marked pedestrian crossing; speed must be reduced to 30 km/h immediately.",
+            "C": "You are in the vicinity of a playground; you should exercise heightened vigilance and watch for children.",
+            "D": "You are entering a school zone where children frequently cross the roadway; passing is prohibited."
         },
         "answer": "C",
         "explanation": "A yellow diamond sign showing a person running with a ball warns that there is a playground nearby. Drivers should be prepared to slow down and watch for children.",
@@ -6249,12 +6249,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/4b.png",
-        "question": "What does this lane use sign indicate?",
+        "question": "While navigating a multi-lane intersection, you observe this regulatory sign positioned above your designated lane. Which maneuver is legally permitted?",
         "options": {
-            "A": "Merging traffic ahead from the right",
-            "B": "One-way traffic only",
-            "C": "Vehicles in this lane must turn right",
-            "D": "Vehicles in this lane may go straight or turn right"
+            "A": "You must yield to traffic merging into your lane from the right.",
+            "B": "The lane is restricted exclusively for one-way traffic turning left.",
+            "C": "You are in a mandatory turn lane and must execute a right turn without proceeding straight.",
+            "D": "You are authorized to either proceed straight through the intersection or execute a right turn."
         },
         "answer": "D",
         "explanation": "This lane control sign indicates that vehicles in the lane where the sign is displayed are permitted to either go straight through the intersection or turn right.",
@@ -6267,12 +6267,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/5.png",
-        "question": "What does this red X signal mean?",
+        "question": "While navigating a multi-lane highway, you encounter an overhead lane control signal displaying an illuminated red X. What immediate action is required?",
         "options": {
-            "A": "Railway crossing ahead",
-            "B": "Stop sign ahead",
-            "C": "Do not drive in this lane",
-            "D": "Intersection ahead, yield to traffic on the right"
+            "A": "Prepare to stop for an active railway crossing intersecting the roadway ahead.",
+            "B": "Bring your vehicle to a complete stop before the intersection line, as if facing a stop sign.",
+            "C": "Vacate the lane immediately if occupied, as it is strictly prohibited to travel in this designated lane.",
+            "D": "Reduce speed and yield the right-of-way to vehicles entering from the intersecting roadway."
         },
         "answer": "C",
         "explanation": "A red X over a lane is a lane control signal indicating that the lane is closed to traffic in your direction and you must not drive in it.",
@@ -6285,12 +6285,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/55_old.png",
-        "question": "What does this sign mean?",
+        "question": "In the event of a declared provincial emergency, you encounter this sign along your designated route. As a commercial driver, how must you interpret its meaning?",
         "options": {
-            "A": "Evacuation route for all vehicles during an emergency",
-            "B": "Disaster response route restricted to emergency vehicles during a disaster",
-            "C": "Road closed due to an active disaster",
-            "D": "Warning of frequent natural disasters in this area"
+            "A": "It designates an approved civilian evacuation route to be utilized by all motor vehicles.",
+            "B": "It identifies a disaster response route strictly reserved for authorized emergency and support vehicles; you must seek an alternate route.",
+            "C": "It indicates that the roadway ahead is entirely closed to all traffic due to critical infrastructure failure.",
+            "D": "It serves as a general advisory that the region is prone to frequent natural disasters, requiring heightened vigilance."
         },
         "answer": "B",
         "explanation": "This sign marks a disaster response route, which is strictly reserved for emergency vehicles to transport resources during a declared disaster.",
@@ -6303,12 +6303,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/555.png",
-        "question": "What does this sign mean?",
+        "question": "When operating a motor vehicle and encountering this regulatory sign on your route, what does it legally denote regarding roadway usage?",
         "options": {
-            "A": "Bicycle parking restricted",
-            "B": "Watch for bicycles on the roadway",
-            "C": "No bicycles allowed",
-            "D": "Bicycle lane ends"
+            "A": "Bicycle parking is heavily restricted along the adjacent curb or shoulder.",
+            "B": "Drivers must exercise heightened caution due to a heavy presence of cyclists on the roadway.",
+            "C": "The operation of bicycles is strictly prohibited on this specific roadway or pathway.",
+            "D": "The designated bicycle lane is terminating, and cyclists must merge into general traffic."
         },
         "answer": "C",
         "explanation": "A red circle with a slash across a bicycle indicates that bicycles are prohibited on this road or pathway.",
@@ -6321,12 +6321,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/111.png",
-        "question": "What does this sign mean?",
+        "question": "When encountering this sign during a commercial trip, what situational adjustment is required of the driver?",
         "options": {
-            "A": "Construction zone ends",
-            "B": "Detour ahead",
-            "C": "Road closed ahead",
-            "D": "Merge left"
+            "A": "You are exiting an active construction zone and may resume normal operating speed.",
+            "B": "You must prepare to follow an alternate routing as a detour is situated ahead.",
+            "C": "The roadway ahead is completely impassable and you must execute a legal U-turn.",
+            "D": "You must immediately yield the right-of-way and merge your vehicle into the left lane."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. This sign indicates a detour ahead.",
@@ -6339,12 +6339,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/120.png",
-        "question": "What does this sign mean?",
+        "question": "While driving a taxi or ride-hailing vehicle, you encounter this sign in a rural area. What specific action must you take in response to this warning?",
         "options": {
-            "A": "Radio station ahead",
-            "B": "Construction zone ends",
-            "C": "Blasting zone ahead - shut off your radio transmitter",
-            "D": "No loud music allowed"
+            "A": "Tune your vehicle's radio to the indicated frequency for emergency traffic updates.",
+            "B": "Prepare to accelerate as the active construction and blasting zone is ending.",
+            "C": "Deactivate all two-way radio transmitters immediately to prevent accidental detonation in a blasting zone.",
+            "D": "Reduce your vehicle's audio system volume to comply with local noise bylaws."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual. This sign warns of a blasting zone and instructs drivers to turn off radio transmitters to prevent accidental detonation.",
@@ -6357,12 +6357,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/126.png",
-        "question": "What does this sign mean?",
+        "question": "While navigating a municipal route, you see this white 'H' on a green background. What facility does this sign direct you toward?",
         "options": {
-            "A": "Helicopter landing pad",
-            "B": "Hotel ahead",
-            "C": "Highway route",
-            "D": "Hospital nearby"
+            "A": "A designated municipal helicopter landing pad for emergency services.",
+            "B": "A government-approved hotel or lodging facility suitable for commercial vehicles.",
+            "C": "A primary highway route with unrestricted clearance for heavy commercial traffic.",
+            "D": "A hospital facility providing emergency medical care nearby."
         },
         "answer": "D",
         "explanation": "Source: Official ICBC manual. A white 'H' on a green background indicates a hospital.",
@@ -6375,12 +6375,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/23.png",
-        "question": "What does this sign mean?",
+        "question": "While approaching a controlled intersection, you observe a regulatory sign featuring a green circle. What specific vehicular maneuver is dictated by this signage?",
         "options": {
-            "A": "Left turn only",
-            "B": "No left turn",
-            "C": "One way traffic to the left",
-            "D": "Hidden intersection on the left"
+            "A": "The operator is compelled to execute a left turn; no other directional movement is permitted.",
+            "B": "The operator is strictly prohibited from executing a left turn under any circumstances.",
+            "C": "The operator is entering a one-way street where traffic flows exclusively to the left.",
+            "D": "The operator must yield to vehicles emerging from a concealed intersection situated on the left."
         },
         "answer": "A",
         "explanation": "Source: Official ICBC manual. A green circle indicates a permitted or mandatory action. This sign means vehicles must turn left.",
@@ -6393,12 +6393,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/31.png",
-        "question": "What does this sign mean?",
+        "question": "While driving a taxi (a Class 4 vehicle) in a congested urban area, you notice a lane marked with this sign. How does this affect your lane positioning?",
         "options": {
-            "A": "Bus stop ahead",
-            "B": "No buses allowed in this lane",
-            "C": "Reserved lane for buses",
-            "D": "School bus crossing"
+            "A": "You must yield to transit buses merging back into traffic from an upcoming bus stop.",
+            "B": "You are entering a zone where transit buses are strictly prohibited from stopping.",
+            "C": "The indicated lane is a high-occupancy or reserved lane exclusively designated for buses.",
+            "D": "You must prepare to stop for a school bus loading or unloading passengers ahead."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual. The diamond symbol indicates a reserved lane, and the bus symbol specifies it is for buses.",
@@ -6411,12 +6411,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/318.png",
-        "question": "What does this sign mean?",
+        "question": "You are approaching an intersection and observe this warning sign equipped with a signal head. What does this indicate regarding your obligations as a driver?",
         "options": {
-            "A": "Pedestrian activated crosswalk — prepare to stop if the light is flashing",
-            "B": "Traffic signal is broken",
-            "C": "Stop sign ahead",
-            "D": "Intersection ahead - slow down"
+            "A": "You are approaching a pedestrian-activated crosswalk and must be prepared to stop if the amber lights begin flashing.",
+            "B": "The upcoming traffic signal is currently out of operation; treat the intersection as a four-way stop.",
+            "C": "You are approaching an advanced stop line and must prepare to stop at the upcoming intersection.",
+            "D": "You are entering a high-collision intersection; you must reduce your speed and proceed with extreme caution."
         },
         "answer": "A",
         "explanation": "Source: Official ICBC manual. This warns drivers of a pedestrian activated crosswalk and to prepare to stop if the light flashes.",
@@ -6429,12 +6429,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/34.png",
-        "question": "What does this sign mean?",
+        "question": "When approaching this warning sign in a heavy commercial vehicle, what hazard should you anticipate?",
         "options": {
-            "A": "Slippery when wet",
-            "B": "Winding road ahead",
-            "C": "Steep hill ahead",
-            "D": "Uneven pavement"
+            "A": "The road surface is susceptible to reduced traction and becomes extremely slippery when wet.",
+            "B": "You are approaching a winding road with a series of curves; adjust your speed accordingly.",
+            "C": "There is a severe downgrade ahead requiring the engagement of a lower gear or engine retarder.",
+            "D": "The roadway surface features uneven pavement and sudden dips that could compromise vehicle stability."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. This sign warns of a winding road ahead.",
@@ -6447,12 +6447,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/52.png",
-        "question": "What does this sign mean?",
+        "question": "Approaching this warning sign on a multi-lane arterial route, what hazard or change in road conditions must a driver anticipate?",
         "options": {
-            "A": "Divided highway begins",
-            "B": "Narrow bridge ahead",
-            "C": "Right lane ends ahead",
-            "D": "Road narrows on both sides"
+            "A": "The current roadway is transitioning into a divided highway with a physical median separator.",
+            "B": "The roadway is converging into a structure with restricted lateral clearance, such as a narrow bridge.",
+            "C": "The rightmost travel lane is terminating, necessitating a safe merge into the adjacent left lane.",
+            "D": "The overall width of the carriageway is decreasing symmetrically on both the left and right shoulders."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual. This sign warns that the right lane is ending and vehicles must merge left.",
@@ -6465,12 +6465,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/60.png",
-        "question": "What does this sign mean?",
+        "question": "Approaching a blind intersection on a rural highway, you observe this red octagonal symbol with a directional arrow. What driving action should you anticipate?",
         "options": {
-            "A": "Yield sign ahead",
-            "B": "Stop sign ahead",
-            "C": "Traffic signal ahead",
-            "D": "Do not enter"
+            "A": "Prepare to yield the right-of-way to merging traffic from an upcoming concealed driveway.",
+            "B": "Anticipate an impending stop sign and initiate early deceleration to ensure a complete stop before the intersection.",
+            "C": "Prepare for an upcoming signalized intersection that may shortly transition to a red light.",
+            "D": "Cease forward movement immediately, as you are approaching a 'Do Not Enter' zone."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. The red octagon with an arrow warns of a stop sign ahead.",
@@ -6483,12 +6483,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/68.png",
-        "question": "What does this sign mean?",
+        "question": "While maintaining a steady speed on a municipal route, this sign becomes visible. What hazard should you anticipate?",
         "options": {
-            "A": "Fire truck entrance or crossing ahead",
-            "B": "Fire station driveway parking only",
-            "C": "Do not block intersection",
-            "D": "Ambulance station ahead"
+            "A": "The imminent presence of an emergency vehicle entrance or crossing, specifically for fire trucks.",
+            "B": "A designated zone reserved exclusively for the parking of emergency response vehicles.",
+            "C": "A controlled intersection ahead where stopping within the intersection box is strictly prohibited.",
+            "D": "An approaching ambulance dispatch station requiring drivers to yield the right-of-way."
         },
         "answer": "A",
         "explanation": "Source: Official ICBC manual. This warns drivers of a fire truck entrance or crossing ahead.",
@@ -6501,12 +6501,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/76.png",
-        "question": "What does this sign mean?",
+        "question": "You are driving a vehicle equipped with hazardous materials and observe this warning sign. What roadway feature does it indicate is approaching?",
         "options": {
-            "A": "Overpass ahead",
-            "B": "Low clearance ahead",
-            "C": "Tunnel ahead",
-            "D": "Bridge ahead"
+            "A": "A structurally compromised overpass requiring a reduction in gross vehicle weight.",
+            "B": "A low clearance structure necessitating immediate height verification.",
+            "C": "An impending tunnel where specific lighting and commercial restrictions may apply.",
+            "D": "A narrow bridge structure requiring caution and centered lane positioning."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual. This sign warns of a tunnel ahead.",
@@ -6519,12 +6519,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/112.png",
-        "question": "What does this sign mean?",
+        "question": "You are pulling over to discharge a passenger when you observe this warning sign. What critical information does it convey regarding the road shoulder?",
         "options": {
-            "A": "The shoulder is soft and may not support a vehicle.",
-            "B": "Shoulder ends ahead.",
-            "C": "Paved shoulder ahead.",
-            "D": "Watch for pedestrians on the shoulder."
+            "A": "The shoulder surface is unstable and may fail to support the weight of a commercial vehicle.",
+            "B": "The usable shoulder abruptly terminates ahead, requiring you to merge into the travel lane.",
+            "C": "The upcoming shoulder is paved and reinforced specifically for commercial vehicle parking.",
+            "D": "Pedestrians have the right-of-way on the shoulder, and you must yield before pulling over."
         },
         "answer": "A",
         "explanation": "This warning sign means the shoulder of the road is soft. Avoid driving or parking on it as your vehicle may sink or get stuck.",
@@ -6537,12 +6537,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/121.png",
-        "question": "What does this flashing arrow board mean?",
+        "question": "You are approaching a work zone and encounter a flashing arrow board directing right. What is the appropriate response?",
         "options": {
-            "A": "There is a detour to the left.",
-            "B": "The lane is closed ahead; you must merge to the right.",
-            "C": "You are approaching a four-way stop.",
-            "D": "Construction vehicles are crossing the road."
+            "A": "A temporary detour requires all traffic to deviate onto an alternate route to the left.",
+            "B": "Your current lane is obstructed or closed ahead; you must safely yield and merge into the adjacent right lane.",
+            "C": "An upcoming intersection is operating as a temporary four-way stop due to malfunctioning signals.",
+            "D": "Heavy construction equipment is frequently crossing the roadway; proceed with heightened caution."
         },
         "answer": "B",
         "explanation": "A flashing arrow board with the arrow pointing to the right indicates that the current lane is closed ahead and you must merge right.",
@@ -6555,12 +6555,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/127.png",
-        "question": "What does this sign mean?",
+        "question": "While operating a commercial vehicle on a rural highway, you notice this service sign. What specific facility or amenity does this inform you is accessible nearby?",
         "options": {
-            "A": "Electric vehicle charging station ahead.",
-            "B": "Gas station or fuel available ahead.",
-            "C": "Propane refilling station.",
-            "D": "Mechanic or repair shop."
+            "A": "A designated charging station exclusively configured for electric vehicles.",
+            "B": "A facility providing automotive fuel or general gas station services.",
+            "C": "A commercial refilling depot specifically for pressurized propane.",
+            "D": "A certified mechanical repair facility equipped for heavy commercial vehicles."
         },
         "answer": "B",
         "explanation": "This service sign indicates that a gas station or fuel services are available nearby.",
@@ -6573,12 +6573,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/24.png",
-        "question": "What does this sign mean?",
+        "question": "Approaching a complex intersection in your commercial vehicle, you observe this regulatory sign displayed above your lane. What maneuver is legally mandated?",
         "options": {
-            "A": "You must drive straight through the intersection.",
-            "B": "One-way traffic straight ahead.",
-            "C": "Left turns are permitted.",
-            "D": "Highway ends ahead."
+            "A": "You are required to proceed straight through the intersection without making any turns.",
+            "B": "You are entering a one-way street and must only travel in the direction indicated.",
+            "C": "You may proceed straight, but left turns are also permitted when safe to do so.",
+            "D": "The roadway ahead narrows, and you must merge straight into the center lane."
         },
         "answer": "A",
         "explanation": "A white square sign with a green circle indicates a permitted action. The straight arrow means you must go straight through the intersection; no turns are allowed.",
@@ -6591,12 +6591,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/311.png",
-        "question": "In a lane control signal, what does an illuminated yellow X mean?",
+        "question": "While driving in a reversible lane system, you notice the lane control signal overhead changes to an illuminated yellow X. What immediate action is required according to driving regulations?",
         "options": {
-            "A": "You may drive in this lane with caution.",
-            "B": "The lane is for turning left only.",
-            "C": "The lane is about to close; move out of this lane safely.",
-            "D": "The lane is closed and you must stop immediately."
+            "A": "You may continue in this lane with extreme caution, yielding to emergency vehicles.",
+            "B": "The lane is designated for left-turning vehicles only; prepare to execute a turn.",
+            "C": "The lane is in the process of closing; you must vacate this lane safely and merge into an open lane.",
+            "D": "The lane is immediately closed to all traffic; you must stop your vehicle and await further instructions."
         },
         "answer": "C",
         "explanation": "An illuminated yellow X means the lane is about to close. You must prepare to vacate the lane safely and move into a lane with a green arrow.",
@@ -6609,12 +6609,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/319.png",
-        "question": "What does a flashing green traffic light indicate in British Columbia?",
+        "question": "As you approach an intersection in British Columbia, the traffic signal displays a flashing green light. How should you proceed according to the Motor Vehicle Act?",
         "options": {
-            "A": "Proceed with caution, the light is broken.",
-            "B": "It is a pedestrian-controlled light; proceed if clear, but be prepared to stop if a pedestrian pushes the button.",
-            "C": "You have the right-of-way to turn left.",
-            "D": "The intersection is a four-way stop."
+            "A": "Treat the intersection as an uncontrolled crossing due to a malfunctioning traffic signal and proceed with extreme caution.",
+            "B": "Acknowledge it as a pedestrian-controlled intersection; you may proceed if clear but must be prepared to stop if a pedestrian activates the crosswalk signal.",
+            "C": "You possess an advance green signal, granting you the exclusive right-of-way to execute a left turn before oncoming traffic.",
+            "D": "The traffic light is transitioning to yellow; you must decelerate and prepare to come to a complete stop."
         },
         "answer": "B",
         "explanation": "In BC, a flashing green light indicates a pedestrian-controlled intersection. The light will remain green until a pedestrian pushes the button to activate the red light.",
@@ -6627,12 +6627,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/35.png",
-        "question": "What does this sign indicate?",
+        "question": "While driving on a primary highway, you observe this specific warning sign. What does the symbol indicate regarding the upcoming roadway geometry?",
         "options": {
-            "A": "A T-intersection ahead.",
-            "B": "A side road intersects with the main road from the right.",
-            "C": "Merging traffic from the right.",
-            "D": "The main road curves to the right."
+            "A": "The primary roadway terminates ahead, forming a perpendicular T-intersection requiring a mandatory turn.",
+            "B": "A secondary roadway intersects the primary highway from the right side, introducing potential cross-traffic.",
+            "C": "An acceleration lane is converging from the right, requiring you to adjust speed to accommodate merging vehicles.",
+            "D": "The alignment of the primary highway is executing a sharp, continuous curve toward the right."
         },
         "answer": "B",
         "explanation": "This warning sign indicates that a side road intersects the highway from the right. Watch for entering traffic.",
@@ -6645,12 +6645,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/53.png",
-        "question": "What does this sign mean?",
+        "question": "While transporting passengers on a multi-lane roadway, you spot this sign featuring a median symbol at the bottom. What structural change to the roadway should you prepare for?",
         "options": {
-            "A": "Divided highway begins ahead.",
-            "B": "Two-way traffic ends ahead.",
-            "C": "Divided highway ends ahead; prepare for two-way traffic.",
-            "D": "Keep right of the median."
+            "A": "A physical median will soon separate opposing lanes of traffic, creating a divided highway.",
+            "B": "The current roadway will terminate, forcing a mandatory merge into a single, one-way lane.",
+            "C": "The divided highway configuration is terminating; you must exercise increased caution as you enter a zone with undivided, two-way traffic.",
+            "D": "You are required to keep your vehicle to the right of an approaching physical median."
         },
         "answer": "C",
         "explanation": "The symbol shows the median at the bottom, indicating that the divided highway you are on is ending. You will soon be on a road with two-way traffic.",
@@ -6663,12 +6663,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/61.png",
-        "question": "What does this sign warn you about?",
+        "question": "As you approach a heavily trafficked intersection, this warning sign is displayed. What traffic control system are you about to encounter?",
         "options": {
-            "A": "A roundabout ahead.",
-            "B": "A winding road ahead.",
-            "C": "U-turns are permitted.",
-            "D": "Keep moving in a circle."
+            "A": "An upcoming roundabout traffic circle, requiring you to yield to vehicles already circulating.",
+            "B": "A series of sharp curves or a continuously winding road structure ahead.",
+            "C": "A designated intersection where 180-degree U-turn maneuvers are legally permissible.",
+            "D": "A continuous flow intersection where vehicles must maintain circular movement without stopping."
         },
         "answer": "A",
         "explanation": "This sign warns that you are approaching a roundabout. You must yield to traffic already in the roundabout.",
@@ -6681,12 +6681,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/69.png",
-        "question": "What does this sign warn you about?",
+        "question": "As you proceed along a rural highway, this diamond-shaped warning sign becomes visible. What specific hazard should you be prepared to mitigate?",
         "options": {
-            "A": "Steep hill ahead, check your brakes.",
-            "B": "Loose gravel on the road surface.",
-            "C": "Watch for dump trucks or construction vehicles entering or crossing the road.",
-            "D": "Fire station ahead."
+            "A": "A significant downgrade where a mandatory brake check and lower gear selection are required.",
+            "B": "A sudden transition to an unpaved or loose gravel surface requiring reduced speed.",
+            "C": "Heavy construction vehicles or dump trucks that may unexpectedly enter or cross the roadway.",
+            "D": "Emergency response vehicles departing a nearby station at high velocities."
         },
         "answer": "C",
         "explanation": "This warning sign indicates that dump trucks or construction vehicles may be entering or crossing the roadway ahead.",
@@ -6699,12 +6699,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/77.png",
-        "question": "What does this sign mean?",
+        "question": "While traversing a mountainous route in winter conditions, you observe this sign. What infrastructural feature are you approaching?",
         "options": {
-            "A": "Snow plows are operating ahead.",
-            "B": "You must use snow tires.",
-            "C": "You are approaching a snow shed structure covering the road.",
-            "D": "Severe snowstorms are expected in this area."
+            "A": "An active snow clearing operation area where plows frequently cross the median.",
+            "B": "A mandatory vehicle inspection checkpoint for winter tires and commercial tire chains.",
+            "C": "A protective snow shed structure designed to shield the roadway from avalanches and heavy snowfall.",
+            "D": "A high-elevation zone where severe, sudden snowsqualls are statistically probable."
         },
         "answer": "C",
         "explanation": "This sign indicates you are approaching a snow shed, which is a structure over the road designed to protect it from avalanches and heavy snow.",
@@ -6717,12 +6717,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/113.png",
-        "question": "What does this sign mean?",
+        "question": "Upon seeing this diamond-shaped orange sign on the shoulder, what condition should a commercial driver anticipate?",
         "options": {
-            "A": "Detour ahead",
-            "B": "Construction ahead",
-            "C": "Road ends ahead",
-            "D": "Merge with traffic"
+            "A": "An upcoming detour requiring a mandatory diversion from the current route.",
+            "B": "A designated construction or maintenance zone is ahead on the roadway.",
+            "C": "The current roadway terminates abruptly, requiring a turnaround or alternate route.",
+            "D": "Traffic from an adjacent on-ramp is merging into your lane ahead."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. The sign indicates construction ahead.",
@@ -6735,12 +6735,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/122.png",
-        "question": "What does this sign mean?",
+        "question": "As you proceed along a provincial highway, you observe a green rectangular guide sign featuring municipal names and adjacent numerical values. How must you interpret the information presented?",
         "options": {
-            "A": "Speed limit to Kelowna is 53 km/h",
-            "B": "Distances in kilometres to the destinations listed",
-            "C": "Highway numbers for Kelowna and Penticton",
-            "D": "Exit numbers for Kelowna and Penticton"
+            "A": "It designates the maximum permitted speed limit in km/h for the route leading to the specified municipalities.",
+            "B": "It indicates the remaining travel distance, measured in kilometres, to the geographical centers of the listed destinations.",
+            "C": "It denotes the official provincial highway route numbers required to reach the specified municipalities.",
+            "D": "It identifies the sequential highway exit numbers corresponding to the off-ramps for the listed destinations."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. Guide signs indicate distances to destinations.",
@@ -6753,12 +6753,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/128.png",
-        "question": "What does this sign mean?",
+        "question": "During a long-haul commercial trip, you see this blue service sign along the highway. What facility does this sign indicate is available at the upcoming exit?",
         "options": {
-            "A": "Hospital ahead",
-            "B": "Rest area ahead",
-            "C": "Accommodation or lodging ahead",
-            "D": "Camping site ahead"
+            "A": "An emergency medical facility or hospital providing urgent care.",
+            "B": "A designated commercial vehicle rest area with washroom facilities.",
+            "C": "Commercial accommodation or lodging services, such as a motel or hotel.",
+            "D": "A provincial park offering overnight camping sites."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual. The bed symbol indicates accommodation.",
@@ -6771,12 +6771,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/25.png",
-        "question": "What does this sign mean?",
+        "question": "Approaching a T-intersection in your commercial vehicle, you observe this regulatory sign. What are the permitted directions of travel from your current position?",
         "options": {
-            "A": "Vehicles must go straight or turn right",
-            "B": "Vehicles must turn left or turn right",
-            "C": "Left turn only",
-            "D": "No left or right turns permitted"
+            "A": "You are permitted to proceed straight or execute a right turn, yielding to cross traffic.",
+            "B": "You are legally required to execute either a left turn or a right turn.",
+            "C": "You must execute a left turn only, as right turns are prohibited at this intersection.",
+            "D": "You are strictly prohibited from making either a left or right turn, and must proceed straight."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. A green circle means permitted actions, left or right turn.",
@@ -6789,12 +6789,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/312.png",
-        "question": "What does this sign mean?",
+        "question": "You are positioned in the left-turn lane and observe a steady green arrow illuminated on the traffic signal. What is the correct interpretation of this signal?",
         "options": {
-            "A": "Proceed straight ahead only",
-            "B": "Protected left turn permitted",
-            "C": "Stop and yield to all traffic before turning left",
-            "D": "Left turn is not permitted"
+            "A": "You are mandated to proceed straight through the intersection, as turning movements are currently prohibited.",
+            "B": "You are permitted to execute a protected left turn; oncoming traffic is facing a red light.",
+            "C": "You may turn left only after coming to a complete stop and yielding the right-of-way to all oncoming vehicles and pedestrians.",
+            "D": "Left turns are strictly prohibited during this signal phase; you must remain stationary until the solid green light appears."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. A green left arrow signal means you have a protected left turn.",
@@ -6807,12 +6807,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/32.png",
-        "question": "What does this sign mean?",
+        "question": "You see this diamond symbol painted on the roadway surface and displayed on overhead signs. Under what conditions are you legally permitted to utilize this lane?",
         "options": {
-            "A": "Lane is reserved for buses and high-occupancy vehicles (3 or more people)",
-            "B": "Lane is reserved for transit buses only",
-            "C": "Carpool parking only",
-            "D": "Diamond lane ends ahead"
+            "A": "You are operating a transit vehicle, or your vehicle meets the minimum high-occupancy passenger requirements.",
+            "B": "You are operating a commercial passenger vehicle exclusively intended for public transit operations.",
+            "C": "You are navigating toward a designated parking facility restricted to registered carpool participants.",
+            "D": "You are preparing to exit the highway, as the diamond symbol indicates the termination of a restricted lane."
         },
         "answer": "A",
         "explanation": "Source: Official ICBC manual. The diamond symbol indicates a reserved lane for specific vehicles.",
@@ -6825,12 +6825,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/37.png",
-        "question": "What does this sign mean?",
+        "question": "Navigating a mountainous route, you encounter a diamond-shaped warning sign paired with a '30 km/h' tab. What is the correct interpretation of this combination?",
         "options": {
-            "A": "Maximum speed limit is 30 km/h",
-            "B": "Sharp curve to the right, recommended speed is 30 km/h",
-            "C": "Winding road ahead, speed limit 30 km/h",
-            "D": "Right turn only at 30 km/h"
+            "A": "A strict regulatory maximum speed limit of 30 km/h is enforced until a new speed limit sign is posted.",
+            "B": "There is a sharp curve to the right ahead; for optimal vehicle control and passenger safety, reducing your speed to the advisory limit of 30 km/h is strongly recommended.",
+            "C": "The roadway transitions into a prolonged winding section where the legal speed limit is capped at 30 km/h.",
+            "D": "Commercial vehicles are mandated to execute right turns exclusively at a speed not exceeding 30 km/h."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. Advisory speed sign for a sharp curve.",
@@ -6843,12 +6843,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/54.png",
-        "question": "What does this sign mean?",
+        "question": "You are currently driving on a multi-lane, one-way street when you spot this warning sign. What structural change to the roadway is imminent?",
         "options": {
-            "A": "Passing lane ahead",
-            "B": "Divided highway ends",
-            "C": "Two-way traffic ahead",
-            "D": "Merge ahead"
+            "A": "An upcoming auxiliary lane designated specifically for overtaking slower commercial vehicles.",
+            "B": "The physical median of the divided highway is terminating, requiring increased lateral caution.",
+            "C": "The roadway is transitioning into a two-way traffic system, necessitating heightened situational awareness.",
+            "D": "Two distinct roadways are converging, requiring you to merge safely with adjacent traffic."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual. Warns of two-way traffic ahead.",
@@ -6861,12 +6861,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/62.png",
-        "question": "What does this sign mean?",
+        "question": "While operating a heavy commercial vehicle on a route with limited sightlines, you encounter this sign. What does it warn you to anticipate?",
         "options": {
-            "A": "Stop sign ahead",
-            "B": "Traffic control person ahead",
-            "C": "Traffic signals ahead",
-            "D": "Intersection ahead"
+            "A": "An obscured stop line requiring a complete halt at a blind intersection.",
+            "B": "A designated traffic control person actively managing a temporary work zone.",
+            "C": "An upcoming intersection controlled by traffic signals, requiring readiness to stop.",
+            "D": "A complex multi-lane intersection where right-of-way rules are ambiguous."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual. Warns of traffic signals ahead.",
@@ -6879,12 +6879,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/70.png",
-        "question": "What does this sign mean?",
+        "question": "As you prepare to leave the highway with a full load of passengers, you spot this sign on the deceleration lane. What is its legal and practical meaning?",
         "options": {
-            "A": "Maximum speed limit is 40 km/h on the highway",
-            "B": "Exit ahead, recommended exit speed is 40 km/h",
-            "C": "Construction zone speed limit is 40 km/h",
-            "D": "Minimum speed on the highway is 40 km/h"
+            "A": "The absolute maximum regulatory speed limit drops to 40 km/h on the main highway.",
+            "B": "It indicates a recommended safe operating speed of 40 km/h for the upcoming exit ramp.",
+            "C": "A mandatory speed restriction of 40 km/h is in effect due to an active construction zone.",
+            "D": "Commercial vehicles are required to maintain a minimum speed of 40 km/h to prevent traffic disruption."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. Recommended safe speed for an exit.",
@@ -6897,12 +6897,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/114.png",
-        "question": "What does this sign mean?",
+        "question": "This temporary orange warning sign is displayed along your route. What hazard or instruction does it indicate?",
         "options": {
-            "A": "School zone ahead",
-            "B": "Construction zone ends",
-            "C": "Traffic control person ahead",
-            "D": "Pedestrian crosswalk ahead"
+            "A": "An active school zone is approaching, requiring a reduction in speed to 30 km/h.",
+            "B": "The current road work zone has concluded, and normal speed limits resume.",
+            "C": "A traffic control person (flagger) is stationed ahead; prepare to obey their hand signals or stop paddle.",
+            "D": "An unmarked pedestrian crosswalk is situated ahead, requiring drivers to yield to crossing foot traffic."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual. This sign warns that a traffic control person is ahead.",
@@ -6915,12 +6915,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/123.png",
-        "question": "What does this sign mean?",
+        "question": "Approaching a complex interchange, you encounter a prominent green guide sign displaying arrows alongside municipality names. What is the primary function of this traffic control device?",
         "options": {
-            "A": "Directions to destinations",
-            "B": "Distance to upcoming cities",
-            "C": "Scenic route ahead",
-            "D": "Highway exit information"
+            "A": "To provide explicit directional guidance mapping the correct path to the specified destinations.",
+            "B": "To convey the exact metric distance remaining until you arrive at the upcoming municipalities.",
+            "C": "To indicate the commencement of a designated scenic route subject to specialized commercial vehicle restrictions.",
+            "D": "To alert operators of impending highway exit lanes designated solely for commercial and transit traffic."
         },
         "answer": "A",
         "explanation": "Source: Official ICBC manual. This is a destination sign that shows directions to various locations.",
@@ -6933,12 +6933,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/129.png",
-        "question": "What does this sign mean?",
+        "question": "You are operating a ride-hailing vehicle transporting tourists and spot this blue sign. What type of point of interest does it signify?",
         "options": {
-            "A": "Provincial park boundary",
-            "B": "Visitor information ahead",
-            "C": "Scenic viewpoint ahead",
-            "D": "Campground ahead"
+            "A": "The entrance to a protected provincial or national park boundary.",
+            "B": "An upcoming visitor information centre providing travel and tourism assistance.",
+            "C": "A designated scenic viewpoint requiring you to yield to merging traffic.",
+            "D": "An overnight campground facility suitable for recreational vehicles."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. Indicates that a visitor information centre is ahead.",
@@ -6951,12 +6951,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/26.png",
-        "question": "What does this sign mean?",
+        "question": "You intend to make a right turn at an upcoming intersection but notice this regulatory sign posted. Based on the sign's restrictions, when is it illegal to execute a right turn here?",
         "options": {
-            "A": "No right turn allowed at any time",
-            "B": "Right turn only from 5 PM to 7 PM",
-            "C": "Parking is prohibited between 5 PM and 7 PM",
-            "D": "No right turn between 5 PM and 7 PM on weekdays"
+            "A": "Right turns are strictly prohibited at all times, regardless of the day or hour.",
+            "B": "You are only permitted to make a right turn between the hours of 5:00 PM and 7:00 PM.",
+            "C": "Parking or stopping your vehicle is prohibited between 5:00 PM and 7:00 PM on any given day.",
+            "D": "You are prohibited from executing a right turn between 5:00 PM and 7:00 PM, Monday through Friday."
         },
         "answer": "D",
         "explanation": "Source: Official ICBC manual. Prohibits right turns between 5 PM and 7 PM, from Monday to Friday.",
@@ -6969,12 +6969,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/313.png",
-        "question": "What does this sign mean?",
+        "question": "You are operating a vehicle on a highway with overhead lane control signals. The signal above your lane displays a steady red 'X'. What action is legally required?",
         "options": {
-            "A": "You must stop immediately in this lane",
-            "B": "Do not drive in this lane",
-            "C": "The lane is for turning traffic only",
-            "D": "Merge into this lane safely"
+            "A": "You must bring your vehicle to a complete stop immediately within the current lane.",
+            "B": "You are strictly prohibited from driving in or entering this lane.",
+            "C": "This lane is exclusively designated for traffic intending to execute a turn at the next intersection.",
+            "D": "You must carefully merge into this lane to avoid an upcoming roadway obstruction."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. A steady red X over a lane means you must not drive in that lane.",
@@ -6987,12 +6987,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/321.png",
-        "question": "What does this sign mean?",
+        "question": "Approaching an intersection controlled exclusively by a flashing yellow traffic signal, what is your statutory responsibility?",
         "options": {
-            "A": "Stop and yield to all other traffic",
-            "B": "Treat it as a four-way stop",
-            "C": "Slow down and proceed with caution",
-            "D": "Speed up to clear the intersection quickly"
+            "A": "Bring your vehicle to a complete cessation of movement and yield the right-of-way to all cross-traffic.",
+            "B": "Observe the intersection dynamics and treat the signal equivalent to a four-way stop control.",
+            "C": "Reduce vehicle velocity and proceed through the intersection with elevated vigilance and caution.",
+            "D": "Accelerate through the intersection to minimize exposure time and facilitate efficient traffic flow."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual. A flashing yellow light means slow down and proceed with caution.",
@@ -7005,12 +7005,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/38.png",
-        "question": "What does this sign mean?",
+        "question": "While driving a Class 4 vehicle in adverse weather conditions, you notice this warning sign. What roadway feature does it indicate?",
         "options": {
-            "A": "Curve to the left ahead",
-            "B": "Sharp turn to the left ahead",
-            "C": "One-way street ahead",
-            "D": "Merge from the left"
+            "A": "The roadway ahead features a curve to the left; you should adjust your speed appropriately prior to entering the curve.",
+            "B": "An abrupt, sharp 90-degree turn to the left is imminent, necessitating significant deceleration.",
+            "C": "The current roadway is merging into a one-way street system flowing to the left.",
+            "D": "Traffic will be merging into your lane from a blind approach on the left side."
         },
         "answer": "A",
         "explanation": "Source: Official ICBC manual. Warns that the road curves to the left ahead.",
@@ -7023,12 +7023,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/55.png",
-        "question": "What does this sign mean?",
+        "question": "While navigating a rural highway in a Class 4 vehicle, this sign appears on the shoulder. What spatial adjustment should you anticipate?",
         "options": {
-            "A": "Bridge clearance is low",
-            "B": "Right lane ends ahead",
-            "C": "Two-way traffic begins",
-            "D": "Road narrows ahead"
+            "A": "An approaching overpass structure possessing a critically low clearance height for commercial vehicles.",
+            "B": "The rightmost traffic lane is terminating, mandating a safe and timely merge to the left.",
+            "C": "The roadway will imminently transition from a one-way thoroughfare to a two-way traffic system.",
+            "D": "The physical width of the roadway is narrowing ahead, requiring precise vehicle lane positioning."
         },
         "answer": "D",
         "explanation": "Source: Official ICBC manual. Warns that the road narrows ahead.",
@@ -7041,12 +7041,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/63.png",
-        "question": "What does this sign mean?",
+        "question": "You are approaching an intersection and observe this warning sign equipped with amber beacons. What is the appropriate response when the beacons are actively flashing?",
         "options": {
-            "A": "Pedestrian crossing ahead; stop when lights are flashing",
-            "B": "Traffic signals ahead; prepare to stop when lights are flashing",
-            "C": "Railway crossing ahead; stop when lights are flashing",
-            "D": "School zone ahead; prepare to stop when lights are flashing"
+            "A": "Yield to pedestrians at a marked crosswalk and proceed only when safe.",
+            "B": "Anticipate traffic signals ahead and prepare to bring your vehicle to a safe stop.",
+            "C": "Treat the upcoming railway crossing as an absolute stop and check for trains.",
+            "D": "Reduce speed immediately to 30 km/h as you are entering an active school zone."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual. Indicates traffic signals are ahead; prepare to stop if the lights are flashing.",
@@ -7059,12 +7059,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/71.png",
-        "question": "What does this sign mean?",
+        "question": "During a rural transit route, this warning sign comes into view. How should you alter your driving strategy based on its indication?",
         "options": {
-            "A": "Gravel road ends ahead",
-            "B": "Steep hill ahead",
-            "C": "Paved surface ends ahead",
-            "D": "Rough road surface ahead"
+            "A": "Accelerate slightly as the unstable gravel road transitions into a smooth, paved surface.",
+            "B": "Engage a lower gear in preparation for a steep, extended downgrade.",
+            "C": "Reduce speed and increase following distance, as the paved roadway transitions to an unpaved surface.",
+            "D": "Maintain speed but grip the steering wheel firmly to navigate severe potholes and rough pavement."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual. Warns that the paved road ends ahead and changes to a different surface.",
@@ -7077,12 +7077,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/115.png",
-        "question": "What does this sign mean?",
+        "question": "You observe an orange sign indicating '50 km/h'. How does this affect your operation of a Class 4 vehicle?",
         "options": {
-            "A": "Maximum speed limit for all roads is 50 km/h",
-            "B": "Construction zone speed limit is 50 km/h",
-            "C": "Survey crew ahead, prepare to stop",
-            "D": "Traffic fines double in work zones"
+            "A": "It establishes a blanket maximum speed limit of 50 km/h for all municipal roads in the district.",
+            "B": "It mandates a temporary maximum speed limit of 50 km/h exclusively within the designated construction zone.",
+            "C": "It serves as a warning that a survey crew is operating ahead, and a complete stop may be necessary.",
+            "D": "It indicates that the standard speed limit remains, but any traffic violation fines within the zone will be doubled."
         },
         "answer": "B",
         "explanation": "This sign indicates a construction zone with a maximum speed limit of 50 km/h.",
@@ -7095,12 +7095,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/12311.png",
-        "question": "What does this sign mean?",
+        "question": "While positioned in a designated traffic lane, you observe a white regulatory sign displaying directional arrows overhead or beside the roadway. What maneuvering permissions are granted to your vehicle?",
         "options": {
-            "A": "The left lane ends ahead",
-            "B": "No left turn allowed",
-            "C": "This lane is for going straight or turning left",
-            "D": "One way traffic only"
+            "A": "The current lane terminates shortly, mandating an immediate merge to the adjacent right lane.",
+            "B": "Executing a left turn from the current trajectory is explicitly prohibited by law.",
+            "C": "The operator is authorized to either proceed straight through the intersection or execute a left turn.",
+            "D": "The roadway transitions into a one-way thoroughfare restricted to authorized traffic."
         },
         "answer": "C",
         "explanation": "This lane control sign indicates that vehicles in this lane may proceed straight through or turn left.",
@@ -7113,12 +7113,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/130.png",
-        "question": "What does this sign mean?",
+        "question": "While driving a passenger van on a rural route, you observe this diamond-shaped warning sign. What significant hazard should you immediately prepare for?",
         "options": {
-            "A": "Crossroad ahead",
-            "B": "Hospital zone ahead",
-            "C": "Road narrows ahead",
-            "D": "Railway crossing ahead"
+            "A": "A major crossroad intersection where cross traffic may not stop.",
+            "B": "An upcoming hospital zone requiring strict adherence to noise bylaws.",
+            "C": "A sudden narrowing of the roadway requiring a reduction in speed.",
+            "D": "A railway crossing ahead where you must remain vigilant for approaching trains."
         },
         "answer": "D",
         "explanation": "This warning sign indicates that there is a railway crossing ahead.",
@@ -7131,12 +7131,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/27.png",
-        "question": "What does this sign mean?",
+        "question": "You need to park your vehicle to make a delivery and spot this regulatory sign. What is the specific parking restriction conveyed by this sign?",
         "options": {
-            "A": "Parking is permitted for one hour between 9 a.m. and 5 p.m.",
-            "B": "Parking is not allowed between 9 a.m. and 5 p.m.",
-            "C": "Parking is allowed at all times",
-            "D": "Pay parking is in effect for one hour"
+            "A": "You are permitted to park your vehicle for a maximum duration of one hour between 9:00 AM and 5:00 PM.",
+            "B": "Parking your vehicle is strictly prohibited between the hours of 9:00 AM and 5:00 PM.",
+            "C": "You are allowed to park your vehicle without any time restrictions throughout the entire day.",
+            "D": "Pay parking regulations are strictly enforced for a one-hour period during peak traffic hours."
         },
         "answer": "A",
         "explanation": "This regulatory sign permits parking for up to one hour between the hours of 9 a.m. and 5 p.m.",
@@ -7149,12 +7149,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/314.png",
-        "question": "What does this lane control signal mean?",
+        "question": "While traveling on a route utilizing lane control signals, you encounter a steady green downward-pointing arrow directly over your lane. What does this signify?",
         "options": {
-            "A": "The lane is for high occupancy vehicles only",
-            "B": "You may drive in this lane",
-            "C": "You must exit this lane",
-            "D": "The lane is closed to traffic"
+            "A": "This lane is reserved exclusively for High Occupancy Vehicles (HOV) carrying two or more occupants.",
+            "B": "You are authorized to use this lane for travel in your current direction.",
+            "C": "You must safely transition out of this lane as it is about to end or change direction.",
+            "D": "The lane is currently closed to all traffic due to ongoing maintenance or an incident ahead."
         },
         "answer": "B",
         "explanation": "A steady green downward arrow over a lane means you are permitted to drive in that lane.",
@@ -7167,12 +7167,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/322.png",
-        "question": "What does this traffic signal mean?",
+        "question": "You are positioned at an intersection and observe an illuminated steady green arrow pointing vertically. How should you interpret this signal indication?",
         "options": {
-            "A": "You must turn left",
-            "B": "You must yield to oncoming traffic",
-            "C": "You may proceed straight through the intersection",
-            "D": "The intersection is closed"
+            "A": "You are legally compelled to execute a left-turning maneuver regardless of your current lane position.",
+            "B": "You are permitted to proceed, provided you yield the right-of-way to any conflicting oncoming traffic.",
+            "C": "You have the right-of-way to advance straight through the intersection without yielding to cross-traffic.",
+            "D": "The intersection ahead is currently obstructed or closed to through traffic, necessitating a detour."
         },
         "answer": "C",
         "explanation": "A green arrow pointing up means you may proceed straight through the intersection.",
@@ -7185,12 +7185,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/39.png",
-        "question": "What does this sign mean?",
+        "question": "You are travelling in the rightmost lane of an expressway when you observe this sign. To maintain safe traffic flow and avoid collisions, what hazard should you anticipate?",
         "options": {
-            "A": "Lane ends on the right",
-            "B": "Side road on the right",
-            "C": "Right lane must exit",
-            "D": "Merging traffic from the right"
+            "A": "Your current lane will shortly terminate, requiring you to perform a lane change to the left.",
+            "B": "An uncontrolled side road intersects from the right, requiring you to yield to cross traffic.",
+            "C": "Vehicles in the right lane are compelled to take the next available exit ramp.",
+            "D": "Other vehicles will be merging into your lane from an acceleration ramp on the right; be prepared to adjust speed or change lanes to facilitate their entry safely."
         },
         "answer": "D",
         "explanation": "This sign warns that traffic is merging onto your road from the right.",
@@ -7203,12 +7203,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/56.png",
-        "question": "What does this sign mean?",
+        "question": "Approaching a construction zone or infrastructural change, this warning sign is posted. How should you adapt your driving strategy?",
         "options": {
-            "A": "Road narrows ahead",
-            "B": "Divided highway ends",
-            "C": "One-way bridge ahead",
-            "D": "Slippery when wet"
+            "A": "Prepare for a reduction in the overall roadway width, requiring careful lateral alignment.",
+            "B": "Anticipate the termination of a divided highway median, bringing opposing traffic closer.",
+            "C": "Reduce speed for an upcoming single-lane bridge that requires yielding to oncoming vehicles.",
+            "D": "Exercise extreme caution as the roadway surface composition becomes exceptionally slippery when wet."
         },
         "answer": "A",
         "explanation": "This warning sign indicates that the road narrows ahead.",
@@ -7221,12 +7221,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/64.png",
-        "question": "What does this sign mean?",
+        "question": "When observing this warning sign in an urban environment, what proactive measures must a commercial driver take?",
         "options": {
-            "A": "School crosswalk ahead",
-            "B": "Pedestrian crosswalk ahead",
-            "C": "Playground zone ahead",
-            "D": "Construction zone ahead"
+            "A": "Prepare to yield to children at a designated school crosswalk during operational hours.",
+            "B": "Remain vigilant and prepare to yield the right-of-way at an upcoming pedestrian crosswalk.",
+            "C": "Reduce speed to a maximum of 30 km/h from dawn to dusk due to a playground zone.",
+            "D": "Anticipate temporary hazards and workers present in an active construction zone."
         },
         "answer": "B",
         "explanation": "This sign warns drivers that there is a pedestrian crosswalk ahead.",
@@ -7239,12 +7239,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/72.png",
-        "question": "What does this sign mean?",
+        "question": "Approaching an intersection, you encounter this sign displaying bidirectional arrows. What does this signify about the roadway's geometry?",
         "options": {
-            "A": "Two-way traffic ahead",
-            "B": "Sharp curve to the left or right",
-            "C": "Road ends, turn left or right",
-            "D": "Obstruction in road, pass on either side"
+            "A": "The one-way street is ending, and you are entering a zone of two-way, opposing traffic.",
+            "B": "The roadway ahead features a sequence of sharp, consecutive curves requiring reduced speed.",
+            "C": "The current roadway terminates in a T-intersection, mandating a directional turn to the left or right.",
+            "D": "A fixed obstruction exists in the center of the lane, and traffic may legally pass on either side."
         },
         "answer": "C",
         "explanation": "This sign is placed at a T-intersection where the road ends, indicating you must turn either left or right.",
@@ -7257,12 +7257,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/116.png",
-        "question": "What does this sign mean?",
+        "question": "While traveling on a secondary highway, you encounter this sign featuring a silhouette and a speed limit. What does it signify?",
         "options": {
-            "A": "Traffic observer ahead, slow down.",
-            "B": "Survey crew ahead, maximum speed is 70 km/h.",
-            "C": "Maximum speed limit is 70 km/h on this highway.",
-            "D": "End of construction zone, resume speed of 70 km/h."
+            "A": "A traffic observer is monitoring vehicle speeds ahead; reduce your speed accordingly.",
+            "B": "A survey crew is working on or near the roadway; the maximum permitted speed is temporarily reduced to 70 km/h.",
+            "C": "The permanent statutory speed limit for this section of the highway is established at 70 km/h.",
+            "D": "The preceding construction zone has ended; you may safely resume a cruising speed of 70 km/h."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual.",
@@ -7275,12 +7275,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/1235.png",
-        "question": "What do these pavement markings indicate?",
+        "question": "While navigating a multi-lane roadway, you encounter specific diagonal pavement markings forming a delineated zone. What is the legal obligation regarding this painted surface?",
         "options": {
-            "A": "A designated lane for high-occupancy vehicles (HOV).",
-            "B": "A painted island indicating a hazard or obstruction; keep to the right and do not drive over it.",
-            "C": "A passing zone for vehicles traveling in the same direction.",
-            "D": "A designated stopping area for public transit buses."
+            "A": "It designates a priority lane restricted exclusively to high-occupancy vehicles and transit buses during peak hours.",
+            "B": "It constitutes a painted island signifying a hazard or median; operators must maintain to the right and strictly avoid driving over the marked area.",
+            "C": "It delineates an authorized overtaking zone for vehicles traveling concurrently in the same direction.",
+            "D": "It indicates a mandatory stopping or staging area designated solely for municipal transit vehicles."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual.",
@@ -7293,12 +7293,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/131.png",
-        "question": "What does this warning sign indicate?",
+        "question": "As you navigate a commercial vehicle, you spot this warning sign depicting an intersection and railway tracks. What specific hazard does this sign convey?",
         "options": {
-            "A": "T-intersection ahead.",
-            "B": "Railway crossing on the intersecting road ahead.",
-            "C": "Train station ahead.",
-            "D": "Hidden intersection ahead."
+            "A": "A T-intersection ahead where you must yield the right-of-way to through traffic.",
+            "B": "A railway crossing is located on the intersecting road immediately ahead.",
+            "C": "A passenger train station is located at the next major intersection.",
+            "D": "A concealed or hidden intersection is ahead, requiring a significant speed reduction."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual.",
@@ -7311,12 +7311,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/28.png",
-        "question": "What does this sign mean?",
+        "question": "While looking for a place to secure your commercial vehicle, you encounter this regulatory sign with bidirectional arrows. What does this sign dictate regarding parking regulations?",
         "options": {
-            "A": "No parking at any time in either direction.",
-            "B": "Do not stop in this area at any time.",
-            "C": "Parking is permitted during designated hours.",
-            "D": "No passing zone in either direction."
+            "A": "Parking is strictly prohibited at all times in both directions along this section of the roadway.",
+            "B": "You are strictly prohibited from stopping or idling your vehicle in this designated area at any time.",
+            "C": "Parking is conditionally permitted in either direction during specific designated hours only.",
+            "D": "You are entering a no-passing zone, and overtaking vehicles in either direction is strictly prohibited."
         },
         "answer": "A",
         "explanation": "Source: Official ICBC manual.",
@@ -7329,12 +7329,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/315.png",
-        "question": "What must you do when facing a solid red traffic light?",
+        "question": "When approaching a signalized intersection, the traffic light transitions to a solid red phase. What is the definitive action required of a commercial driver?",
         "options": {
-            "A": "Slow down and proceed with caution if the intersection is clear.",
-            "B": "Stop and proceed straight when it is safe to do so.",
-            "C": "Come to a complete stop and wait for the light to turn green.",
-            "D": "Yield to crossing traffic and pedestrians, then proceed."
+            "A": "Reduce speed significantly, ensuring the intersection is entirely clear of cross traffic before proceeding.",
+            "B": "Come to a complete stop, assess the intersection, and proceed straight ahead if there is no conflicting traffic.",
+            "C": "Bring the vehicle to a complete cessation of movement before the stop line or crosswalk, and remain stationary until the signal turns green.",
+            "D": "Yield the right-of-way to any pedestrians and crossing vehicles, then continue through the intersection cautiously."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual.",
@@ -7347,12 +7347,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/323.png",
-        "question": "What does a flashing green left-turning arrow mean?",
+        "question": "When intending to make a left turn, you encounter a flashing green arrow pointing left. What does this signal phase signify regarding the right-of-way?",
         "options": {
-            "A": "You may proceed straight through the intersection only.",
-            "B": "You may turn left, but you must yield to oncoming traffic.",
-            "C": "You have a protected left turn; oncoming traffic faces a red light.",
-            "D": "Left turns are not permitted at this time."
+            "A": "The signal phase exclusively authorizes straight-through movements, and turning maneuvers are temporarily restricted.",
+            "B": "You are permitted to execute the turn cautiously, but you bear the onus of yielding to all oncoming vehicles.",
+            "C": "You are granted a protected turning phase; opposing traffic is currently held by a steady red indication.",
+            "D": "The flashing indication serves as a warning that left turns are strictly prohibited during this traffic phase."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual.",
@@ -7365,12 +7365,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/51.png",
-        "question": "What does this sign mean?",
+        "question": "Operating a commercial vehicle in heavy traffic, you see this sign depicting two converging lines. What lane management action is required?",
         "options": {
-            "A": "Divided highway begins ahead.",
-            "B": "Two-way traffic ahead.",
-            "C": "Right lane ends ahead.",
-            "D": "Added lane ahead."
+            "A": "The roadway is transitioning into a divided highway configuration ahead.",
+            "B": "The one-way street is ending, and you must prepare for oncoming, two-way traffic.",
+            "C": "The right-hand lane is terminating ahead; drivers in that lane must safely merge left, while drivers in the continuing lane should facilitate the merge.",
+            "D": "An additional lane is being introduced on the right to accommodate increasing traffic volume."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual.",
@@ -7383,12 +7383,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/57.png",
-        "question": "What does this warning sign indicate?",
+        "question": "While transporting passengers, you observe this sign on a deteriorating section of highway. What specific hazard does it identify?",
         "options": {
-            "A": "Construction zone ahead.",
-            "B": "Speed bumps ahead.",
-            "C": "Uneven or bumpy road ahead.",
-            "D": "Winding road ahead."
+            "A": "An active construction or road maintenance zone requiring a mandatory reduction in speed.",
+            "B": "Engineered speed abatement devices, such as speed bumps or humps, placed across the roadway.",
+            "C": "An upcoming section of uneven or bumpy road surface that may compromise vehicle stability.",
+            "D": "A sequence of sharp consecutive curves necessitating a significant decrease in traveling speed."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual.",
@@ -7401,12 +7401,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/65.png",
-        "question": "What does this sign warn you about?",
+        "question": "While navigating a residential sector, this specific sign dictates your awareness. What distinct feature does it signify is ahead?",
         "options": {
-            "A": "Pedestrians are not permitted.",
-            "B": "Playground zone ahead.",
-            "C": "School crosswalk ahead.",
-            "D": "Intersection ahead."
+            "A": "A designated zone where pedestrian traffic is legally prohibited from crossing.",
+            "B": "A playground area requiring a mandatory speed reduction during daylight hours.",
+            "C": "A designated school crosswalk where you must exercise extreme caution for students.",
+            "D": "An uncontrolled intersection requiring right-of-way yielding to the vehicle on the right."
         },
         "answer": "C",
         "explanation": "Source: Official ICBC manual.",
@@ -7419,12 +7419,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/73.png",
-        "question": "What does this sign warn you about?",
+        "question": "Operating a vehicle on a provincial highway at dusk, you see this diamond-shaped warning sign. What specific hazard does it require you to anticipate?",
         "options": {
-            "A": "Zoo or animal park ahead.",
-            "B": "Watch for deer or wildlife crossing the road.",
-            "C": "Hunting area ahead.",
-            "D": "Equestrian crossing ahead."
+            "A": "The imminent approach of a commercial agricultural facility or animal transport zone.",
+            "B": "A heightened statistical probability of deer or other large wildlife traversing the roadway.",
+            "C": "A designated active hunting area where sudden stops by other motorists are common.",
+            "D": "An upcoming trail intersection primarily utilized by equestrian riders and pack animals."
         },
         "answer": "B",
         "explanation": "Source: Official ICBC manual.",
@@ -7437,12 +7437,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/117.png",
-        "question": "What does this sign mean?",
+        "question": "After traversing a lengthy maintenance area, you pass this specific sign. What is its regulatory meaning?",
         "options": {
-            "A": "End of construction zone, resume normal speed",
-            "B": "Increase your speed immediately",
-            "C": "Speed limit is lifted, drive at any speed",
-            "D": "End of school zone"
+            "A": "The active construction or work zone has officially terminated; you may resume the previously posted speed limit.",
+            "B": "You are required to immediately accelerate your vehicle to alleviate traffic congestion.",
+            "C": "All statutory speed restrictions have been lifted, allowing for discretionary speed selection based on conditions.",
+            "D": "The designated school zone has concluded; normal operating speeds are permitted."
         },
         "answer": "A",
         "explanation": "This sign indicates the end of a construction or work zone and that you may resume the regular posted speed limit.",
@@ -7455,12 +7455,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/124.png",
-        "question": "What does this sign mean?",
+        "question": "During an inter-provincial journey, you observe a specialized route marker sign distinguished by a maple leaf emblem. What does this specific signage designate?",
         "options": {
-            "A": "Provincial highway marker",
-            "B": "Trans-Canada Highway route marker",
-            "C": "Rest area ahead",
-            "D": "National park boundary"
+            "A": "A secondary provincial highway subject to seasonal load restrictions.",
+            "B": "The official route marker identifying the Trans-Canada Highway network.",
+            "C": "An upcoming commercial vehicle inspection station and mandatory rest area.",
+            "D": "The jurisdictional boundary indicating entry into a federally protected National Park."
         },
         "answer": "B",
         "explanation": "This is a Trans-Canada Highway route marker.",
@@ -7473,12 +7473,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/132.png",
-        "question": "What does this sign mean?",
+        "question": "You approach a railway crossing in a commercial vehicle and observe this crossing signal with flashing red lights. What is your legal obligation before proceeding?",
         "options": {
-            "A": "Railway crossing, slow down",
-            "B": "Railway crossing, stop only if a train is visible",
-            "C": "Railway crossing with flashing lights; stop and wait until the lights stop flashing",
-            "D": "Road closed ahead"
+            "A": "Reduce your speed to 15 km/h, check both directions, and proceed if no train is approaching.",
+            "B": "Come to a complete stop, and proceed cautiously if the train appears to be stationary or moving slowly.",
+            "C": "Stop completely and wait; you may only proceed after the lights cease flashing and it is safe to do so.",
+            "D": "The roadway is temporarily closed for maintenance; you must seek an alternate route."
         },
         "answer": "C",
         "explanation": "A railway crossing sign with flashing red lights means you must stop. Proceed only when the lights stop flashing and it is safe.",
@@ -7491,12 +7491,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/29.png",
-        "question": "What does this sign mean?",
+        "question": "You are operating a commercial vehicle and need to secure a temporary parking spot. Upon seeing this sign, what restriction must you adhere to regarding parking?",
         "options": {
-            "A": "No stopping between 9 AM and 5 PM",
-            "B": "No parking between 9 AM and 5 PM",
-            "C": "Parking is allowed only between 9 AM and 5 PM",
-            "D": "Tow-away zone between 9 AM and 5 PM"
+            "A": "Stopping or idling your vehicle is strictly prohibited between the hours of 9:00 AM and 5:00 PM.",
+            "B": "Parking your vehicle is strictly prohibited between the hours of 9:00 AM and 5:00 PM.",
+            "C": "Parking your vehicle is exclusively permitted between the hours of 9:00 AM and 5:00 PM.",
+            "D": "This area is designated as a tow-away zone strictly between 9:00 AM and 5:00 PM."
         },
         "answer": "B",
         "explanation": "This sign indicates that parking is prohibited between the hours of 9 AM and 5 PM.",
@@ -7509,12 +7509,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/316.png",
-        "question": "What does this traffic light mean?",
+        "question": "You are approaching an intersection exhibiting a solid circular green traffic light. What is the fundamental protocol for navigating this intersection?",
         "options": {
-            "A": "Stop and wait for a green arrow",
-            "B": "Yield to oncoming traffic",
-            "C": "Proceed if the intersection is clear",
-            "D": "Pedestrians have the right of way"
+            "A": "You must stop before entering the intersection and await a designated green directional arrow.",
+            "B": "You are required to yield the right-of-way to all oncoming traffic before entering the intersection, regardless of your intended direction.",
+            "C": "You may enter the intersection and proceed straight or turn, provided the intersection is clear of pedestrians and conflicting traffic.",
+            "D": "You must yield unconditionally, as pedestrians in parallel crosswalks hold the exclusive right-of-way against the green light."
         },
         "answer": "C",
         "explanation": "A solid green light means you may proceed if the intersection is clear of traffic and pedestrians.",
@@ -7527,12 +7527,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/324.png",
-        "question": "What does this traffic light mean?",
+        "question": "You observe a traffic signal displaying a flashing green arrow pointing left in conjunction with a steady red light. What action is authorized?",
         "options": {
-            "A": "You may turn left only after yielding to oncoming traffic",
-            "B": "Left turn is prohibited",
-            "C": "You may proceed straight through the intersection",
-            "D": "You may turn left, and opposing traffic faces a red light"
+            "A": "You may execute a left turn, but only after coming to a full stop and yielding to approaching opposing traffic.",
+            "B": "The combination of the red light and flashing arrow indicates that left turns are currently prohibited.",
+            "C": "You are authorized to proceed straight through the intersection, ignoring the flashing arrow indication.",
+            "D": "You are authorized to execute a protected left turn, as the opposing traffic is governed by a red signal."
         },
         "answer": "D",
         "explanation": "A flashing green arrow with a solid red light means you may turn left, and oncoming traffic has a red light.",
@@ -7545,12 +7545,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/511.png",
-        "question": "What does this white vertical bar signal mean?",
+        "question": "While stopped at an intersection alongside a public transit bus, you notice a dedicated signal displaying a white vertical bar on a dark background. Who is authorized to proceed under this signal?",
         "options": {
-            "A": "Go straight only",
-            "B": "Transit vehicles may proceed",
-            "C": "Stop line for bicycles",
-            "D": "Pedestrian crossing ahead"
+            "A": "All straight-through traffic is authorized to proceed, while turning traffic must yield.",
+            "B": "Public transit vehicles are granted a dedicated right-of-way to proceed, while all other traffic must remain stopped until a standard green indication is displayed.",
+            "C": "Bicyclists positioned at the advanced stop line are permitted to enter the intersection.",
+            "D": "Pedestrians have activated the crosswalk and are currently permitted to cross the intersection."
         },
         "answer": "B",
         "explanation": "A white vertical bar on a black background is a transit signal that allows public transit vehicles to proceed.",
@@ -7563,12 +7563,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/58.png",
-        "question": "What does this sign mean?",
+        "question": "During a period of heavy precipitation, you encounter this warning sign. What critical condition does it communicate to the driver?",
         "options": {
-            "A": "Winding road ahead",
-            "B": "Slippery when wet",
-            "C": "Steep hill ahead",
-            "D": "Uneven road surface"
+            "A": "The roadway ahead transitions into a complex series of winding and treacherous curves.",
+            "B": "The surface of the roadway ahead becomes exceptionally slippery and hazardous when wet.",
+            "C": "You are approaching a severe downgrade requiring the engagement of a lower transmission gear.",
+            "D": "The road surface ahead is excessively uneven and may cause a loss of passenger comfort."
         },
         "answer": "B",
         "explanation": "This warning sign indicates that the road surface ahead is slippery when wet.",
@@ -7581,12 +7581,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/66.png",
-        "question": "What does this sign mean?",
+        "question": "As you traverse a rural route, this sign alerts you to a potential change in traffic flow. What specific event must you anticipate?",
         "options": {
-            "A": "School zone ahead",
-            "B": "Pedestrian crosswalk ahead",
-            "C": "Watch for school bus stopping ahead",
-            "D": "Children playing"
+            "A": "Entering an active school zone requiring a mandatory reduction in operating speed.",
+            "B": "An upcoming mid-block pedestrian crosswalk heavily utilized by students.",
+            "C": "A designated location ahead where a school bus may be stopped to load or unload passengers.",
+            "D": "An area with no formal crosswalks where children are known to frequently play near the road."
         },
         "answer": "C",
         "explanation": "This warning sign tells drivers to be prepared for a school bus that may be stopped ahead.",
@@ -7599,12 +7599,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/74.png",
-        "question": "What does this sign mean?",
+        "question": "As you proceed along a coastal route, you observe this sign depicting a structure. What operational readiness does this sign demand from a commercial driver?",
         "options": {
-            "A": "Bridge clearance is low",
-            "B": "Opening bridge ahead",
-            "C": "Ferry terminal ahead",
-            "D": "Bridge surface may be slippery"
+            "A": "Verification of your vehicle's height, as you are approaching a bridge with restricted vertical clearance.",
+            "B": "Preparedness to bring the vehicle to a complete stop, as you are approaching an opening or drawbridge.",
+            "C": "Reduction of speed in preparation for entering a marine ferry terminal queuing area.",
+            "D": "Engagement of winter driving protocols due to a bridge deck that is highly susceptible to freezing."
         },
         "answer": "B",
         "explanation": "This sign warns that there is an opening bridge ahead. Be prepared to stop if the bridge is open.",
@@ -7617,12 +7617,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/118.png",
-        "question": "What does this sign mean?",
+        "question": "You encounter this prominent warning sign at the commencement of a roadwork area. What is the intended message regarding enforcement?",
         "options": {
-            "A": "Construction zone ends in 196 metres",
-            "B": "Minimum $196 fine for speeding in a work zone",
-            "C": "Speed limit is 196 km/h in work zones",
-            "D": "Work zone ahead, speed limit is 196 km/h"
+            "A": "The active construction zone spans a precise distance of 196 metres before terminating.",
+            "B": "Drivers who exceed the posted speed limit within the active work zone are subject to a minimum fine of $196.",
+            "C": "The absolute maximum legal speed limit for any vehicle traversing this work zone is 196 km/h.",
+            "D": "The impending work zone will commence in exactly 196 metres, requiring an immediate reduction in speed."
         },
         "answer": "B",
         "explanation": "This sign warns drivers that the minimum fine for speeding in a work zone is $196.",
@@ -7635,12 +7635,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/125.png",
-        "question": "What does this sign mean?",
+        "question": "While operating within British Columbia, you encounter a shield-shaped sign bearing a numerical designation. What does this provincial traffic control device indicate?",
         "options": {
-            "A": "Maximum vehicle weight is 99 tonnes",
-            "B": "Speed limit is 99 km/h",
-            "C": "Highway 99 route marker",
-            "D": "Exit 99 ahead"
+            "A": "The structural limit of an upcoming bridge restricts maximum gross vehicle weight to 99 tonnes.",
+            "B": "The maximum statutory speed limit for this specific stretch of roadway is 99 km/h.",
+            "C": "The official primary route marker designating British Columbia Provincial Highway 99.",
+            "D": "An advance warning that Highway Exit 99 is approaching within the next two kilometres."
         },
         "answer": "C",
         "explanation": "This is a primary highway route marker for Highway 99 in British Columbia.",
@@ -7653,12 +7653,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/133.png",
-        "question": "What does this sign mean?",
+        "question": "While operating a heavy commercial vehicle, you approach a railway crossing equipped with this sign indicating '3 TRACKS'. What critical safety precaution must you take?",
         "options": {
-            "A": "Railway crossing with 3 tracks ahead, prepare to stop if flashing",
-            "B": "Train station ahead with 3 platforms",
-            "C": "Only 3 vehicles allowed to cross the tracks at a time",
-            "D": "Railway crossing closed"
+            "A": "Recognize there are multiple tracks; prepare to stop if lights are flashing and ensure all tracks are clear before proceeding.",
+            "B": "Be aware that this is a major transit hub with 3 platforms and expect heavy pedestrian traffic.",
+            "C": "Ensure that your vehicle is part of a platoon of no more than 3 vehicles when crossing the tracks.",
+            "D": "The crossing is permanently closed to commercial traffic and you must turn around immediately."
         },
         "answer": "A",
         "explanation": "This sign indicates a railway crossing with 3 tracks. Flashing red lights and a gate mean you must stop and wait for the train to pass.",
@@ -7671,12 +7671,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/30.png",
-        "question": "What does this sign mean?",
+        "question": "You are looking for a parking space and observe this sign displaying two distinct symbols. Under what specific circumstances are you legally permitted to park in this zone?",
         "options": {
-            "A": "Parking is allowed for everyone",
-            "B": "No parking allowed at any time",
-            "C": "Wheelchair ramp ahead",
-            "D": "No parking, except for vehicles displaying a valid disabled parking permit"
+            "A": "Parking is universally permitted for all vehicles, provided they do not obstruct the adjacent walkway.",
+            "B": "Parking is strictly prohibited for all vehicles at all times, with no exceptions granted.",
+            "C": "This zone indicates an upcoming wheelchair ramp and serves as a warning rather than a parking restriction.",
+            "D": "Parking is strictly prohibited, except for vehicles actively displaying a valid disabled parking permit."
         },
         "answer": "D",
         "explanation": "The top symbol means no parking, and the bottom symbol indicates an exception for vehicles displaying a valid disabled parking permit.",
@@ -7689,12 +7689,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/317.png",
-        "question": "What does a solid yellow traffic light mean?",
+        "question": "As you approach a controlled intersection, the traffic signal illuminates a solid yellow circular light. According to defensive driving principles, how must you respond?",
         "options": {
-            "A": "Proceed with caution, the light is broken",
-            "B": "Stop immediately, the light is red",
-            "C": "The signal is about to turn red; prepare to stop if you can do so safely",
-            "D": "You have the right-of-way"
+            "A": "Maintain your current speed but proceed with elevated caution, as the yellow signal indicates potential intersection hazards.",
+            "B": "Apply maximum braking force to stop immediately, as the signal effectively serves the same purpose as a red light.",
+            "C": "Recognize that the signal is imminently changing to red; you must stop before the intersection unless it is unsafe to do so.",
+            "D": "Accelerate slightly to clear the intersection quickly, asserting your right-of-way over intersecting traffic."
         },
         "answer": "C",
         "explanation": "A solid yellow light means the signal is about to turn red. You must stop before the intersection if you can do so safely.",
@@ -7707,12 +7707,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/33.png",
-        "question": "What does this sign mean?",
+        "question": "While navigating a multi-lane roadway, you observe this specific warning sign displaying a lane termination and a diamond symbol. What maneuver is required?",
         "options": {
-            "A": "Reserved lane begins ahead, you must change lanes if not permitted",
-            "B": "Left lane ends ahead, merge right into the reserved lane",
-            "C": "Right lane ends ahead, merge left",
-            "D": "Merge left into the regular lane"
+            "A": "A reserved high-occupancy lane initiates ahead; you must vacate the lane if your vehicle lacks authorization.",
+            "B": "The left travel lane terminates ahead; you must safely merge right into the adjacent lane, which features reserved status.",
+            "C": "The rightmost travel lane is terminating; you must yield to traffic and merge into the leftward unreserved lane.",
+            "D": "You must execute a merge to the left to transition from a reserved lane into the standard general-purpose traffic lane."
         },
         "answer": "B",
         "explanation": "This sign warns that the left lane ends and traffic must merge into the right lane, which features a reserved lane symbol.",
@@ -7725,12 +7725,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/512.png",
-        "question": "What does a solid green light with a solid yellow left arrow mean?",
+        "question": "You are positioned in a left-turn bay waiting to proceed. The traffic signal displays a solid green light alongside a solid yellow left-turn arrow. How must you respond to this signal phase?",
         "options": {
-            "A": "You must turn left immediately",
-            "B": "The protected left turn is ending; prepare to stop or yield to oncoming traffic",
-            "C": "Left turn is prohibited",
-            "D": "Oncoming traffic must stop"
+            "A": "You hold the absolute right-of-way and must execute the left turn immediately before the signal turns red.",
+            "B": "The protected phase for left turns is concluding; you must prepare to stop, or if already in the intersection, yield to oncoming traffic and pedestrians before completing the turn.",
+            "C": "Left turns are now strictly prohibited, and you must wait for the next advanced green signal.",
+            "D": "Oncoming traffic is required to stop, granting you a safe window to proceed through the intersection."
         },
         "answer": "B",
         "explanation": "A solid yellow left-turn arrow indicates that the protected left turn phase is ending. You must prepare to stop, or yield to oncoming traffic if making a left turn once the arrow turns off.",
@@ -7743,12 +7743,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/59.png",
-        "question": "What does this sign mean?",
+        "question": "Operating a fully loaded commercial vehicle in a mountainous region, this sign is displayed prominently. What mandatory precaution should you prepare for?",
         "options": {
-            "A": "Truck route ahead",
-            "B": "Runaway truck ramp ahead",
-            "C": "Steep hill or downgrade ahead",
-            "D": "Watch for slow-moving trucks"
+            "A": "A designated commercial truck route requiring strict adherence to weight and dimension limits.",
+            "B": "An emergency runaway truck ramp situated on the right side for vehicles experiencing brake failure.",
+            "C": "A steep and sustained downgrade ahead, necessitating the use of engine braking and lower gears.",
+            "D": "A high-risk zone where heavily loaded, slow-moving commercial vehicles frequently enter the roadway."
         },
         "answer": "C",
         "explanation": "This sign warns drivers of a steep hill or downgrade ahead. Drivers, especially of large vehicles, should be prepared to use a lower gear.",
@@ -7761,12 +7761,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/67.png",
-        "question": "What does this sign mean?",
+        "question": "When this sign is posted along your intended route, what legal and safety obligation is emphasized for motor vehicle operators?",
         "options": {
-            "A": "Bicycles are not allowed on this road",
-            "B": "Bicycle parking ahead",
-            "C": "Cyclists share the road with motor vehicles",
-            "D": "Bike lane ends"
+            "A": "You are entering a controlled access highway where bicycle traffic is explicitly prohibited.",
+            "B": "You must reduce speed and prepare for bicycles entering from a designated parking facility.",
+            "C": "You must remain aware that cyclists legally share the roadway and require a safe passing distance.",
+            "D": "A dedicated bicycle lane is terminating, forcing cyclists to merge onto a separate multi-use path."
         },
         "answer": "C",
         "explanation": "This sign warns drivers that cyclists and motor vehicles share the road. Drivers should watch for cyclists and maintain a safe passing distance.",
@@ -7779,12 +7779,12 @@ window.QUESTION_BANK = [
             "class4-unrest"
         ],
         "image": "images/signs/75.png",
-        "question": "What does this sign mean?",
+        "question": "Navigating a roadway adjacent to a steep cliff face, this warning sign is displayed. What localized hazard must you actively scan for?",
         "options": {
-            "A": "Gravel road ahead",
-            "B": "Rock quarry ahead",
-            "C": "Falling rocks or rock fall hazard ahead",
-            "D": "Uneven pavement ahead"
+            "A": "Loose gravel on the roadway surface which may significantly reduce braking efficiency.",
+            "B": "Heavy industrial traffic entering the roadway from an active rock quarry.",
+            "C": "The potential presence of fallen rocks or active rock slides obstructing the travel lanes.",
+            "D": "Severe pavement degradation and uneven surfaces caused by geologic shifting."
         },
         "answer": "C",
         "explanation": "This sign warns drivers of a potential rock fall hazard. Be alert for fallen rocks on the roadway.",

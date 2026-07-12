@@ -7830,15 +7830,15 @@ window.QUESTION_BANK = [
             "class4-rest",
             "class4-unrest"
         ],
-        "question": "When driving past parked vehicles on the side of the road, you should be alert for:",
+        "question": "As you approach a line of parked vehicles on the right side of the road, which of the following is the most reliable indicator that a vehicle is preparing to pull out into your lane?",
         "options": {
-            "A": "Exhaust smoke or brake lights coming from the parked cars",
-            "B": "Front wheels of a parked car turned OUT toward the street",
-            "C": "Turn signals flashing or a person sitting in the driver seat",
-            "D": "All of the above"
+            "A": "The vehicle's headlights or tail lights are illuminated",
+            "B": "You observe a person occupying the driver's seat",
+            "C": "The vehicle's front wheels are turned out towards the roadway",
+            "D": "You notice exhaust smoke coming from the vehicle's tailpipe"
         },
-        "answer": "D",
-        "explanation": "When passing parked cars, you must scan for clues that a vehicle might pull out. Key clues include: exhaust smoke, brake/tail lights, a person in the driver seat, turn signals, and the front wheels turned OUT (toward the street).",
+        "answer": "C",
+        "explanation": "While illuminated lights, exhaust smoke, or a person in the driver's seat can be clues, they do not guarantee the vehicle is about to move. The most reliable physical indicator that a driver intends to immediately pull out into traffic is that the front wheels are turned out towards the roadway.",
         "id": 404
     }
 ];

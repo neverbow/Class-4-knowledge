@@ -140,7 +140,7 @@ class App {
         // Licence change binding
         document.getElementById('licence-class').addEventListener('change', (e) => {
             this.licenceClass = e.target.value;
-            // Optionally reset/refresh views
+            this.updateAllTopicCount();
         });
         
         // Start buttons
@@ -159,6 +159,7 @@ class App {
         document.getElementById('practice-topic-filter').addEventListener('change', () => this.startPractice());
         
         this.updateMistakesCount();
+        this.updateAllTopicCount();
 
         // Settings bindings
         const keyInput = document.getElementById('api-key-input');
@@ -304,15 +305,29 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
 
     resetLearningStateForNewBank() {
         const bankVersion = window.QUESTION_BANK_VERSION?.version || 'unknown';
+        const schemaVersion = String(window.QUESTION_BANK_VERSION?.schemaVersion || 2);
         const versionKey = `icbc_bank_version_${this.currentUser}`;
+        const schemaKey = `icbc_bank_schema_${this.currentUser}`;
         const previousVersion = localStorage.getItem(versionKey);
-        if (previousVersion !== bankVersion) {
-            // IDs and content changed in the curated rebuild, so old progress cannot be mapped safely.
+        const previousSchema = localStorage.getItem(schemaKey);
+        const isAdditiveMigration = previousSchema === null
+            && previousVersion === '2026.07.15-class4-200';
+
+        if (!isAdditiveMigration && previousSchema !== schemaVersion) {
+            // Only incompatible schema changes clear saved progress. Additive bank releases keep it.
             this.mistakesBook = {};
             this.practiceProgress = [];
-            localStorage.setItem(versionKey, bankVersion);
-            this.saveData();
         }
+
+        localStorage.setItem(schemaKey, schemaVersion);
+        localStorage.setItem(versionKey, bankVersion);
+        this.saveData();
+    }
+
+    updateAllTopicCount() {
+        const count = window.QUESTION_BANK.filter(q => q.classes.includes(this.licenceClass)).length;
+        const allOption = document.querySelector('#practice-topic-filter option[value="all"]');
+        if (allOption) allOption.textContent = `All Class 4 Topics (${count} Questions)`;
     }
 
     getSourceHtml(question) {

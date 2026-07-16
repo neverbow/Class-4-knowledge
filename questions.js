@@ -1,8 +1,9 @@
 // Curated Class 4 question bank. Generated from official ICBC source material.
 window.QUESTION_BANK_VERSION = {
-    "version": "2026.07.15-class4-200",
+    "version": "2026.07.15-class4-300",
+    "schemaVersion": 2,
     "scope": "Class 4 restricted and unrestricted",
-    "questionCount": 200,
+    "questionCount": 300,
     "officialSourcesOnly": true,
     "verifiedDate": "2026-07-15"
 };
@@ -5210,5 +5211,2607 @@ window.QUESTION_BANK = [
             "verified": "2026-07-15"
         },
         "image": "images/signs/132.png"
+    },
+    {
+        "id": 201,
+        "uid": "C4-2026-201",
+        "chapter": "chapter1",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How long is a B.C. commercial learner's licence valid?",
+        "options": {
+            "A": "One year",
+            "B": "Six months",
+            "C": "Two years",
+            "D": "Until the learner turns 21"
+        },
+        "answer": "A",
+        "explanation": "A commercial learner's licence is valid for one year, so the learner must complete the required testing within that validity period.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "7",
+            "section": "Commercial learner licences",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 202,
+        "uid": "C4-2026-202",
+        "chapter": "chapter1",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Who may supervise a person practising with a commercial learner's licence?",
+        "options": {
+            "A": "Any adult passenger with a Class 5 learner licence",
+            "B": "A person at least 19 who holds the appropriate licence and sits beside the learner",
+            "C": "A person at least 18 seated anywhere in the vehicle",
+            "D": "Any licensed driver following in another vehicle"
+        },
+        "answer": "B",
+        "explanation": "The supervisor must be at least 19, hold the appropriate class of licence and occupy the seat beside the learner so supervision is immediate.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "7",
+            "section": "Commercial learner licences",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 203,
+        "uid": "C4-2026-203",
+        "chapter": "chapter1",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which endorsement is normally required to operate a vehicle equipped with air brakes?",
+        "options": {
+            "A": "Code 18",
+            "B": "Code 20",
+            "C": "Code 15",
+            "D": "Code 51"
+        },
+        "answer": "C",
+        "explanation": "Code 15 is the air-brake endorsement used for air-brake vehicles and most air-over-hydraulic systems; the licence class alone is not enough.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "5",
+            "section": "Air brake endorsement",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 204,
+        "uid": "C4-2026-204",
+        "chapter": "chapter1",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "While practising with a commercial learner licence in a bus, taxi or ambulance, who may be carried?",
+        "options": {
+            "A": "Any fare-paying passenger if the supervisor agrees",
+            "B": "Family members only",
+            "C": "Up to 10 passengers if everyone wears a seatbelt",
+            "D": "Only the qualified supervisor and other authorized learner drivers"
+        },
+        "answer": "D",
+        "explanation": "A commercial learner in these passenger vehicles may carry the qualified supervisor and other authorized learners, not ordinary or fare-paying passengers.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "7",
+            "section": "Commercial learner licence restrictions",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 205,
+        "uid": "C4-2026-205",
+        "chapter": "chapter1",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which vehicle is representative for a Class 4 unrestricted road test?",
+        "options": {
+            "A": "A full-sized passenger van or small school bus capable of seating at least 11 adults",
+            "B": "A two-seat compact car",
+            "C": "A motorcycle with a sidecar",
+            "D": "A pickup truck with no passenger compartment"
+        },
+        "answer": "A",
+        "explanation": "The road-test vehicle must represent the unrestricted privilege: a full-sized passenger van or small school bus with seating for at least 11 adults.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "11",
+            "section": "Road-test vehicles",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 206,
+        "uid": "C4-2026-206",
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "About how long does an alert driver normally take to perceive a hazard under ideal conditions?",
+        "options": {
+            "A": "About 0.10 seconds",
+            "B": "About 0.75 seconds",
+            "C": "About 1.5 seconds",
+            "D": "About 3 seconds"
+        },
+        "answer": "B",
+        "explanation": "Perception time is the interval needed to recognize the hazard. The manual uses about 0.75 seconds for an alert driver in ideal conditions.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "19",
+            "section": "Stopping distance",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 207,
+        "uid": "C4-2026-207",
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "After perceiving a hazard, about how long does an alert driver normally take to begin braking under ideal conditions?",
+        "options": {
+            "A": "About 0.05 seconds",
+            "B": "About 2 seconds",
+            "C": "About 0.75 seconds",
+            "D": "About 4 seconds"
+        },
+        "answer": "C",
+        "explanation": "Reaction time begins after the hazard is perceived and ends when braking starts. Even an alert driver normally needs about 0.75 seconds.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "19",
+            "section": "Stopping distance",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 208,
+        "uid": "C4-2026-208",
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Why does a vehicle generally need more distance to stop while travelling downhill?",
+        "options": {
+            "A": "The tires become larger as altitude drops",
+            "B": "The steering system reduces brake pressure",
+            "C": "The transmission automatically disengages every brake",
+            "D": "Gravity adds to the vehicle's momentum"
+        },
+        "answer": "D",
+        "explanation": "Gravity continues pulling the vehicle downhill, adding to momentum and increasing the work the brakes must do.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "21",
+            "section": "Brake fade on hills",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 209,
+        "uid": "C4-2026-209",
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "About how hot can brake components become after hard braking?",
+        "options": {
+            "A": "About 250?C",
+            "B": "About 40?C",
+            "C": "About 80?C",
+            "D": "About 600?C"
+        },
+        "answer": "A",
+        "explanation": "The manual contrasts normal braking at about 120?C with hard braking that can raise components to roughly 250?C, where heat management becomes critical.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "21",
+            "section": "Brake heat and fade",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 210,
+        "uid": "C4-2026-210",
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When is a retarder generally most effective?",
+        "options": {
+            "A": "At idle while the vehicle is parked",
+            "B": "At higher engine rpm and a lower vehicle speed",
+            "C": "In neutral at the highest possible road speed",
+            "D": "Only after the service brakes have failed"
+        },
+        "answer": "B",
+        "explanation": "A retarder generally produces its strongest slowing effect at higher engine rpm, so the correct lower gear should be selected before the descent.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "22",
+            "section": "Retarders",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 211,
+        "uid": "C4-2026-211",
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When a commercial vehicle must travel slowly down a steep hill, what should the driver do to warn other traffic?",
+        "options": {
+            "A": "Drive on the centre line with high beams on",
+            "B": "Sound the horn continuously",
+            "C": "Use four-way flashers and stay as far right as safely possible",
+            "D": "Turn off all exterior lights"
+        },
+        "answer": "C",
+        "explanation": "Four-way flashers warn faster traffic about the speed difference, while keeping right provides the safest opportunity to pass.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "24",
+            "section": "Descending hills",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 212,
+        "uid": "C4-2026-212",
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which factors should be considered when choosing a safe speed before a downgrade?",
+        "options": {
+            "A": "Only the posted speed limit",
+            "B": "Only engine size and fuel level",
+            "C": "Only the number of lanes",
+            "D": "Vehicle weight, hill length and steepness, road surface and weather"
+        },
+        "answer": "D",
+        "explanation": "A posted limit alone does not establish a safe descent speed; load, grade, surface and weather all change braking demand and traction.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "24",
+            "section": "Descending hills",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 213,
+        "uid": "C4-2026-213",
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If the brake pedal shudders and the ABS makes noise during hard braking, what should you do?",
+        "options": {
+            "A": "Maintain firm brake pressure and continue steering",
+            "B": "Pump the brake pedal rapidly",
+            "C": "Release the brakes completely",
+            "D": "Turn off the ignition"
+        },
+        "answer": "A",
+        "explanation": "Noise and pedal pulsation are normal signs that ABS is cycling. Firm pressure preserves braking while steering helps avoid the hazard.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "26",
+            "section": "Anti-lock braking systems",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 214,
+        "uid": "C4-2026-214",
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What may automatic traction control do when it detects a spinning drive wheel?",
+        "options": {
+            "A": "Lock every wheel permanently",
+            "B": "Apply braking to that wheel and reduce or redirect engine power",
+            "C": "Increase engine power to the spinning wheel only",
+            "D": "Disconnect the steering linkage"
+        },
+        "answer": "B",
+        "explanation": "Traction control responds to wheel spin by braking the spinning wheel and managing engine power so usable traction can shift to the road.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "27",
+            "section": "Automatic traction control",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 215,
+        "uid": "C4-2026-215",
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which combination best supports smooth, controlled stops?",
+        "options": {
+            "A": "An unbalanced load and low tire pressure",
+            "B": "Riding the clutch while braking",
+            "C": "Proper brake adjustment, a balanced load and correctly inflated tires",
+            "D": "Using only the parking brake"
+        },
+        "answer": "C",
+        "explanation": "Balanced loading, correct tire pressure and properly adjusted brakes help all wheels contribute predictably instead of pulling or locking unevenly.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "23",
+            "section": "Smooth stopping",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 216,
+        "uid": "C4-2026-216",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If you must back and do not have a guide, what should you do immediately before moving?",
+        "options": {
+            "A": "Rely only on the rear-view mirror",
+            "B": "Sound the horn and reverse quickly",
+            "C": "Open the door and watch only the left front wheel",
+            "D": "Get out and look behind the vehicle"
+        },
+        "answer": "D",
+        "explanation": "Get Out And Look removes uncertainty about obstacles and clearance when no guide is available. Mirrors alone cannot show the entire path.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "44",
+            "section": "Backing",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 217,
+        "uid": "C4-2026-217",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If a vehicle begins to hydroplane, what is the safest immediate response?",
+        "options": {
+            "A": "Ease off the accelerator and avoid sudden braking or steering",
+            "B": "Brake as hard as possible",
+            "C": "Turn sharply toward the shoulder",
+            "D": "Accelerate until the tires regain contact"
+        },
+        "answer": "A",
+        "explanation": "Sudden control inputs can worsen the loss of traction. Easing off allows speed to fall so the tires can regain contact with the road.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "57",
+            "section": "Hydroplaning",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 218,
+        "uid": "C4-2026-218",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When required to stop at a railway crossing, how far from the crossing should you stop?",
+        "options": {
+            "A": "Less than one metre from the nearest rail",
+            "B": "Five to 15 metres from the crossing",
+            "C": "Exactly 25 metres from the crossing",
+            "D": "At least 100 metres before the crossing"
+        },
+        "answer": "B",
+        "explanation": "Stopping five to 15 metres back leaves clearance from the tracks while allowing the driver to see and hear for an approaching train.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "53",
+            "section": "Railway crossings",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 219,
+        "uid": "C4-2026-219",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "May you cross railway tracks while the crossing gate is down if no train is visible?",
+        "options": {
+            "A": "Yes, after sounding the horn",
+            "B": "Yes, if another vehicle crosses first",
+            "C": "No; never cross while the gate is down",
+            "D": "Yes, when travelling under 10 km/h"
+        },
+        "answer": "C",
+        "explanation": "A lowered gate is an absolute warning. Never drive around or under it, even if a train is not immediately visible.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "53",
+            "section": "Railway crossings",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 220,
+        "uid": "C4-2026-220",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which vehicle must stop at every uncontrolled main railway crossing?",
+        "options": {
+            "A": "An empty taxi",
+            "B": "A private passenger car",
+            "C": "A ride-hailing vehicle with no passenger",
+            "D": "A bus carrying passengers"
+        },
+        "answer": "D",
+        "explanation": "A bus carrying passengers is one of the vehicles required to stop at every uncontrolled main railway crossing.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "53",
+            "section": "Railway crossings",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 221,
+        "uid": "C4-2026-221",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Where should a backing guide stand?",
+        "options": {
+            "A": "Where the driver can see the guide and the guide can see the intended path",
+            "B": "Directly behind the vehicle",
+            "C": "Inside the vehicle's blind spot",
+            "D": "Beside the front bumper facing away"
+        },
+        "answer": "A",
+        "explanation": "The guide must remain visible to the driver and must also be able to see the vehicle path; the driver should stop if visual contact is lost.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "44",
+            "section": "Backing with a guide",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 222,
+        "uid": "C4-2026-222",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When is the most reliable time to check tire pressure?",
+        "options": {
+            "A": "Immediately after a long high-speed trip",
+            "B": "When the tires are cold",
+            "C": "Only after a tire warning light appears",
+            "D": "While the vehicle is moving slowly"
+        },
+        "answer": "B",
+        "explanation": "Driving heats tires and raises pressure, so a cold-tire check gives the reliable baseline intended by the manufacturer.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "58",
+            "section": "Tires and wheels",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 223,
+        "uid": "C4-2026-223",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What can rust streaks extending from wheel nuts indicate?",
+        "options": {
+            "A": "Correctly torqued wheel nuts",
+            "B": "New brake linings",
+            "C": "Loose wheel nuts",
+            "D": "Excess windshield washer fluid"
+        },
+        "answer": "C",
+        "explanation": "Rust trails can be caused by movement between the nut and wheel, making them an important visual warning of looseness.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "59",
+            "section": "Wheel inspection",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 224,
+        "uid": "C4-2026-224",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is a stale green light?",
+        "options": {
+            "A": "A green arrow that has just appeared",
+            "B": "A flashing red traffic signal",
+            "C": "A traffic light that is physically dirty",
+            "D": "A light that has been green for some time and may change before you reach it"
+        },
+        "answer": "D",
+        "explanation": "A stale green may change before arrival. The driver should identify the point of no return and be ready to stop smoothly.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "50",
+            "section": "Intersections",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 225,
+        "uid": "C4-2026-225",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Why is a shoulder check still needed when mirrors appear clear?",
+        "options": {
+            "A": "Mirrors do not show every blind spot beside the vehicle",
+            "B": "A shoulder check activates the turn signal",
+            "C": "Mirrors are illegal on commercial vehicles",
+            "D": "It measures the following distance"
+        },
+        "answer": "A",
+        "explanation": "Large vehicles have blind spots that mirrors cannot eliminate. A direct shoulder check confirms whether a nearby road user is hidden.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "33",
+            "section": "Seeing and being seen",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 226,
+        "uid": "C4-2026-226",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If the rear of the vehicle begins to skid, where should you steer?",
+        "options": {
+            "A": "Sharply opposite the desired path",
+            "B": "In the direction you want the vehicle to go",
+            "C": "Straight toward the nearest shoulder regardless of traffic",
+            "D": "Back and forth as quickly as possible"
+        },
+        "answer": "B",
+        "explanation": "Steering toward the intended path helps align the front wheels with the direction of the skid; abrupt overcorrection can create a second skid.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "57",
+            "section": "Skids",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 227,
+        "uid": "C4-2026-227",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How should you adjust speed at night?",
+        "options": {
+            "A": "Drive at the daytime speed regardless of visibility",
+            "B": "Follow closely to use another vehicle's lights",
+            "C": "Drive so you can stop within the distance illuminated by your headlights",
+            "D": "Use parking lights instead of headlights"
+        },
+        "answer": "C",
+        "explanation": "At night, visible stopping distance controls safe speed. If the vehicle cannot stop within the headlight beam, the driver is overdriving the lights.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "56",
+            "section": "Night driving",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 228,
+        "uid": "C4-2026-228",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should be confirmed about mud flaps during a wheel-area inspection?",
+        "options": {
+            "A": "They are loose enough to swing into the tires",
+            "B": "They cover the wheel nuts completely",
+            "C": "They are removed in dry weather",
+            "D": "They are secure and do not rub the tires"
+        },
+        "answer": "D",
+        "explanation": "Loose or rubbing mud flaps can damage a tire or detach into traffic, so they must be secure and clear of the tires.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "59",
+            "section": "Tires, wheels and mud flaps",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 229,
+        "uid": "C4-2026-229",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Before passing under a low structure, what must a commercial driver know?",
+        "options": {
+            "A": "The vehicle's actual height and the available clearance",
+            "B": "Only the vehicle's width",
+            "C": "Only the posted route speed",
+            "D": "The colour of the clearance sign"
+        },
+        "answer": "A",
+        "explanation": "The driver must compare actual vehicle height, including equipment or load, with the posted or measured available clearance.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "34",
+            "section": "Vehicle clearance",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 230,
+        "uid": "C4-2026-230",
+        "chapter": "chapter3",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When stopped behind another vehicle, what is a useful way to preserve forward escape space?",
+        "options": {
+            "A": "Stop with your bumper almost touching it",
+            "B": "Stop far enough back to see its rear tires touching the road",
+            "C": "Move into the crosswalk",
+            "D": "Turn the wheels sharply toward oncoming traffic"
+        },
+        "answer": "B",
+        "explanation": "Seeing the rear tires meet the pavement provides a practical forward space cushion if the vehicle ahead stalls or rolls back.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "31",
+            "section": "Space management",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 231,
+        "uid": "C4-2026-231",
+        "chapter": "chapter4",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Why should a commercial driver be especially careful with diesel fuel and operation in cold weather?",
+        "options": {
+            "A": "Diesel becomes non-combustible above freezing",
+            "B": "Cold weather eliminates the need for engine oil",
+            "C": "Cold temperatures can create starting and fuel-flow problems that require proper preparation",
+            "D": "Fuel consumption always drops to zero"
+        },
+        "answer": "C",
+        "explanation": "Cold diesel operation can create starting and fuel-flow problems, so the vehicle and fuel must be prepared for the expected temperature.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "70",
+            "section": "Fuels and operating conditions",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 232,
+        "uid": "C4-2026-232",
+        "chapter": "chapter4",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which is an environmental advantage associated with biodiesel?",
+        "options": {
+            "A": "It produces no exhaust under any condition",
+            "B": "It eliminates the need for vehicle maintenance",
+            "C": "It increases sulfur content",
+            "D": "It can reduce carbon dioxide, sulfur and particulate emissions"
+        },
+        "answer": "D",
+        "explanation": "Biodiesel can lower carbon dioxide, sulfur and particulate emissions compared with conventional fuel, though it does not remove every emission.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "70",
+            "section": "Alternative fuels",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 233,
+        "uid": "C4-2026-233",
+        "chapter": "chapter4",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What does progressive gear shifting mean?",
+        "options": {
+            "A": "Shifting into the next gear before reaching maximum governed engine rpm",
+            "B": "Skipping every second gear at full throttle",
+            "C": "Holding each gear at maximum rpm",
+            "D": "Shifting repeatedly between drive and neutral"
+        },
+        "answer": "A",
+        "explanation": "Progressive shifting avoids running every gear to maximum governed rpm, reducing unnecessary fuel use and engine wear.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "71",
+            "section": "Progressive shifting",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 234,
+        "uid": "C4-2026-234",
+        "chapter": "chapter4",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When can cruise control help reduce fuel use?",
+        "options": {
+            "A": "On icy roads and steep winding downgrades",
+            "B": "On suitable roads and in conditions where a steady speed can be maintained safely",
+            "C": "In heavy stop-and-go traffic",
+            "D": "Whenever traction is uncertain"
+        },
+        "answer": "B",
+        "explanation": "Cruise control can save fuel where traction and traffic allow a steady speed; it should not be used where conditions require frequent speed changes.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "71",
+            "section": "Cruise control",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 235,
+        "uid": "C4-2026-235",
+        "chapter": "chapter4",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "For fuel-efficient and safe operation, how often should tires and cargo be inspected during a trip?",
+        "options": {
+            "A": "Only at annual inspection",
+            "B": "Only when fuel is purchased",
+            "C": "At least every three hours",
+            "D": "Once every 24 hours"
+        },
+        "answer": "C",
+        "explanation": "Checking at least every three hours can catch tire, load or aerodynamic problems before they increase risk and fuel use.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "73",
+            "section": "En-route inspections",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 236,
+        "uid": "C4-2026-236",
+        "chapter": "chapter4",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How can manufacturer-approved low-viscosity lubricants improve efficiency?",
+        "options": {
+            "A": "They increase rolling resistance",
+            "B": "They make tires softer",
+            "C": "They require the engine to idle longer",
+            "D": "They can reduce mechanical friction"
+        },
+        "answer": "D",
+        "explanation": "Approved lower-viscosity lubricants reduce internal mechanical drag, allowing more engine energy to reach the wheels.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "73",
+            "section": "Lubricants",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 237,
+        "uid": "C4-2026-237",
+        "chapter": "chapter4",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Why should aerodynamic devices be kept in good repair and correctly adjusted?",
+        "options": {
+            "A": "They reduce air resistance and can improve fuel economy",
+            "B": "They increase brake temperature",
+            "C": "They replace the need for mirrors",
+            "D": "They add traction on ice"
+        },
+        "answer": "A",
+        "explanation": "Damaged or misadjusted aerodynamic equipment increases drag; correct adjustment preserves the fuel-saving benefit.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "74",
+            "section": "Aerodynamics",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 238,
+        "uid": "C4-2026-238",
+        "chapter": "chapter4",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How should a flatbed load be arranged to reduce aerodynamic drag when practical?",
+        "options": {
+            "A": "Stack it as high as possible at the front",
+            "B": "Keep it low and use a properly secured tarp or covering",
+            "C": "Leave loose tarp edges flapping",
+            "D": "Place all weight on one side"
+        },
+        "answer": "B",
+        "explanation": "A low profile and tight covering reduce turbulent airflow. A loose tarp adds drag and can become a cargo-security hazard.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "75",
+            "section": "Loading for efficiency",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 239,
+        "uid": "C4-2026-239",
+        "chapter": "chapter5",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How many hazard classes are used for dangerous goods placards?",
+        "options": {
+            "A": "Four classes",
+            "B": "Six classes",
+            "C": "Nine classes",
+            "D": "Twelve classes"
+        },
+        "answer": "C",
+        "explanation": "Dangerous goods are grouped into nine hazard classes, each represented by prescribed placards or safety marks.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "110",
+            "section": "Dangerous goods placards",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 240,
+        "uid": "C4-2026-240",
+        "chapter": "chapter5",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "A shipment carries the exploding-bomb hazard symbol. Which dangerous-goods class does it represent?",
+        "options": {
+            "A": "Class 3 ? flammable liquids",
+            "B": "Class 5 ? oxidizing substances",
+            "C": "Class 8 ? corrosives",
+            "D": "Class 1 ? explosives"
+        },
+        "answer": "D",
+        "explanation": "The exploding-bomb placard is the Class 1 identifier for explosives. Recognizing the symbol helps a driver follow the correct routing and emergency rules.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "110",
+            "section": "Dangerous goods placards",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 241,
+        "uid": "C4-2026-241",
+        "chapter": "chapter5",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "A tank vehicle is carrying gasoline, a flammable liquid. Which dangerous-goods class applies?",
+        "options": {
+            "A": "Class 3 ? flammable liquids",
+            "B": "Class 1 ? explosives",
+            "C": "Class 6 ? toxic and infectious substances",
+            "D": "Class 8 ? corrosives"
+        },
+        "answer": "A",
+        "explanation": "Gasoline is a flammable liquid and uses the Class 3 hazard classification.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "110",
+            "section": "Dangerous goods placards",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 242,
+        "uid": "C4-2026-242",
+        "chapter": "chapter5",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "A load contains a corrosive acid. Which dangerous-goods class applies?",
+        "options": {
+            "A": "Class 2 ? gases",
+            "B": "Class 8 ? corrosive substances",
+            "C": "Class 4 ? flammable solids",
+            "D": "Class 7 ? radioactive materials"
+        },
+        "answer": "B",
+        "explanation": "Corrosive substances such as strong acids are identified by the Class 8 placard.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "110",
+            "section": "Dangerous goods placards",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 243,
+        "uid": "C4-2026-243",
+        "chapter": "chapter5",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the purpose of a route sign showing a dangerous-goods symbol with a prohibition mark?",
+        "options": {
+            "A": "It marks a mandatory rest area",
+            "B": "It shows that every load is exempt from inspection",
+            "C": "It identifies a route where the shown dangerous goods are prohibited",
+            "D": "It permits parking for dangerous-goods vehicles"
+        },
+        "answer": "C",
+        "explanation": "The prohibition mark means the depicted dangerous goods may not use that route; the driver must plan an authorized alternative.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "111",
+            "section": "Route signs",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 244,
+        "uid": "C4-2026-244",
+        "chapter": "chapter5",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Why might a road have a temporary commercial-vehicle weight restriction?",
+        "options": {
+            "A": "The road has no speed limit",
+            "B": "All commercial licences expire on that route",
+            "C": "Only passenger cars may use headlights",
+            "D": "Seasonal or road conditions may make heavy loads unsafe or damaging"
+        },
+        "answer": "D",
+        "explanation": "Seasonal thaw or weakened road conditions can make a normally legal axle load damaging or unsafe, so temporary limits must be obeyed.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "111",
+            "section": "Temporary restrictions",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 245,
+        "uid": "C4-2026-245",
+        "chapter": "chapter5",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which driving style best reduces injuries to passengers riding in a bus, taxi or limousine?",
+        "options": {
+            "A": "Use smooth starts, stops, turns and door operation",
+            "B": "Accelerate briskly after every stop",
+            "C": "Turn sharply to keep the schedule",
+            "D": "Wait until the last moment to brake"
+        },
+        "answer": "A",
+        "explanation": "Passengers can be thrown off balance by abrupt control inputs. Smooth operation and frequent checks protect them from preventable injuries.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "120",
+            "section": "Passenger safety",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 246,
+        "uid": "C4-2026-246",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When a schedule conflicts with passenger safety, which takes priority?",
+        "options": {
+            "A": "Keeping the timetable",
+            "B": "Passenger safety",
+            "C": "Reducing fuel use",
+            "D": "Avoiding all passenger communication"
+        },
+        "answer": "B",
+        "explanation": "Passenger safety is always more important than the timetable. A late but controlled trip is safer than abrupt driving.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "120",
+            "section": "Passenger safety",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 247,
+        "uid": "C4-2026-247",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Before closing passenger doors, what must the driver confirm?",
+        "options": {
+            "A": "The next traffic signal is green",
+            "B": "Every passenger has exact change",
+            "C": "Passengers are completely on or off the vehicle",
+            "D": "The engine is at maximum rpm"
+        },
+        "answer": "C",
+        "explanation": "Closing a door before a passenger is fully aboard or clear can cause a fall or trapping injury, so confirm the doorway is clear.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "120",
+            "section": "Smooth passenger operation",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 248,
+        "uid": "C4-2026-248",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "As a bus begins leaving a curb, what hazard near the front should the driver continue watching for?",
+        "options": {
+            "A": "Only traffic directly behind the bus",
+            "B": "Only the destination sign",
+            "C": "Only passengers already seated",
+            "D": "A closely parked vehicle or approaching oncoming traffic"
+        },
+        "answer": "D",
+        "explanation": "The manual warns that a vehicle parked close to the bus's front or oncoming traffic can restrict the path as the bus moves away.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "122",
+            "section": "Leaving the curb",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 249,
+        "uid": "C4-2026-249",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-unrest"
+        ],
+        "question": "What hazard must a bus driver watch for when pulling away from a curb?",
+        "options": {
+            "A": "The rear of the bus may swing over the sidewalk",
+            "B": "The front wheels may detach automatically",
+            "C": "The bus becomes narrower while turning",
+            "D": "The doors always open during acceleration"
+        },
+        "answer": "A",
+        "explanation": "A bus rear can swing toward the sidewalk as the front moves away from the curb, threatening pedestrians, cyclists and fixed objects.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "121",
+            "section": "Bus tail swing",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 250,
+        "uid": "C4-2026-250",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which clue suggests a parked vehicle may pull into traffic?",
+        "options": {
+            "A": "Its windows are clean",
+            "B": "Its front wheels are turned outward or a driver is at the wheel",
+            "C": "Its licence plate is visible",
+            "D": "Its parking brake is applied"
+        },
+        "answer": "B",
+        "explanation": "Turned front wheels, an occupied driver seat, exhaust or vehicle lights are clues that a parked vehicle may move into the lane.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "122",
+            "section": "Passing parked vehicles",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 251,
+        "uid": "C4-2026-251",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When loading or unloading passengers on a highway, from how far should other drivers be able to see your stopped vehicle?",
+        "options": {
+            "A": "At least 10 metres only in front",
+            "B": "Exactly 30 metres in both directions",
+            "C": "At least 85 metres in front and behind",
+            "D": "Visibility distance is irrelevant"
+        },
+        "answer": "C",
+        "explanation": "The stopped vehicle must be visible for at least 85 metres both ahead and behind, giving approaching drivers time to recognize and respond to the stop.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "123",
+            "section": "Highway passenger stops",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 252,
+        "uid": "C4-2026-252",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Whenever it is safe, where should a passenger vehicle stop while people board or leave on a highway?",
+        "options": {
+            "A": "In the centre of the travel lane",
+            "B": "Across the shoulder and one travel lane",
+            "C": "Inside the nearest intersection",
+            "D": "Off the travelled portion of the highway"
+        },
+        "answer": "D",
+        "explanation": "Whenever safe, moving fully off the travelled portion reduces the chance that passengers or the stopped vehicle will be struck by through traffic.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "123",
+            "section": "Highway passenger stops",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 253,
+        "uid": "C4-2026-253",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is required before a let-down or jump seat may be used in a passenger vehicle?",
+        "options": {
+            "A": "A licence or permit, and a manufacturer-designed rear-sedan installation",
+            "B": "Only verbal permission from a passenger",
+            "C": "A seat placed beside the driver",
+            "D": "No approval if the trip is short"
+        },
+        "answer": "A",
+        "explanation": "A licence or permit is required, and the seat may be used only at the rear of a sedan the manufacturer designed for it.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "124",
+            "section": "Let-down or jump seats",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 254,
+        "uid": "C4-2026-254",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should a commercial passenger driver avoid doing while the vehicle is moving?",
+        "options": {
+            "A": "Checking mirrors",
+            "B": "Collecting fares or making change",
+            "C": "Scanning intersections",
+            "D": "Maintaining a safe following distance"
+        },
+        "answer": "B",
+        "explanation": "Collecting money divides attention and may require the driver to move a hand or look away. Fares and change should be handled only while stopped.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "123",
+            "section": "Driver focus",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 255,
+        "uid": "C4-2026-255",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When may up to two passengers sit to the driver's right in a sedan-type vehicle?",
+        "options": {
+            "A": "Whenever one passenger holds the other",
+            "B": "Only when both are under 16",
+            "C": "Only when designated seatbelt positions exist and the driver can operate safely",
+            "D": "Whenever the trip is less than 10 km"
+        },
+        "answer": "C",
+        "explanation": "Two passengers may sit to the right only in designated belted positions and only when they do not interfere with the driver controls or view.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "123",
+            "section": "Front seating in sedans",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 256,
+        "uid": "C4-2026-256",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What information about standing passengers must be displayed inside a vehicle licensed to carry them?",
+        "options": {
+            "A": "The names of all standing passengers",
+            "B": "The driver's personal phone number",
+            "C": "The vehicle's fuel capacity",
+            "D": "The permitted standing-passenger capacity in an easily visible location"
+        },
+        "answer": "D",
+        "explanation": "The licensed standing capacity must be displayed where it is easy to see so the driver can enforce the approved limit.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "123",
+            "section": "Standing passengers",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 257,
+        "uid": "C4-2026-257",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Who may require a limousine or taxi driver to hold a chauffeur's permit?",
+        "options": {
+            "A": "A municipality",
+            "B": "Every passenger",
+            "C": "The vehicle manufacturer",
+            "D": "A fuel retailer"
+        },
+        "answer": "A",
+        "explanation": "Some municipalities require taxi and limousine drivers to hold a chauffeur permit, commonly issued through the municipal police.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "125",
+            "section": "Chauffeur's permit",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 258,
+        "uid": "C4-2026-258",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If a driver orders a passenger out, what must the driver ensure?",
+        "options": {
+            "A": "The person exits immediately in any location",
+            "B": "The person can get out safely where alternate transportation can reasonably be found",
+            "C": "The passenger signs a waiver",
+            "D": "Police are present in every case"
+        },
+        "answer": "B",
+        "explanation": "A removed passenger must be able to leave safely at a place where alternate transportation can reasonably be found; simply ordering the person out anywhere is unsafe.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "124",
+            "section": "Removing a passenger",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 259,
+        "uid": "C4-2026-259",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Before assisting a passenger with a disability, what should the driver do?",
+        "options": {
+            "A": "Assume help is required and take control",
+            "B": "Speak only to the passenger's companion",
+            "C": "Ask whether help is wanted",
+            "D": "Refuse the trip if loading takes extra time"
+        },
+        "answer": "C",
+        "explanation": "Ask before helping and speak directly to the passenger. This respects the person and avoids assistance that may be unsafe or unwanted.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "124",
+            "section": "Passengers with disabilities",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 260,
+        "uid": "C4-2026-260",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How must wheelchairs, scooters and other mobility aids be carried?",
+        "options": {
+            "A": "Loose in the aisle for quick access",
+            "B": "Against an emergency exit",
+            "C": "Held by another passenger",
+            "D": "Properly secured so they cannot create a hazard"
+        },
+        "answer": "D",
+        "explanation": "A mobility aid can become a heavy projectile in a sudden stop or collision, so it must be attached using the proper securement system.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "125",
+            "section": "Mobility aids",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 261,
+        "uid": "C4-2026-261",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What must happen to the light at each entrance of a passenger vehicle when the door opens?",
+        "options": {
+            "A": "It must turn on",
+            "B": "It must turn off",
+            "C": "It must flash red outside",
+            "D": "It must sound the horn"
+        },
+        "answer": "A",
+        "explanation": "The entrance light must illuminate when the door opens so passengers can identify steps and footing while boarding or leaving.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "125",
+            "section": "Inside and entrance lights",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 262,
+        "uid": "C4-2026-262",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-unrest"
+        ],
+        "question": "What emergency-exit feature is required for a passenger vehicle seating more than 12 occupants including the driver?",
+        "options": {
+            "A": "A sunroof only",
+            "B": "An emergency exit door or emergency windows",
+            "C": "A removable windshield",
+            "D": "No additional exit is required"
+        },
+        "answer": "B",
+        "explanation": "A vehicle seating more than 12 occupants including the driver requires an emergency exit door or emergency windows for evacuation.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "125",
+            "section": "Emergency exits",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 263,
+        "uid": "C4-2026-263",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If a crash or breakdown makes the trip impossible to continue, what must the driver arrange?",
+        "options": {
+            "A": "Passengers must arrange everything themselves",
+            "B": "The vehicle must continue regardless of condition",
+            "C": "Immediate alternate transportation with as little passenger delay as possible",
+            "D": "Transportation may wait until the next scheduled service"
+        },
+        "answer": "C",
+        "explanation": "When the vehicle cannot continue, the driver must promptly arrange alternate transportation and minimize the delay to passengers.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "126",
+            "section": "Defects and breakdowns",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 264,
+        "uid": "C4-2026-264",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "During refuelling, why should the fuel nozzle remain in contact with the filler pipe?",
+        "options": {
+            "A": "To increase engine rpm",
+            "B": "To test the horn circuit",
+            "C": "To cool the brakes",
+            "D": "To ground the connection and reduce the risk of static ignition"
+        },
+        "answer": "D",
+        "explanation": "Maintaining metal-to-metal contact grounds the connection and reduces the chance that static electricity will ignite fuel vapour.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "126",
+            "section": "Safe refuelling",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 265,
+        "uid": "C4-2026-265",
+        "chapter": "chapter6",
+        "classes": [
+            "class4-unrest"
+        ],
+        "question": "When may a school bus driver begin moving after passengers board?",
+        "options": {
+            "A": "After every passenger is seated",
+            "B": "As soon as the door begins closing",
+            "C": "After the first passenger sits",
+            "D": "Whenever traffic behind starts moving"
+        },
+        "answer": "A",
+        "explanation": "Moving before everyone is seated exposes boarding passengers to a fall. The school bus remains stopped until every passenger is seated.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "130",
+            "section": "School bus loading",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 266,
+        "uid": "C4-2026-266",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What driving information does a compliant ELD record automatically?",
+        "options": {
+            "A": "Only fuel purchases",
+            "B": "The driver's driving time, which may not be shortened",
+            "C": "Only passenger names",
+            "D": "Only annual inspection dates"
+        },
+        "answer": "B",
+        "explanation": "A compliant ELD automatically records driving time, and that recorded driving time cannot be shortened by editing.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "138",
+            "section": "Electronic logging devices",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 267,
+        "uid": "C4-2026-267",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How many ELDs may a driver use at the same time for the same period?",
+        "options": {
+            "A": "Two if both are certified",
+            "B": "One for each province",
+            "C": "No more than one",
+            "D": "Any number chosen by the carrier"
+        },
+        "answer": "C",
+        "explanation": "Using more than one ELD for the same period could create conflicting records, so the driver may use only one.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "138",
+            "section": "Electronic logging devices",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 268,
+        "uid": "C4-2026-268",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Unless exempt, how must an ELD be positioned while the commercial vehicle is operating?",
+        "options": {
+            "A": "Loose in the glove box",
+            "B": "Mounted outside the vehicle",
+            "C": "Held by a passenger",
+            "D": "Mounted in a fixed position and visible from the normal driving position"
+        },
+        "answer": "D",
+        "explanation": "Unless exempt, the ELD must be fixed in place and visible from the normal driving position so the driver can operate and monitor it safely.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "138",
+            "section": "ELD installation",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 269,
+        "uid": "C4-2026-269",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When must a driver record information associated with the record of duty status?",
+        "options": {
+            "A": "As the driver's duty status changes",
+            "B": "Only at the end of each month",
+            "C": "Only after an inspection request",
+            "D": "Only when driving outside B.C."
+        },
+        "answer": "A",
+        "explanation": "RODS information is entered as each duty-status change occurs, preserving an accurate chronological record instead of a later estimate.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "138",
+            "section": "ELD records",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 270,
+        "uid": "C4-2026-270",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What standard applies to the information entered in a driver's ELD record?",
+        "options": {
+            "A": "It may be estimated at the end of the week",
+            "B": "It must be complete and accurate",
+            "C": "It needs only the total driving distance",
+            "D": "It can omit on-duty-not-driving time"
+        },
+        "answer": "B",
+        "explanation": "Hours-of-service compliance depends on a complete and accurate record; omissions or estimates can conceal fatigue risk and create violations.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "138",
+            "section": "ELD records",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 271,
+        "uid": "C4-2026-271",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which item must a driver manually enter or verify in the ELD?",
+        "options": {
+            "A": "The weather forecast",
+            "B": "The names of all passengers",
+            "C": "The cycle the driver is following",
+            "D": "The price paid for fuel"
+        },
+        "answer": "C",
+        "explanation": "The driver must manually enter or verify the operating cycle, along with the other required identity, vehicle and carrier information.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "139",
+            "section": "ELD manual entry and verification",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 272,
+        "uid": "C4-2026-272",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When must a driver certify the accuracy of the day's RODS?",
+        "options": {
+            "A": "Before the first trip of the following month",
+            "B": "Only if requested by a passenger",
+            "C": "Once every 14 days",
+            "D": "Immediately after recording the last entry for the day"
+        },
+        "answer": "D",
+        "explanation": "Certification occurs immediately after the final entry for the day, confirming that the completed daily record is accurate.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "139",
+            "section": "Certifying records",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 273,
+        "uid": "C4-2026-273",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which document must be in the ELD information packet?",
+        "options": {
+            "A": "A current user's manual",
+            "B": "A vehicle sales brochure",
+            "C": "A provincial road map only",
+            "D": "A passenger manifest for every trip"
+        },
+        "answer": "A",
+        "explanation": "The ELD information packet must contain a current user manual so the driver can correctly operate the installed device.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "139",
+            "section": "ELD information packet",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 274,
+        "uid": "C4-2026-274",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What must the ELD information packet explain about a roadside inspection?",
+        "options": {
+            "A": "How to erase driving records",
+            "B": "How to generate and transfer hours-of-service data to a peace officer",
+            "C": "How to bypass an out-of-service order",
+            "D": "How to change the vehicle odometer"
+        },
+        "answer": "B",
+        "explanation": "The packet must explain the supported transfer methods and the steps used to provide hours-of-service data to a peace officer.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "139",
+            "section": "ELD information packet",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 275,
+        "uid": "C4-2026-275",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What malfunction information must the ELD packet include?",
+        "options": {
+            "A": "Instructions to continue without any records",
+            "B": "A list of passengers to notify",
+            "C": "Instructions describing the measures the driver should take if the ELD malfunctions",
+            "D": "Directions to disconnect the vehicle battery"
+        },
+        "answer": "C",
+        "explanation": "Malfunction instructions tell the driver how to preserve compliant records and report the failure instead of losing the duty history.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "139",
+            "section": "ELD information packet",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 276,
+        "uid": "C4-2026-276",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What must the totals for all duty-status categories add up to on a daily RODS?",
+        "options": {
+            "A": "13 hours",
+            "B": "16 hours",
+            "C": "70 hours",
+            "D": "24 hours"
+        },
+        "answer": "D",
+        "explanation": "Off duty, sleeper berth, driving and on-duty-not-driving totals must cover the entire day and therefore equal 24 hours.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "140",
+            "section": "Other forms of RODS",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 277,
+        "uid": "C4-2026-277",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When required to keep RODS, which recent records should a driver have available?",
+        "options": {
+            "A": "The current day and the preceding 14 days",
+            "B": "Only the current hour",
+            "C": "Only the previous calendar year",
+            "D": "The next 14 days of planned driving"
+        },
+        "answer": "A",
+        "explanation": "The driver must be able to produce the current day and the previous 14 days, allowing an inspector to assess limits across the full period.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "140",
+            "section": "Records carried by the driver",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 278,
+        "uid": "C4-2026-278",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should a driver retain with duty-status records when applicable?",
+        "options": {
+            "A": "Restaurant menus from every stop",
+            "B": "Supporting documents that verify the recorded activities",
+            "C": "Personal social-media messages",
+            "D": "Only a photocopy of the driver's birth certificate"
+        },
+        "answer": "B",
+        "explanation": "Supporting records such as fuel or trip documents help verify that the time and locations shown in the RODS are accurate.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "140",
+            "section": "Supporting records",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 279,
+        "uid": "C4-2026-279",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How is time spent on a ferry normally classified?",
+        "options": {
+            "A": "Always driving time",
+            "B": "Always on-duty-not-driving time",
+            "C": "Off duty unless the driver is working",
+            "D": "Sleeper-berth time in every case"
+        },
+        "answer": "C",
+        "explanation": "Ferry time is normally off duty only when the driver is not working; duties such as selling tickets make the time on duty.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "134",
+            "section": "Off-duty time",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 280,
+        "uid": "C4-2026-280",
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Before accumulating 70 hours of on-duty time in Cycle 2, what off-duty period is required?",
+        "options": {
+            "A": "At least 30 minutes off duty",
+            "B": "Exactly eight hours in a sleeper berth",
+            "C": "No off-duty period is required",
+            "D": "At least 24 consecutive hours off duty"
+        },
+        "answer": "D",
+        "explanation": "Cycle 2 requires at least 24 consecutive hours off before the driver accumulates 70 on-duty hours, in addition to its broader cycle limits.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "136",
+            "section": "Cycle 2 reset requirement",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 281,
+        "uid": "C4-2026-281",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Within what time should an applicant be able to complete the suggested Class 4 restricted pre-trip inspection?",
+        "options": {
+            "A": "Less than 15 minutes",
+            "B": "Less than five minutes",
+            "C": "Exactly 30 minutes",
+            "D": "Less than 45 minutes"
+        },
+        "answer": "A",
+        "explanation": "The suggested restricted Class 4 inspection is designed to be completed in under 15 minutes without skipping required safety items.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "229",
+            "section": "Class 4 restricted pre-trip inspection",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 282,
+        "uid": "C4-2026-282",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should be confirmed about every seatbelt during the Class 4 restricted passenger-compartment check?",
+        "options": {
+            "A": "It is tucked behind the seat",
+            "B": "It is in good condition and works properly",
+            "C": "Only the driver's belt is checked",
+            "D": "It is removed if the seat is empty"
+        },
+        "answer": "B",
+        "explanation": "Every driver and passenger seatbelt must latch, release and restrain correctly; checking only the driver belt leaves passengers unprotected.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "230",
+            "section": "Seats and seatbelts",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 283,
+        "uid": "C4-2026-283",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should the charge-rate indicator, voltmeter or ammeter show after the engine starts?",
+        "options": {
+            "A": "A continuous maximum warning",
+            "B": "No reading under any condition",
+            "C": "That the instrument works and the charging rate is good",
+            "D": "That the battery is disconnected"
+        },
+        "answer": "C",
+        "explanation": "A normal charge-rate reading confirms that the charging-system instrument works and the battery is being replenished while the engine runs.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "230",
+            "section": "Instrument panel",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 284,
+        "uid": "C4-2026-284",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should be checked on under-hood hose connections?",
+        "options": {
+            "A": "They are painted the same colour",
+            "B": "They are warm before starting",
+            "C": "They can rub against moving parts",
+            "D": "They are secure with no kinks, leaks, cuts, abrasions or cracks"
+        },
+        "answer": "D",
+        "explanation": "Secure, undamaged hoses prevent loss of critical fluid. Kinks, leaks, cuts, abrasions or cracks can lead to a breakdown or unsafe control loss.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "229",
+            "section": "Hoses",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 285,
+        "uid": "C4-2026-285",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What must the fuel gauge indicate before a Class 4 trip begins?",
+        "options": {
+            "A": "Sufficient fuel for safe operation",
+            "B": "An exactly full tank",
+            "C": "Zero fuel until the engine warms",
+            "D": "Only the amount used yesterday"
+        },
+        "answer": "A",
+        "explanation": "The fuel gauge must show enough fuel for the intended operation, preventing an avoidable roadside stop with passengers aboard.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "230",
+            "section": "Instrument panel",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 286,
+        "uid": "C4-2026-286",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should be confirmed about windows during the passenger-compartment check?",
+        "options": {
+            "A": "They remain fully open in all weather",
+            "B": "They are clean, free of cracks, and open and close properly",
+            "C": "They are covered to reduce glare",
+            "D": "Only the driver's window needs inspection"
+        },
+        "answer": "B",
+        "explanation": "Clean, crack-free windows preserve visibility, while correct opening and closing confirms they remain usable and secure.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "230",
+            "section": "Windows and windshield",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 287,
+        "uid": "C4-2026-287",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should the coolant-temperature indicator do as the engine warms?",
+        "options": {
+            "A": "Stay at maximum temperature",
+            "B": "Remain at zero on every vehicle",
+            "C": "Rise to normal operating temperature, with its warning light going off after start",
+            "D": "Flash continuously"
+        },
+        "answer": "C",
+        "explanation": "As the engine warms, coolant temperature should rise into its normal range and the warning light should go out; a different response may indicate a fault.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "230",
+            "section": "Instrument panel",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 288,
+        "uid": "C4-2026-288",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What must be checked about the wipers and washers?",
+        "options": {
+            "A": "Only the passenger-side wiper exists",
+            "B": "They operate only at highway speed",
+            "C": "Washer fluid sprays onto the rear tires",
+            "D": "Both operate properly"
+        },
+        "answer": "D",
+        "explanation": "Both wipers and washers must work because each is needed to clear rain, spray or dirt and maintain the driver view.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "230",
+            "section": "Windshield equipment",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 289,
+        "uid": "C4-2026-289",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When checking the four-way flashers inside the vehicle, what should you see?",
+        "options": {
+            "A": "Both dashboard indicators operating",
+            "B": "Only the left indicator operating",
+            "C": "The high-beam indicator flashing",
+            "D": "No dashboard indication"
+        },
+        "answer": "A",
+        "explanation": "Both dashboard arrows should flash when the four-way control is selected, providing an in-cab confirmation before the exterior lamps are checked.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "231",
+            "section": "Four-way flashers",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 290,
+        "uid": "C4-2026-290",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should a Class 4 restricted driver confirm about the exhaust system?",
+        "options": {
+            "A": "It is louder than normal",
+            "B": "It has no leaks and the muffler is securely fastened",
+            "C": "The tailpipe points into the passenger compartment",
+            "D": "The muffler can move freely"
+        },
+        "answer": "B",
+        "explanation": "An exhaust leak can expose occupants to toxic gases, while a loose muffler can detach or damage nearby components.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "231",
+            "section": "Exhaust system",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 291,
+        "uid": "C4-2026-291",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What must be confirmed about the fuel cap?",
+        "options": {
+            "A": "It is removed before every trip",
+            "B": "It is replaced by a cloth",
+            "C": "It is present and secure",
+            "D": "It is loose to vent fuel vapour"
+        },
+        "answer": "C",
+        "explanation": "A missing or loose cap can allow fuel or vapour to escape, so the cap must be present and securely fastened.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "231",
+            "section": "Fuel cap",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 292,
+        "uid": "C4-2026-292",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should be checked about visible wheel lugs?",
+        "options": {
+            "A": "They are coated with oil",
+            "B": "They are all different sizes",
+            "C": "They can be turned by hand",
+            "D": "They are secure and none are missing, broken or loose"
+        },
+        "answer": "D",
+        "explanation": "Missing, broken or loose wheel lugs can allow the wheel to shift or separate; every visible lug must be secure.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "232",
+            "section": "Tires and wheels",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 293,
+        "uid": "C4-2026-293",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If a propane tank is carried in the trunk, what must the inspection confirm?",
+        "options": {
+            "A": "It is secure and not leaking",
+            "B": "Its valve is left open",
+            "C": "It is supported by the spare tire only",
+            "D": "It is warm to the touch"
+        },
+        "answer": "A",
+        "explanation": "A propane cylinder must be restrained and leak-free because movement or escaping gas creates a serious fire and explosion hazard.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "232",
+            "section": "Trunk inspection",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 294,
+        "uid": "C4-2026-294",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should the driver listen for immediately after starting the engine?",
+        "options": {
+            "A": "Passenger conversations",
+            "B": "Unusual engine sounds",
+            "C": "Only the radio volume",
+            "D": "A continuous horn"
+        },
+        "answer": "B",
+        "explanation": "Unusual sounds immediately after startup can reveal a mechanical fault before the vehicle enters service.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "231",
+            "section": "Engine noises",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 295,
+        "uid": "C4-2026-295",
+        "chapter": "chapter10",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Before taking a hydraulic-brake vehicle down a steep hill, what must be checked?",
+        "options": {
+            "A": "Only that the parking brake handle is down",
+            "B": "Only tire pressure",
+            "C": "Adequate pedal reserve, no overheated drums and no hydraulic-fluid leaks",
+            "D": "That the transmission can shift into neutral"
+        },
+        "answer": "C",
+        "explanation": "Adequate pedal reserve, cool brake drums and no hydraulic leaks together confirm that hydraulic braking capacity has not been compromised before the descent.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "233",
+            "section": "Pre-hill inspections",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        }
+    },
+    {
+        "id": 296,
+        "uid": "C4-2026-296",
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What does this fluorescent yellow-green pentagon sign warn of?",
+        "options": {
+            "A": "A playground zone",
+            "B": "A hospital entrance",
+            "C": "A railway crossing",
+            "D": "A school zone or school crosswalk"
+        },
+        "answer": "D",
+        "explanation": "The fluorescent yellow-green pentagon shape identifies a school area or school crosswalk where children and crossing activity should be expected.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "239",
+            "section": "School and crosswalk signs",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        },
+        "image": "images/signs/3a.png"
+    },
+    {
+        "id": 297,
+        "uid": "C4-2026-297",
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What rule applies to this playground-zone sign with a 30 km/h tab?",
+        "options": {
+            "A": "The 30 km/h limit applies every day from dawn to dusk",
+            "B": "The limit applies only on school days",
+            "C": "The limit applies only when a crossing guard is present",
+            "D": "The sign is advisory and has no speed limit"
+        },
+        "answer": "A",
+        "explanation": "Unlike a school-day schedule, the signed playground 30 km/h limit applies every day from dawn until dusk.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "239",
+            "section": "School and playground signs",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        },
+        "image": "images/signs/5a.png"
+    },
+    {
+        "id": 298,
+        "uid": "C4-2026-298",
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What does this steady green downward lane-control arrow mean?",
+        "options": {
+            "A": "You must leave the lane immediately",
+            "B": "You may drive in the lane beneath it",
+            "C": "The lane is reserved for emergency vehicles",
+            "D": "Traffic in the lane must stop"
+        },
+        "answer": "B",
+        "explanation": "A steady green downward arrow means the lane below is open. A red X would mean the lane is closed.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "244",
+            "section": "Lane control signals",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        },
+        "image": "images/signs/314.png"
+    },
+    {
+        "id": 299,
+        "uid": "C4-2026-299",
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What hazard does this warning sign indicate?",
+        "options": {
+            "A": "A winding road ends",
+            "B": "A ferry terminal is ahead",
+            "C": "The road may be slippery ahead",
+            "D": "Passing is mandatory"
+        },
+        "answer": "C",
+        "explanation": "This diamond warning sign indicates reduced traction may occur ahead, especially when the pavement is wet, so speed and control inputs should be moderated.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "241",
+            "section": "Warning signs",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        },
+        "image": "images/signs/58.png"
+    },
+    {
+        "id": 300,
+        "uid": "C4-2026-300",
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What should a commercial driver do after seeing this steep-hill warning sign?",
+        "options": {
+            "A": "Shift to neutral immediately",
+            "B": "Increase speed before descending",
+            "C": "Stop in the travel lane",
+            "D": "Slow down and prepare for the downgrade before reaching it"
+        },
+        "answer": "D",
+        "explanation": "The steep-hill warning calls for speed and gear selection before the descent; waiting until the vehicle is already accelerating downhill may overwork the brakes.",
+        "source": {
+            "document": "Driving Commercial Vehicles",
+            "version": "2024",
+            "page": "241",
+            "section": "Warning signs",
+            "url": "https://www.icbc.com/driver-licensing/documents/drive_commercial_veh_full.pdf",
+            "verified": "2026-07-15"
+        },
+        "image": "images/signs/59.png"
     }
 ];

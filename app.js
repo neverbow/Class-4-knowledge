@@ -93,6 +93,7 @@ class App {
         this.userHistory = JSON.parse(localStorage.getItem(`icbc_history_${username}`)) || [];
         this.mistakesBook = JSON.parse(localStorage.getItem(`icbc_mistakes_${username}`)) || {};
         this.practiceProgress = JSON.parse(localStorage.getItem(`icbc_practice_progress_${username}`)) || [];
+        this.resetLearningStateForNewBank();
         
         document.getElementById('profile-gate').classList.add('hidden');
         document.getElementById('app').classList.remove('hidden');
@@ -296,6 +297,30 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         }
         return array;
     }
+
+    getQuestionKey(question) {
+        return question.uid || String(question.id);
+    }
+
+    resetLearningStateForNewBank() {
+        const bankVersion = window.QUESTION_BANK_VERSION?.version || 'unknown';
+        const versionKey = `icbc_bank_version_${this.currentUser}`;
+        const previousVersion = localStorage.getItem(versionKey);
+        if (previousVersion !== bankVersion) {
+            // IDs and content changed in the curated rebuild, so old progress cannot be mapped safely.
+            this.mistakesBook = {};
+            this.practiceProgress = [];
+            localStorage.setItem(versionKey, bankVersion);
+            this.saveData();
+        }
+    }
+
+    getSourceHtml(question) {
+        if (!question.source) return '';
+        const source = question.source;
+        const label = `${source.document} (${source.version}), p. ${source.page} - ${source.section}`;
+        return `<div class="question-source"><strong>Official source:</strong> <a href="${source.url}" target="_blank" rel="noopener noreferrer">${label}</a></div>`;
+    }
     
     getFilteredQuestions(mode, topic = 'all') {
         // Filter by licence class first
@@ -314,12 +339,12 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         const topic = document.getElementById('practice-topic-filter').value;
         let allFiltered = this.getFilteredQuestions('practice', topic);
         
-        let unseen = allFiltered.filter(q => !this.practiceProgress.includes(q.id));
+        let unseen = allFiltered.filter(q => !this.practiceProgress.includes(this.getQuestionKey(q)));
         
         if(unseen.length === 0) {
             if (allFiltered.length > 0) {
                 if (confirm('You have completed all questions in this topic! Do you want to restart and practice them again?')) {
-                    const topicIds = allFiltered.map(q => q.id);
+                    const topicIds = allFiltered.map(q => this.getQuestionKey(q));
                     this.practiceProgress = this.practiceProgress.filter(id => !topicIds.includes(id));
                     this.saveData();
                     unseen = allFiltered;
@@ -348,24 +373,29 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
     
     // --- MOCK EXAM MODE ---
     startMockExam() {
-        // Enforce strict chapter proportions for a realistic 35-question mock exam
+        // Balanced Class 4 study blueprint. This does not claim to reproduce live ICBC weighting.
         const baseFiltered = window.QUESTION_BANK.filter(q => q.classes.includes(this.licenceClass));
         const getQuestionsByChapter = (chapterPrefix, limit) => {
             return this.shuffleArray(baseFiltered.filter(q => q.chapter.startsWith(chapterPrefix))).slice(0, limit);
         };
-        
-        const qCh6 = getQuestionsByChapter('chapter6', 10);  // Passenger Safety
-        const qCh10 = getQuestionsByChapter('chapter10', 8); // Pre-trip
-        const qCh7 = getQuestionsByChapter('chapter7', 6);   // Hours of Service
-        const qCh23 = this.shuffleArray(baseFiltered.filter(q => q.chapter === 'chapter2' || q.chapter === 'chapter3')).slice(0, 7); // Driving & Braking
-        const qCh11 = getQuestionsByChapter('chapter11', 4); // Signs
-        
-        let mockQuestions = [...qCh6, ...qCh10, ...qCh7, ...qCh23, ...qCh11];
+        const blueprint = {
+            chapter1: 3,
+            chapter2: 3,
+            chapter3: 4,
+            chapter4: 2,
+            chapter5: 1,
+            chapter6: 8,
+            chapter7: 5,
+            chapter10: 6,
+            chapter11: 3
+        };
+        let mockQuestions = Object.entries(blueprint)
+            .flatMap(([chapter, count]) => getQuestionsByChapter(chapter, count));
         
         // Pad with random if pool lacks enough questions for specific quotas
         if (mockQuestions.length < 35) {
-            const usedIds = mockQuestions.map(q => q.id);
-            const remaining = this.shuffleArray(baseFiltered.filter(q => !usedIds.includes(q.id)));
+            const usedIds = new Set(mockQuestions.map(q => this.getQuestionKey(q)));
+            const remaining = this.shuffleArray(baseFiltered.filter(q => !usedIds.has(this.getQuestionKey(q))));
             mockQuestions = [...mockQuestions, ...remaining.slice(0, 35 - mockQuestions.length)];
         }
         
@@ -428,7 +458,7 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
     
     startMistakesReview() {
         const mistakeIds = Object.keys(this.mistakesBook);
-        this.activeQuestions = window.QUESTION_BANK.filter(q => mistakeIds.includes(q.id.toString()));
+        this.activeQuestions = window.QUESTION_BANK.filter(q => mistakeIds.includes(this.getQuestionKey(q)));
         this.activeQuestions = this.activeQuestions.sort(() => Math.random() - 0.5); // Shuffle
         
         this.currentQuestionIndex = 0;
@@ -444,20 +474,21 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
     }
     
     logMistake(question) {
-        if (!this.mistakesBook[question.id]) {
-            this.mistakesBook[question.id] = { correctStreak: 0, chapter: question.chapter };
+        const questionKey = this.getQuestionKey(question);
+        if (!this.mistakesBook[questionKey]) {
+            this.mistakesBook[questionKey] = { correctStreak: 0, chapter: question.chapter };
         } else {
-            this.mistakesBook[question.id].correctStreak = 0; // Reset streak
+            this.mistakesBook[questionKey].correctStreak = 0;
         }
         this.saveData();
     }
     
-    logCorrectMistake(questionId) {
-        if (this.mistakesBook[questionId]) {
-            this.mistakesBook[questionId].correctStreak++;
-            if (this.mistakesBook[questionId].correctStreak >= 2) {
-                // Mastered!
-                delete this.mistakesBook[questionId];
+    logCorrectMistake(question) {
+        const questionKey = this.getQuestionKey(question);
+        if (this.mistakesBook[questionKey]) {
+            this.mistakesBook[questionKey].correctStreak++;
+            if (this.mistakesBook[questionKey].correctStreak >= 2) {
+                delete this.mistakesBook[questionKey];
             }
             this.saveData();
         }
@@ -546,15 +577,16 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         
         if (isCorrect) {
             selectedBtn.classList.add('correct');
-            if (mode === 'mistake') this.logCorrectMistake(q.id);
+            if (mode === 'mistake') this.logCorrectMistake(q);
         } else {
             selectedBtn.classList.add('wrong');
             correctBtn.classList.add('correct');
             this.logMistake(q);
         }
         
-        if (mode === 'practice' && !this.practiceProgress.includes(q.id)) {
-            this.practiceProgress.push(q.id);
+        const questionKey = this.getQuestionKey(q);
+        if (mode === 'practice' && !this.practiceProgress.includes(questionKey)) {
+            this.practiceProgress.push(questionKey);
             this.saveData();
         }
         
@@ -564,6 +596,7 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         feedbackContainer.innerHTML = `
             <h3>${isCorrect ? 'Correct' : 'Incorrect'}</h3>
             <p>${q.explanation}</p>
+            ${this.getSourceHtml(q)}
         `;
         
         const controls = document.getElementById(`${mode}-controls`);
@@ -629,8 +662,12 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         
         let score = 0;
         this.activeQuestions.forEach(q => {
+            const questionKey = this.getQuestionKey(q);
+            if (!this.practiceProgress.includes(questionKey)) {
+                this.practiceProgress.push(questionKey);
+            }
             if (q.userAnswer === null) {
-                // Skipped/Unanswered. Do not log as mistake, do not add to score.
+                this.logMistake(q);
             } else if (q.userAnswer === q.answer) {
                 score++;
             } else {
@@ -654,10 +691,10 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         
         const msgEl = document.getElementById('score-message');
         if (percentage >= 80) {
-            msgEl.textContent = "Congratulations! You passed the mock exam. ICBC requires 80% to pass.";
+            msgEl.textContent = "You reached the 80% study target for this practice simulation.";
             msgEl.style.color = "var(--success-color)";
         } else {
-            msgEl.textContent = "You did not pass. You need at least 80% to pass the ICBC knowledge test. Review your mistakes below.";
+            msgEl.textContent = "You have not reached the 80% study target yet. Review the questions below and try again.";
             msgEl.style.color = "var(--danger-color)";
         }
         
@@ -689,6 +726,7 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
                     ${!isCorrect ? `<p style="margin: 0.5rem 0; color: var(--success-color);"><strong>Correct Answer:</strong> ${correctAnsText}</p>` : ''}
                     <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1); font-size: 0.9rem; color: #ccc;">
                         <strong>Explanation:</strong> ${q.explanation}
+                        ${this.getSourceHtml(q)}
                     </div>
                 </div>
             `;
@@ -700,19 +738,20 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
     
     // --- ANALYTICS ---
     renderAnalytics() {
-        // Calculate category performance based on mistakes and history
-        // For simplicity, we analyze the mistakes book density by chapter
+        // Readiness combines question coverage with unresolved mistakes. Unseen topics start at 0.
         const chapterErrors = {};
         Object.values(this.mistakesBook).forEach(m => {
             chapterErrors[m.chapter] = (chapterErrors[m.chapter] || 0) + 1;
         });
         
-        const chapters = ['chapter6', 'chapter7', 'chapter10', 'chapter11'];
-        const labels = ['Passenger Safety', 'Hours of Service', 'Pre-Trip Inspection', 'Signs & Signals'];
+        const chapters = ['chapter1', 'chapter2', 'chapter3', 'chapter4', 'chapter5', 'chapter6', 'chapter7', 'chapter10', 'chapter11'];
+        const labels = ['Licensing', 'Braking', 'Driving', 'Fuel', 'Special Rules', 'Passengers', 'Hours', 'Pre-Trip', 'Signs'];
         const data = chapters.map(ch => {
-            // Error weight (higher means worse). Invert for radar (100 = perfect)
+            const available = window.QUESTION_BANK.filter(q => q.chapter === ch && q.classes.includes(this.licenceClass));
+            const attempted = available.filter(q => this.practiceProgress.includes(this.getQuestionKey(q))).length;
             const errors = chapterErrors[ch] || 0;
-            return Math.max(0, 100 - (errors * 10)); // Arbitrary formula for demo
+            if (available.length === 0) return 0;
+            return Math.max(0, Math.round(((attempted - errors) / available.length) * 100));
         });
         
         // Find weakest
@@ -737,7 +776,7 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
             data: {
                 labels: labels,
                 datasets: [{
-                    label: 'Knowledge Mastery %',
+                    label: 'Practice Readiness %',
                     data: data,
                     fill: true,
                     backgroundColor: 'rgba(59, 130, 246, 0.2)',

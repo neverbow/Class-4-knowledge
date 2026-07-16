@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ICBC Commercial Driver Test Prep</title>
+    <title>ICBC Class 4 Practice</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- Chart.js for Analytics -->
@@ -42,7 +42,7 @@
     <div id="app" class="hidden">
         <!-- Sidebar Navigation -->
         <nav class="sidebar">
-            <div class="logo">ICBC Prep Pro</div>
+            <div class="logo">Class 4 Prep</div>
             
             <div class="user-info" style="margin-bottom: 2rem; padding: 1rem; background: rgba(255,255,255,0.05); border-radius: var(--border-radius-sm); border: 1px solid rgba(255,255,255,0.1); text-align: center;">
                 <div style="font-size: 0.85rem; color: var(--text-secondary);">Current User</div>
@@ -64,9 +64,6 @@
                 <select id="licence-class">
                     <option value="class4-rest">Class 4 Restricted</option>
                     <option value="class4-unrest">Class 4 Unrestricted</option>
-                    <option value="class1">Class 1</option>
-                    <option value="class2">Class 2</option>
-                    <option value="class3">Class 3</option>
                 </select>
             </div>
         </nav>
@@ -76,8 +73,8 @@
             
             <!-- Home View -->
             <section id="home-view" class="view active-view">
-                <h1>Welcome Back, Driver!</h1>
-                <p>Select your module on the left to start preparing.</p>
+                <h1>Class 4 Practice Bank</h1>
+                <p>Practise with 200 questions traced to official ICBC source material.</p>
                 
                 <div class="dashboard-cards">
                     <div class="card stat-card" onclick="app.navigate('practice-view')">
@@ -87,7 +84,7 @@
                     </div>
                     <div class="card stat-card" onclick="app.navigate('mock-view')">
                         <h3>Mock Exam</h3>
-                        <p>35 questions in 45 minutes. Simulate the real ICBC test environment.</p>
+                        <p>A 35-question, 45-minute study simulation covering every Class 4 topic.</p>
                         <button class="primary-btn">Take Exam</button>
                     </div>
                     <div class="card stat-card" onclick="app.navigate('mistakes-view')">
@@ -104,10 +101,12 @@
                     <h2>Practice Mode</h2>
                     <div class="topic-filter">
                         <select id="practice-topic-filter">
-                            <option value="all">All Topics (Includes Chapters 1-11)</option>
+                            <option value="all">All Class 4 Topics (200 Questions)</option>
                             <option value="chapter1">Chapter 1: Licensing</option>
                             <option value="chapter2">Chapter 2: Heavy Vehicle Braking</option>
                             <option value="chapter3">Chapter 3: Driving Rules & Basics</option>
+                            <option value="chapter4">Chapter 4: Fuel-Efficient Driving</option>
+                            <option value="chapter5">Chapter 5: Required Special Topics</option>
                             <option value="chapter6">Chapter 6: Passenger Safety & Rules</option>
                             <option value="chapter7">Chapter 7: Hours of Service</option>
                             <option value="chapter10">Chapter 10: Pre-Trip Inspection</option>
@@ -134,7 +133,7 @@
             <section id="mock-view" class="view hidden">
                 <div id="mock-intro">
                     <h2>Mock Exam</h2>
-                    <p>This exam consists of 35 multiple-choice questions randomly selected based on your target licence class. You have 45 minutes to complete it.</p>
+                    <p>This study simulation selects 35 questions from a balanced Class 4 topic blueprint. The 45-minute timer and 80% target are practice settings, not a claim about the current live ICBC test format.</p>
                     <button class="primary-btn" id="start-mock-btn">Start Exam</button>
                 </div>
                 

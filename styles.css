@@ -654,3 +654,22 @@ body.quiz-focus-mode .main-content {
         padding: 0.8rem 0.5rem !important;
     }
 }
+
+
+.question-source {
+    margin-top: 0.9rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(148, 163, 184, 0.25);
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    line-height: 1.45;
+}
+
+.question-source a {
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.question-source a:hover {
+    text-decoration: underline;
+}

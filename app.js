@@ -554,6 +554,8 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
     
     // --- SHARED RENDER LOGIC ---
     renderQuestion(mode) {
+        this.hasAnswered = false;
+        
         const q = this.activeQuestions[this.currentQuestionIndex];
         const containerId = `${mode}-question-card`;
         const container = document.getElementById(containerId);

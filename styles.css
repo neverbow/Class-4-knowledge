@@ -560,12 +560,6 @@ body.quiz-focus-mode .main-content {
         z-index: 1000 !important;
         width: calc(100% - 120px) !important;
         margin: 0 !important;
-        transform: translateY(-150%) !important;
-        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
-    }
-    
-    body.quiz-focus-mode.show-mobile-topic-filter .topic-filter {
-        transform: translateY(0) !important; /* Slide down into view */
     }
 
     body.quiz-focus-mode .topic-filter select {

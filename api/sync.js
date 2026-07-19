@@ -97,7 +97,7 @@ export async function GET(request) {
         return json({ state });
     } catch (error) {
         console.error('KENT sync read failed', error);
-        return json({ error: 'Cloud sync is temporarily unavailable' }, 503);
+        return json({ error: 'Cloud sync is temporarily unavailable', details: error.stack || error.message }, 503);
     }
 }
 
@@ -117,14 +117,8 @@ export async function POST(request) {
         return json({ state });
     } catch (error) {
         console.error('KENT sync write failed', error);
-        return json({ error: 'Cloud sync is temporarily unavailable' }, 503);
+        return json({ error: 'Cloud sync is temporarily unavailable', details: error.stack || error.message }, 503);
     }
 }
 
-export const config = { runtime: 'edge' };
 
-export default async function handler(request) {
-    if (request.method === 'GET') return await GET(request);
-    if (request.method === 'POST') return await POST(request);
-    return new Response('Method not allowed', { status: 405 });
-}

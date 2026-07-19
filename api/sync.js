@@ -43,6 +43,7 @@ function isAlreadyExists(error) {
 function isRetryableConflict(error) {
     return error instanceof BlobPreconditionFailedError
         || error?.name === 'BlobPreconditionFailedError'
+        || /ETag mismatch/i.test(error?.message || '')
         || isAlreadyExists(error);
 }
 
@@ -97,7 +98,7 @@ export async function GET(request) {
         return json({ state });
     } catch (error) {
         console.error('KENT sync read failed', error);
-        return json({ error: 'Cloud sync is temporarily unavailable', details: error.stack || error.message }, 503);
+        return json({ error: 'Cloud sync is temporarily unavailable' }, 503);
     }
 }
 
@@ -117,7 +118,7 @@ export async function POST(request) {
         return json({ state });
     } catch (error) {
         console.error('KENT sync write failed', error);
-        return json({ error: 'Cloud sync is temporarily unavailable', details: error.stack || error.message }, 503);
+        return json({ error: 'Cloud sync is temporarily unavailable' }, 503);
     }
 }
 

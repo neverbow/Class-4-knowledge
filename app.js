@@ -137,6 +137,10 @@ class App {
         document.querySelectorAll('.nav-btn').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 const target = e.target.closest('.nav-btn').dataset.target;
+                if (target === 'practice-view') {
+                    this.startPractice();
+                    return;
+                }
                 this.navigate(target);
             });
         });
@@ -148,7 +152,7 @@ class App {
         });
         
         // Start buttons
-        document.querySelector('#home-view .primary-btn').addEventListener('click', () => this.startPractice());
+        document.getElementById('start-practice-btn').addEventListener('click', () => this.startPractice());
         document.getElementById('start-mock-btn').addEventListener('click', () => this.startMockExam());
         document.getElementById('start-mistakes-btn').addEventListener('click', () => this.startMistakesReview());
         

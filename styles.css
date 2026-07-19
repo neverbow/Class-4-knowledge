@@ -549,7 +549,6 @@ body.quiz-focus-mode .main-content {
     }
     
     body.quiz-focus-mode .quiz-header h2,
-    body.quiz-focus-mode .topic-filter,
     body.quiz-focus-mode .quiz-header p {
         display: none !important;
     }

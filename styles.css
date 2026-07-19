@@ -673,3 +673,16 @@ body.quiz-focus-mode .main-content {
 .question-source a:hover {
     text-decoration: underline;
 }
+
+/* KENT cloud synchronization status */
+.cloud-sync-status {
+    margin-bottom: 0.75rem;
+    font-size: 0.72rem;
+    line-height: 1.3;
+    color: var(--text-secondary);
+}
+
+.cloud-sync-status[data-state="synced"] { color: var(--success-color); }
+.cloud-sync-status[data-state="syncing"] { color: var(--accent-color); }
+.cloud-sync-status[data-state="local"] { color: #f59e0b; }
+.cloud-sync-status[data-state="disabled"] { color: var(--text-secondary); }

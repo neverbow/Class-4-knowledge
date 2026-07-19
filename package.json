@@ -1,0 +1,12 @@
+{
+  "name": "class-4-knowledge-practice",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test --test-isolation=none"
+  },
+  "dependencies": {
+    "@vercel/blob": "^2.3.0"
+  }
+}

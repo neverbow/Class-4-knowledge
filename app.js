@@ -20,6 +20,7 @@ class App {
         this.isMockExam = false;
         this.mistakeReviewMode = false;
         this.geminiApiKey = localStorage.getItem('icbc_gemini_key') || '';
+        this.cloudSync = window.KentCloudSync ? new window.KentCloudSync() : null;
         
         this.migrateLegacyData();
         this.init();
@@ -93,6 +94,8 @@ class App {
         this.userHistory = JSON.parse(localStorage.getItem(`icbc_history_${username}`)) || [];
         this.mistakesBook = JSON.parse(localStorage.getItem(`icbc_mistakes_${username}`)) || {};
         this.practiceProgress = JSON.parse(localStorage.getItem(`icbc_practice_progress_${username}`)) || [];
+        this.cloudSync?.backupLocalSnapshot(this);
+        this.cloudSync?.normalizeLegacyQuestionKeys(this);
         this.resetLearningStateForNewBank();
         
         document.getElementById('profile-gate').classList.add('hidden');
@@ -100,6 +103,7 @@ class App {
         
         this.updateMistakesCount();
         this.navigate('home-view');
+        void this.cloudSync?.start(this);
     }
     
     switchProfile() {
@@ -308,17 +312,8 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         const schemaVersion = String(window.QUESTION_BANK_VERSION?.schemaVersion || 2);
         const versionKey = `icbc_bank_version_${this.currentUser}`;
         const schemaKey = `icbc_bank_schema_${this.currentUser}`;
-        const previousVersion = localStorage.getItem(versionKey);
-        const previousSchema = localStorage.getItem(schemaKey);
-        const isAdditiveMigration = previousSchema === null
-            && previousVersion === '2026.07.15-class4-200';
 
-        if (!isAdditiveMigration && previousSchema !== schemaVersion) {
-            // Only incompatible schema changes clear saved progress. Additive bank releases keep it.
-            this.mistakesBook = {};
-            this.practiceProgress = [];
-        }
-
+        // Question UIDs are stable. Never erase local learning data during an additive bank update.
         localStorage.setItem(schemaKey, schemaVersion);
         localStorage.setItem(versionKey, bankVersion);
         this.saveData();
@@ -495,6 +490,11 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         } else {
             this.mistakesBook[questionKey].correctStreak = 0;
         }
+        this.cloudSync?.markMistake(questionKey, {
+            status: 'active',
+            correctStreak: 0,
+            chapter: question.chapter
+        });
         this.saveData();
     }
     
@@ -502,18 +502,35 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         const questionKey = this.getQuestionKey(question);
         if (this.mistakesBook[questionKey]) {
             this.mistakesBook[questionKey].correctStreak++;
-            if (this.mistakesBook[questionKey].correctStreak >= 2) {
+            const correctStreak = this.mistakesBook[questionKey].correctStreak;
+            if (correctStreak >= 2) {
                 delete this.mistakesBook[questionKey];
+                this.cloudSync?.markMistake(questionKey, {
+                    status: 'resolved',
+                    correctStreak: 2,
+                    chapter: question.chapter
+                });
+            } else {
+                this.cloudSync?.markMistake(questionKey, {
+                    status: 'active',
+                    correctStreak,
+                    chapter: question.chapter
+                });
             }
             this.saveData();
         }
     }
     
-    saveData() {
+    saveData(options = {}) {
         if (!this.currentUser) return;
         localStorage.setItem(`icbc_mistakes_${this.currentUser}`, JSON.stringify(this.mistakesBook));
         localStorage.setItem(`icbc_history_${this.currentUser}`, JSON.stringify(this.userHistory));
         localStorage.setItem(`icbc_practice_progress_${this.currentUser}`, JSON.stringify(this.practiceProgress));
+        if (options.sync !== false) this.cloudSync?.schedule();
+    }
+
+    downloadDataBackup() {
+        this.cloudSync?.downloadBackup();
     }
     
     // --- SHARED RENDER LOGIC ---

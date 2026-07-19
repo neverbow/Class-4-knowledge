@@ -182,6 +182,20 @@ class App {
                 setTimeout(() => status.style.display = 'none', 2000);
             });
         }
+
+        // Setup mobile pull-down to show topic filter
+        let touchstartY = 0;
+        document.addEventListener('touchstart', e => {
+            touchstartY = e.changedTouches[0].screenY;
+        }, {passive: true});
+        document.addEventListener('touchend', e => {
+            let touchendY = e.changedTouches[0].screenY;
+            if (touchendY > touchstartY + 50) { // Swipe down detected
+                if (document.body.classList.contains('quiz-focus-mode')) {
+                    document.body.classList.add('show-mobile-topic-filter');
+                }
+            }
+        }, {passive: true});
     }
     
 
@@ -381,6 +395,7 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         
         document.getElementById('prac-total-q').textContent = this.activeQuestions.length;
         this.enterFocusMode();
+        document.body.classList.add('show-mobile-topic-filter');
         this.renderQuestion('practice');
         this.navigate('practice-view');
     }
@@ -598,6 +613,9 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
     handleAnswer(selectedOpt, mode) {
         if (this.hasAnswered) return;
         this.hasAnswered = true;
+        
+        // Hide topic filter on mobile after answering
+        document.body.classList.remove('show-mobile-topic-filter');
         
         const q = this.activeQuestions[this.currentQuestionIndex];
         const buttons = document.querySelectorAll(`#${mode}-question-card .option-btn`);

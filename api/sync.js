@@ -120,3 +120,11 @@ export async function POST(request) {
         return json({ error: 'Cloud sync is temporarily unavailable' }, 503);
     }
 }
+
+export const config = { runtime: 'edge' };
+
+export default async function handler(request) {
+    if (request.method === 'GET') return await GET(request);
+    if (request.method === 'POST') return await POST(request);
+    return new Response('Method not allowed', { status: 405 });
+}

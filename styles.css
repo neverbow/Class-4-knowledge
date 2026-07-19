@@ -555,23 +555,26 @@ body.quiz-focus-mode .main-content {
 
     body.quiz-focus-mode .topic-filter {
         position: fixed !important;
-        top: -60px !important; /* Hidden by default */
+        top: 10px !important;
         left: 10px !important;
         z-index: 1000 !important;
         width: calc(100% - 120px) !important;
         margin: 0 !important;
-        transition: top 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        transform: translateY(-150%) !important;
+        transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
     }
     
     body.quiz-focus-mode.show-mobile-topic-filter .topic-filter {
-        top: 10px !important; /* Slide down into view */
+        transform: translateY(0) !important; /* Slide down into view */
     }
 
     body.quiz-focus-mode .topic-filter select {
-        padding: 0.5rem !important;
+        padding: 0 0.75rem !important;
         font-size: 0.9rem !important;
         height: 38px !important;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+        box-sizing: border-box !important;
+        margin: 0 !important;
     }
 
     body.quiz-focus-mode .progress-indicator,

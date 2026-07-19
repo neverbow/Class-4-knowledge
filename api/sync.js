@@ -80,8 +80,7 @@ async function mergeAndWrite(incoming, deviceId, initialMigration) {
                 access: 'private',
                 contentType: 'application/json',
                 cacheControlMaxAge: 60,
-                allowOverwrite: Boolean(current.etag),
-                ...(current.etag ? { ifMatch: current.etag } : {})
+                allowOverwrite: true
             });
             return merged;
         } catch (error) {

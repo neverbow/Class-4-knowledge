@@ -3,7 +3,7 @@ window.QUESTION_BANK_VERSION = {
     "version": "2026.07.21-class4-extended",
     "schemaVersion": 2,
     "scope": "Class 4 restricted and unrestricted",
-    "questionCount": 339,
+    "questionCount": 351,
     "officialSourcesOnly": true,
     "verifiedDate": "2026-07-21"
 };
@@ -8459,7 +8459,283 @@ window.QUESTION_BANK = [
         }
     },
     {
-        "id": 350,
+        "id": 329,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the primary purpose of the hours of service regulations for commercial drivers?",
+        "options": {
+            "A": "To limit the income potential of drivers to ensure fair competition among carriers.",
+            "B": "To ensure drivers have adequate rest and prevent fatigue-related accidents on the road.",
+            "C": "To mandate uniform delivery schedules for commercial goods across the country.",
+            "D": "To track the fuel efficiency and maintenance schedules of commercial vehicles."
+        },
+        "answer": "B",
+        "explanation": "The hours of service regulations are designed to keep fatigued drivers off the road and prevent fatigue-related crashes by ensuring commercial drivers get adequate rest.",
+        "uid": "C4-REV-029",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 330,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "A commercial driver decides to pull off the road and take a nap in the fully reclining passenger seat of their vehicle. Can this rest period be logged as 'sleeper berth' time?",
+        "options": {
+            "A": "Yes, provided the seat reclines completely and the driver sleeps for at least two hours.",
+            "B": "Yes, as long as the vehicle is parked in a designated rest area and the engine is off.",
+            "C": "No, this time must be recorded as on-duty time since the driver is still inside the vehicle.",
+            "D": "No, sleeper berth time can only be logged if the rest is taken in an approved, specialized sleeper berth that meets specific regulatory standards."
+        },
+        "answer": "D",
+        "explanation": "To log time as 'sleeper berth', the driver must use a sleeper berth that meets specific safety and dimension standards as defined in the regulations. A reclining seat does not qualify as a sleeper berth, and time spent resting in it cannot be logged as such.",
+        "uid": "C4-REV-030",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 331,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Under the standard hours of service regulations in British Columbia, what is the maximum number of hours a commercial driver is permitted to drive in a single day (a 24-hour period)?",
+        "options": {
+            "A": "11 hours",
+            "B": "13 hours",
+            "C": "14 hours",
+            "D": "15 hours"
+        },
+        "answer": "B",
+        "explanation": "A commercial driver is permitted to drive a maximum of 13 hours in a day or work shift. After 13 hours of driving, they must take at least 8 consecutive hours of off-duty time before driving again.",
+        "uid": "C4-REV-031",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 332,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "To comply with daily off-duty requirements, a commercial driver must take a minimum of 10 hours of off-duty time per day. Of those 10 hours, what is the minimum number of hours that must be taken consecutively?",
+        "options": {
+            "A": "4 consecutive hours",
+            "B": "6 consecutive hours",
+            "C": "8 consecutive hours",
+            "D": "10 consecutive hours"
+        },
+        "answer": "C",
+        "explanation": "According to the hours of service regulations, a driver must have at least 10 hours of off-duty time in a day. Of those 10 hours, at least 8 hours must be consecutive off-duty time.",
+        "uid": "C4-REV-032",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 333,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When operating under Cycle 1 of the hours of service regulations, what is the maximum accumulated on-duty time permitted before a driver must stop driving?",
+        "options": {
+            "A": "60 hours over 7 consecutive days",
+            "B": "70 hours over 7 consecutive days",
+            "C": "80 hours over 8 consecutive days",
+            "D": "120 hours over 14 consecutive days"
+        },
+        "answer": "B",
+        "explanation": "Under Cycle 1, a driver cannot drive a commercial vehicle after accumulating 70 hours of on-duty time in 7 consecutive days.",
+        "uid": "C4-REV-033",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 334,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When operating under Cycle 2 of the hours of service regulations, what is the maximum accumulated on-duty time permitted before a driver must stop driving?",
+        "options": {
+            "A": "70 hours over 7 consecutive days",
+            "B": "100 hours over 14 consecutive days",
+            "C": "120 hours over 14 consecutive days",
+            "D": "140 hours over 14 consecutive days"
+        },
+        "answer": "C",
+        "explanation": "Under Cycle 2, a driver is prohibited from driving after they have accumulated 120 hours of on-duty time in 14 consecutive days.",
+        "uid": "C4-REV-034",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 335,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If a commercial driver has elected to operate under Cycle 2, at what specific threshold must they take at least 24 consecutive hours of off-duty time?",
+        "options": {
+            "A": "After accumulating exactly 70 hours of on-duty time.",
+            "B": "Prior to accumulating 70 hours of on-duty time.",
+            "C": "Once they reach 120 hours of on-duty time.",
+            "D": "After every 7 consecutive days of work, regardless of hours logged."
+        },
+        "answer": "B",
+        "explanation": "When operating under Cycle 2, a driver must take at least 24 consecutive hours of off-duty time before they accumulate 70 hours of on-duty time.",
+        "uid": "C4-REV-035",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 336,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "To fully reset their accumulated on-duty hours back to zero while operating under Cycle 1, what is the minimum duration of consecutive off-duty time a driver must take?",
+        "options": {
+            "A": "24 consecutive hours",
+            "B": "36 consecutive hours",
+            "C": "48 consecutive hours",
+            "D": "72 consecutive hours"
+        },
+        "answer": "B",
+        "explanation": "A driver operating on Cycle 1 can reset their accumulated on-duty hours to zero by taking a minimum of 36 consecutive hours of off-duty time.",
+        "uid": "C4-REV-036",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 337,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "To fully reset their accumulated on-duty hours back to zero while operating under Cycle 2, what is the minimum duration of consecutive off-duty time a driver must take?",
+        "options": {
+            "A": "24 consecutive hours",
+            "B": "36 consecutive hours",
+            "C": "48 consecutive hours",
+            "D": "72 consecutive hours"
+        },
+        "answer": "D",
+        "explanation": "A driver operating on Cycle 2 can reset their accumulated on-duty hours to zero by taking a minimum of 72 consecutive hours of off-duty time.",
+        "uid": "C4-REV-037",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 338,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Regardless of which cycle a commercial driver is operating under (Cycle 1 or Cycle 2), what is the mandatory requirement for taking a block of 24 consecutive hours of off-duty time?",
+        "options": {
+            "A": "It must be taken at least once every 7 days.",
+            "B": "It must be taken at least once every 10 days.",
+            "C": "It must be taken at least once every 14 days.",
+            "D": "It must be taken at least once every 21 days."
+        },
+        "answer": "C",
+        "explanation": "Regardless of the cycle being used, no driver may drive unless they have taken at least 24 consecutive hours of off-duty time in the preceding 14 days.",
+        "uid": "C4-REV-038",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 339,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "According to standard commercial regulations, within what timeframe must a driver submit their Records of Duty Status (RODS) and any supporting documents to their motor carrier?",
+        "options": {
+            "A": "Within 7 days",
+            "B": "Within 14 days",
+            "C": "Within 20 days",
+            "D": "Within 30 days"
+        },
+        "answer": "C",
+        "explanation": "A commercial driver must forward their daily log (RODS) and all supporting documents to the carrier within 20 days of the record being created.",
+        "uid": "C4-REV-039",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 340,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "During an inspection, a peace officer determines that a commercial driver has exceeded their maximum permitted on-duty hours. What is the immediate consequence for the driver?",
+        "options": {
+            "A": "The driver will receive a verbal warning and be permitted to complete their current trip to avoid delivery delays.",
+            "B": "The driver will be placed out-of-service and prohibited from driving until they meet the required off-duty time.",
+            "C": "The commercial vehicle will be impounded immediately for a minimum of 30 days.",
+            "D": "The driver's commercial license will be permanently revoked on the spot by the officer."
+        },
+        "answer": "B",
+        "explanation": "If an enforcement officer discovers a driver has exceeded their hours of service limits, they will declare the driver out-of-service (OOS). The driver will be prohibited from driving a commercial vehicle until they have accumulated enough off-duty time to come back into compliance with the regulations.",
+        "uid": "C4-REV-040",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 341,
         "chapter": "chapter11",
         "classes": [
             "class4-rest",
@@ -8474,7 +8750,7 @@ window.QUESTION_BANK = [
         },
         "answer": "A",
         "explanation": "Warning signs, which alert drivers to hazards or changes in road conditions, are typically yellow and diamond-shaped. Construction signs are orange and diamond-shaped, while regulatory signs are usually white and rectangular.",
-        "uid": "C4-REV-050",
+        "uid": "C4-REV-041",
         "source": {
             "document": "Driving Commercial Vehicles Manual",
             "section": "Chapter Review",
@@ -8482,7 +8758,7 @@ window.QUESTION_BANK = [
         }
     },
     {
-        "id": 351,
+        "id": 342,
         "chapter": "chapter11",
         "classes": [
             "class4-rest",
@@ -8497,7 +8773,7 @@ window.QUESTION_BANK = [
         },
         "answer": "C",
         "explanation": "A flashing yellow traffic light means you must slow down and proceed with caution. A flashing red light requires a complete stop and yielding to traffic.",
-        "uid": "C4-REV-051",
+        "uid": "C4-REV-042",
         "source": {
             "document": "Driving Commercial Vehicles Manual",
             "section": "Chapter Review",
@@ -8505,7 +8781,7 @@ window.QUESTION_BANK = [
         }
     },
     {
-        "id": 352,
+        "id": 343,
         "chapter": "chapter11",
         "classes": [
             "class4-rest",
@@ -8520,7 +8796,7 @@ window.QUESTION_BANK = [
         },
         "answer": "C",
         "explanation": "A flashing green arrow with a steady red light allows you to turn in the direction of the arrow without stopping. Oncoming traffic is facing a red light, granting you a protected turn.",
-        "uid": "C4-REV-052",
+        "uid": "C4-REV-043",
         "source": {
             "document": "Driving Commercial Vehicles Manual",
             "section": "Chapter Review",
@@ -8528,7 +8804,7 @@ window.QUESTION_BANK = [
         }
     },
     {
-        "id": 353,
+        "id": 344,
         "chapter": "chapter11",
         "classes": [
             "class4-rest",
@@ -8543,7 +8819,7 @@ window.QUESTION_BANK = [
         },
         "answer": "B",
         "explanation": "Regulatory signs communicate traffic laws and regulations that must be obeyed (e.g., speed limits, stop signs, turn restrictions), and are typically rectangular with a white background. Warning signs alert drivers to potential hazards or upcoming road conditions and are typically yellow and diamond-shaped.",
-        "uid": "C4-REV-053",
+        "uid": "C4-REV-044",
         "source": {
             "document": "Driving Commercial Vehicles Manual",
             "section": "Chapter Review",
@@ -8551,7 +8827,7 @@ window.QUESTION_BANK = [
         }
     },
     {
-        "id": 354,
+        "id": 345,
         "chapter": "chapter11",
         "classes": [
             "class4-rest",
@@ -8566,7 +8842,7 @@ window.QUESTION_BANK = [
         },
         "answer": "A",
         "explanation": "Lane-use signs are mounted above or beside a lane to indicate the required or permitted movements from that specific lane. Turn-control signs indicate whether turning movements (like right or left turns) are allowed or restricted at the intersection as a whole.",
-        "uid": "C4-REV-054",
+        "uid": "C4-REV-045",
         "source": {
             "document": "Driving Commercial Vehicles Manual",
             "section": "Chapter Review",
@@ -8574,7 +8850,7 @@ window.QUESTION_BANK = [
         }
     },
     {
-        "id": 355,
+        "id": 346,
         "chapter": "chapter11",
         "classes": [
             "class4-rest",
@@ -8589,7 +8865,7 @@ window.QUESTION_BANK = [
         },
         "answer": "B",
         "explanation": "When approaching a railway crossing with flashing red lights, you must bring your vehicle to a complete stop at least 5 metres from the nearest rail. You must not proceed across the tracks until the lights have completely stopped flashing and you have verified it is safe.",
-        "uid": "C4-REV-055",
+        "uid": "C4-REV-046",
         "source": {
             "document": "Driving Commercial Vehicles Manual",
             "section": "Chapter Review",
@@ -8597,7 +8873,7 @@ window.QUESTION_BANK = [
         }
     },
     {
-        "id": 356,
+        "id": 347,
         "chapter": "chapter11",
         "classes": [
             "class4-rest",
@@ -8612,7 +8888,7 @@ window.QUESTION_BANK = [
         },
         "answer": "D",
         "explanation": "You are permitted to pass if there is a broken yellow line on your side of the road. You must not pass if the line on your side is solid. Double solid yellow lines strictly prohibit passing for vehicles in both directions.",
-        "uid": "C4-REV-056",
+        "uid": "C4-REV-047",
         "source": {
             "document": "Driving Commercial Vehicles Manual",
             "section": "Chapter Review",
@@ -8620,7 +8896,7 @@ window.QUESTION_BANK = [
         }
     },
     {
-        "id": 357,
+        "id": 348,
         "chapter": "chapter11",
         "classes": [
             "class4-rest",
@@ -8635,7 +8911,7 @@ window.QUESTION_BANK = [
         },
         "answer": "B",
         "explanation": "White lines are used to separate lanes of traffic moving in the same direction. Yellow lines are used to separate traffic moving in opposite directions.",
-        "uid": "C4-REV-057",
+        "uid": "C4-REV-048",
         "source": {
             "document": "Driving Commercial Vehicles Manual",
             "section": "Chapter Review",
@@ -8643,7 +8919,7 @@ window.QUESTION_BANK = [
         }
     },
     {
-        "id": 358,
+        "id": 349,
         "chapter": "chapter11",
         "classes": [
             "class4-rest",
@@ -8658,7 +8934,7 @@ window.QUESTION_BANK = [
         },
         "answer": "B",
         "explanation": "Yellow lines always separate traffic moving in opposite directions. Solid yellow lines indicate that passing is prohibited, while broken yellow lines mean passing is allowed if safe.",
-        "uid": "C4-REV-058",
+        "uid": "C4-REV-049",
         "source": {
             "document": "Driving Commercial Vehicles Manual",
             "section": "Chapter Review",
@@ -8666,7 +8942,7 @@ window.QUESTION_BANK = [
         }
     },
     {
-        "id": 359,
+        "id": 350,
         "chapter": "chapter11",
         "classes": [
             "class4-rest",
@@ -8681,7 +8957,7 @@ window.QUESTION_BANK = [
         },
         "answer": "A",
         "explanation": "A stop sign requires a driver to bring their vehicle to a full and complete stop before the stop line or crosswalk, regardless of traffic. A yield sign requires a driver to slow down, be prepared to stop, and give the right-of-way to any traffic in or approaching the intersection, stopping only if necessary.",
-        "uid": "C4-REV-059",
+        "uid": "C4-REV-050",
         "source": {
             "document": "Driving Commercial Vehicles Manual",
             "section": "Chapter Review",
@@ -8689,7 +8965,7 @@ window.QUESTION_BANK = [
         }
     },
     {
-        "id": 360,
+        "id": 351,
         "chapter": "chapter11",
         "classes": [
             "class4-rest",
@@ -8704,7 +8980,7 @@ window.QUESTION_BANK = [
         },
         "answer": "C",
         "explanation": "In British Columbia, a 30 km/h speed limit tab below a school zone sign is in effect from 8:00 a.m. to 5:00 p.m. on regular school days, unless otherwise posted. In contrast, playground zone speed limits of 30 km/h are in effect every day from dawn to dusk.",
-        "uid": "C4-REV-060",
+        "uid": "C4-REV-051",
         "source": {
             "document": "Driving Commercial Vehicles Manual",
             "section": "Chapter Review",

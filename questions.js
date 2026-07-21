@@ -1,11 +1,11 @@
 // Curated Class 4 question bank. Generated from official ICBC source material.
 window.QUESTION_BANK_VERSION = {
-    "version": "2026.07.15-class4-300",
+    "version": "2026.07.21-class4-extended",
     "schemaVersion": 2,
     "scope": "Class 4 restricted and unrestricted",
-    "questionCount": 300,
+    "questionCount": 368,
     "officialSourcesOnly": true,
-    "verifiedDate": "2026-07-15"
+    "verifiedDate": "2026-07-21"
 };
 
 window.QUESTION_BANK = [
@@ -590,13 +590,13 @@ window.QUESTION_BANK = [
         ],
         "question": "At what temperature do brake components operate during normal stopping?",
         "options": {
-            "A": "About 80° C",
-            "B": "About 200° C",
-            "C": "About 120° C",
-            "D": "About 250° C"
+            "A": "About 80\u00b0 C",
+            "B": "About 200\u00b0 C",
+            "C": "About 120\u00b0 C",
+            "D": "About 250\u00b0 C"
         },
         "answer": "C",
-        "explanation": "In normal stopping, brake components heat up to about 120° C. They should not exceed 250° C under hard braking.",
+        "explanation": "In normal stopping, brake components heat up to about 120\u00b0 C. They should not exceed 250\u00b0 C under hard braking.",
         "source": {
             "document": "Driving Commercial Vehicles",
             "version": "2024",
@@ -2130,7 +2130,7 @@ window.QUESTION_BANK = [
             "D": "Yes, if a mechanic approves temporary operation"
         },
         "answer": "B",
-        "explanation": "Never transport passengers on a school bus that’s defective in any way.",
+        "explanation": "Never transport passengers on a school bus that\u2019s defective in any way.",
         "source": {
             "document": "Driving Commercial Vehicles",
             "version": "2024",
@@ -2260,7 +2260,7 @@ window.QUESTION_BANK = [
             "D": "At the start of each month"
         },
         "answer": "C",
-        "explanation": "Test the brakes on your school bus every day. Don’t operate any school bus unless the brakes are safe.",
+        "explanation": "Test the brakes on your school bus every day. Don\u2019t operate any school bus unless the brakes are safe.",
         "source": {
             "document": "Driving Commercial Vehicles",
             "version": "2024",
@@ -2286,7 +2286,7 @@ window.QUESTION_BANK = [
             "D": "Only when its passenger licence permits standees"
         },
         "answer": "D",
-        "explanation": "Passengers may not stand while a vehicle’s in motion, unless the passenger transportation licence for that vehicle allows standing passengers.",
+        "explanation": "Passengers may not stand while a vehicle\u2019s in motion, unless the passenger transportation licence for that vehicle allows standing passengers.",
         "source": {
             "document": "Driving Commercial Vehicles",
             "version": "2024",
@@ -2338,7 +2338,7 @@ window.QUESTION_BANK = [
             "D": "Open the passenger door"
         },
         "answer": "B",
-        "explanation": "Look in the side mirror and over your shoulder to check that traffic is clear before you leave the curb. Don’t rely on your side mirrors alone.",
+        "explanation": "Look in the side mirror and over your shoulder to check that traffic is clear before you leave the curb. Don\u2019t rely on your side mirrors alone.",
         "source": {
             "document": "Driving Commercial Vehicles",
             "version": "2024",
@@ -2623,7 +2623,7 @@ window.QUESTION_BANK = [
             "D": "You may smoke if all passengers agree"
         },
         "answer": "A",
-        "explanation": "Don’t smoke if passengers are in your vehicle. This applies whether your vehicle’s moving or not. It is also strictly illegal if any passengers are under 16.",
+        "explanation": "Don\u2019t smoke if passengers are in your vehicle. This applies whether your vehicle\u2019s moving or not. It is also strictly illegal if any passengers are under 16.",
         "source": {
             "document": "Driving Commercial Vehicles",
             "version": "2024",
@@ -7813,5 +7813,1569 @@ window.QUESTION_BANK = [
             "verified": "2026-07-15"
         },
         "image": "images/signs/59.png"
+    },
+    {
+        "id": 301,
+        "chapter": "chapter1",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are managing a fleet of commercial vehicles and hiring new drivers. According to ICBC regulations, which of the following vehicles explicitly requires a driver to hold an air brake endorsement on their licence?",
+        "options": {
+            "A": "Only heavy commercial trucks with a Gross Vehicle Weight Rating (GVWR) exceeding 11,000 kg that use air brakes.",
+            "B": "Any vehicle equipped with air brakes, regardless of its weight or the base class of licence required to drive it.",
+            "C": "Any commercial passenger vehicle equipped with air brakes, whereas freight trucks only require it if they tow a trailer.",
+            "D": "Only vehicles pulling a trailer equipped with air brakes, while single-unit vehicles are exempt."
+        },
+        "answer": "B",
+        "explanation": "In British Columbia, any vehicle equipped with an air brake system requires the driver to hold a specific air brake endorsement, regardless of the vehicle's weight or the base licence class.",
+        "uid": "C4-REV-001",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 302,
+        "chapter": "chapter1",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "A local school district is hiring drivers for their fleet, which includes large 72-passenger buses and smaller 24-passenger minibuses. Which of the following correctly identifies the licensing requirements for operating these school buses?",
+        "options": {
+            "A": "A Class 4 unrestricted licence is required for all school buses, regardless of passenger capacity.",
+            "B": "A Class 2 or Class 1 licence is required to operate any school bus, while a Class 4 licence permits the operation of a school bus with a maximum seating capacity of 25 persons (including the driver).",
+            "C": "A Class 3 licence allows you to operate any school bus, provided you hold a special passenger endorsement.",
+            "D": "A Class 4 restricted licence allows you to operate a 72-passenger school bus as long as you do not cross municipal boundaries."
+        },
+        "answer": "B",
+        "explanation": "A Class 2 (or Class 1) licence allows the operation of any bus, including large school buses. A Class 4 licence restricts the driver to operating buses with a maximum seating capacity of 25 persons, including the driver.",
+        "uid": "C4-REV-002",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 303,
+        "chapter": "chapter1",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are preparing to expand your commercial driving career by operating vehicles equipped with air brakes. According to ICBC, what are the formal testing steps required to obtain an air brake endorsement?",
+        "options": {
+            "A": "Pass a specialized air brake knowledge test and successfully complete a practical air brake pre-trip inspection test.",
+            "B": "Pass an air brake knowledge test and successfully complete a full on-road driving test in a vehicle equipped with air brakes.",
+            "C": "Submit an updated driver's medical report and pass a practical air brake pre-trip inspection test.",
+            "D": "Complete a minimum of 20 hours of supervised driving in an air-equipped vehicle and pass a knowledge test."
+        },
+        "answer": "A",
+        "explanation": "To obtain an air brake endorsement, ICBC requires applicants to successfully pass an air brake knowledge test and a practical air brake pre-trip inspection test.",
+        "uid": "C4-REV-003",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 304,
+        "chapter": "chapter1",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are assigned to haul a heavy load using a trailer that is equipped with air brakes. The trailer has a Gross Vehicle Weight (GVW) of 5,500 kg. Which combination of licence class and/or endorsements must you hold to legally operate this combination?",
+        "options": {
+            "A": "A Class 1 licence, or any other base class of licence combined with both a heavy trailer endorsement (Code 20) and an air brake endorsement (Code 15).",
+            "B": "A Class 3 licence with a standard air brake endorsement (Code 15), as Class 3 permits the towing of any trailer regardless of weight.",
+            "C": "A Class 1 licence only; no other licence class or endorsement permits towing an air-equipped trailer weighing over 4,600 kg.",
+            "D": "A Class 5 licence with a house trailer endorsement (Code 07) and an air brake endorsement (Code 15)."
+        },
+        "answer": "A",
+        "explanation": "To tow a trailer equipped with air brakes that weighs over 4,600 kg, you must either hold a Class 1 driver's licence (which encompasses all heavy combinations) or hold an appropriate base class of licence supplemented with both a heavy trailer endorsement and an air brake endorsement.",
+        "uid": "C4-REV-004",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 305,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When you are attempting to move a commercial vehicle, the engine, transmission, and drivetrain all work together to provide power to the wheels. What is the final, ultimate factor that will determine whether the vehicle actually moves forward?",
+        "options": {
+            "A": "The amount of horsepower generated by the engine.",
+            "B": "The overall weight of the loaded vehicle.",
+            "C": "The traction between the tires and the road surface.",
+            "D": "The gear ratio selected in the transmission."
+        },
+        "answer": "C",
+        "explanation": "Even with a powerful engine and a properly engaged transmission, a vehicle will not move if the tires cannot grip the road. Traction is the final factor that determines if the vehicle will move, stop, or turn.",
+        "uid": "C4-REV-005",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 306,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "The braking system of a commercial vehicle converts the kinetic energy of the moving vehicle into heat. How is this excessive brake heat primarily dissipated to prevent the brakes from failing?",
+        "options": {
+            "A": "It is absorbed by the brake fluid and routed through the engine cooling system.",
+            "B": "It is transferred to the vehicle's frame and body panels.",
+            "C": "It is dissipated into the atmosphere through the brake drums or rotors.",
+            "D": "It is neutralized by compressed air exhausted from the brake chambers."
+        },
+        "answer": "C",
+        "explanation": "Brake systems convert the energy of a moving vehicle into heat through friction. This heat is absorbed by the brake drums or rotors and then dissipated into the surrounding atmosphere.",
+        "uid": "C4-REV-006",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 307,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "As the weight and speed of a commercial vehicle increase, the amount of stopping power required increases significantly. If the total weight of the vehicle is doubled, how many times must the stopping power be increased to stop the vehicle?",
+        "options": {
+            "A": "It remains the same, but the stopping distance is doubled.",
+            "B": "2 times.",
+            "C": "4 times.",
+            "D": "8 times."
+        },
+        "answer": "B",
+        "explanation": "The stopping power required is directly proportional to the weight of the vehicle. If the weight is doubled, the brakes must provide twice (2 times) the stopping power to bring the vehicle to a halt.",
+        "uid": "C4-REV-007",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 308,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "While driving a heavy commercial vehicle down a long, steep grade, you rely heavily on your service brakes. Over time, you notice that the brakes are losing their effectiveness, a condition known as brake fade. What is the primary cause of brake fade?",
+        "options": {
+            "A": "The air compressor is unable to maintain sufficient air pressure in the reservoirs.",
+            "B": "Brake drums expand due to excessive heat, causing them to move away from the brake linings and reducing friction.",
+            "C": "The pushrods in the brake chambers extend beyond their adjustment limits and jam.",
+            "D": "Moisture in the brake lines turns to steam, preventing the application valves from opening."
+        },
+        "answer": "B",
+        "explanation": "Brake fade is caused by the brakes overheating due to excessive use. The extreme heat causes the brake drums to expand away from the brake linings, and the linings themselves can glaze over, drastically reducing the friction needed to stop the vehicle.",
+        "uid": "C4-REV-008",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 309,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When driving a commercial combination vehicle, a jackknife can occur rapidly and with little warning. Which of the following driver errors is a common cause of a jackknife?",
+        "options": {
+            "A": "Using the engine retarder on a dry, straight section of highway.",
+            "B": "Locking the drive wheels during hard braking, especially on a slippery surface.",
+            "C": "Applying the trailer brakes slightly before the tractor brakes during a normal stop.",
+            "D": "Shifting gears while traveling down a steep hill."
+        },
+        "answer": "B",
+        "explanation": "Jackknifing is often caused by a loss of traction. Locking the tractor's drive wheels during hard braking or on slippery surfaces causes the rear of the tractor to slide sideways while the momentum of the trailer pushes it forward, folding the vehicle like a pocket knife.",
+        "uid": "C4-REV-009",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 310,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Modern commercial vehicles are frequently equipped with Anti-lock Braking Systems (ABS) and Automatic Traction Control (ATC). What is the primary difference in how these two safety systems operate?",
+        "options": {
+            "A": "ABS reduces engine power to save fuel during braking, while ATC increases air pressure to the brakes.",
+            "B": "ABS is manually activated by the driver in emergencies, while ATC operates automatically at all times.",
+            "C": "ABS prevents the wheels from locking up during hard braking, while ATC prevents the drive wheels from spinning during acceleration.",
+            "D": "ABS prevents the drive wheels from slipping on icy roads, while ATC prevents the steering wheels from locking."
+        },
+        "answer": "C",
+        "explanation": "ABS (Anti-lock Braking System) monitors wheel speed and prevents the wheels from locking up during aggressive braking, helping the driver maintain steering control. ATC (Automatic Traction Control) prevents the drive wheels from spinning when accelerating on slippery surfaces.",
+        "uid": "C4-REV-010",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 311,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When attempting to stop a tractor-trailer combination, the driver must consider the complex dynamics of the articulated vehicle. What is one of the distinct hazards associated with stopping a combination vehicle?",
+        "options": {
+            "A": "The combination may jackknife if the tractor brakes lock, or the trailer may bump the tractor due to brake lag.",
+            "B": "The fifth wheel connection is likely to detach under the stress of sudden deceleration.",
+            "C": "The engine retarder will automatically engage the trailer brakes, causing sudden instability.",
+            "D": "The air suspension will rapidly deflate, causing the vehicle's center of gravity to shift forward unpredictably."
+        },
+        "answer": "A",
+        "explanation": "Hazards of stopping a tractor-trailer include the risk of jackknifing (especially if drive wheels lock), the trailer pushing the tractor, and the effect of 'brake lag' (the time it takes for air to travel to the rear of the trailer), which can cause the trailer to bump against the tractor during braking.",
+        "uid": "C4-REV-011",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 312,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Many commercial vehicles are equipped with retarding devices such as engine brakes or exhaust brakes. Under what circumstances is it most appropriate to use a retarding device?",
+        "options": {
+            "A": "When driving on wet, icy, or otherwise slippery road surfaces.",
+            "B": "When traveling through residential areas where engine noise is unrestricted.",
+            "C": "When descending long, steep downgrades to help control the vehicle's speed and reduce wear on the service brakes.",
+            "D": "When coming to a complete stop at a traffic light or stop sign."
+        },
+        "answer": "C",
+        "explanation": "Retarding devices provide auxiliary braking power without using the vehicle's service brakes. They are meant to be used on long, steep downgrades to control speed and prevent the service brakes from overheating. They should not be used on slippery roads, as they can cause the drive wheels to lock and induce a skid.",
+        "uid": "C4-REV-012",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 313,
+        "chapter": "chapter2",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "In an air brake system, there is a slight delay between the time the driver presses the brake pedal and the time the brakes actually apply. What is the correct term for this delay?",
+        "options": {
+            "A": "Brake fade",
+            "B": "Reaction time",
+            "C": "Brake lag time",
+            "D": "Actuation latency"
+        },
+        "answer": "C",
+        "explanation": "Brake lag time is the time it takes for the compressed air to travel through the lines and valves to fully apply the brake shoes against the drums. In a typical tractor-trailer, this lag can be about 4/10 of a second.",
+        "uid": "C4-REV-013",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 314,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the most important concern when operating a vehicle used for transporting the public?",
+        "options": {
+            "A": "Adhering strictly to the printed schedule",
+            "B": "Maintaining a smooth and comfortable ride",
+            "C": "Ensuring the safety of the passengers",
+            "D": "Collecting fares efficiently and accurately"
+        },
+        "answer": "C",
+        "explanation": "As a commercial passenger vehicle driver, your primary responsibility is the safety of your passengers at all times.",
+        "uid": "C4-REV-014",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 315,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Before leaving a parked position at the curb, in addition to checking your left-side mirror, what must you do?",
+        "options": {
+            "A": "Look in the right-side mirror",
+            "B": "Look in the rear-view mirror",
+            "C": "Look at the instrument panel",
+            "D": "Look over your left shoulder to check your blind spot"
+        },
+        "answer": "D",
+        "explanation": "Mirrors leave blind spots. You must always perform a shoulder check to the left to ensure the way is clear before pulling out from the curb.",
+        "uid": "C4-REV-015",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 316,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When leaving a parked position where poles or sign posts are located near the vehicle, what special precaution must the driver of a bus take?",
+        "options": {
+            "A": "Watch the tail swing, as the rear overhang will swing in the opposite direction to the front wheels",
+            "B": "Turn the steering wheel sharply while stationary to minimize the turning radius",
+            "C": "Accelerate quickly to pass the obstacles before they can cause damage",
+            "D": "Sound the horn continuously while exiting the space"
+        },
+        "answer": "A",
+        "explanation": "The rear overhang of a bus swings in the opposite direction of the front wheels. When pulling out, watch the tail swing to ensure it doesn't strike nearby poles or signs.",
+        "uid": "C4-REV-016",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 317,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Should you turn on the vehicle\u2019s left signal lights well before you are ready to leave the parking position?",
+        "options": {
+            "A": "Yes, you should signal for at least 60 seconds before moving",
+            "B": "No, signal only when you are actually ready to pull out to avoid confusing other drivers",
+            "C": "Yes, you must leave the left signal on the entire time you are parked",
+            "D": "No, signal lights are not required when leaving a parking position"
+        },
+        "answer": "B",
+        "explanation": "Signaling too early can confuse other drivers into thinking you are already pulling out. Only signal when you are fully prepared to leave the curb.",
+        "uid": "C4-REV-017",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 318,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When passing parked vehicles along the street, what are some clues you can use to anticipate a potential hazard and avoid a collision?",
+        "options": {
+            "A": "Checking if the vehicle has an automatic or manual transmission",
+            "B": "The colour and make of the parked vehicle",
+            "C": "Front wheels turned out, exhaust coming from the tailpipe, illuminated brake lights, or a person in the driver's seat",
+            "D": "Checking the vehicle's licence plate registration sticker"
+        },
+        "answer": "C",
+        "explanation": "Clues that a parked vehicle may suddenly move or a door may open include the front wheels turned out, exhaust fumes, brake or reverse lights on, and a driver in the seat.",
+        "uid": "C4-REV-018",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 319,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Under what highway conditions may a taxi or bus take on or let off passengers on a highway outside the limits of a city or municipality?",
+        "options": {
+            "A": "If the vehicle is stopped clear of the travelled portion of the highway, and there is a clear view for at least 85 metres in both directions",
+            "B": "Whenever the driver deems it safe, regardless of visibility",
+            "C": "Only if the vehicle is parked on the travelled portion of the roadway with four-way flashers on",
+            "D": "Only if there is a designated bus stop shelter available"
+        },
+        "answer": "A",
+        "explanation": "On highways outside municipal limits, you must stop clear of the travelled roadway and ensure there is a clear, unobstructed view of at least 85 metres in both directions.",
+        "uid": "C4-REV-019",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 320,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When stopping to take on or let off passengers on a highway, what width of roadway must be left unoccupied by and beside the bus for other traffic to pass?",
+        "options": {
+            "A": "At least 1.5 metres",
+            "B": "At least 5 metres",
+            "C": "The entire roadway must be blocked for safety",
+            "D": "At least 3 metres"
+        },
+        "answer": "D",
+        "explanation": "You must leave an unoccupied width of at least 3 metres of the roadway beside the vehicle so other traffic can pass safely.",
+        "uid": "C4-REV-020",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 321,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "As a driver of a commercial passenger vehicle, is it allowable for you to collect a fare or make change while the vehicle is in motion?",
+        "options": {
+            "A": "Yes, if the driver is highly experienced and driving on a straight road",
+            "B": "No, a driver must never collect a fare or make change while the vehicle is in motion",
+            "C": "Yes, but only at speeds below 30 km/h",
+            "D": "Yes, as long as the driver keeps one hand on the steering wheel"
+        },
+        "answer": "B",
+        "explanation": "It is illegal and unsafe to collect fares or make change while the vehicle is moving. This must only be done when the vehicle is safely stopped.",
+        "uid": "C4-REV-021",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 322,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "In a sedan-type vehicle, how many passengers may occupy the front seat in addition to the driver?",
+        "options": {
+            "A": "Only the number of passengers the seat was designed for, typically a maximum of two if equipped with adequate seatbelts",
+            "B": "Up to three passengers, provided they are children",
+            "C": "As many as can fit comfortably",
+            "D": "Passengers are never permitted to sit in the front seat of a commercial sedan"
+        },
+        "answer": "A",
+        "explanation": "You may only carry the number of passengers the front seat was designed and equipped to hold safely, which is typically a maximum of two additional people if seatbelts are present.",
+        "uid": "C4-REV-022",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 323,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Are passengers permitted to stand on a bus, and if so, where may they stand?",
+        "options": {
+            "A": "No, passengers are never allowed to stand on any bus",
+            "B": "Yes, they may stand anywhere in the aisle, including beside the driver",
+            "C": "Yes, but they must stand on the steps of the entrance door",
+            "D": "Yes, provided they stand behind the driver's seat or behind a designated standee line"
+        },
+        "answer": "D",
+        "explanation": "Passengers are permitted to stand on a bus, but they must remain behind the driver's seat and behind the designated standee line to ensure they don't interfere with the driver's vision or operation.",
+        "uid": "C4-REV-023",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 324,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "As the driver of a commercial passenger vehicle, under which conditions are you permitted to refuse to transport any person?",
+        "options": {
+            "A": "If you dislike the person's destination",
+            "B": "If the person is carrying too much loose change",
+            "C": "If the vehicle is already fully occupied, or if the person is disorderly, intoxicated, or carrying dangerous items",
+            "D": "You are never permitted to refuse transportation to anyone"
+        },
+        "answer": "C",
+        "explanation": "You may refuse service if your vehicle is full, or if the passenger is acting in a disorderly manner, is intoxicated, uses profane language, or carries offensive or dangerous materials.",
+        "uid": "C4-REV-024",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 325,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Is it necessary to have working lights that illuminate the passenger aisle of a bus?",
+        "options": {
+            "A": "Yes, working aisle lights are required by law for passenger safety",
+            "B": "No, aisle lights are optional and up to the owner's discretion",
+            "C": "Only if the bus travels primarily at night",
+            "D": "Yes, but only for inter-city buses, not transit buses"
+        },
+        "answer": "A",
+        "explanation": "It is a requirement for buses to have working lights that adequately illuminate the passenger aisle to prevent trips, falls, and injuries.",
+        "uid": "C4-REV-025",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 326,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "At what times of the day are inside lights in public passenger vehicles required to be illuminated?",
+        "options": {
+            "A": "Only when passengers request it",
+            "B": "Inside lights must remain on 24 hours a day",
+            "C": "Only during heavy rain or fog",
+            "D": "Between sunset and sunrise"
+        },
+        "answer": "D",
+        "explanation": "The interior lights of a public passenger vehicle must be illuminated during the period from sunset to sunrise.",
+        "uid": "C4-REV-026",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 327,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What action should you take if the commercial passenger vehicle you are driving breaks down and you cannot continue the trip?",
+        "options": {
+            "A": "Ask the passengers to walk to the nearest town",
+            "B": "Abandon the vehicle and seek shelter",
+            "C": "Make alternative arrangements to have the passengers safely transported to their destination",
+            "D": "Instruct the passengers to hitchhike"
+        },
+        "answer": "C",
+        "explanation": "If your vehicle breaks down, you remain responsible for the safety of your passengers. You must arrange for substitute transportation to get them safely to their destination.",
+        "uid": "C4-REV-027",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 328,
+        "chapter": "chapter6",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What precautions must be taken when refuelling public passenger vehicles?",
+        "options": {
+            "A": "Passengers should assist the driver with the refuelling process",
+            "B": "The engine must be turned off, no smoking is permitted, and the nozzle must be kept in contact with the filler pipe to prevent static electricity",
+            "C": "Leave the engine running to keep the climate control on for passengers",
+            "D": "Refuel quickly, regardless of spills, to minimize delays"
+        },
+        "answer": "B",
+        "explanation": "When refuelling, the engine must be off, smoking is strictly prohibited, and the fuel nozzle must stay in contact with the filler pipe to prevent static sparks.",
+        "uid": "C4-REV-028",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 329,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the primary purpose of the hours of service regulations for commercial drivers?",
+        "options": {
+            "A": "To limit the income potential of drivers to ensure fair competition among carriers.",
+            "B": "To ensure drivers have adequate rest and prevent fatigue-related accidents on the road.",
+            "C": "To mandate uniform delivery schedules for commercial goods across the country.",
+            "D": "To track the fuel efficiency and maintenance schedules of commercial vehicles."
+        },
+        "answer": "B",
+        "explanation": "The hours of service regulations are designed to keep fatigued drivers off the road and prevent fatigue-related crashes by ensuring commercial drivers get adequate rest.",
+        "uid": "C4-REV-029",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 330,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "A commercial driver decides to pull off the road and take a nap in the fully reclining passenger seat of their vehicle. Can this rest period be logged as 'sleeper berth' time?",
+        "options": {
+            "A": "Yes, provided the seat reclines completely and the driver sleeps for at least two hours.",
+            "B": "Yes, as long as the vehicle is parked in a designated rest area and the engine is off.",
+            "C": "No, this time must be recorded as on-duty time since the driver is still inside the vehicle.",
+            "D": "No, sleeper berth time can only be logged if the rest is taken in an approved, specialized sleeper berth that meets specific regulatory standards."
+        },
+        "answer": "D",
+        "explanation": "To log time as 'sleeper berth', the driver must use a sleeper berth that meets specific safety and dimension standards as defined in the regulations. A reclining seat does not qualify as a sleeper berth, and time spent resting in it cannot be logged as such.",
+        "uid": "C4-REV-030",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 331,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Under the standard hours of service regulations in British Columbia, what is the maximum number of hours a commercial driver is permitted to drive in a single day (a 24-hour period)?",
+        "options": {
+            "A": "11 hours",
+            "B": "13 hours",
+            "C": "14 hours",
+            "D": "15 hours"
+        },
+        "answer": "B",
+        "explanation": "A commercial driver is permitted to drive a maximum of 13 hours in a day or work shift. After 13 hours of driving, they must take at least 8 consecutive hours of off-duty time before driving again.",
+        "uid": "C4-REV-031",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 332,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "To comply with daily off-duty requirements, a commercial driver must take a minimum of 10 hours of off-duty time per day. Of those 10 hours, what is the minimum number of hours that must be taken consecutively?",
+        "options": {
+            "A": "4 consecutive hours",
+            "B": "6 consecutive hours",
+            "C": "8 consecutive hours",
+            "D": "10 consecutive hours"
+        },
+        "answer": "C",
+        "explanation": "According to the hours of service regulations, a driver must have at least 10 hours of off-duty time in a day. Of those 10 hours, at least 8 hours must be consecutive off-duty time.",
+        "uid": "C4-REV-032",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 333,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When operating under Cycle 1 of the hours of service regulations, what is the maximum accumulated on-duty time permitted before a driver must stop driving?",
+        "options": {
+            "A": "60 hours over 7 consecutive days",
+            "B": "70 hours over 7 consecutive days",
+            "C": "80 hours over 8 consecutive days",
+            "D": "120 hours over 14 consecutive days"
+        },
+        "answer": "B",
+        "explanation": "Under Cycle 1, a driver cannot drive a commercial vehicle after accumulating 70 hours of on-duty time in 7 consecutive days.",
+        "uid": "C4-REV-033",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 334,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When operating under Cycle 2 of the hours of service regulations, what is the maximum accumulated on-duty time permitted before a driver must stop driving?",
+        "options": {
+            "A": "70 hours over 7 consecutive days",
+            "B": "100 hours over 14 consecutive days",
+            "C": "120 hours over 14 consecutive days",
+            "D": "140 hours over 14 consecutive days"
+        },
+        "answer": "C",
+        "explanation": "Under Cycle 2, a driver is prohibited from driving after they have accumulated 120 hours of on-duty time in 14 consecutive days.",
+        "uid": "C4-REV-034",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 335,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "If a commercial driver has elected to operate under Cycle 2, at what specific threshold must they take at least 24 consecutive hours of off-duty time?",
+        "options": {
+            "A": "After accumulating exactly 70 hours of on-duty time.",
+            "B": "Prior to accumulating 70 hours of on-duty time.",
+            "C": "Once they reach 120 hours of on-duty time.",
+            "D": "After every 7 consecutive days of work, regardless of hours logged."
+        },
+        "answer": "B",
+        "explanation": "When operating under Cycle 2, a driver must take at least 24 consecutive hours of off-duty time before they accumulate 70 hours of on-duty time.",
+        "uid": "C4-REV-035",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 336,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "To fully reset their accumulated on-duty hours back to zero while operating under Cycle 1, what is the minimum duration of consecutive off-duty time a driver must take?",
+        "options": {
+            "A": "24 consecutive hours",
+            "B": "36 consecutive hours",
+            "C": "48 consecutive hours",
+            "D": "72 consecutive hours"
+        },
+        "answer": "B",
+        "explanation": "A driver operating on Cycle 1 can reset their accumulated on-duty hours to zero by taking a minimum of 36 consecutive hours of off-duty time.",
+        "uid": "C4-REV-036",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 337,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "To fully reset their accumulated on-duty hours back to zero while operating under Cycle 2, what is the minimum duration of consecutive off-duty time a driver must take?",
+        "options": {
+            "A": "24 consecutive hours",
+            "B": "36 consecutive hours",
+            "C": "48 consecutive hours",
+            "D": "72 consecutive hours"
+        },
+        "answer": "D",
+        "explanation": "A driver operating on Cycle 2 can reset their accumulated on-duty hours to zero by taking a minimum of 72 consecutive hours of off-duty time.",
+        "uid": "C4-REV-037",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 338,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Regardless of which cycle a commercial driver is operating under (Cycle 1 or Cycle 2), what is the mandatory requirement for taking a block of 24 consecutive hours of off-duty time?",
+        "options": {
+            "A": "It must be taken at least once every 7 days.",
+            "B": "It must be taken at least once every 10 days.",
+            "C": "It must be taken at least once every 14 days.",
+            "D": "It must be taken at least once every 21 days."
+        },
+        "answer": "C",
+        "explanation": "Regardless of the cycle being used, no driver may drive unless they have taken at least 24 consecutive hours of off-duty time in the preceding 14 days.",
+        "uid": "C4-REV-038",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 339,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "According to standard commercial regulations, within what timeframe must a driver submit their Records of Duty Status (RODS) and any supporting documents to their motor carrier?",
+        "options": {
+            "A": "Within 7 days",
+            "B": "Within 14 days",
+            "C": "Within 20 days",
+            "D": "Within 30 days"
+        },
+        "answer": "C",
+        "explanation": "A commercial driver must forward their daily log (RODS) and all supporting documents to the carrier within 20 days of the record being created.",
+        "uid": "C4-REV-039",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 340,
+        "chapter": "chapter7",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "During an inspection, a peace officer determines that a commercial driver has exceeded their maximum permitted on-duty hours. What is the immediate consequence for the driver?",
+        "options": {
+            "A": "The driver will receive a verbal warning and be permitted to complete their current trip to avoid delivery delays.",
+            "B": "The driver will be placed out-of-service and prohibited from driving until they meet the required off-duty time.",
+            "C": "The commercial vehicle will be impounded immediately for a minimum of 30 days.",
+            "D": "The driver's commercial license will be permanently revoked on the spot by the officer."
+        },
+        "answer": "B",
+        "explanation": "If an enforcement officer discovers a driver has exceeded their hours of service limits, they will declare the driver out-of-service (OOS). The driver will be prohibited from driving a commercial vehicle until they have accumulated enough off-duty time to come back into compliance with the regulations.",
+        "uid": "C4-REV-040",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 341,
+        "chapter": "chapter9",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Why is it absolutely critical to verify and maintain proper slack adjustment on a commercial vehicle equipped with air brakes?",
+        "options": {
+            "A": "It prevents the automatic slack adjusters from reverting to a manual adjustment state during hard braking.",
+            "B": "Out-of-adjustment slack adjusters can cause the pushrod travel to exceed its limits, resulting in a severe or total loss of braking capability.",
+            "C": "Proper adjustment guarantees that air pressure will be distributed evenly to all brake chambers during a skid.",
+            "D": "It ensures the compressor does not have to work continuously, which extends its lifespan."
+        },
+        "answer": "B",
+        "explanation": "If slack adjusters are out of adjustment, the pushrod must travel further to apply the brakes. If the pushrod reaches its maximum stroke limit, it bottoms out, leading to a loss of braking power, which can be catastrophic.",
+        "uid": "C4-REV-041",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 342,
+        "chapter": "chapter9",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When it comes to the safe operation and mechanical condition of the brakes on a commercial vehicle, who bears the ultimate responsibility?",
+        "options": {
+            "A": "The certified mechanic who last performed a commercial vehicle inspection.",
+            "B": "The motor carrier or company that owns the vehicle.",
+            "C": "The driver operating the vehicle.",
+            "D": "The manufacturer of the air brake system."
+        },
+        "answer": "C",
+        "explanation": "According to commercial driving regulations, the driver operating the vehicle bears the ultimate responsibility for ensuring that the vehicle's brakes are in safe operating condition before and during operation.",
+        "uid": "C4-REV-042",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 343,
+        "chapter": "chapter9",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What are the potential consequences of operating a commercial vehicle with improperly adjusted brakes?",
+        "options": {
+            "A": "A written warning on the first offence, followed by a minor fine on subsequent offences.",
+            "B": "The driver may be subjected to a fine and the vehicle could be placed out of service until repaired.",
+            "C": "A mandatory 30-day suspension of the driver's commercial licence.",
+            "D": "The vehicle will be immediately impounded for a minimum of 7 days."
+        },
+        "answer": "B",
+        "explanation": "Operating a commercial vehicle with defective or improperly adjusted brakes is a serious safety violation. It will likely result in fines and the vehicle being placed out of service until the brakes are properly adjusted.",
+        "uid": "C4-REV-043",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 344,
+        "chapter": "chapter9",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the danger of operating a vehicle if the pushrod travel is barely within tolerance while the brake drums are cold?",
+        "options": {
+            "A": "The brake pads will glaze over, causing them to squeal loudly during stops.",
+            "B": "The air brake system will build pressure too quickly, risking a blowout of the brake chambers.",
+            "C": "When the brakes heat up during use, the drums will expand, increasing the required pushrod travel beyond its limit and causing brake failure.",
+            "D": "The cold weather will cause the brake lines to freeze, locking the brakes in the applied position."
+        },
+        "answer": "C",
+        "explanation": "Brake drums expand as they heat up during use. If the pushrod travel is barely within the legal tolerance when cold, this expansion will cause the required travel to exceed the limit, bottoming out the pushrod and resulting in a loss of braking power (brake fade).",
+        "uid": "C4-REV-044",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 345,
+        "chapter": "chapter9",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What essential tools and items should a commercial driver carry to properly measure and adjust manual slack adjusters?",
+        "options": {
+            "A": "A torque wrench, an air pressure gauge, a hammer, and a set of Allen keys.",
+            "B": "A hydraulic jack, a set of socket wrenches, a flashlight, and safety goggles.",
+            "C": "A digital micrometer, a flathead screwdriver, and a specialized slack adjustment tool.",
+            "D": "A pry bar, a wrench of the correct size, chalk or a marker, and a ruler or measuring tape."
+        },
+        "answer": "D",
+        "explanation": "To properly check and adjust slack adjusters, you need chalk or a marker to mark the pushrod, a ruler to measure the travel, a tool (like a pry bar) to pull the pushrod, and a wrench to turn the adjusting bolt on manual slack adjusters.",
+        "uid": "C4-REV-045",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 346,
+        "chapter": "chapter9",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the most critical first step you must take before preparing to measure slack adjustment on a commercial vehicle?",
+        "options": {
+            "A": "Start the engine and build air pressure to the maximum governed limit.",
+            "B": "Apply the foot valve fully to ensure the brake chambers are pressurized.",
+            "C": "Secure the vehicle with wheel chocks and release the spring parking brakes.",
+            "D": "Drain the supply reservoir completely to prevent accidental brake application."
+        },
+        "answer": "C",
+        "explanation": "To measure slack adjustment accurately, the parking brakes must be released so the slack adjusters return to their resting position. Before doing this, you must securely chock the vehicle's wheels to prevent it from rolling away.",
+        "uid": "C4-REV-046",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 347,
+        "chapter": "chapter9",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How much air pressure should you apply to the foot valve when measuring slack adjustment using the applied stroke method?",
+        "options": {
+            "A": "A light application of 20 to 30 p.s.i. to take up the initial slack.",
+            "B": "A firm brake application between 90 and 100 p.s.i.",
+            "C": "A continuous pressure of exactly 60 p.s.i. to activate the low air warning.",
+            "D": "Maximum system pressure by pressing the pedal completely to the floor."
+        },
+        "answer": "B",
+        "explanation": "When using the applied stroke method to measure pushrod travel, you should apply and hold a firm brake application between 90 and 100 p.s.i. to accurately measure the travel under a hard braking scenario.",
+        "uid": "C4-REV-047",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 348,
+        "chapter": "chapter9",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "How do you know you are turning the adjusting bolt in the correct direction when adjusting a manual slack adjuster?",
+        "options": {
+            "A": "The pushrod will start to pull out of the brake chamber as you turn the bolt.",
+            "B": "The adjusting bolt will become increasingly easier to turn until it spins freely.",
+            "C": "The s-cam rotates in the same direction as it does when the brakes are applied, bringing the linings closer to the drum.",
+            "D": "Air pressure will hiss from the brake chamber, indicating the slack is being taken up."
+        },
+        "answer": "C",
+        "explanation": "To tighten the brakes, you must turn the adjusting bolt so that the s-cam rotates in the same direction it does when the brakes are applied, which moves the brake linings closer to the drum.",
+        "uid": "C4-REV-048",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 349,
+        "chapter": "chapter9",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the primary advantage of having automatic slack adjusters on a commercial vehicle?",
+        "options": {
+            "A": "They never require manual measurement or inspection during a pre-trip inspection.",
+            "B": "They eliminate the need for a low air pressure warning system.",
+            "C": "They are completely maintenance-free and never need to be lubricated.",
+            "D": "They automatically adjust themselves during normal braking applications to maintain proper pushrod travel."
+        },
+        "answer": "D",
+        "explanation": "Automatic slack adjusters (ASAs) are designed to automatically take up the slack as brake linings wear during normal braking applications, keeping pushrod travel within the proper limits. However, they must still be checked during daily pre-trip inspections.",
+        "uid": "C4-REV-049",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 350,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "What is the standard shape and colour of a typical warning sign in British Columbia?",
+        "options": {
+            "A": "Yellow and diamond-shaped",
+            "B": "White and rectangular",
+            "C": "Orange and diamond-shaped",
+            "D": "Red and octagonal"
+        },
+        "answer": "A",
+        "explanation": "Warning signs, which alert drivers to hazards or changes in road conditions, are typically yellow and diamond-shaped. Construction signs are orange and diamond-shaped, while regulatory signs are usually white and rectangular.",
+        "uid": "C4-REV-050",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 351,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "As a professional driver approaching an intersection, how must you respond to a flashing yellow traffic light?",
+        "options": {
+            "A": "Stop completely, yield to all cross traffic, and proceed only when safe.",
+            "B": "Treat it as a four-way stop and yield to the vehicle on the right.",
+            "C": "Slow down and proceed through the intersection with caution.",
+            "D": "Accelerate slightly to clear the intersection before it turns red."
+        },
+        "answer": "C",
+        "explanation": "A flashing yellow traffic light means you must slow down and proceed with caution. A flashing red light requires a complete stop and yielding to traffic.",
+        "uid": "C4-REV-051",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 352,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are approaching an intersection that displays a steady red traffic light along with a flashing green arrow. What does this signal indicate?",
+        "options": {
+            "A": "You must stop and wait for a solid green light before making the turn.",
+            "B": "You may proceed only in the direction indicated by the arrow, but you must yield to pedestrians.",
+            "C": "You may safely proceed in the direction of the arrow without stopping, as the signal gives you the right-of-way.",
+            "D": "The traffic signal is malfunctioning, and you must treat the intersection as a four-way stop."
+        },
+        "answer": "C",
+        "explanation": "A flashing green arrow with a steady red light allows you to turn in the direction of the arrow without stopping. Oncoming traffic is facing a red light, granting you a protected turn.",
+        "uid": "C4-REV-052",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 353,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "Which of the following best describes the fundamental difference between regulatory signs and warning signs?",
+        "options": {
+            "A": "Regulatory signs show speed limits only, while warning signs show road hazards.",
+            "B": "Regulatory signs indicate laws you must obey, whereas warning signs alert you to upcoming hazards.",
+            "C": "Regulatory signs are always red and white, while warning signs are always orange and black.",
+            "D": "Regulatory signs are suggestions for safe driving, whereas warning signs indicate mandatory laws."
+        },
+        "answer": "B",
+        "explanation": "Regulatory signs communicate traffic laws and regulations that must be obeyed (e.g., speed limits, stop signs, turn restrictions), and are typically rectangular with a white background. Warning signs alert drivers to potential hazards or upcoming road conditions and are typically yellow and diamond-shaped.",
+        "uid": "C4-REV-053",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 354,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When navigating complex intersections, it is crucial to distinguish between lane-use signs and turn-control signs. Which of the following accurately describes the difference?",
+        "options": {
+            "A": "Lane-use signs specify the direction you must travel within a particular lane, while turn-control signs dictate whether a specific turn is permitted or prohibited at an intersection.",
+            "B": "Lane-use signs are only found on highways, while turn-control signs are used exclusively in urban areas.",
+            "C": "Lane-use signs indicate passing zones, whereas turn-control signs indicate the presence of dedicated turning lanes.",
+            "D": "Lane-use signs apply only to commercial vehicles, while turn-control signs apply to all vehicular traffic."
+        },
+        "answer": "A",
+        "explanation": "Lane-use signs are mounted above or beside a lane to indicate the required or permitted movements from that specific lane. Turn-control signs indicate whether turning movements (like right or left turns) are allowed or restricted at the intersection as a whole.",
+        "uid": "C4-REV-054",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 355,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are operating a commercial vehicle and approaching a railway crossing where the red signal lights have just begun to flash. What is the correct course of action?",
+        "options": {
+            "A": "Speed up to clear the crossing before the train approaches.",
+            "B": "Stop no closer than 5 metres from the nearest rail, and do not proceed until the lights stop flashing and it is safe to do so.",
+            "C": "Slow down to 15 km/h, check both ways, and proceed if no train is in sight.",
+            "D": "Stop, yield to the train if it is visible, and then proceed while the lights are still flashing if the tracks are clear."
+        },
+        "answer": "B",
+        "explanation": "When approaching a railway crossing with flashing red lights, you must bring your vehicle to a complete stop at least 5 metres from the nearest rail. You must not proceed across the tracks until the lights have completely stopped flashing and you have verified it is safe.",
+        "uid": "C4-REV-055",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 356,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "In which of the following scenarios is a driver legally permitted to cross the road marking to pass another vehicle, assuming it is safe to do so?",
+        "options": {
+            "A": "When there is a single solid yellow line on a two-way road.",
+            "B": "When there is a double solid yellow line.",
+            "C": "When there is a broken yellow line alongside a solid yellow line, and the solid line is on the driver's side.",
+            "D": "When there is a broken yellow line alongside a solid yellow line, and the broken line is on the driver's side."
+        },
+        "answer": "D",
+        "explanation": "You are permitted to pass if there is a broken yellow line on your side of the road. You must not pass if the line on your side is solid. Double solid yellow lines strictly prohibit passing for vehicles in both directions.",
+        "uid": "C4-REV-056",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 357,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "While driving on a multi-lane highway, you notice the painted lines separating your lane from the adjacent lane. What colour are the lines that separate traffic moving in the same direction?",
+        "options": {
+            "A": "Yellow",
+            "B": "White",
+            "C": "Orange",
+            "D": "Red"
+        },
+        "answer": "B",
+        "explanation": "White lines are used to separate lanes of traffic moving in the same direction. Yellow lines are used to separate traffic moving in opposite directions.",
+        "uid": "C4-REV-057",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 358,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are driving on a two-way roadway. What colour are the road markings used to divide traffic travelling in opposite directions?",
+        "options": {
+            "A": "White",
+            "B": "Yellow",
+            "C": "Orange",
+            "D": "Green"
+        },
+        "answer": "B",
+        "explanation": "Yellow lines always separate traffic moving in opposite directions. Solid yellow lines indicate that passing is prohibited, while broken yellow lines mean passing is allowed if safe.",
+        "uid": "C4-REV-058",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 359,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "As a commercial driver, you encounter various intersection controls. What is the key difference in your legal obligations when approaching a stop sign versus a yield sign?",
+        "options": {
+            "A": "At a stop sign, you must come to a complete stop; at a yield sign, you must slow down and stop only if necessary to give the right-of-way to other traffic.",
+            "B": "At a stop sign, you only need to stop if other vehicles are present; at a yield sign, you must always come to a complete stop.",
+            "C": "Stop signs are used only at four-way intersections, while yield signs are used only at roundabouts.",
+            "D": "A stop sign requires you to wait for 3 seconds, whereas a yield sign requires you to honk your horn before proceeding."
+        },
+        "answer": "A",
+        "explanation": "A stop sign requires a driver to bring their vehicle to a full and complete stop before the stop line or crosswalk, regardless of traffic. A yield sign requires a driver to slow down, be prepared to stop, and give the right-of-way to any traffic in or approaching the intersection, stopping only if necessary.",
+        "uid": "C4-REV-059",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 360,
+        "chapter": "chapter11",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are driving a commercial vehicle and see a school zone sign with a 30 km/h speed limit tab attached below it. Unless otherwise posted, when is this speed limit in effect?",
+        "options": {
+            "A": "From 8:00 a.m. to 5:00 p.m. every day of the year.",
+            "B": "From dawn to dusk on school days only.",
+            "C": "From 8:00 a.m. to 5:00 p.m. on regular school days.",
+            "D": "24 hours a day, 7 days a week, whenever children are present."
+        },
+        "answer": "C",
+        "explanation": "In British Columbia, a 30 km/h speed limit tab below a school zone sign is in effect from 8:00 a.m. to 5:00 p.m. on regular school days, unless otherwise posted. In contrast, playground zone speed limits of 30 km/h are in effect every day from dawn to dusk.",
+        "uid": "C4-REV-060",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 361,
+        "chapter": "chapter12",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are planning a route that requires travelling on a road primarily used for resource extraction. Under British Columbia regulations, what defines an \"industrial road\"?",
+        "options": {
+            "A": "Any privately owned road used exclusively for agricultural purposes.",
+            "B": "Most roads used for transporting natural resources, such as logging or mining roads, where specific industrial rules apply.",
+            "C": "A road within city limits that is zoned for heavy industrial traffic and manufacturing.",
+            "D": "Any unpaved provincial road that requires an off-highway endorsement to drive a commercial vehicle on."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual Chapter 12. An industrial road is typically a road used for transporting natural resources, such as in forestry or mining operations. They are governed by the Industrial Roads Act and have specific right-of-way rules.",
+        "uid": "C4-REV-061",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 362,
+        "chapter": "chapter12",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are employed to drive a commercial vehicle equipped with air brakes on an industrial logging road, but you do not hold a standard air brake endorsement. What specific endorsement allows you to operate this vehicle exclusively on these resource roads?",
+        "options": {
+            "A": "Resource Road Air Brake Endorsement",
+            "B": "Industrial Vehicle Endorsement",
+            "C": "Off-Highway Air Brake Endorsement",
+            "D": "Restricted Class 1 Endorsement"
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual Chapter 12. An off-highway endorsement allows a driver to operate a commercial vehicle equipped with air brakes on an industrial road without holding a standard air brake endorsement. It is not valid for highway driving.",
+        "uid": "C4-REV-062",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 363,
+        "chapter": "chapter12",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "During your pre-trip inspection on an industrial vehicle, you perform a brake response test and find that the brakes feel spongy and are not operating safely. What is your required course of action?",
+        "options": {
+            "A": "Document the defect in the logbook and drive at a reduced speed to the nearest service center.",
+            "B": "Manually adjust the slack adjusters and proceed with your trip if the response improves.",
+            "C": "Use the engine retarder brake exclusively to compensate for the reduced service brake efficiency.",
+            "D": "Do not operate the vehicle until the brake system has been inspected and repaired by a qualified mechanic."
+        },
+        "answer": "D",
+        "explanation": "Source: Official Manual Chapter 12. If a brake test reveals that the brakes are not operating safely, the vehicle must be taken out of service immediately and repaired by a qualified mechanic before being driven.",
+        "uid": "C4-REV-063",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 364,
+        "chapter": "chapter12",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "When driving a heavily loaded vehicle equipped with a water-cooled brake system on a steep industrial downgrade, why is it important to turn off the water spray just before bringing the vehicle to a complete stop?",
+        "options": {
+            "A": "To prevent the brake drums from warping or cracking due to rapid, uneven cooling while the vehicle is stationary.",
+            "B": "To allow the brake pads to heat up slightly, increasing the friction coefficient for a stronger static hold.",
+            "C": "To avoid creating a muddy or slippery surface at the stopping location, which could cause a loss of traction.",
+            "D": "To conserve the limited water supply for the remaining steep downgrades on your route."
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual Chapter 12. The water spray cools the brakes during a long descent. It must be turned off just before stopping to allow the remaining heat to evaporate the moisture, preventing the drums from warping, cracking, or freezing due to uneven cooling while stationary.",
+        "uid": "C4-REV-064",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 365,
+        "chapter": "chapter12",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are driving an empty commercial vehicle uphill on a steep, narrow industrial road when you encounter a loaded logging truck coming down the hill. Who has the right-of-way in this situation?",
+        "options": {
+            "A": "You have the right-of-way because vehicles traveling uphill always have priority to maintain momentum.",
+            "B": "The loaded logging truck has the right-of-way because loaded vehicles on industrial roads generally have the right-of-way over empty vehicles.",
+            "C": "Neither vehicle has the right-of-way; both drivers must stop and agree on a safe passing procedure via radio communication.",
+            "D": "You have the right-of-way because empty vehicles are more maneuverable and can reverse more easily."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual Chapter 12. On industrial roads, loaded vehicles generally have the right-of-way over empty vehicles, especially on steep grades where a loaded vehicle has much more difficulty stopping or maneuvering.",
+        "uid": "C4-REV-065",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 366,
+        "chapter": "chapter12",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are driving on a narrow, winding industrial road and approach a single-lane section at the same time as an oncoming commercial vehicle. What primary factor determines which vehicle must yield and use the pullout?",
+        "options": {
+            "A": "The vehicle that is physically closest to the pullout must always yield and pull over.",
+            "B": "The smaller or lighter vehicle must yield the right-of-way and use the pullout to allow the heavier or loaded vehicle to pass.",
+            "C": "The vehicle traveling uphill must yield and reverse into the pullout, as the downhill vehicle has less control.",
+            "D": "The driver who first signals with their headlights or radio claims the right-of-way, and the other must pull over."
+        },
+        "answer": "B",
+        "explanation": "Source: Official Manual Chapter 12. On narrow industrial roads, lighter or empty vehicles must yield the right-of-way to heavier or loaded vehicles and use pullouts to let them pass.",
+        "uid": "C4-REV-066",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 367,
+        "chapter": "chapter12",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You have arrived at a busy loading area on an industrial site and need to reverse your commercial vehicle into a designated bay. What two crucial steps must you take before beginning to back up?",
+        "options": {
+            "A": "Sound your horn to alert others, and get out of your vehicle to physically check the area behind you.",
+            "B": "Turn on your four-way flashers, and adjust your mirrors to ensure you can see the rear tires.",
+            "C": "Call the site supervisor on the radio, and wait for a spotter to guide you into the bay.",
+            "D": "Check your rearview camera, and rev your engine twice to warn nearby workers of your presence."
+        },
+        "answer": "A",
+        "explanation": "Source: Official Manual Chapter 12. Before backing up in an industrial setting, you must sound your horn to warn others and physically get out of your vehicle to walk around and check the blind spot directly behind you.",
+        "uid": "C4-REV-067",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
+    },
+    {
+        "id": 368,
+        "chapter": "chapter12",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ],
+        "question": "You are driving on an industrial road that intersects with a public road, and there is a railway crossing at this intersection. Under what condition are you permitted to cross the railway tracks without coming to a complete stop first?",
+        "options": {
+            "A": "You may cross without stopping if you have a clear line of sight for at least 500 meters in both directions and no train is visible.",
+            "B": "You may cross without stopping if your vehicle is empty and weighs less than the posted minimum stopping weight.",
+            "C": "You may cross without stopping if a traffic control person, police officer, or an automatic signal directs you to proceed.",
+            "D": "You are never permitted to cross a railway line on an industrial road without coming to a complete stop first."
+        },
+        "answer": "C",
+        "explanation": "Source: Official Manual Chapter 12. When crossing a railway line intersecting an industrial road, you must stop unless an automatic signal, a peace officer, or a flag person explicitly directs you to proceed.",
+        "uid": "C4-REV-068",
+        "source": {
+            "document": "Driving Commercial Vehicles Manual",
+            "section": "Chapter Review",
+            "verified": "2026-07-21"
+        }
     }
 ];

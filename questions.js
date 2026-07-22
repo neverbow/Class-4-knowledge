@@ -3,7 +3,7 @@ window.QUESTION_BANK_VERSION = {
     "version": "2026.07.21-class4-extended",
     "schemaVersion": 2,
     "scope": "Class 4 restricted and unrestricted",
-    "questionCount": 371,
+    "questionCount": 391,
     "officialSourcesOnly": true,
     "verifiedDate": "2026-07-21"
 };
@@ -9342,6 +9342,366 @@ window.QUESTION_BANK = [
         "chapter": "chapter-weakness",
         "id": 371,
         "uid": "C4-WEAK-020",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You see a white square sign with a black symbol of a truck inside a green circle. What does this indicate?",
+        "options": {
+            "A": "Truck parking is available here.",
+            "B": "Only trucks are permitted on this route.",
+            "C": "This is a designated truck route that commercial vehicles must use.",
+            "D": "Dangerous goods must be inspected at the next station."
+        },
+        "answer": "C",
+        "explanation": "A green circle around a symbol means the action or vehicle is permitted or mandatory. When placed over a truck, it indicates a designated truck route that heavy commercial vehicles are expected to follow. (Ch 11 - Signs)",
+        "chapter": "chapter-weakness",
+        "id": 372,
+        "uid": "C4-WEAK-021",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "A yellow diamond sign shows a truck on a downward slope. Below it is a smaller yellow sign indicating '8%'. What does the '8%' refer to?",
+        "options": {
+            "A": "The maximum speed allowed (8 km/h).",
+            "B": "The steepness or grade of the hill (8 metres of drop for every 100 metres of distance).",
+            "C": "The weight limit for trucks on the hill.",
+            "D": "The distance in kilometres to the bottom of the hill."
+        },
+        "answer": "B",
+        "explanation": "The percentage on a steep hill warning sign refers to the grade of the downgrade. An 8% grade means the road drops 8 metres for every 100 metres of forward travel. (Ch 11 - Signs)",
+        "chapter": "chapter-weakness",
+        "id": 373,
+        "uid": "C4-WEAK-022",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You are driving a tall commercial vehicle and approach a bridge with a sign indicating a clearance of 4.0 m. If your vehicle is exactly 4.15 m tall, what must you do?",
+        "options": {
+            "A": "Proceed slowly through the center of the bridge where the arch is highest.",
+            "B": "Deflate your tires slightly to reduce height and proceed.",
+            "C": "Stop safely, do not proceed, and find an alternate route.",
+            "D": "Honk your horn to warn oncoming traffic before entering."
+        },
+        "answer": "C",
+        "explanation": "You must never attempt to pass under a structure if your vehicle's height exceeds the posted clearance. You must find an alternate route to avoid a collision. (Ch 11 - Signs)",
+        "chapter": "chapter-weakness",
+        "id": 374,
+        "uid": "C4-WEAK-023",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "What is the meaning of a white square sign that displays a black silhouette of a truck with a red diagonal slash through it?",
+        "options": {
+            "A": "Trucks must use the right lane.",
+            "B": "Trucks are prohibited from using this roadway.",
+            "C": "End of truck route.",
+            "D": "No parking for trucks."
+        },
+        "answer": "B",
+        "explanation": "A red circle with a diagonal slash is a prohibitive sign. When it covers a truck, it means that heavy commercial vehicles are not allowed on that specific road. (Ch 11 - Signs)",
+        "chapter": "chapter-weakness",
+        "id": 375,
+        "uid": "C4-WEAK-024",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You see a blue sign with a white 'P' and a symbol of a truck underneath. What does this mean?",
+        "options": {
+            "A": "Provincial truck weigh scale ahead.",
+            "B": "Truck parking area.",
+            "C": "Rest area for all vehicles.",
+            "D": "Truck repair facility."
+        },
+        "answer": "B",
+        "explanation": "A blue sign with a white 'P' and a truck symbol indicates a designated parking area specifically for commercial trucks. (Ch 11 - Signs)",
+        "chapter": "chapter-weakness",
+        "id": 376,
+        "uid": "C4-WEAK-025",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You approach a regulatory sign that says 'Vehicles Over 5500 kg Check Brakes'. Who must stop at this sign?",
+        "options": {
+            "A": "Only vehicles equipped with air brakes.",
+            "B": "Only tractor-trailers and buses.",
+            "C": "All vehicles with a licensed gross vehicle weight (GVW) over 5500 kg.",
+            "D": "Only vehicles carrying dangerous goods."
+        },
+        "answer": "C",
+        "explanation": "This is a mandatory brake check sign. Any vehicle, regardless of whether it uses air brakes or hydraulic brakes, must stop and check its brakes if its licensed GVW exceeds 5500 kg. (Ch 11 - Signs)",
+        "chapter": "chapter-weakness",
+        "id": 377,
+        "uid": "C4-WEAK-026",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "A yellow diamond sign shows a black symbol of a traffic light. What is the purpose of this sign?",
+        "options": {
+            "A": "To warn drivers of a hidden or upcoming traffic light where they may need to stop suddenly.",
+            "B": "To indicate that the traffic light is currently out of order.",
+            "C": "To show the location of a red-light camera.",
+            "D": "To signify a pedestrian-only crossing."
+        },
+        "answer": "A",
+        "explanation": "A 'Signals Ahead' sign warns drivers, especially those in heavy vehicles that require longer stopping distances, that a traffic light is ahead and may not be visible until the last moment. (Ch 11 - Signs)",
+        "chapter": "chapter-weakness",
+        "id": 378,
+        "uid": "C4-WEAK-027",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "What does a sign depicting a truck on a tilted road surface inside a yellow diamond warn drivers about?",
+        "options": {
+            "A": "Slippery road surface ahead.",
+            "B": "Steep downgrade ahead.",
+            "C": "Uneven pavement or a steep crossfall that could cause a rollover, especially for high-center-of-gravity vehicles.",
+            "D": "Narrow bridge ahead."
+        },
+        "answer": "C",
+        "explanation": "This sign warns of an uneven surface, steep crossfall, or sharp curve banking that poses a high rollover risk for tall, heavy commercial vehicles. (Ch 11 - Signs)",
+        "chapter": "chapter-weakness",
+        "id": 379,
+        "uid": "C4-WEAK-028",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You see a large blue or yellow sign reading 'Runaway Lane Ahead'. Who is this lane designed for?",
+        "options": {
+            "A": "Emergency vehicles bypassing traffic.",
+            "B": "Slow-moving trucks to allow passenger cars to pass.",
+            "C": "Commercial vehicles that have lost their braking ability on a steep downgrade.",
+            "D": "Vehicles carrying oversized loads."
+        },
+        "answer": "C",
+        "explanation": "A runaway lane is a safety feature built on steep downgrades, filled with soft gravel or sand, designed to safely stop heavy vehicles that have experienced brake failure. (Ch 11 - Signs)",
+        "chapter": "chapter-weakness",
+        "id": 380,
+        "uid": "C4-WEAK-029",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "A white rectangular sign reads 'Maximum 90' and directly below it is a yellow tab that says 'Trucks 80'. What does this mean?",
+        "options": {
+            "A": "Trucks are recommended to travel at 80 km/h, but can legally do 90 km/h.",
+            "B": "The absolute legal speed limit for heavy trucks is 80 km/h on this section of road.",
+            "C": "Trucks must travel exactly at 80 km/h.",
+            "D": "Trucks must maintain a following distance of 80 metres."
+        },
+        "answer": "B",
+        "explanation": "When a speed limit sign has a specific tab for trucks, it establishes a lower, mandatory maximum speed limit for heavy commercial vehicles on that stretch of road due to safety concerns. (Ch 11 - Signs)",
+        "chapter": "chapter-weakness",
+        "id": 381,
+        "uid": "C4-WEAK-030",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You are approaching an intersection in a large commercial vehicle. Why should you avoid stopping directly on top of a crosswalk?",
+        "options": {
+            "A": "Because it forces pedestrians into the live traffic lane to get around your vehicle, putting them at extreme risk.",
+            "B": "Because the extra weight of the vehicle damages the painted crosswalk lines.",
+            "C": "Because you might not trigger the traffic light sensor.",
+            "D": "Because it makes it difficult for you to see the traffic light."
+        },
+        "answer": "A",
+        "explanation": "Stopping in a crosswalk blocks the safe path for pedestrians, forcing them to walk out into active traffic lanes to go around your large vehicle, which is a severe safety hazard. (Ch 3 - Intersections)",
+        "chapter": "chapter-weakness",
+        "id": 382,
+        "uid": "C4-WEAK-031",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You are driving a taxi and approaching an uncontrolled railway crossing. Why is it recommended to open your window slightly and turn down the radio?",
+        "options": {
+            "A": "To allow fresh air into the vehicle to prevent fatigue.",
+            "B": "Because trains may not always use their whistles, and listening is a critical secondary way to detect an approaching train.",
+            "C": "To communicate with any flag persons outside.",
+            "D": "To comply with commercial noise regulations."
+        },
+        "answer": "B",
+        "explanation": "At uncontrolled railway crossings, visibility can sometimes be blocked. Opening your window and turning off noise sources allows you to listen for the sound of an approaching train or its engine. (Ch 3 - Crossings)",
+        "chapter": "chapter-weakness",
+        "id": 383,
+        "uid": "C4-WEAK-032",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "When driving a limousine, a passenger requests that you speed to reach the airport on time. How should you handle this situation to ensure transporting passengers safely?",
+        "options": {
+            "A": "Comply with the request but only exceed the speed limit by 10 km/h.",
+            "B": "Politely refuse, explaining that as a professional driver, you must adhere strictly to speed limits and safety laws for their protection.",
+            "C": "Agree to speed only if the passenger pays an extra tip.",
+            "D": "Ignore the passenger completely and turn up the radio."
+        },
+        "answer": "B",
+        "explanation": "A professional driver must never compromise safety or break traffic laws, even at the request of a passenger. Politely but firmly prioritize safe, legal driving over speed. (Ch 6 - Passenger Safety)",
+        "chapter": "chapter-weakness",
+        "id": 384,
+        "uid": "C4-WEAK-033",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "Before allowing a passenger to exit your taxi on a busy city street, what is your primary responsibility as the driver?",
+        "options": {
+            "A": "To open the door for them from the outside.",
+            "B": "To ensure they have gathered all their belongings.",
+            "C": "To check your mirrors and blind spots to ensure a cyclist or another vehicle isn't approaching on the side the passenger will exit.",
+            "D": "To collect the fare."
+        },
+        "answer": "C",
+        "explanation": "You must actively protect your passengers and other road users. Always shoulder-check and check mirrors to prevent your passenger from opening a door into the path of a cyclist (dooring). (Ch 6 - Passenger Safety)",
+        "chapter": "chapter-weakness",
+        "id": 385,
+        "uid": "C4-WEAK-034",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "What is the 'No-Zone' in the context of driving a heavy commercial vehicle?",
+        "options": {
+            "A": "An area where parking is strictly prohibited.",
+            "B": "The massive blind spots immediately in front of, behind, and along the sides of the vehicle where smaller vehicles disappear from view.",
+            "C": "The area within an intersection where you cannot stop.",
+            "D": "A designated route where trucks are not allowed."
+        },
+        "answer": "B",
+        "explanation": "The No-Zone refers to the large blind spots around commercial vehicles. Hazard perception requires drivers to be constantly aware that cars or pedestrians in these zones cannot be seen. (Ch 6 - Hazard Perception)",
+        "chapter": "chapter-weakness",
+        "id": 386,
+        "uid": "C4-WEAK-035",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "When making a sharp right turn in a long commercial vehicle, you must manage your tail-swing. What is tail-swing?",
+        "options": {
+            "A": "When the trailer sways back and forth due to high winds.",
+            "B": "When the rear overhang of the vehicle swings out in the opposite direction of the turn, potentially striking vehicles in the adjacent lane.",
+            "C": "When the rear wheels jump the curb.",
+            "D": "When the cargo shifts to the back of the vehicle during acceleration."
+        },
+        "answer": "B",
+        "explanation": "Tail-swing occurs when a vehicle has a long overhang behind the rear axle. When turning right, the rear end swings out to the left, which can strike objects or vehicles in the adjacent lane. (Ch 6 - Manoeuvring)",
+        "chapter": "chapter-weakness",
+        "id": 387,
+        "uid": "C4-WEAK-036",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You are descending a long, steep grade in a heavy vehicle. You notice your brakes feel 'spongy' and require more pedal pressure than normal to slow down. What is happening?",
+        "options": {
+            "A": "Your brakes are experiencing 'brake fade' due to overheating, and you must pull over safely to let them cool.",
+            "B": "This is normal on steep hills; you just need to push harder.",
+            "C": "The anti-lock braking system (ABS) is engaging.",
+            "D": "Your tires are losing traction."
+        },
+        "answer": "A",
+        "explanation": "A spongy brake pedal and reduced stopping power are classic signs of brake fade caused by extreme heat. You must safely stop and allow the brakes to cool, or use a runaway lane if you cannot stop. (Ch 2 - Grades and Hills)",
+        "chapter": "chapter-weakness",
+        "id": 388,
+        "uid": "C4-WEAK-037",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "What is 'snubbing' as a braking technique used on steep downgrades?",
+        "options": {
+            "A": "Applying the brakes continuously but lightly all the way down the hill.",
+            "B": "Using the transmission only to stop the vehicle without touching the brakes.",
+            "C": "Applying the brakes firmly to drop your speed 5-10 km/h below your target safe speed, then releasing them to allow cooling, and repeating this cycle.",
+            "D": "Applying the parking brake slightly to add extra drag."
+        },
+        "answer": "C",
+        "explanation": "Snubbing is a technique where you brake firmly to reduce speed below your target, then completely release the brakes to let air cool them, repeating the process. This helps prevent brake fade on long downgrades. (Ch 2 - Grades and Hills)",
+        "chapter": "chapter-weakness",
+        "id": 389,
+        "uid": "C4-WEAK-038",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "When managing speed and space on a highway, how should you adjust your following distance if you are driving a heavy commercial vehicle in heavy rain?",
+        "options": {
+            "A": "Maintain the standard 5-second following distance.",
+            "B": "Double your following distance to at least 10 seconds due to reduced traction and visibility.",
+            "C": "Decrease your following distance to stay in the draft of the vehicle ahead.",
+            "D": "Maintain a 2-second following distance."
+        },
+        "answer": "B",
+        "explanation": "In adverse weather conditions like heavy rain or snow, it takes much longer to stop a heavy vehicle. You should double your standard ideal following distance (from 5 seconds to 10 seconds or more). (Ch 3 - Speed and Space)",
+        "chapter": "chapter-weakness",
+        "id": 390,
+        "uid": "C4-WEAK-039",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "If you are driving a heavy vehicle significantly slower than the posted speed limit due to a steep uphill grade, what is the best way to manage the space behind you?",
+        "options": {
+            "A": "Straddle the center line so no one attempts to pass you dangerously.",
+            "B": "Turn on your high beams.",
+            "C": "Turn on your four-way flashers to warn approaching traffic of your low speed, and pull over when safe if a long line forms behind you.",
+            "D": "Speed up to the posted limit."
+        },
+        "answer": "C",
+        "explanation": "If your speed drops significantly below the speed limit on a hill, use four-way flashers to warn rear-approaching traffic. If you are holding up traffic, courtesy and safety dictate you pull over when a safe turnout is available. (Ch 3 - Speed and Space)",
+        "chapter": "chapter-weakness",
+        "id": 391,
+        "uid": "C4-WEAK-040",
         "classes": [
             "class4-rest",
             "class4-unrest"

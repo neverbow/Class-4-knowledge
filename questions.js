@@ -3,7 +3,7 @@ window.QUESTION_BANK_VERSION = {
     "version": "2026.07.21-class4-extended",
     "schemaVersion": 2,
     "scope": "Class 4 restricted and unrestricted",
-    "questionCount": 351,
+    "questionCount": 371,
     "officialSourcesOnly": true,
     "verifiedDate": "2026-07-21"
 };
@@ -8986,5 +8986,365 @@ window.QUESTION_BANK = [
             "section": "Chapter Review",
             "verified": "2026-07-21"
         }
+    },
+    {
+        "question": "You are driving a taxi and transporting passengers safely. When should you refuse to transport a passenger?",
+        "options": {
+            "A": "When they are travelling a short distance.",
+            "B": "When they appear slightly intoxicated but are calm.",
+            "C": "When they are excessively noisy, violent, or pose a threat to safety.",
+            "D": "When they are carrying more than two bags of luggage."
+        },
+        "answer": "C",
+        "explanation": "As a commercial driver, you have the right to refuse service to a passenger if they are violent, excessively noisy, or pose a safety hazard to you or others. (Ch 6)",
+        "chapter": "chapter-weakness",
+        "id": 352,
+        "uid": "C4-WEAK-001",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "When operating a bus, taxi, or limousine, what is the most important consideration before opening a passenger door to let someone exit?",
+        "options": {
+            "A": "Ensuring the meter is stopped and payment is collected.",
+            "B": "Checking for cyclists, pedestrians, or approaching vehicles in your mirrors and blind spots.",
+            "C": "Turning on the four-way flashers immediately.",
+            "D": "Advising the passenger to hurry to minimize traffic disruption."
+        },
+        "answer": "B",
+        "explanation": "Transporting passengers safely includes ensuring their safe exit. Always check mirrors and blind spots for hazards like cyclists (dooring) before allowing passengers to open doors. (Ch 6)",
+        "chapter": "chapter-weakness",
+        "id": 353,
+        "uid": "C4-WEAK-002",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "When manoeuvring a long commercial vehicle or bus around a sharp right turn, what is the primary hazard related to the rear wheels?",
+        "options": {
+            "A": "Tail-swing, where the rear of the vehicle swings into the opposing lane.",
+            "B": "Off-tracking, where the rear wheels follow a shorter path than the front wheels.",
+            "C": "Brake fade caused by turning sharply at high speeds.",
+            "D": "The front wheels losing traction."
+        },
+        "answer": "B",
+        "explanation": "Off-tracking occurs when the rear wheels of a vehicle follow a shorter path than the front wheels during a turn. On a right turn, this can cause the rear wheels to jump the curb or hit pedestrians. (Ch 6)",
+        "chapter": "chapter-weakness",
+        "id": 354,
+        "uid": "C4-WEAK-003",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You are driving a commercial vehicle and notice a tailgater following you too closely. What is the safest way to manage your space?",
+        "options": {
+            "A": "Tap your brakes lightly multiple times to warn them.",
+            "B": "Speed up slightly to increase the gap between your vehicles.",
+            "C": "Gradually slow down to increase your following distance from the vehicle ahead of you.",
+            "D": "Maintain your speed but move slightly into the left lane to block them."
+        },
+        "answer": "C",
+        "explanation": "To manage space when being tailgated, you should gradually slow down to increase the space in front of your vehicle. This gives you more room to stop smoothly, preventing the tailgater from rear-ending you. (Ch 3)",
+        "chapter": "chapter-weakness",
+        "id": 355,
+        "uid": "C4-WEAK-004",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "According to speed and space management principles, how should you adjust your following distance in ideal weather conditions when driving a heavy commercial vehicle?",
+        "options": {
+            "A": "Maintain a 2-second following distance.",
+            "B": "Maintain a minimum 5-second following distance.",
+            "C": "Keep at least one vehicle length for every 10 km/h of speed.",
+            "D": "Tailgate slightly to reduce wind resistance."
+        },
+        "answer": "B",
+        "explanation": "Heavy commercial vehicles require more time and distance to stop. In ideal conditions, you should maintain a minimum 5-second following distance. (Ch 3)",
+        "chapter": "chapter-weakness",
+        "id": 356,
+        "uid": "C4-WEAK-005",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You are driving on a highway at dawn and spot a deer standing directly in your lane. You cannot safely stop in time, and there is oncoming traffic. What should you do?",
+        "options": {
+            "A": "Slam on the brakes and swerve sharply into the oncoming lane.",
+            "B": "Swerve sharply into the right ditch to avoid hitting the animal.",
+            "C": "Check your rear-view mirror, slow down as much as safely possible, but resist the urge to swerve or slam on the brakes if it would cause a worse crash.",
+            "D": "Sound your horn continuously and accelerate to scare the deer."
+        },
+        "answer": "C",
+        "explanation": "When facing wildlife on the road, assess risks carefully. Check your rear-view mirror and slow down, but do not slam on the brakes or swerve dangerously if it risks a collision with other vehicles or rolling over. (Ch 3)",
+        "chapter": "chapter-weakness",
+        "id": 357,
+        "uid": "C4-WEAK-006",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "When approaching a railway crossing in a large commercial vehicle, why is it considered a hazard to shift gears while crossing the tracks?",
+        "options": {
+            "A": "Because it causes excessive noise in a quiet zone.",
+            "B": "Because you might miss a gear and stall the vehicle on the tracks.",
+            "C": "Because the vibrations from the tracks will damage the transmission.",
+            "D": "Because it distracts the driver from looking for trains."
+        },
+        "answer": "B",
+        "explanation": "You should never shift gears while crossing railway tracks in a heavy vehicle because you could miss a gear, causing the vehicle to stall directly on the tracks. (Ch 3)",
+        "chapter": "chapter-weakness",
+        "id": 358,
+        "uid": "C4-WEAK-007",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You are preparing to drive a heavy commercial vehicle down a steep downgrade. What is the most important braking principle to follow before you start descending?",
+        "options": {
+            "A": "Shift into a higher gear to coast down the hill quickly.",
+            "B": "Select a lower gear before beginning the descent to utilize engine braking.",
+            "C": "Apply continuous, heavy pressure to the service brakes all the way down.",
+            "D": "Pump the brakes rapidly to keep them cool."
+        },
+        "answer": "B",
+        "explanation": "When approaching a steep downgrade, you must select a lower gear before starting the descent. This allows the engine to help hold the vehicle back (engine braking) and prevents brake fade from overheating. (Ch 2)",
+        "chapter": "chapter-weakness",
+        "id": 359,
+        "uid": "C4-WEAK-008",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "What is 'brake fade' and why does it occur on long, steep grades?",
+        "options": {
+            "A": "It is the sudden loss of air pressure from a broken airline.",
+            "B": "It is the loss of braking effectiveness caused by overheating from excessive use of the service brakes.",
+            "C": "It is when the brake pedal becomes stuck to the floor.",
+            "D": "It is the freezing of moisture in the brake lines during winter."
+        },
+        "answer": "B",
+        "explanation": "Brake fade is the loss of braking power that occurs when brakes overheat due to continuous, heavy application on long downgrades. (Ch 2)",
+        "chapter": "chapter-weakness",
+        "id": 360,
+        "uid": "C4-WEAK-009",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You see a yellow diamond-shaped sign showing a truck going down a steep incline. What does this commercial sign indicate?",
+        "options": {
+            "A": "Runaway lane ahead.",
+            "B": "Truck route ends.",
+            "C": "Steep hill or downgrade ahead.",
+            "D": "Brake check area ahead."
+        },
+        "answer": "C",
+        "explanation": "A yellow diamond sign featuring a truck on a downward incline is a warning sign indicating a steep hill or downgrade ahead. Drivers should prepare to slow down and gear down. (Ch 11)",
+        "chapter": "chapter-weakness",
+        "id": 361,
+        "uid": "C4-WEAK-010",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "What does a white square sign with a black circle and a diagonal red slash over a truck mean?",
+        "options": {
+            "A": "No trucks allowed on this route.",
+            "B": "Trucks must use the right lane.",
+            "C": "Dangerous goods prohibited.",
+            "D": "Truck parking prohibited."
+        },
+        "answer": "A",
+        "explanation": "A red circle with a diagonal slash indicates that something is prohibited. When placed over a symbol of a truck, it means trucks are not permitted on that road or route. (Ch 11)",
+        "chapter": "chapter-weakness",
+        "id": 362,
+        "uid": "C4-WEAK-011",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "When stopping at an uncontrolled railway crossing in a passenger-carrying vehicle (like a bus), how far from the nearest rail must you stop?",
+        "options": {
+            "A": "Between 1 and 3 metres.",
+            "B": "Between 5 and 15 metres.",
+            "C": "Between 15 and 25 metres.",
+            "D": "You do not need to stop unless a train is visible."
+        },
+        "answer": "B",
+        "explanation": "Buses carrying passengers and vehicles transporting dangerous goods are required by law to stop between 5 and 15 metres from the nearest rail at uncontrolled main railway crossings. (Ch 3)",
+        "chapter": "chapter-weakness",
+        "id": 363,
+        "uid": "C4-WEAK-012",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "While driving a taxi at night, you notice sudden, unusual spots of light reflecting from the ditch ahead. What hazard perception technique should you apply?",
+        "options": {
+            "A": "Flick your high beams repeatedly to warn other drivers.",
+            "B": "Assume it is a broken reflector and maintain speed.",
+            "C": "Recognize it might be the reflection of wildlife's eyes, and slow down immediately.",
+            "D": "Pull over and investigate the light source on foot."
+        },
+        "answer": "C",
+        "explanation": "Unusual spots of light on or near the roadway at night are often the reflection of your headlights off an animal's eyes. You should anticipate wildlife and slow down. (Ch 3)",
+        "chapter": "chapter-weakness",
+        "id": 364,
+        "uid": "C4-WEAK-013",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You are driving a commercial passenger vehicle (like a shuttle bus) and are preparing to pass a cyclist on a narrow road. What is the correct speed and space management technique?",
+        "options": {
+            "A": "Pass them as quickly as possible without leaving your lane.",
+            "B": "Sound your horn continuously to make them move to the shoulder.",
+            "C": "Wait until it is safe, then leave a wide berth (at least 1 to 1.5 metres) when passing.",
+            "D": "Drive closely behind them until they pull over."
+        },
+        "answer": "C",
+        "explanation": "When sharing the road with vulnerable users like cyclists, especially in a large commercial vehicle, you must manage your space by leaving a wide berth when passing to avoid knocking them over with wind draft or mirrors. (Ch 3)",
+        "chapter": "chapter-weakness",
+        "id": 365,
+        "uid": "C4-WEAK-014",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "When exiting a narrow alleyway into a busy street in a limousine, what is the best technique to avoid a collision in a hazard zone?",
+        "options": {
+            "A": "Accelerate quickly to join the flow of traffic before approaching cars arrive.",
+            "B": "Sound your horn and proceed without stopping.",
+            "C": "Stop before the sidewalk, check for pedestrians, inch forward to check for cross-traffic, and proceed when clear.",
+            "D": "Reverse out of the alley to gain better visibility."
+        },
+        "answer": "C",
+        "explanation": "Alleys and blind intersections are high-hazard zones. You must stop before the sidewalk to yield to pedestrians, then inch forward carefully to gain visibility of cross-traffic before proceeding. (Ch 3)",
+        "chapter": "chapter-weakness",
+        "id": 366,
+        "uid": "C4-WEAK-015",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "In the context of hazard perception and zones, what is the 'danger zone' for a heavy commercial vehicle?",
+        "options": {
+            "A": "The section of the highway with the highest speed limit.",
+            "B": "The areas directly behind, in front, and beside the vehicle where the driver has blind spots.",
+            "C": "The time it takes for the brakes to engage after pressing the pedal.",
+            "D": "The cargo area where dangerous goods are stored."
+        },
+        "answer": "B",
+        "explanation": "The danger zone (or 'no-zone') refers to the massive blind spots directly in front, directly behind, and along the sides of large commercial vehicles where the driver cannot see pedestrians or smaller vehicles. (Ch 6)",
+        "chapter": "chapter-weakness",
+        "id": 367,
+        "uid": "C4-WEAK-016",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "When operating a bus, taxi or limousine, what must you do if a passenger requires assistance boarding due to a mobility issue?",
+        "options": {
+            "A": "Ask other passengers to assist them.",
+            "B": "Politely refuse service as it may delay your schedule.",
+            "C": "Provide reasonable assistance to help them safely board and secure them if necessary.",
+            "D": "Tell them to wait for a specialized medical transport vehicle."
+        },
+        "answer": "C",
+        "explanation": "Transporting passengers safely includes providing reasonable assistance to elderly passengers or those with mobility issues, ensuring they are safely seated before the vehicle moves. (Ch 6)",
+        "chapter": "chapter-weakness",
+        "id": 368,
+        "uid": "C4-WEAK-017",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "If you are driving a commercial vehicle slower than the normal flow of traffic on a two-lane highway, what is your responsibility regarding space management?",
+        "options": {
+            "A": "You must speed up to match the flow of traffic regardless of the speed limit.",
+            "B": "You should occasionally pull over safely to allow accumulated traffic behind you to pass.",
+            "C": "You must drive with your four-way flashers on at all times.",
+            "D": "You should straddle the center line to prevent unsafe passing."
+        },
+        "answer": "B",
+        "explanation": "If you are driving slower than the flow of traffic (due to steep grades or heavy loads) and causing a lineup behind you, space management principles require you to pull over safely when possible to let the traffic pass. (Ch 3)",
+        "chapter": "chapter-weakness",
+        "id": 369,
+        "uid": "C4-WEAK-018",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "You encounter a commercial sign displaying a truck silhouette on a steep decline with the words 'Use Lower Gear'. Why is this sign specifically directed at heavy vehicles?",
+        "options": {
+            "A": "Because heavy vehicles accelerate faster than cars.",
+            "B": "Because heavy vehicles rely on engine braking to prevent their service brakes from overheating on steep grades.",
+            "C": "Because lower gears improve fuel economy on downgrades.",
+            "D": "Because the road surface is too rough for high gears."
+        },
+        "answer": "B",
+        "explanation": "Heavy vehicles can easily burn out their service brakes (brake fade) on steep hills. The sign warns drivers to use a lower gear so the engine can absorb the vehicle's momentum. (Ch 11 / Ch 2)",
+        "chapter": "chapter-weakness",
+        "id": 370,
+        "uid": "C4-WEAK-019",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
+    },
+    {
+        "question": "When backing up a commercial vehicle safely, what is the best way to manage hazard perception if you have poor visibility?",
+        "options": {
+            "A": "Use only the left-side mirror and reverse quickly.",
+            "B": "Honk your horn once and trust your backup camera entirely.",
+            "C": "Get out of the vehicle and physically check the area behind you before reversing, or use a reliable guide (spotter).",
+            "D": "Reverse while looking out the open driver's door."
+        },
+        "answer": "C",
+        "explanation": "Backing up safely requires complete hazard perception. If you cannot see, you must get out and look (GOAL) or use a spotter to guide you to ensure the path is clear. (Ch 6)",
+        "chapter": "chapter-weakness",
+        "id": 371,
+        "uid": "C4-WEAK-020",
+        "classes": [
+            "class4-rest",
+            "class4-unrest"
+        ]
     }
 ];

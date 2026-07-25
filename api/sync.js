@@ -1,7 +1,12 @@
-import { get, put, BlobPreconditionFailedError } from '@vercel/blob';
 import { emptyState, mergeStates, normalizeState } from '../lib/sync-core.js';
+import { Redis } from '@upstash/redis';
 
-const BLOB_PATH = process.env.SYNC_BLOB_PATH || 'class4/kent-sync-v1.json';
+const redis = new Redis({
+  url: process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL || '',
+  token: process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN || '',
+});
+
+const KV_KEY = 'class4/kent-sync-v1';
 const MAX_BODY_BYTES = 512 * 1024;
 
 function json(data, status = 200) {
@@ -26,43 +31,30 @@ function requestAllowed(request) {
 }
 
 async function readCloudState() {
-    const result = await get(BLOB_PATH, { access: 'private', useCache: false });
-    if (!result || result.statusCode !== 200 || !result.stream) {
-        return { state: emptyState(), etag: null };
+    try {
+        const result = await redis.get(KV_KEY);
+        if (!result) {
+            return { state: emptyState() };
+        }
+        // Upstash redis.get automatically parses JSON if it is JSON
+        const raw = typeof result === 'string' ? JSON.parse(result) : result;
+        return { state: normalizeState(raw) };
+    } catch (err) {
+        console.error('Redis read error:', err);
+        return { state: emptyState() };
     }
-    const raw = await new Response(result.stream).text();
-    return { state: normalizeState(JSON.parse(raw)), etag: result.blob.etag };
-}
-
-function isAlreadyExists(error) {
-    return error?.name === 'BlobAlreadyExistsError'
-        || error?.code === 'blob_already_exists'
-        || /already exists/i.test(error?.message || '');
-}
-
-function isRetryableConflict(error) {
-    return error instanceof BlobPreconditionFailedError
-        || error?.name === 'BlobPreconditionFailedError'
-        || /ETag mismatch/i.test(error?.message || '')
-        || isAlreadyExists(error);
 }
 
 async function saveInitialBackup(deviceId, state) {
     const safeDeviceId = /^[a-zA-Z0-9-]{8,80}$/.test(deviceId) ? deviceId : 'unknown-device';
-    const pathname = `class4/backups/kent-initial-${safeDeviceId}.json`;
-    try {
-        await put(pathname, JSON.stringify(state), {
-            access: 'private',
-            contentType: 'application/json',
-            cacheControlMaxAge: 60
-        });
-    } catch (error) {
-        if (!isAlreadyExists(error)) throw error;
-    }
+    const key = `class4/backups/kent-initial-${safeDeviceId}`;
+    
+    // Only set if not exists (NX)
+    await redis.set(key, state, { nx: true });
 }
 
 async function mergeAndWrite(incoming, deviceId, initialMigration) {
-    for (let attempt = 0; attempt < 4; attempt += 1) {
+    for (let attempt = 0; attempt < 3; attempt += 1) {
         const current = await readCloudState();
         const needsBackup = initialMigration && !current.state.migrations[deviceId];
         if (needsBackup) await saveInitialBackup(deviceId, incoming);
@@ -76,15 +68,10 @@ async function mergeAndWrite(incoming, deviceId, initialMigration) {
         }
 
         try {
-            await put(BLOB_PATH, JSON.stringify(merged), {
-                access: 'private',
-                contentType: 'application/json',
-                cacheControlMaxAge: 60,
-                allowOverwrite: true
-            });
+            await redis.set(KV_KEY, merged);
             return merged;
         } catch (error) {
-            if (!isRetryableConflict(error) || attempt === 3) throw error;
+            if (attempt === 2) throw error;
         }
     }
     throw new Error('Unable to save synchronized state');
@@ -92,6 +79,8 @@ async function mergeAndWrite(incoming, deviceId, initialMigration) {
 
 export async function GET(request) {
     if (!requestAllowed(request)) return json({ error: 'Forbidden' }, 403);
+    if (!redis.url || !redis.token) return json({ error: 'Redis credentials missing' }, 500);
+    
     try {
         const { state } = await readCloudState();
         return json({ state });
@@ -103,6 +92,8 @@ export async function GET(request) {
 
 export async function POST(request) {
     if (!requestAllowed(request)) return json({ error: 'Forbidden' }, 403);
+    if (!redis.url || !redis.token) return json({ error: 'Redis credentials missing' }, 500);
+
     const contentLength = Number(request.headers.get('content-length')) || 0;
     if (contentLength > MAX_BODY_BYTES) return json({ error: 'Payload too large' }, 413);
 
@@ -113,6 +104,7 @@ export async function POST(request) {
         if (body?.state?.profile !== 'KENT') return json({ error: 'Invalid profile' }, 400);
         const deviceId = typeof body.deviceId === 'string' ? body.deviceId.slice(0, 80) : '';
         if (!/^[a-zA-Z0-9-]{8,80}$/.test(deviceId)) return json({ error: 'Invalid device' }, 400);
+        
         const state = await mergeAndWrite(normalizeState(body.state), deviceId, body.initialMigration === true);
         return json({ state });
     } catch (error) {
@@ -120,5 +112,3 @@ export async function POST(request) {
         return json({ error: 'Cloud sync is temporarily unavailable', details: error.stack || error.message }, 503);
     }
 }
-
-

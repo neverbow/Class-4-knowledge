@@ -129,9 +129,8 @@
             this.listenersInstalled = true;
             window.addEventListener('online', () => this.sync());
             document.addEventListener('visibilitychange', () => {
-                if (document.visibilityState === 'visible') this.sync();
+                this.sync(); // Sync whenever they leave or return to the page
             });
-            window.setInterval(() => this.sync(), 120000);
         }
 
         async start(app) {

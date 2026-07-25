@@ -148,8 +148,11 @@ class App {
         // Licence change binding
         document.getElementById('licence-class').addEventListener('change', (e) => {
             this.licenceClass = e.target.value;
+            this.updateTopicDropdown();
             this.updateAllTopicCount();
         });
+        
+        this.updateTopicDropdown();
         
         // Start buttons
         document.getElementById('start-practice-btn').addEventListener('click', () => this.startPractice());
@@ -337,10 +340,49 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         this.saveData();
     }
 
+    updateTopicDropdown() {
+        const select = document.getElementById('practice-topic-filter');
+        if (!select) return;
+        const currentVal = select.value;
+        if (this.licenceClass === 'class5') {
+            select.innerHTML = `<option value="all">All Class 5 Topics</option>
+                <option value="chapter-rules">Rules of the Road</option>
+                <option value="chapter-signs">Signs, Signals & Markings</option>
+                <option value="chapter-intersections">Intersections & Right-of-Way</option>
+                <option value="chapter-sharing">Sharing the Road</option>
+                <option value="chapter-emergencies">Emergencies & Safety</option>
+                <option value="chapter-parking">Parking & Maneuvers</option>
+                <option value="chapter-weakness" style="color: #e53e3e; font-weight: bold;">🔥 专属考前强化 (Targeted Weaknesses)</option>`;
+        } else {
+            select.innerHTML = `<option value="all">All Class 4 Topics</option>
+                <option value="chapter1">Chapter 1: Licensing</option>
+                <option value="chapter2">Chapter 2: Heavy Vehicle Braking</option>
+                <option value="chapter3">Chapter 3: Driving Rules & Basics</option>
+                <option value="chapter4">Chapter 4: Fuel-Efficient Driving</option>
+                <option value="chapter5">Chapter 5: Required Special Topics</option>
+                <option value="chapter6">Chapter 6: Passenger Safety & Rules</option>
+                <option value="chapter7">Chapter 7: Hours of Service</option>
+                <option value="chapter10">Chapter 10: Pre-Trip Inspection</option>
+                <option value="chapter11">Chapter 11: Signs & Signals</option>
+                <option value="chapter-weakness" style="color: #e53e3e; font-weight: bold;">🔥 专属考前强化 (Targeted Weaknesses)</option>`;
+        }
+        
+        // Try to restore previous selection if it still exists
+        const options = Array.from(select.options).map(o => o.value);
+        if (options.includes(currentVal)) {
+            select.value = currentVal;
+        } else {
+            select.value = 'all';
+        }
+    }
+
     updateAllTopicCount() {
         const count = window.QUESTION_BANK.filter(q => q.classes.includes(this.licenceClass)).length;
         const allOption = document.querySelector('#practice-topic-filter option[value="all"]');
-        if (allOption) allOption.textContent = `All Class 4 Topics (${count} Questions)`;
+        if (allOption) {
+            const className = this.licenceClass === 'class5' ? 'Class 5' : 'Class 4';
+            allOption.textContent = `All ${className} Topics (${count} Questions)`;
+        }
     }
 
     getSourceHtml(question) {
@@ -407,17 +449,29 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         const getQuestionsByChapter = (chapterPrefix, limit) => {
             return this.shuffleArray(baseFiltered.filter(q => q.chapter.startsWith(chapterPrefix))).slice(0, limit);
         };
-        const blueprint = {
-            chapter1: 3,
-            chapter2: 3,
-            chapter3: 4,
-            chapter4: 2,
-            chapter5: 1,
-            chapter6: 8,
-            chapter7: 5,
-            chapter10: 6,
-            chapter11: 3
-        };
+        let blueprint = {};
+        if (this.licenceClass === 'class5') {
+            blueprint = {
+                'chapter-rules': 8,
+                'chapter-signs': 5,
+                'chapter-intersections': 7,
+                'chapter-sharing': 5,
+                'chapter-emergencies': 5,
+                'chapter-parking': 5
+            };
+        } else {
+            blueprint = {
+                chapter1: 3,
+                chapter2: 3,
+                chapter3: 4,
+                chapter4: 2,
+                chapter5: 1,
+                chapter6: 8,
+                chapter7: 5,
+                chapter10: 6,
+                chapter11: 3
+            };
+        }
         let mockQuestions = Object.entries(blueprint)
             .flatMap(([chapter, count]) => getQuestionsByChapter(chapter, count));
         
@@ -803,8 +857,17 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
             chapterErrors[m.chapter] = (chapterErrors[m.chapter] || 0) + 1;
         });
         
-        const chapters = ['chapter1', 'chapter2', 'chapter3', 'chapter4', 'chapter5', 'chapter6', 'chapter7', 'chapter10', 'chapter11'];
-        const labels = ['Licensing', 'Braking', 'Driving', 'Fuel', 'Special Rules', 'Passengers', 'Hours', 'Pre-Trip', 'Signs'];
+        let chapters = [];
+        let labels = [];
+        
+        if (this.licenceClass === 'class5') {
+            chapters = ['chapter-rules', 'chapter-signs', 'chapter-intersections', 'chapter-sharing', 'chapter-emergencies', 'chapter-parking'];
+            labels = ['Rules', 'Signs', 'Intersections', 'Sharing', 'Emergencies', 'Parking'];
+        } else {
+            chapters = ['chapter1', 'chapter2', 'chapter3', 'chapter4', 'chapter5', 'chapter6', 'chapter7', 'chapter10', 'chapter11'];
+            labels = ['Licensing', 'Braking', 'Driving', 'Fuel', 'Special Rules', 'Passengers', 'Hours', 'Pre-Trip', 'Signs'];
+        }
+        
         const data = chapters.map(ch => {
             const available = window.QUESTION_BANK.filter(q => q.chapter === ch && q.classes.includes(this.licenceClass));
             const attempted = available.filter(q => this.practiceProgress.includes(this.getQuestionKey(q))).length;

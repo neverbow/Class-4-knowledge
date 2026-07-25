@@ -1,0 +1,11 @@
+severity,confidence,question_id,bank_index,finding,evidence_or_action
+Critical,High,41,38 and 92,The same ID is assigned to two different questions,Renumber all rows with stable immutable IDs before anyone continues practicing
+High,High,41,92,The stem says commercial vehicle but the five-second rule applies to a bus truck or other heavy vehicle,Specify the vehicle type; the manual separately gives a shorter minimum for taxi limousine ride-hailing ambulance or van
+High,High,7,6,The 20/30 vision threshold is attributed only to the non-official practice PDF,Re-source from an official ICBC or RoadSafetyBC standard or quarantine the item
+High,High,71,66,The 160 km log exemption omits several required conditions,Rewrite the stem to include all conditions listed in the official manual
+High,Medium,21,19,Chauffeur permit and tariff-card wording is not found in the supplied official manual,Verify against a current official municipal or provincial source before use
+High,High,43,94,No-zone terminology is not found in the supplied official manual,Replace with the manual's own blind-spot terminology or add a valid official source
+High,High,46,97,The every 5 to 8 seconds mirror interval is not found in the supplied official manual,Remove the exact interval unless an official source is attached
+Medium,High,79 and 145,73 and 196,Two near-duplicate log-falsification questions give different vague penalties,Keep one item and cite the exact current official consequence
+Medium,High,332,383,The static arrow-board image shows both directions while the stem asserts a right arrow,Use an unambiguous right-arrow asset or ask only what an arrow board means
+Medium,High,76 and 77,127 and 128,Near-identical front- and rear-tire stems increase cue-based memorization,Use one comparison item or differentiate the scenarios

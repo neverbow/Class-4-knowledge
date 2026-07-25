@@ -150,6 +150,10 @@ class App {
             this.licenceClass = e.target.value;
             this.updateTopicDropdown();
             this.updateAllTopicCount();
+            this.updateMistakesCount();
+            if (document.getElementById('home-view').classList.contains('active-view')) {
+                this.renderAnalytics();
+            }
         });
         
         this.updateTopicDropdown();
@@ -273,7 +277,8 @@ class App {
         
         aiBox.innerHTML = '<p style="color: var(--primary-color);">AI Expert is thinking...</p>';
         
-        const promptText = `I am studying for the ICBC Class 4 Commercial Driving Knowledge Test.
+        const className = this.licenceClass === 'class5' ? 'Class 5 Passenger Vehicle' : 'Class 4 Commercial';
+        const promptText = `I am studying for the ICBC ${className} Driving Knowledge Test.
 I encountered this multiple choice question:
 Question: ${q.question}
 Options:
@@ -546,7 +551,9 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
     
     // --- MISTAKES BOOK ---
     updateMistakesCount() {
-        const count = Object.keys(this.mistakesBook).length;
+        const mistakeIds = Object.keys(this.mistakesBook);
+        const relevantMistakes = window.QUESTION_BANK.filter(q => mistakeIds.includes(this.getQuestionKey(q)) && q.classes.includes(this.licenceClass));
+        const count = relevantMistakes.length;
         document.getElementById('mistakes-count').textContent = count;
         
         if (count > 0) {
@@ -561,7 +568,7 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
     
     startMistakesReview() {
         const mistakeIds = Object.keys(this.mistakesBook);
-        this.activeQuestions = window.QUESTION_BANK.filter(q => mistakeIds.includes(this.getQuestionKey(q)));
+        this.activeQuestions = window.QUESTION_BANK.filter(q => mistakeIds.includes(this.getQuestionKey(q)) && q.classes.includes(this.licenceClass));
         this.activeQuestions = this.activeQuestions.sort(() => Math.random() - 0.5); // Shuffle
         
         this.currentQuestionIndex = 0;

@@ -1,10 +1,10 @@
 import { emptyState, mergeStates, normalizeState } from '../lib/sync-core.js';
 import { Redis } from '@upstash/redis';
 
-const redis = new Redis({
-  url: process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL || '',
-  token: process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN || '',
-});
+const url = process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL || '';
+const token = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN || '';
+
+const redis = new Redis({ url, token });
 
 const KV_KEY = 'class4/kent-sync-v1';
 const MAX_BODY_BYTES = 512 * 1024;
@@ -79,7 +79,7 @@ async function mergeAndWrite(incoming, deviceId, initialMigration) {
 
 export async function GET(request) {
     if (!requestAllowed(request)) return json({ error: 'Forbidden' }, 403);
-    if (!redis.url || !redis.token) return json({ error: 'Redis credentials missing' }, 500);
+    if (!url || !token) return json({ error: 'Redis credentials missing' }, 500);
     
     try {
         const { state } = await readCloudState();
@@ -92,7 +92,7 @@ export async function GET(request) {
 
 export async function POST(request) {
     if (!requestAllowed(request)) return json({ error: 'Forbidden' }, 403);
-    if (!redis.url || !redis.token) return json({ error: 'Redis credentials missing' }, 500);
+    if (!url || !token) return json({ error: 'Redis credentials missing' }, 500);
 
     const contentLength = Number(request.headers.get('content-length')) || 0;
     if (contentLength > MAX_BODY_BYTES) return json({ error: 'Payload too large' }, 413);

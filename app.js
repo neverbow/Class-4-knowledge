@@ -374,6 +374,28 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         } else {
             select.value = 'all';
         }
+        
+        this.updateDynamicText();
+    }
+    
+    updateDynamicText() {
+        const isClass5 = this.licenceClass === 'class5';
+        const classLabel = isClass5 ? 'Class 5' : 'Class 4';
+        
+        const elements = {
+            'page-title': `ICBC ${classLabel} Practice`,
+            'nav-logo': `${classLabel} Prep`,
+            'main-title': `${classLabel} Practice Bank`,
+            'mock-card-desc': `A 35-question, 45-minute study simulation covering every ${classLabel} topic.`,
+            'mock-intro-text': `This study simulation selects 35 questions from a balanced ${classLabel} topic blueprint. The 45-minute timer and 80% target are practice settings, not a claim about the current live ICBC test format.`
+        };
+        
+        for (const [id, text] of Object.entries(elements)) {
+            const el = document.getElementById(id);
+            if (el) {
+                el.textContent = text;
+            }
+        }
     }
 
     updateAllTopicCount() {

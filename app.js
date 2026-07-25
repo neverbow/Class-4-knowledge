@@ -351,8 +351,7 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
                 <option value="chapter-intersections">Intersections & Right-of-Way</option>
                 <option value="chapter-sharing">Sharing the Road</option>
                 <option value="chapter-emergencies">Emergencies & Safety</option>
-                <option value="chapter-parking">Parking & Maneuvers</option>
-                <option value="chapter-weakness" style="color: #e53e3e; font-weight: bold;">🔥 专属考前强化 (Targeted Weaknesses)</option>`;
+                <option value="chapter-parking">Parking & Maneuvers</option>`;
         } else {
             select.innerHTML = `<option value="all">All Class 4 Topics</option>
                 <option value="chapter1">Chapter 1: Licensing</option>
@@ -363,8 +362,7 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
                 <option value="chapter6">Chapter 6: Passenger Safety & Rules</option>
                 <option value="chapter7">Chapter 7: Hours of Service</option>
                 <option value="chapter10">Chapter 10: Pre-Trip Inspection</option>
-                <option value="chapter11">Chapter 11: Signs & Signals</option>
-                <option value="chapter-weakness" style="color: #e53e3e; font-weight: bold;">🔥 专属考前强化 (Targeted Weaknesses)</option>`;
+                <option value="chapter11">Chapter 11: Signs & Signals</option>`;
         }
         
         // Try to restore previous selection if it still exists

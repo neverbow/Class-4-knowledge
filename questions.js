@@ -10176,5 +10176,2565 @@ window.QUESTION_BANK = [
         "classes": [
             "class5"
         ]
+    },
+    {
+        "id": "C5-041",
+        "chapter": "chapter-rules",
+        "text": "Before you drive, it is important to check your physical and mental condition. What is one of the most common causes of crashes?",
+        "options": [
+            "Driver impairment from fatigue, alcohol, or drugs.",
+            "Mechanical failure of the vehicle.",
+            "Poor road conditions.",
+            "Bad weather."
+        ],
+        "answer": 0,
+        "explanation": "Driver impairment (including fatigue, alcohol, and drugs) is one of the leading causes of crashes. Always ensure you are fit to drive.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-042",
+        "chapter": "chapter-rules",
+        "text": "How many hours of sleep does the average adult need to maintain alertness?",
+        "options": [
+            "4 to 5 hours.",
+            "6 to 7 hours.",
+            "7.5 to 8.5 hours.",
+            "10 hours or more."
+        ],
+        "answer": 2,
+        "explanation": "The average adult needs about 7.5 to 8.5 hours of sleep to be fully alert. Fatigue significantly slows reaction times.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-043",
+        "chapter": "chapter-rules",
+        "text": "If you begin to feel tired while driving, what is the best thing to do?",
+        "options": [
+            "Turn up the radio and roll down the window.",
+            "Drink coffee or an energy drink and keep driving.",
+            "Stop driving, pull over in a safe place, and rest.",
+            "Drive faster to reach your destination sooner."
+        ],
+        "answer": 2,
+        "explanation": "The only cure for fatigue is sleep. Techniques like opening a window or drinking coffee only provide a very temporary, deceptive boost.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-044",
+        "chapter": "chapter-rules",
+        "text": "In British Columbia, what is the legal Blood Alcohol Content (BAC) limit for a fully licensed (Class 5) driver?",
+        "options": [
+            "0.00",
+            "0.05",
+            "0.08",
+            "0.10"
+        ],
+        "answer": 1,
+        "explanation": "While the Criminal Code limit is 0.08, under BC law, a fully licensed driver can face severe penalties (including vehicle impoundment) with a BAC of 0.05 or higher.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-045",
+        "chapter": "chapter-rules",
+        "text": "For drivers in the Graduated Licensing Program (L or N), what is the legal blood alcohol limit?",
+        "options": [
+            "0.00 (Zero tolerance)",
+            "0.02",
+            "0.05",
+            "0.08"
+        ],
+        "answer": 0,
+        "explanation": "Learner and Novice drivers must have a blood alcohol content of absolute zero. There is zero tolerance for alcohol or drugs.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-046",
+        "chapter": "chapter-rules",
+        "text": "When properly adjusted, the head restraint should be:",
+        "options": [
+            "At the base of your neck.",
+            "Level with the top of your ears or higher.",
+            "As low as possible for visibility.",
+            "Tilted completely backwards."
+        ],
+        "answer": 1,
+        "explanation": "A head restraint must be level with the top of your ears or higher to prevent whiplash in a rear-end collision.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-047",
+        "chapter": "chapter-rules",
+        "text": "How far away should you sit from the steering wheel equipped with an airbag?",
+        "options": [
+            "At least 10 cm (4 inches).",
+            "At least 25 cm (10 inches).",
+            "At least 50 cm (20 inches).",
+            "As close as comfortably possible."
+        ],
+        "answer": 1,
+        "explanation": "You should sit at least 25 cm (10 inches) from an airbag to prevent injury when it deploys with explosive force.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-048",
+        "chapter": "chapter-signs",
+        "text": "What does a yellow diamond-shaped sign indicate?",
+        "options": [
+            "A regulatory rule you must obey.",
+            "A warning of a potential hazard ahead.",
+            "A school zone.",
+            "Information or directions."
+        ],
+        "answer": 1,
+        "explanation": "Yellow diamond-shaped signs are warning signs. They alert you to hazards like curves, intersections, or pedestrian crossings ahead.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-049",
+        "chapter": "chapter-signs",
+        "text": "A sign depicting two people walking indicates:",
+        "options": [
+            "A pedestrian crossing.",
+            "A school zone.",
+            "A playground zone.",
+            "A crosswalk ahead."
+        ],
+        "answer": 1,
+        "explanation": "The pentagon (five-sided) sign showing two people walking, often carrying books, indicates a school zone. (A single person walking is a pedestrian crossing).",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-050",
+        "chapter": "chapter-signs",
+        "text": "A maximum speed limit sign (black numbers on a white rectangle) is a:",
+        "options": [
+            "Warning sign.",
+            "Regulatory sign.",
+            "Information sign.",
+            "Construction sign."
+        ],
+        "answer": 1,
+        "explanation": "Regulatory signs, usually white rectangles with black or red text/symbols, state the laws you must obey, such as speed limits.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-051",
+        "chapter": "chapter-signs",
+        "text": "An orange diamond-shaped sign indicates:",
+        "options": [
+            "A school zone.",
+            "A warning of an upcoming hazard.",
+            "A construction or maintenance zone.",
+            "A hospital ahead."
+        ],
+        "answer": 2,
+        "explanation": "Orange signs denote construction or maintenance areas. You must obey the signs and any traffic control persons.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-052",
+        "chapter": "chapter-rules",
+        "text": "If a police officer directs you to go through an intersection despite the traffic light being red, you must:",
+        "options": [
+            "Stop and wait for the green light.",
+            "Follow the police officer's directions.",
+            "Treat the intersection as a four-way stop.",
+            "Honk to let others know you are proceeding."
+        ],
+        "answer": 1,
+        "explanation": "Directions from a police officer or a traffic control person always override traffic lights and signs.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-053",
+        "chapter": "chapter-signs",
+        "text": "A flashing green light on a vehicle indicates:",
+        "options": [
+            "A police vehicle.",
+            "An ambulance.",
+            "A volunteer firefighter responding to an emergency.",
+            "A tow truck."
+        ],
+        "answer": 2,
+        "explanation": "A flashing green light is used by volunteer firefighters responding to emergencies. You should yield the right-of-way as a courtesy.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-054",
+        "chapter": "chapter-rules",
+        "text": "If you are involved in a crash where someone is injured or damage exceeds $1000, you must:",
+        "options": [
+            "Exchange information and go home.",
+            "Report it to the police within 24 hours (or 48 hours in rural areas).",
+            "Call ICBC immediately and wait for them to arrive.",
+            "Leave a note on the other vehicle."
+        ],
+        "answer": 1,
+        "explanation": "You are legally required to report a crash to the police if there are injuries, death, or if property damage exceeds $1,000 for cars.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-055",
+        "chapter": "chapter-rules",
+        "text": "What is the primary rule of the \"See-Think-Do\" strategy?",
+        "options": [
+            "Drive as fast as visibility allows.",
+            "Always be scanning your environment, plan your actions, and execute them safely.",
+            "Keep your eyes straight ahead at all times.",
+            "Think about your destination while driving."
+        ],
+        "answer": 1,
+        "explanation": "See-Think-Do involves scanning for hazards (See), deciding on a safe response (Think), and taking action in time (Do).",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-056",
+        "chapter": "chapter-rules",
+        "text": "How often should you check your mirrors while driving?",
+        "options": [
+            "Every 2-3 seconds.",
+            "Every 5-8 seconds.",
+            "Only when changing lanes.",
+            "Only when braking."
+        ],
+        "answer": 1,
+        "explanation": "You should scan your mirrors every 5 to 8 seconds to maintain awareness of what is happening behind and beside your vehicle.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-057",
+        "chapter": "chapter-rules",
+        "text": "When driving in the city, how far ahead should you scan?",
+        "options": [
+            "Just in front of your bumper.",
+            "Half a block ahead.",
+            "About 1 to 2 blocks (12-15 seconds) ahead.",
+            "As far as the horizon."
+        ],
+        "answer": 2,
+        "explanation": "Good drivers look 12 to 15 seconds ahead. In the city, this is about 1 to 2 blocks.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-058",
+        "chapter": "chapter-rules",
+        "text": "When driving on the highway, how far ahead should you scan?",
+        "options": [
+            "1 to 2 blocks.",
+            "Half a kilometre.",
+            "12 to 15 seconds ahead (about half a kilometre).",
+            "Only the vehicle directly in front of you."
+        ],
+        "answer": 2,
+        "explanation": "On a highway, 12 to 15 seconds translates to about half a kilometre, giving you time to react to upcoming hazards.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-059",
+        "chapter": "chapter-signs",
+        "text": "A painted white triangle on the pavement in your lane indicates:",
+        "options": [
+            "You are approaching a yield sign and must be prepared to yield.",
+            "A pedestrian crosswalk.",
+            "A railway crossing.",
+            "A one-way street."
+        ],
+        "answer": 0,
+        "explanation": "A white triangle painted on the road means you are approaching a yield sign.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-060",
+        "chapter": "chapter-signs",
+        "text": "A yellow line on the road, whether solid or broken, means:",
+        "options": [
+            "It separates traffic moving in the SAME direction.",
+            "It separates traffic moving in OPPOSITE directions.",
+            "It marks the right edge of the roadway.",
+            "It indicates a bus lane."
+        ],
+        "answer": 1,
+        "explanation": "Yellow lines always divide traffic moving in opposite directions.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-061",
+        "chapter": "chapter-signs",
+        "text": "A solid white line on the right edge of the road is used to:",
+        "options": [
+            "Separate traffic in opposite directions.",
+            "Mark the right shoulder of the roadway.",
+            "Indicate a passing zone.",
+            "Mark a pedestrian crosswalk."
+        ],
+        "answer": 1,
+        "explanation": "A solid white line on the right side of the road marks the outer edge of the roadway or the shoulder.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-062",
+        "chapter": "chapter-rules",
+        "text": "Reserved lanes are marked by which symbol?",
+        "options": [
+            "A painted white triangle.",
+            "A painted white diamond.",
+            "A painted white circle.",
+            "A painted yellow square."
+        ],
+        "answer": 1,
+        "explanation": "A white diamond painted on the road indicates a reserved lane (e.g., HOV, bus, or bicycle lane).",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-063",
+        "chapter": "chapter-rules",
+        "text": "HOV stands for High Occupancy Vehicle. If a sign says HOV 2+, you may use the lane if:",
+        "options": [
+            "You have at least two people in the vehicle (including the driver).",
+            "You have at least three people in the vehicle.",
+            "You are driving a commercial vehicle.",
+            "You are driving alone but willing to pay a toll."
+        ],
+        "answer": 0,
+        "explanation": "HOV 2+ means the vehicle must have a minimum of two occupants (the driver and at least one passenger).",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-064",
+        "chapter": "chapter-rules",
+        "text": "When you see a 'Merge' sign, it means:",
+        "options": [
+            "You must stop and wait for a gap.",
+            "You have the right-of-way over freeway traffic.",
+            "You are joining another stream of traffic and must adjust your speed to find a safe gap.",
+            "The lane you are in is ending and you must exit."
+        ],
+        "answer": 2,
+        "explanation": "A merge sign means two streams of traffic are joining. You must match the speed of the traffic you are joining and blend in smoothly.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-065",
+        "chapter": "chapter-rules",
+        "text": "If a traffic light is red, but you want to turn left, are you ever allowed to make a left turn on a red light?",
+        "options": [
+            "No, left turns on red are strictly prohibited everywhere.",
+            "Yes, but only if you are turning from a one-way street onto another one-way street.",
+            "Yes, you can turn left on a red light from a two-way onto a one-way street.",
+            "Both B and C are correct."
+        ],
+        "answer": 3,
+        "explanation": "In BC, unless a sign prohibits it, you may turn left on a red light from a one-way OR a two-way street onto a one-way street, after coming to a complete stop and yielding.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-066",
+        "chapter": "chapter-intersections",
+        "text": "When entering an intersection with a stale green light, you should:",
+        "options": [
+            "Accelerate to get through before it turns yellow.",
+            "Cover your brake and be prepared to stop if it turns yellow.",
+            "Stop abruptly before the crosswalk.",
+            "Honk to warn pedestrians."
+        ],
+        "answer": 1,
+        "explanation": "A stale green light is one that has been green for a long time. You should cover your brake and anticipate that it will turn yellow soon.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-067",
+        "chapter": "chapter-intersections",
+        "text": "You are turning left in an intersection and waiting for oncoming traffic to clear. The light turns yellow. What should you do?",
+        "options": [
+            "Back up out of the intersection.",
+            "Stay in the intersection until the light turns green again.",
+            "Ensure oncoming traffic is stopping, then complete your turn to clear the intersection.",
+            "Turn immediately without checking traffic."
+        ],
+        "answer": 2,
+        "explanation": "If you are legally in the intersection waiting to turn left and the light turns yellow, you must wait for oncoming traffic to stop, then clear the intersection.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-068",
+        "chapter": "chapter-intersections",
+        "text": "When a traffic light is completely out (power failure), you must:",
+        "options": [
+            "Treat the intersection as a four-way stop.",
+            "Yield to the right.",
+            "Proceed without stopping if the way is clear.",
+            "Wait for a police officer to direct traffic."
+        ],
+        "answer": 0,
+        "explanation": "If traffic lights at an intersection are not working, the intersection becomes a four-way stop.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-069",
+        "chapter": "chapter-sharing",
+        "text": "When following a fire truck responding to an emergency, you must stay back at least:",
+        "options": [
+            "50 metres.",
+            "100 metres.",
+            "150 metres.",
+            "200 metres."
+        ],
+        "answer": 2,
+        "explanation": "It is illegal to follow within 150 metres of any fire truck responding to an alarm.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-070",
+        "chapter": "chapter-sharing",
+        "text": "A 'Yield to Bus' sign on the back of a transit bus means:",
+        "options": [
+            "You must yield when the bus is merging back into traffic from a bus stop.",
+            "You must yield to the bus at all intersections.",
+            "You cannot pass the bus.",
+            "The bus will yield to you."
+        ],
+        "answer": 0,
+        "explanation": "By law, you must yield to a transit bus when it is signaling to pull out from a bus stop and re-enter the traffic lane where the speed limit is 60 km/h or less.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-071",
+        "chapter": "chapter-sharing",
+        "text": "When approaching a railway crossing where a train is passing, how far from the nearest rail must you stop?",
+        "options": [
+            "At least 2 metres.",
+            "At least 5 metres.",
+            "At least 15 metres.",
+            "Just before the tracks."
+        ],
+        "answer": 1,
+        "explanation": "You must stop at least 5 metres (and no more than 15 metres) from the nearest rail at a railway crossing when a train is approaching.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-072",
+        "chapter": "chapter-rules",
+        "text": "What is the penalty for a Novice (N) driver who gets a traffic ticket for a violation like speeding?",
+        "options": [
+            "They will have to pay a fine.",
+            "Their N period will be restarted (another 24 months), and they may face suspension.",
+            "They must immediately take a road test.",
+            "Nothing happens if it is their first ticket."
+        ],
+        "answer": 1,
+        "explanation": "If an N driver receives penalty points for a traffic violation, the Superintendent of Motor Vehicles may suspend their licence, and their 24-month N period restarts from day one.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-073",
+        "chapter": "chapter-rules",
+        "text": "Novice (N) drivers are restricted to carrying how many passengers?",
+        "options": [
+            "Zero passengers.",
+            "One passenger, unless they are immediate family members, or accompanied by a qualified supervisor.",
+            "Two passengers.",
+            "As many passengers as there are seatbelts."
+        ],
+        "answer": 1,
+        "explanation": "N drivers can carry only one passenger, unless the other passengers are immediate family members, or there is a fully licensed supervisor aged 25+ in the vehicle.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-074",
+        "chapter": "chapter-rules",
+        "text": "Learner (L) drivers must be accompanied by a supervisor who:",
+        "options": [
+            "Is at least 19 years old and has a valid licence.",
+            "Is at least 25 years old and holds a valid Class 1, 2, 3, 4, or 5 licence.",
+            "Is any adult with an N licence.",
+            "Has completed a defensive driving course."
+        ],
+        "answer": 1,
+        "explanation": "L drivers must have a supervisor sitting beside them who is 25 years or older and holds a valid, fully privileged (Class 1-5) BC driver's licence.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-075",
+        "chapter": "chapter-rules",
+        "text": "Learner (L) drivers are prohibited from driving during which hours?",
+        "options": [
+            "Between 10:00 PM and 5:00 AM.",
+            "Between Midnight and 5:00 AM.",
+            "Between Midnight and 6:00 AM.",
+            "Between 9:00 PM and 6:00 AM."
+        ],
+        "answer": 1,
+        "explanation": "Learners are not allowed to drive between midnight and 5 a.m.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-076",
+        "chapter": "chapter-parking",
+        "text": "Before you back up (reverse), what is the most important thing to do?",
+        "options": [
+            "Check your rear-view mirror.",
+            "Honk your horn twice.",
+            "Do a 360-degree vision check by turning your head to look in all directions.",
+            "Turn on your hazard lights."
+        ],
+        "answer": 2,
+        "explanation": "Before reversing, you must do a complete 360-degree vision check to ensure the area all around the vehicle is clear of children, pedestrians, and objects.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-077",
+        "chapter": "chapter-parking",
+        "text": "When backing up, you should primarily:",
+        "options": [
+            "Rely solely on your backup camera.",
+            "Look over your shoulder through the rear window in the direction you are backing.",
+            "Use only your side mirrors.",
+            "Look straight ahead and use the rear-view mirror."
+        ],
+        "answer": 1,
+        "explanation": "While mirrors and cameras are helpful, you must turn your body and head to look over your shoulder out the rear window while backing up.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-078",
+        "chapter": "chapter-emergencies",
+        "text": "If your hood flies up while you are driving, you should:",
+        "options": [
+            "Brake as hard as you can.",
+            "Try to look through the crack beneath the hood or out the side window, steer safely, and brake smoothly to pull over.",
+            "Turn on your wipers.",
+            "Speed up to try and force the hood down."
+        ],
+        "answer": 1,
+        "explanation": "Look through the gap under the hinge or roll down the window to see, signal, and pull over safely to the right.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-079",
+        "chapter": "chapter-emergencies",
+        "text": "What is the best way to handle a vehicle that is tailgating you?",
+        "options": [
+            "Brake check them to teach them a lesson.",
+            "Speed up to create distance.",
+            "Slow down gradually to encourage them to pass, and increase your following distance to the vehicle ahead.",
+            "Honk your horn."
+        ],
+        "answer": 2,
+        "explanation": "Never brake check. Instead, slow down slightly to encourage the tailgater to pass, and increase your own following distance so you won't have to brake suddenly.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-080",
+        "chapter": "chapter-sharing",
+        "text": "Why should you never pass a stopped vehicle at a crosswalk?",
+        "options": [
+            "It is illegal to pass any vehicle in an intersection.",
+            "The vehicle might be stopping for a pedestrian you cannot see.",
+            "You might get a speeding ticket.",
+            "The stopped vehicle is turning."
+        ],
+        "answer": 1,
+        "explanation": "If a vehicle is stopped at a crosswalk, they are likely yielding to a pedestrian. Passing them could result in striking the unseen pedestrian.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-081",
+        "chapter": "chapter-intersections",
+        "text": "When turning left at an intersection, who do you have to yield to?",
+        "options": [
+            "Only vehicles approaching from the right.",
+            "Only pedestrians.",
+            "Oncoming traffic and pedestrians in the crosswalk.",
+            "Vehicles turning right behind you."
+        ],
+        "answer": 2,
+        "explanation": "When making a left turn, you must yield to oncoming traffic (which is going straight or turning right) and any pedestrians in the crosswalk.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-082",
+        "chapter": "chapter-intersections",
+        "text": "At a two-way stop intersection, you are stopped at the stop sign. Cross traffic does not have a stop sign. You may proceed:",
+        "options": [
+            "After waiting 3 seconds.",
+            "When it is safe to do so, yielding to all cross traffic.",
+            "As long as you are turning right.",
+            "Only when another vehicle arrives behind you."
+        ],
+        "answer": 1,
+        "explanation": "You must yield to all traffic on the through street, which does not have a stop sign, and proceed only when it is safe.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-083",
+        "chapter": "chapter-intersections",
+        "text": "If you arrive at a four-way stop at the same time as a vehicle directly across from you, and you want to turn left while they want to go straight, who goes first?",
+        "options": [
+            "You do, because you are turning.",
+            "The vehicle going straight.",
+            "Whoever edges into the intersection first.",
+            "It doesn't matter, you can both go."
+        ],
+        "answer": 1,
+        "explanation": "If you are turning left and the opposing vehicle is going straight, you must yield the right-of-way to the vehicle going straight.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-084",
+        "chapter": "chapter-rules",
+        "text": "When two lanes merge into one, what is the best practice for merging when traffic is heavy?",
+        "options": [
+            "Merge as early as possible.",
+            "Use the zipper merge: use both lanes until the merge point, then take turns.",
+            "The vehicle in the right lane always yields.",
+            "Speed up to cut in front."
+        ],
+        "answer": 1,
+        "explanation": "In heavy traffic, the zipper merge is safest and most efficient. Drivers use both lanes fully until the merge point, then alternate (take turns) entering the single lane.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-085",
+        "chapter": "chapter-rules",
+        "text": "What is the minimum safe following distance in good weather and road conditions?",
+        "options": [
+            "1 second.",
+            "2 seconds.",
+            "4 seconds.",
+            "5 seconds."
+        ],
+        "answer": 1,
+        "explanation": "Under ideal driving conditions, you should maintain at least a 2-second following distance behind the vehicle in front of you.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-086",
+        "chapter": "chapter-rules",
+        "text": "In bad weather or slippery road conditions, you should increase your following distance to at least:",
+        "options": [
+            "2 seconds.",
+            "3 seconds.",
+            "4 seconds.",
+            "6 seconds."
+        ],
+        "answer": 2,
+        "explanation": "In poor weather (rain, snow, ice), you should double your following distance to at least 4 seconds to give yourself enough time to stop.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-087",
+        "chapter": "chapter-sharing",
+        "text": "When a school bus has its yellow lights flashing, you should:",
+        "options": [
+            "Stop immediately.",
+            "Speed up to pass before the red lights come on.",
+            "Slow down and prepare to stop.",
+            "Honk your horn to warn the driver."
+        ],
+        "answer": 2,
+        "explanation": "Flashing yellow lights on a school bus warn that it is about to stop and turn on its red flashing lights. You should slow down and prepare to stop.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-088",
+        "chapter": "chapter-rules",
+        "text": "When a transit bus signals to re-enter traffic from a bus stop on a road where the speed limit is 60 km/h or less, you must:",
+        "options": [
+            "Pass the bus as quickly as possible.",
+            "Yield the right-of-way to the bus.",
+            "Honk your horn to indicate you are there.",
+            "Only yield if there is a yield sign."
+        ],
+        "answer": 1,
+        "explanation": "By law, you must yield to a transit bus that is signaling to re-enter the traffic stream where the speed limit is 60 km/h or less.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-089",
+        "chapter": "chapter-rules",
+        "text": "What does a green light that is flashing signify at an intersection?",
+        "options": [
+            "It is a pedestrian-controlled intersection.",
+            "The light is about to turn red.",
+            "It is an advanced left turn.",
+            "The intersection is closed."
+        ],
+        "answer": 0,
+        "explanation": "In BC, a flashing green light means it is a pedestrian-controlled intersection. The light will stay green until a pedestrian pushes the button.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-090",
+        "chapter": "chapter-signs",
+        "text": "A sign showing a red circle with a white horizontal line across the middle means:",
+        "options": [
+            "Do not enter.",
+            "Stop.",
+            "Yield.",
+            "No parking."
+        ],
+        "answer": 0,
+        "explanation": "This sign means 'Do Not Enter'. You must not drive onto the road or facility past this sign.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-091",
+        "chapter": "chapter-rules",
+        "text": "You are required to dim your high-beam headlights when you are within ___ of an oncoming vehicle.",
+        "options": [
+            "50 metres.",
+            "100 metres.",
+            "150 metres.",
+            "200 metres."
+        ],
+        "answer": 2,
+        "explanation": "You must dim your high beams when you are within 150 metres of an oncoming vehicle.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-092",
+        "chapter": "chapter-rules",
+        "text": "You must also dim your high-beam headlights when following another vehicle within:",
+        "options": [
+            "30 metres.",
+            "60 metres.",
+            "100 metres.",
+            "150 metres."
+        ],
+        "answer": 1,
+        "explanation": "When approaching a vehicle from behind, you must dim your high beams within 60 metres so you do not blind the driver via their mirrors.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-093",
+        "chapter": "chapter-emergencies",
+        "text": "If you are driving and suddenly encounter thick fog, what lights should you use?",
+        "options": [
+            "High-beam headlights.",
+            "Low-beam headlights.",
+            "Parking lights only.",
+            "Hazard lights."
+        ],
+        "answer": 1,
+        "explanation": "Use low-beam headlights in fog. High beams will reflect off the moisture in the air, creating a glare that makes it harder to see.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-094",
+        "chapter": "chapter-rules",
+        "text": "When approaching a railway crossing that does not have signals or gates, you should:",
+        "options": [
+            "Speed up to get across quickly.",
+            "Slow down, look both ways, and listen for a train.",
+            "Stop completely before crossing.",
+            "Honk your horn."
+        ],
+        "answer": 1,
+        "explanation": "At an uncontrolled railway crossing, you must slow down, look in both directions, listen carefully, and be prepared to stop if a train is approaching.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-095",
+        "chapter": "chapter-sharing",
+        "text": "If a cyclist extends their left arm straight out to the side, it means they are:",
+        "options": [
+            "Turning right.",
+            "Turning left.",
+            "Stopping.",
+            "Slowing down."
+        ],
+        "answer": 1,
+        "explanation": "A left arm extended straight out indicates the cyclist intends to turn left.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-096",
+        "chapter": "chapter-sharing",
+        "text": "If a cyclist extends their left arm out and bends it upward at the elbow, it means they are:",
+        "options": [
+            "Turning right.",
+            "Turning left.",
+            "Stopping.",
+            "Speeding up."
+        ],
+        "answer": 0,
+        "explanation": "A left arm bent upward at the elbow is the hand signal for a right turn (they can also just point their right arm straight out).",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-097",
+        "chapter": "chapter-sharing",
+        "text": "If a cyclist extends their left arm out and bends it downward at the elbow, it means they are:",
+        "options": [
+            "Turning right.",
+            "Turning left.",
+            "Stopping or slowing down.",
+            "Yielding."
+        ],
+        "answer": 2,
+        "explanation": "A left arm bent downward indicates the cyclist is stopping or slowing down.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-098",
+        "chapter": "chapter-intersections",
+        "text": "You approach an intersection with a stop sign. Where exactly should you stop your vehicle?",
+        "options": [
+            "Just past the stop line so you can see better.",
+            "Before the stop line or crosswalk.",
+            "Right at the edge of the intersection.",
+            "It doesn't matter as long as you stop."
+        ],
+        "answer": 1,
+        "explanation": "You must stop completely before any marked stop line. If there is no line, stop before the marked or unmarked crosswalk.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-099",
+        "chapter": "chapter-rules",
+        "text": "What does a solid yellow line next to a broken yellow line mean?",
+        "options": [
+            "No passing is allowed for either direction.",
+            "Passing is allowed from the side with the broken line, but not from the side with the solid line.",
+            "Passing is allowed from the side with the solid line.",
+            "You are entering a school zone."
+        ],
+        "answer": 1,
+        "explanation": "If the broken line is on your side, you may pass when safe. If the solid line is on your side, passing is prohibited.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-100",
+        "chapter": "chapter-emergencies",
+        "text": "If you drive through a deep puddle and your brakes get wet, they may pull to one side or not hold. How do you dry them?",
+        "options": [
+            "Drive very fast to air them out.",
+            "Pump the brake pedal rapidly.",
+            "Drive slowly while applying light pressure to the brake pedal for a short distance.",
+            "Pull over and wait for them to dry naturally."
+        ],
+        "answer": 2,
+        "explanation": "Applying light pressure to the brakes while driving slowly will generate heat and help dry the brakes out.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-101",
+        "chapter": "chapter-rules",
+        "text": "The phrase 'Don't be a space invader' from the driving manual primarily refers to:",
+        "options": [
+            "Not tailgating other vehicles.",
+            "Not parking in two spots.",
+            "Not playing loud music.",
+            "Not using high beams."
+        ],
+        "answer": 0,
+        "explanation": "Space invaders are drivers who tailgate. Keep at least a 2-second following distance to maintain a safe space margin.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-102",
+        "chapter": "chapter-sharing",
+        "text": "E-bikes (electric bicycles) and motorcycles share some characteristics, but how should you treat an e-bike on the road?",
+        "options": [
+            "Honk to make them move to the sidewalk.",
+            "Treat them just like a regular bicycle, giving them the same rights and space.",
+            "Pass them as closely as possible since they have motors.",
+            "Yield to them only at stop signs."
+        ],
+        "answer": 1,
+        "explanation": "E-bikes have the same rights and responsibilities as regular bicycles on the road.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-103",
+        "chapter": "chapter-rules",
+        "text": "In a residential area, you see a ball roll into the street. What should you do?",
+        "options": [
+            "Speed up to pass before a child runs out.",
+            "Slow down, cover your brake, and be prepared to stop for a child.",
+            "Honk your horn loudly and continue at the same speed.",
+            "Swerve into the oncoming lane."
+        ],
+        "answer": 1,
+        "explanation": "A ball rolling into the street is a classic hazard warning that a child might run out chasing it. Slow down and prepare to stop.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-104",
+        "chapter": "chapter-rules",
+        "text": "When a police car with flashing lights and sirens approaches from behind, you must:",
+        "options": [
+            "Stop exactly where you are.",
+            "Pull over to the nearest edge of the road (usually the right) and stop.",
+            "Speed up to get out of their way.",
+            "Pull into the next intersection."
+        ],
+        "answer": 1,
+        "explanation": "You must immediately pull over as far as possible to the right side of the road (or the nearest edge on a one-way) and come to a complete stop.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-105",
+        "chapter": "chapter-intersections",
+        "text": "At a T-intersection where there are no stop or yield signs, who has the right-of-way?",
+        "options": [
+            "The vehicle on the continuing (through) street.",
+            "The vehicle on the terminating street.",
+            "The vehicle turning left.",
+            "The vehicle on the right."
+        ],
+        "answer": 3,
+        "explanation": "At an uncontrolled T-intersection, the standard uncontrolled intersection rule applies: yield to the vehicle on your right.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-106",
+        "chapter": "chapter-rules",
+        "text": "If you are angry or upset, driving is dangerous because:",
+        "options": [
+            "You might drive too slowly.",
+            "Your emotions can impair your judgment, reduce concentration, and increase risk-taking.",
+            "You will use more fuel.",
+            "Your vehicle will respond differently."
+        ],
+        "answer": 1,
+        "explanation": "Strong emotions act as a major distraction and impair your ability to process information and make safe decisions.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-107",
+        "chapter": "chapter-signs",
+        "text": "What does a sign with a wheelchair symbol mean?",
+        "options": [
+            "A hospital is nearby.",
+            "Accessible parking or facility for persons with disabilities.",
+            "Wheelchairs are crossing the road.",
+            "Pedestrian crossing."
+        ],
+        "answer": 1,
+        "explanation": "The wheelchair symbol marks parking spaces or facilities designated for persons with disabilities. Do not park there without a valid permit.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-108",
+        "chapter": "chapter-parking",
+        "text": "When parallel parked, your vehicle's wheels must be within what distance from the curb?",
+        "options": [
+            "10 cm.",
+            "30 cm.",
+            "50 cm.",
+            "1 metre."
+        ],
+        "answer": 1,
+        "explanation": "You must park within 30 cm (12 inches) of the curb when parallel parking.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-109",
+        "chapter": "chapter-rules",
+        "text": "It is illegal to pass another vehicle when:",
+        "options": [
+            "You are approaching the crest of a hill.",
+            "Your line of sight is obstructed by a curve.",
+            "You are in a school zone.",
+            "Both A and B."
+        ],
+        "answer": 3,
+        "explanation": "You must never pass when approaching a curve, the crest of a hill, or anywhere your view of oncoming traffic is obstructed.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-110",
+        "chapter": "chapter-intersections",
+        "text": "Before you back out of a driveway into a street, you must:",
+        "options": [
+            "Honk your horn.",
+            "Stop before the sidewalk and yield to pedestrians, then yield to traffic on the street.",
+            "Back out quickly to avoid delaying traffic.",
+            "Turn on your hazard lights."
+        ],
+        "answer": 1,
+        "explanation": "When entering a public street from a driveway or alley, you must stop before the sidewalk, yield to pedestrians, and then yield to all street traffic.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-111",
+        "chapter": "chapter-emergencies",
+        "text": "If an animal suddenly runs in front of your car, your first reaction should be to:",
+        "options": [
+            "Swerve sharply to the left.",
+            "Swerve sharply to the right.",
+            "Check your rear-view mirror and brake firmly if safe, but do not swerve dangerously.",
+            "Accelerate to hit it quickly."
+        ],
+        "answer": 2,
+        "explanation": "Swerving to avoid a small animal can lead to a much more severe crash with oncoming traffic or a ditch. Brake firmly if safe, but maintain your lane.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-112",
+        "chapter": "chapter-rules",
+        "text": "At what time must you turn on your vehicle's headlights?",
+        "options": [
+            "Only when it is raining.",
+            "From sunset to sunrise, and whenever visibility is reduced to less than 150 metres.",
+            "From 8 pm to 8 am.",
+            "From 30 minutes after sunset to 30 minutes before sunrise, or when visibility is poor."
+        ],
+        "answer": 3,
+        "explanation": "BC law requires headlights to be on from 30 minutes after sunset until 30 minutes before sunrise, and at any time visibility drops below 150 metres.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-113",
+        "chapter": "chapter-intersections",
+        "text": "If a traffic light is red, but there is a green arrow pointing to the right, you may:",
+        "options": [
+            "Turn right without stopping or yielding.",
+            "Proceed in the direction of the arrow after yielding to pedestrians and traffic.",
+            "Turn right only after making a full stop.",
+            "Go straight."
+        ],
+        "answer": 1,
+        "explanation": "A green arrow allows you to proceed in the direction it points without stopping, but you must still yield the right-of-way to anyone legally in the intersection (like pedestrians).",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-114",
+        "chapter": "chapter-rules",
+        "text": "The 'two-second rule' for following distance should be used:",
+        "options": [
+            "In all conditions.",
+            "Only on the highway.",
+            "Only under ideal weather and road conditions.",
+            "Only for learner drivers."
+        ],
+        "answer": 2,
+        "explanation": "The 2-second rule applies only under ideal driving conditions. You must increase it for bad weather, high speeds, or when following large vehicles/motorcycles.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-115",
+        "chapter": "chapter-emergencies",
+        "text": "If your vehicle breaks down on a busy highway, what is the safest thing to do?",
+        "options": [
+            "Stay in the vehicle with your seatbelt on and turn on your hazard lights.",
+            "Stand behind the vehicle to wave traffic away.",
+            "Walk along the highway to find a gas station.",
+            "Try to fix the vehicle in the traffic lane."
+        ],
+        "answer": 0,
+        "explanation": "It is extremely dangerous to stand on a busy highway. Pull as far off the road as possible, turn on hazards, and stay buckled inside until help arrives.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-116",
+        "chapter": "chapter-sharing",
+        "text": "When you are passed by a large truck, you might experience:",
+        "options": [
+            "A sudden increase in your vehicle's speed.",
+            "A strong gust of wind that can push your vehicle.",
+            "A drop in tire pressure.",
+            "Improved fuel efficiency."
+        ],
+        "answer": 1,
+        "explanation": "Large trucks displace a lot of air. As they pass, the air turbulence can push your vehicle. Keep a firm grip on the steering wheel.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-117",
+        "chapter": "chapter-signs",
+        "text": "What does a sign with a black cross (X) on a yellow background indicate?",
+        "options": [
+            "A hospital crossing.",
+            "A railway crossing ahead.",
+            "A four-way intersection ahead.",
+            "A church."
+        ],
+        "answer": 2,
+        "explanation": "A warning sign with a black cross indicates an intersection or crossroad ahead.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-118",
+        "chapter": "chapter-signs",
+        "text": "What does a yellow sign showing an 'X' with an 'R' on each side indicate?",
+        "options": [
+            "Restricted area.",
+            "Railway crossing ahead.",
+            "Road closed.",
+            "Right turn only."
+        ],
+        "answer": 1,
+        "explanation": "This specific yellow warning sign tells you that there is a railway crossing ahead.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-119",
+        "chapter": "chapter-intersections",
+        "text": "You are approaching a roundabout and see a Yield sign. This means:",
+        "options": [
+            "You have the right-of-way over traffic in the roundabout.",
+            "You must stop completely before entering.",
+            "You must yield to traffic already in the roundabout.",
+            "Traffic inside the roundabout must yield to you."
+        ],
+        "answer": 2,
+        "explanation": "At a roundabout, entering vehicles must always yield to the vehicles that are already circulating inside it.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-120",
+        "chapter": "chapter-parking",
+        "text": "It is illegal to park a vehicle within ___ of a stop sign or traffic control signal.",
+        "options": [
+            "3 metres.",
+            "6 metres.",
+            "10 metres.",
+            "15 metres."
+        ],
+        "answer": 1,
+        "explanation": "You must not park within 6 metres of a stop sign or traffic signal so that it remains visible to approaching traffic.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-121",
+        "chapter": "chapter-sharing",
+        "text": "When you see a person using a motorized wheelchair on the road, you should:",
+        "options": [
+            "Honk so they move to the sidewalk.",
+            "Treat them like a pedestrian and yield the right-of-way.",
+            "Pass them as closely as possible.",
+            "Expect them to obey the speed limit for vehicles."
+        ],
+        "answer": 1,
+        "explanation": "People in motorized wheelchairs are considered pedestrians. Yield the right-of-way and give them plenty of space.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-122",
+        "chapter": "chapter-sharing",
+        "text": "Children are unpredictable. When driving near schools or playgrounds, you must:",
+        "options": [
+            "Maintain the normal speed limit.",
+            "Slow down, scan continuously, and be prepared to stop instantly.",
+            "Only slow down if you see a crossing guard.",
+            "Honk your horn continuously to warn them."
+        ],
+        "answer": 1,
+        "explanation": "Children often don't understand traffic rules and can dart out unexpectedly. You must slow down and be extremely vigilant.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-123",
+        "chapter": "chapter-rules",
+        "text": "Unless a sign tells you otherwise, what is the speed limit in a school zone on a school day between 8 am and 5 pm?",
+        "options": [
+            "20 km/h",
+            "30 km/h",
+            "40 km/h",
+            "50 km/h"
+        ],
+        "answer": 1,
+        "explanation": "The speed limit in a school zone is 30 km/h from 8 am to 5 pm on regular school days, unless signs indicate different times.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-124",
+        "chapter": "chapter-rules",
+        "text": "What is the speed limit in a playground zone?",
+        "options": [
+            "30 km/h from dawn to dusk, every day of the year.",
+            "30 km/h from 8 am to 5 pm, Monday to Friday.",
+            "50 km/h unless children are present.",
+            "20 km/h at all times."
+        ],
+        "answer": 0,
+        "explanation": "Playground zones are 30 km/h from dawn to dusk, 365 days a year.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-125",
+        "chapter": "chapter-rules",
+        "text": "Unless otherwise posted, what is the speed limit inside a city or town?",
+        "options": [
+            "30 km/h",
+            "50 km/h",
+            "60 km/h",
+            "80 km/h"
+        ],
+        "answer": 1,
+        "explanation": "The default speed limit within municipalities (cities and towns) in BC is 50 km/h.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-126",
+        "chapter": "chapter-rules",
+        "text": "Unless otherwise posted, what is the speed limit outside cities and towns (on rural highways)?",
+        "options": [
+            "60 km/h",
+            "80 km/h",
+            "90 km/h",
+            "100 km/h"
+        ],
+        "answer": 1,
+        "explanation": "The default speed limit outside municipalities in BC is 80 km/h, unless signs indicate otherwise.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-127",
+        "chapter": "chapter-sharing",
+        "text": "When you are passing a cyclist, how much space should you leave between your vehicle and the bicycle?",
+        "options": [
+            "As little as possible so you don't cross the center line.",
+            "At least 1 metre, and 1.5 metres on highways with speed limits over 50 km/h.",
+            "Half a metre.",
+            "You cannot pass cyclists."
+        ],
+        "answer": 1,
+        "explanation": "BC law requires drivers to leave at least 1 metre of space when passing a cyclist (or vulnerable road user), increasing to 1.5 metres on roads with limits over 50 km/h.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-128",
+        "chapter": "chapter-rules",
+        "text": "If a pedestrian is waiting at a marked crosswalk, what must you do?",
+        "options": [
+            "Speed up to pass them quickly.",
+            "Stop before the crosswalk and let them cross.",
+            "Honk to let them know you see them.",
+            "Yield only if they have started walking."
+        ],
+        "answer": 1,
+        "explanation": "You must yield the right-of-way to pedestrians waiting at, or already in, a marked crosswalk.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-129",
+        "chapter": "chapter-sharing",
+        "text": "If you are driving in a lane with a painted bicycle (sharrow) marking, it means:",
+        "options": [
+            "You cannot drive in this lane.",
+            "The lane is shared by cyclists and motor vehicles.",
+            "Bicycles must yield to cars.",
+            "Parking is reserved for bicycles."
+        ],
+        "answer": 1,
+        "explanation": "A sharrow (shared lane marking) indicates that the lane is to be shared between vehicles and cyclists, and helps guide cyclists on where to ride safely.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-130",
+        "chapter": "chapter-sharing",
+        "text": "Why is it dangerous to cut closely in front of a large commercial truck?",
+        "options": [
+            "They will get angry and tailgate you.",
+            "Trucks require a much longer braking distance than cars, and they may not be able to stop in time to avoid hitting you.",
+            "They have blind spots in the front.",
+            "Both B and C."
+        ],
+        "answer": 3,
+        "explanation": "Large trucks need twice as much distance to stop as cars, and they have a massive blind spot directly in front of the cab. Cutting them off is extremely dangerous.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-131",
+        "chapter": "chapter-rules",
+        "text": "When turning right, you must:",
+        "options": [
+            "Turn from the lane closest to the center line.",
+            "Turn from the lane closest to the right curb into the right curb lane of the new street.",
+            "Turn into the left lane of the new street to go faster.",
+            "Swing wide to the left before making the right turn."
+        ],
+        "answer": 1,
+        "explanation": "Unless signs say otherwise, you must turn from the rightmost lane into the rightmost lane (closest to the curb) to maintain lane discipline.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-132",
+        "chapter": "chapter-rules",
+        "text": "When turning left from a two-way street onto a two-way street, you should:",
+        "options": [
+            "Turn from the right lane.",
+            "Turn from the lane just to the right of the center line, and complete the turn in the lane just to the right of the center line on the new street.",
+            "Turn into the far right lane.",
+            "Cut the corner closely."
+        ],
+        "answer": 1,
+        "explanation": "Left turns should be made from the leftmost lane available for your direction (next to the center line) into the leftmost lane available for your direction.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-133",
+        "chapter": "chapter-intersections",
+        "text": "At a traffic light, a steady yellow arrow pointing left means:",
+        "options": [
+            "The protected left turn is about to end; you must prepare to stop or yield.",
+            "You have the right-of-way to turn left.",
+            "Stop immediately, the intersection is clear.",
+            "Proceed straight only."
+        ],
+        "answer": 0,
+        "explanation": "A steady yellow arrow means the protected turning phase (green arrow) is ending. If you haven't entered the intersection, you must stop.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-134",
+        "chapter": "chapter-intersections",
+        "text": "If you are in an intersection waiting to turn left, and the light turns red, what should you do?",
+        "options": [
+            "Back up.",
+            "Stay where you are until it turns green.",
+            "Complete your turn safely when oncoming traffic stops.",
+            "Turn immediately, cutting off oncoming traffic."
+        ],
+        "answer": 2,
+        "explanation": "If you are legally established in the intersection, you are permitted to complete your turn when it is safe to do so, even if the light turns red.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-135",
+        "chapter": "chapter-emergencies",
+        "text": "If you start to hydroplane (skid on a thin layer of water), you should:",
+        "options": [
+            "Brake hard.",
+            "Take your foot off the gas pedal, steer straight, and do not brake hard.",
+            "Accelerate to power through the water.",
+            "Turn the steering wheel sharply."
+        ],
+        "answer": 1,
+        "explanation": "To recover from hydroplaning, ease off the accelerator and do not brake or steer abruptly until your tires regain contact with the road.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-136",
+        "chapter": "chapter-rules",
+        "text": "What does a broken white line on the road mean?",
+        "options": [
+            "It separates traffic moving in opposite directions, passing allowed.",
+            "It separates traffic moving in the same direction, and you may change lanes.",
+            "It separates traffic moving in the same direction, but you cannot change lanes.",
+            "It marks the edge of the road."
+        ],
+        "answer": 1,
+        "explanation": "White lines separate traffic moving in the same direction. If it is broken, you may change lanes when safe.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-137",
+        "chapter": "chapter-signs",
+        "text": "A sign showing a truck going down a steep incline means:",
+        "options": [
+            "Trucks must use lower gears.",
+            "Steep hill ahead, be prepared to brake or downshift.",
+            "Truck route only.",
+            "Runaway lane ahead."
+        ],
+        "answer": 1,
+        "explanation": "This warning sign indicates a steep downgrade (hill) ahead. All drivers, especially heavy vehicles, should be prepared.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-138",
+        "chapter": "chapter-parking",
+        "text": "When parking facing DOWNHILL on a road with a curb, you should turn your front wheels:",
+        "options": [
+            "Away from the curb (left).",
+            "Toward the curb (right).",
+            "Straight ahead.",
+            "It doesn't matter."
+        ],
+        "answer": 1,
+        "explanation": "When parking downhill, turn your wheels to the right (toward the curb) so that if the brakes fail, the vehicle will roll into the curb and stop.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-139",
+        "chapter": "chapter-parking",
+        "text": "When parking facing UPHILL on a road WITH a curb, you should turn your front wheels:",
+        "options": [
+            "Away from the curb (left).",
+            "Toward the curb (right).",
+            "Straight ahead.",
+            "Parallel to the curb."
+        ],
+        "answer": 0,
+        "explanation": "When parking uphill with a curb, turn your wheels left (away from the curb) and let the vehicle roll back slightly so the tires catch against the curb.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-140",
+        "chapter": "chapter-parking",
+        "text": "When parking facing UPHILL on a road WITHOUT a curb, you should turn your front wheels:",
+        "options": [
+            "Away from the edge of the road (left).",
+            "Toward the edge of the road (right).",
+            "Straight ahead.",
+            "It doesn't matter."
+        ],
+        "answer": 1,
+        "explanation": "Uphill without a curb: turn your wheels to the right, so if the vehicle rolls, it will roll off the road rather than into traffic.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-141",
+        "chapter": "chapter-emergencies",
+        "text": "What is 'black ice'?",
+        "options": [
+            "Ice that has dirt and oil mixed into it.",
+            "A thin, transparent layer of ice on the road that is extremely hard to see.",
+            "Ice that forms only at night.",
+            "Thick chunks of ice that fall from trucks."
+        ],
+        "answer": 1,
+        "explanation": "Black ice is a thin layer of transparent ice. Because you can see the dark asphalt through it, the road just looks wet, making it highly deceptive and dangerous.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-142",
+        "chapter": "chapter-rules",
+        "text": "Under what condition must you stop for a school bus?",
+        "options": [
+            "Whenever it is stopped at a bus stop.",
+            "When its red lights are flashing and the stop arm is extended.",
+            "Only when it is on your side of the road.",
+            "When its yellow lights are flashing."
+        ],
+        "answer": 1,
+        "explanation": "You must stop from either direction when a school bus has its red lights flashing, as children are crossing.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-143",
+        "chapter": "chapter-rules",
+        "text": "When following a fire truck, ambulance, or police car that is driving with its lights and sirens on, how much distance must you keep?",
+        "options": [
+            "50 metres.",
+            "100 metres.",
+            "150 metres.",
+            "200 metres."
+        ],
+        "answer": 2,
+        "explanation": "You must not follow within 150 metres of an emergency vehicle traveling with its sirens or flashing lights on.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-144",
+        "chapter": "chapter-intersections",
+        "text": "At an intersection controlled by stop signs in all four directions, who goes first?",
+        "options": [
+            "The vehicle turning right.",
+            "The vehicle that arrives first.",
+            "The vehicle on the right.",
+            "The largest vehicle."
+        ],
+        "answer": 1,
+        "explanation": "At a four-way stop, the first vehicle to come to a complete stop has the right-of-way. If two arrive at the same time, the one on the right goes first.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-145",
+        "chapter": "chapter-emergencies",
+        "text": "If your rear wheels start to skid to the right, you should:",
+        "options": [
+            "Steer to the left.",
+            "Steer to the right, in the direction you want the front of the vehicle to go.",
+            "Slam on the brakes.",
+            "Accelerate hard."
+        ],
+        "answer": 1,
+        "explanation": "If the rear of your car skids to the right, steer to the right (steer into the skid) to regain control. Look where you want to go.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-146",
+        "chapter": "chapter-signs",
+        "text": "A sign showing a black squiggly line on a yellow diamond means:",
+        "options": [
+            "Slippery when wet.",
+            "Winding road ahead.",
+            "Snake crossing.",
+            "River ahead."
+        ],
+        "answer": 1,
+        "explanation": "A squiggly arrow indicates a winding road with a series of curves ahead.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-147",
+        "chapter": "chapter-rules",
+        "text": "What is the penalty for refusing to provide a breath sample to a police officer?",
+        "options": [
+            "A small fine.",
+            "A warning.",
+            "The same penalties as being convicted of impaired driving (immediate roadside prohibition and vehicle impoundment).",
+            "You just have to provide a blood sample instead."
+        ],
+        "answer": 2,
+        "explanation": "Refusing a breathalyzer demand carries the same strict penalties as blowing over the legal limit.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-148",
+        "chapter": "chapter-sharing",
+        "text": "When you encounter a horse and rider on a rural road, you should:",
+        "options": [
+            "Honk to let them know you are passing.",
+            "Speed up to pass them quickly.",
+            "Slow down, give them plenty of space, and avoid honking or making loud noises.",
+            "Flash your high beams."
+        ],
+        "answer": 2,
+        "explanation": "Horses can easily be spooked by loud noises or sudden movements. Slow down, give them a wide berth, and pass quietly.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-149",
+        "chapter": "chapter-intersections",
+        "text": "You are approaching a flashing red traffic light. What must you do?",
+        "options": [
+            "Slow down and proceed with caution.",
+            "Stop, then proceed when it is safe to do so.",
+            "Wait for the light to turn green.",
+            "Yield to the right."
+        ],
+        "answer": 1,
+        "explanation": "A flashing red light means exactly the same thing as a stop sign. Come to a complete stop and proceed when safe.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-150",
+        "chapter": "chapter-rules",
+        "text": "If a vehicle is merging into your lane from an on-ramp, you should:",
+        "options": [
+            "Speed up to block them.",
+            "Maintain your exact speed and let them figure it out.",
+            "Adjust your speed or change lanes (if safe) to create a gap for them.",
+            "Honk to remind them to yield."
+        ],
+        "answer": 2,
+        "explanation": "While the merging vehicle must yield, good drivers cooperate by adjusting speed or changing lanes to facilitate a smooth merge.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-151",
+        "chapter": "chapter-rules",
+        "text": "Which of the following is considered a 'vulnerable road user'?",
+        "options": [
+            "A semi-truck driver.",
+            "A pedestrian, cyclist, or motorcyclist.",
+            "A driver in a large SUV.",
+            "A transit bus driver."
+        ],
+        "answer": 1,
+        "explanation": "Vulnerable road users are those without the protective metal shell of a car, such as pedestrians, cyclists, and motorcyclists.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-152",
+        "chapter": "chapter-rules",
+        "text": "If a traffic control person (flag person) holds up a paddle with the word 'STOP', you must:",
+        "options": [
+            "Stop and wait until they turn the paddle to 'SLOW' or signal you to proceed.",
+            "Stop, yield, and then proceed.",
+            "Honk and ask them when you can go.",
+            "Proceed slowly."
+        ],
+        "answer": 0,
+        "explanation": "You must obey a traffic control person completely. Stop and do not move until directed to do so.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-153",
+        "chapter": "chapter-signs",
+        "text": "A sign depicting a car with curvy tire tracks behind it means:",
+        "options": [
+            "Winding road ahead.",
+            "Drunk driving checkpoint.",
+            "Slippery when wet.",
+            "Drift racing allowed."
+        ],
+        "answer": 2,
+        "explanation": "This warning sign means the road surface is unusually slippery when it rains or is wet.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-154",
+        "chapter": "chapter-emergencies",
+        "text": "To recover from a skid, the manual advises you to:",
+        "options": [
+            "Brake as hard as possible.",
+            "Steer in the direction you want the vehicle to go and look where you want to go.",
+            "Close your eyes and brace for impact.",
+            "Accelerate hard to regain traction."
+        ],
+        "answer": 1,
+        "explanation": "Look and steer in the direction you want to travel. Do not hit the brakes hard, as this will make the skid worse.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-155",
+        "chapter": "chapter-emergencies",
+        "text": "What does anti-lock braking system (ABS) do in an emergency braking situation?",
+        "options": [
+            "It makes your car stop in half the distance.",
+            "It prevents the wheels from locking up, allowing you to maintain steering control.",
+            "It automatically steers for you.",
+            "It prevents skids on ice completely."
+        ],
+        "answer": 1,
+        "explanation": "ABS prevents wheels from locking during hard braking. This does not necessarily shorten stopping distance, but it allows you to steer around obstacles.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-156",
+        "chapter": "chapter-emergencies",
+        "text": "When using ABS brakes in an emergency, you should:",
+        "options": [
+            "Pump the brake pedal rapidly.",
+            "Apply steady, hard pressure to the brake pedal and steer.",
+            "Lightly tap the brakes.",
+            "Pull the parking brake."
+        ],
+        "answer": 1,
+        "explanation": "Do not pump ABS brakes. Stomp on the pedal, stay on it, and steer. You may feel a pulsing sensation; this is normal.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-157",
+        "chapter": "chapter-rules",
+        "text": "In a construction zone, speed limits are:",
+        "options": [
+            "Only enforced when workers are present.",
+            "Enforced 24 hours a day, unless signs state otherwise.",
+            "Suggestions only.",
+            "The same as highway speeds."
+        ],
+        "answer": 1,
+        "explanation": "Construction zone speed limits are the law and must be obeyed 24/7 (as hazards may still exist), unless a sign specifies they are only in effect when workers are present.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-158",
+        "chapter": "chapter-intersections",
+        "text": "When approaching an intersection with a crosswalk but no stop line, where do you stop?",
+        "options": [
+            "On the crosswalk.",
+            "Before entering the crosswalk.",
+            "At the corner of the intersection.",
+            "Wherever you have the best view."
+        ],
+        "answer": 1,
+        "explanation": "If there is no painted stop line, you must stop just before the crosswalk (marked or unmarked).",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-159",
+        "chapter": "chapter-rules",
+        "text": "A steady red 'X' over a driving lane means:",
+        "options": [
+            "The lane is closed to traffic in your direction.",
+            "You must stop.",
+            "Railway crossing.",
+            "Proceed with caution."
+        ],
+        "answer": 0,
+        "explanation": "A red X over a lane means do not drive in that lane. It is closed or being used by oncoming traffic.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-160",
+        "chapter": "chapter-rules",
+        "text": "If a vehicle is passing you, you should:",
+        "options": [
+            "Speed up so they don't have to pass.",
+            "Maintain your speed or slow down slightly to let them pass safely.",
+            "Move to the left to block them.",
+            "Turn on your high beams."
+        ],
+        "answer": 1,
+        "explanation": "It is illegal and dangerous to speed up when being passed. Keep your speed steady or reduce it slightly to make the pass safer.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-161",
+        "chapter": "chapter-rules",
+        "text": "What is the penalty for a driver caught using a hand-held electronic device while driving?",
+        "options": [
+            "A warning.",
+            "A fine and penalty points on their driving record.",
+            "Immediate impoundment of their vehicle.",
+            "Only a fine with no points."
+        ],
+        "answer": 1,
+        "explanation": "Distracted driving in BC carries a significant fine and penalty points.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-162",
+        "chapter": "chapter-rules",
+        "text": "When are you allowed to use a hand-held cell phone while driving?",
+        "options": [
+            "When you are stopped at a red light.",
+            "When you are stuck in heavily congested, stopped traffic.",
+            "Only to call 9-1-1 in an emergency.",
+            "Whenever you have it on speakerphone in your hand."
+        ],
+        "answer": 2,
+        "explanation": "You may only use a hand-held phone to call 9-1-1. Being stopped at a red light or in traffic does not exempt you from the law.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-163",
+        "chapter": "chapter-rules",
+        "text": "A fully licensed driver (Class 5) can use a cell phone hands-free if:",
+        "options": [
+            "It is securely attached to the vehicle and requires only one touch to answer.",
+            "They are holding it loosely in their lap.",
+            "They are wearing headphones in both ears.",
+            "Class 5 drivers cannot use cell phones under any circumstances."
+        ],
+        "answer": 0,
+        "explanation": "Fully licensed drivers may use hands-free devices if securely mounted and operated by a single touch or voice command.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-164",
+        "chapter": "chapter-rules",
+        "text": "Can a driver in the Graduated Licensing Program (L or N) use a hands-free phone?",
+        "options": [
+            "Yes, if it is securely mounted.",
+            "Yes, but only for navigation.",
+            "No, GLP drivers are completely restricted from using any electronic devices.",
+            "Yes, if connected via Bluetooth."
+        ],
+        "answer": 2,
+        "explanation": "L and N drivers cannot use electronic devices at all, not even hands-free or Bluetooth.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-165",
+        "chapter": "chapter-signs",
+        "text": "A green sign with white lettering that points to a specific city is a:",
+        "options": [
+            "Regulatory sign.",
+            "Warning sign.",
+            "Guide/Destination sign.",
+            "Construction sign."
+        ],
+        "answer": 2,
+        "explanation": "Green signs provide guidance, showing routes, distances, and destinations.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-166",
+        "chapter": "chapter-signs",
+        "text": "What does an octagonal (eight-sided) sign always mean?",
+        "options": [
+            "Yield.",
+            "Stop.",
+            "School Zone.",
+            "Railway crossing."
+        ],
+        "answer": 1,
+        "explanation": "The red octagon is universally used only for Stop signs.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-167",
+        "chapter": "chapter-signs",
+        "text": "An inverted triangle sign (pointing downwards) with red and white colors is always a:",
+        "options": [
+            "Stop sign.",
+            "Warning sign.",
+            "Yield sign.",
+            "Do Not Enter sign."
+        ],
+        "answer": 2,
+        "explanation": "The red and white downward-pointing triangle is exclusively used for Yield signs.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-168",
+        "chapter": "chapter-parking",
+        "text": "Before you pull away from a curb, the last thing you should do is:",
+        "options": [
+            "Check your rear-view mirror.",
+            "Turn your steering wheel.",
+            "Shoulder check to ensure your blind spot is clear.",
+            "Honk your horn."
+        ],
+        "answer": 2,
+        "explanation": "Always finish with a shoulder check (looking over your shoulder out the window) just before moving to ensure a cyclist or vehicle hasn't slipped into your blind spot.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-169",
+        "chapter": "chapter-intersections",
+        "text": "You want to turn left at an intersection, but a large truck is stopped in the opposite left-turn lane, blocking your view. You should:",
+        "options": [
+            "Turn quickly before traffic comes.",
+            "Honk so oncoming cars stop.",
+            "Wait until the truck turns or your line of sight is clear before completing your turn.",
+            "Follow the car in front of you."
+        ],
+        "answer": 2,
+        "explanation": "Never turn blind. If your vision of oncoming traffic is blocked, you must wait until you can see that the way is clear.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-170",
+        "chapter": "chapter-rules",
+        "text": "When approaching a stopped emergency vehicle with flashing lights on a highway with a speed limit of 80 km/h or higher, you must slow down to:",
+        "options": [
+            "30 km/h",
+            "40 km/h",
+            "50 km/h",
+            "70 km/h"
+        ],
+        "answer": 3,
+        "explanation": "Under the Slow Down, Move Over law, if the speed limit is 80 km/h or higher, you must slow to 70 km/h when passing stopped official vehicles with flashing lights.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-171",
+        "chapter": "chapter-rules",
+        "text": "When approaching a stopped emergency vehicle with flashing lights on a road with a speed limit LESS than 80 km/h, you must slow down to:",
+        "options": [
+            "30 km/h",
+            "40 km/h",
+            "50 km/h",
+            "The posted speed limit."
+        ],
+        "answer": 1,
+        "explanation": "If the speed limit is under 80 km/h, you must slow down to 40 km/h (and move over a lane if safe) when passing stopped emergency vehicles.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-172",
+        "chapter": "chapter-rules",
+        "text": "If a vehicle is entering the freeway from an acceleration lane, and you are in the right lane of the freeway, you should:",
+        "options": [
+            "Speed up to block them.",
+            "Move to the left lane if safe, or adjust speed to help them merge safely.",
+            "Honk your horn.",
+            "Brake hard to let them in."
+        ],
+        "answer": 1,
+        "explanation": "Good drivers are cooperative. Move over to the left lane if it's safe, or gently adjust your speed to leave a gap for the merging vehicle.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-173",
+        "chapter": "chapter-intersections",
+        "text": "A flashing red light at an intersection means:",
+        "options": [
+            "Stop, yield right-of-way, and proceed when safe.",
+            "The light is about to turn green.",
+            "Stop and wait for the light to stop flashing.",
+            "Slow down and proceed with caution."
+        ],
+        "answer": 0,
+        "explanation": "A flashing red light has the exact same meaning as a stop sign.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-174",
+        "chapter": "chapter-signs",
+        "text": "What does a sign with a green circle around a symbol mean?",
+        "options": [
+            "The action is permitted.",
+            "The action is prohibited.",
+            "Warning of a hazard.",
+            "Pedestrian zone."
+        ],
+        "answer": 0,
+        "explanation": "A green circle means that the action or activity shown inside the circle is permitted or required.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-175",
+        "chapter": "chapter-rules",
+        "text": "Aggressive driving or \"road rage\" is best handled by:",
+        "options": [
+            "Honking back and making eye contact.",
+            "Brake checking the aggressive driver.",
+            "Yielding, avoiding eye contact, and ignoring their gestures.",
+            "Speeding up to race them."
+        ],
+        "answer": 2,
+        "explanation": "Never engage with an aggressive driver. Avoid eye contact, give them plenty of space, and let them pass.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-176",
+        "chapter": "chapter-emergencies",
+        "text": "If your vehicle breaks down and you must stop on the shoulder of a highway, you should turn on your:",
+        "options": [
+            "High beam headlights.",
+            "Four-way emergency flashers (hazard lights).",
+            "Left turn signal.",
+            "Interior dome light."
+        ],
+        "answer": 1,
+        "explanation": "Emergency flashers warn other drivers that your vehicle is disabled or stopped in a potentially hazardous location.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-177",
+        "chapter": "chapter-sharing",
+        "text": "When a blind person is standing at a crosswalk with a white cane, you should:",
+        "options": [
+            "Stop and stay stopped until they have safely crossed the road.",
+            "Honk so they know a car is there.",
+            "Tell them when it is safe to cross.",
+            "Proceed carefully if they haven't stepped off the curb yet."
+        ],
+        "answer": 0,
+        "explanation": "Always yield to a visually impaired person. Do not honk or give verbal directions, as they rely on the sounds of traffic to determine when it's safe.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-178",
+        "chapter": "chapter-sharing",
+        "text": "When driving behind a motorcycle, you should:",
+        "options": [
+            "Follow closer than you would a car, because they are smaller.",
+            "Follow at a 1-second distance.",
+            "Allow a following distance of at least 3 seconds.",
+            "Always pass them."
+        ],
+        "answer": 2,
+        "explanation": "Motorcycles can stop much faster than cars, and a minor collision can be fatal for the rider. Always leave at least a 3-second following distance.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-179",
+        "chapter": "chapter-rules",
+        "text": "You are driving on a multi-lane highway. The left lane is intended for:",
+        "options": [
+            "Slow moving vehicles.",
+            "Passing and turning left.",
+            "Heavy trucks.",
+            "Anyone who wants to avoid merging traffic."
+        ],
+        "answer": 1,
+        "explanation": "On highways with a speed limit of 80 km/h or more, the left lane is primarily for passing or turning left. Keep right except to pass.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-180",
+        "chapter": "chapter-intersections",
+        "text": "If a pedestrian steps out into the road where there is NO marked crosswalk, what must you do?",
+        "options": [
+            "Honk your horn because they are jaywalking.",
+            "Yield and stop if necessary to avoid hitting them.",
+            "Keep going, you have the right-of-way.",
+            "Swerve into the oncoming lane."
+        ],
+        "answer": 1,
+        "explanation": "Even if a pedestrian is jaywalking or crossing illegally, you must always yield and take every precaution to avoid hitting them.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-181",
+        "chapter": "chapter-rules",
+        "text": "What does a solid yellow line on your side of the center line mean?",
+        "options": [
+            "You may pass when safe.",
+            "You may not pass.",
+            "You are on a one-way street.",
+            "You must slow down."
+        ],
+        "answer": 1,
+        "explanation": "A solid yellow line on your side indicates it is unsafe and illegal to pass.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-182",
+        "chapter": "chapter-intersections",
+        "text": "Before you enter an intersection, you should scan:",
+        "options": [
+            "Left, right, and left again.",
+            "Only straight ahead.",
+            "Right, then left.",
+            "Your rear-view mirror."
+        ],
+        "answer": 0,
+        "explanation": "Always scan left, center, right, and left again before entering an intersection, because traffic crossing from the left will hit you first.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-183",
+        "chapter": "chapter-parking",
+        "text": "When parallel parking, your vehicle should be approximately ___ from the vehicle you are parking behind before you start backing up.",
+        "options": [
+            "Half a metre (0.5m)",
+            "1 metre (1m)",
+            "2 metres (2m)",
+            "Touching bumper to bumper"
+        ],
+        "answer": 0,
+        "explanation": "When preparing to parallel park, pull up alongside the vehicle in front of the space, leaving about half a metre (1.5 feet) of space between you and it.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-184",
+        "chapter": "chapter-sharing",
+        "text": "Why must you leave extra space when stopped behind a large truck on an uphill grade?",
+        "options": [
+            "To avoid exhaust fumes.",
+            "The truck may roll backward when the driver releases the brake to accelerate.",
+            "To see the traffic light better.",
+            "Because large trucks have long blind spots in front."
+        ],
+        "answer": 1,
+        "explanation": "Manual transmission trucks may roll back slightly when starting on a hill. Leaving extra space protects your vehicle.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-185",
+        "chapter": "chapter-emergencies",
+        "text": "If the oil pressure warning light comes on while you are driving, you should:",
+        "options": [
+            "Drive to the nearest gas station slowly.",
+            "Pull over immediately to a safe place and turn off the engine.",
+            "Ignore it if the car seems to be running fine.",
+            "Check the oil at your next scheduled maintenance."
+        ],
+        "answer": 1,
+        "explanation": "Loss of oil pressure can destroy your engine in seconds. Pull over safely and shut the engine off immediately.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-186",
+        "chapter": "chapter-rules",
+        "text": "What is the primary danger of driving when you are extremely tired?",
+        "options": [
+            "You might get a ticket for slow driving.",
+            "Your reaction time is severely slowed and you may fall asleep at the wheel.",
+            "You will use more gas.",
+            "Your night vision improves."
+        ],
+        "answer": 1,
+        "explanation": "Fatigue causes delayed reactions, impaired judgment, and micro-sleeps, making it as dangerous as drunk driving.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-187",
+        "chapter": "chapter-rules",
+        "text": "If you are involved in a collision, what information must you exchange with the other driver?",
+        "options": [
+            "Name, address, driver's licence number, and vehicle licence plate number.",
+            "Only your name and phone number.",
+            "Your insurance documents only.",
+            "You don't have to exchange anything if it's a minor scratch."
+        ],
+        "answer": 0,
+        "explanation": "By law, you must exchange your name, address, driver's licence number, vehicle licence plate number, and insurance details with anyone involved.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-188",
+        "chapter": "chapter-intersections",
+        "text": "When approaching a railway crossing with flashing red lights, you must:",
+        "options": [
+            "Slow down and proceed if no train is visible.",
+            "Stop, and do not proceed until the lights stop flashing.",
+            "Yield to pedestrians, then cross.",
+            "Speed up to beat the train."
+        ],
+        "answer": 1,
+        "explanation": "Flashing red lights at a railway crossing mean you must stop. Wait until the lights stop flashing and the gates (if any) are fully raised.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-189",
+        "chapter": "chapter-signs",
+        "text": "A sign with a picture of a leaping deer indicates:",
+        "options": [
+            "A zoo is nearby.",
+            "Deer crossing area; be alert for animals on the road.",
+            "Hunting permitted.",
+            "Park boundary."
+        ],
+        "answer": 1,
+        "explanation": "This warning sign tells you that deer frequently cross the road in this area. Drive with extra caution, especially at dawn and dusk.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-190",
+        "chapter": "chapter-emergencies",
+        "text": "If a tire blows out, your vehicle will likely pull heavily in the direction of the blown tire. You should:",
+        "options": [
+            "Grip the steering wheel firmly and steer to keep the vehicle in its lane.",
+            "Slam on the brakes.",
+            "Let go of the steering wheel.",
+            "Shift to park."
+        ],
+        "answer": 0,
+        "explanation": "A blowout causes a sudden, violent pull. You must grip the steering wheel firmly to maintain your lane, ease off the gas, and only brake gently once control is established.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-191",
+        "chapter": "chapter-sharing",
+        "text": "Why must you shoulder check for cyclists before opening your car door when parked on the street?",
+        "options": [
+            "Cyclists are not allowed to ride near parked cars.",
+            "To avoid \"dooring\" a cyclist, which can cause severe injury or death.",
+            "Because cyclists are looking at the ground.",
+            "To check if the door hinge is working."
+        ],
+        "answer": 1,
+        "explanation": "Opening a door into the path of an oncoming cyclist (dooring) is a common and highly dangerous collision. Always check your mirror and do a shoulder check.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-192",
+        "chapter": "chapter-rules",
+        "text": "At a minimum, how often should you check your tire pressure?",
+        "options": [
+            "Once a week.",
+            "Once a month.",
+            "Once a year.",
+            "Only when the tire looks flat."
+        ],
+        "answer": 1,
+        "explanation": "Tires can lose pressure naturally. Checking them at least once a month (when cold) ensures safe handling and better fuel economy.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-193",
+        "chapter": "chapter-rules",
+        "text": "Properly adjusted seatbelts can reduce the risk of serious injury or death in a crash by approximately:",
+        "options": [
+            "10%",
+            "25%",
+            "50%",
+            "90%"
+        ],
+        "answer": 2,
+        "explanation": "Seatbelts are your best defense in a crash, reducing the risk of fatal or serious injury by about 40-50%.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-194",
+        "chapter": "chapter-rules",
+        "text": "If you are involved in a collision, what should you do with your vehicle?",
+        "options": [
+            "Leave it exactly where it is until the police arrive, even if it blocks traffic.",
+            "If it is safe to do so, and no one is seriously injured, move it off the road to avoid blocking traffic.",
+            "Drive it home immediately.",
+            "Abandon it."
+        ],
+        "answer": 1,
+        "explanation": "For minor crashes with no serious injuries, you should move your vehicles off the road to prevent traffic congestion and secondary crashes.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-195",
+        "chapter": "chapter-sharing",
+        "text": "If a transit bus is pulled over to load/unload passengers, what should you be particularly watchful for?",
+        "options": [
+            "The bus reversing.",
+            "Pedestrians walking out from in front of the bus.",
+            "The bus driver exiting the vehicle.",
+            "Other cars honking."
+        ],
+        "answer": 1,
+        "explanation": "Pedestrians often exit a bus and attempt to cross the street by walking in front of it, where they are hidden from your view until they step into your lane.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-196",
+        "chapter": "chapter-rules",
+        "text": "A Class 5 license allows you to drive:",
+        "options": [
+            "Motorcycles.",
+            "Semi-trailer trucks.",
+            "Two-axle passenger vehicles and motorhomes.",
+            "Buses with more than 10 passengers."
+        ],
+        "answer": 2,
+        "explanation": "Class 5 is a standard passenger vehicle license for cars, vans, two-axle trucks, and motorhomes. It does not cover motorcycles, commercial heavy trucks, or buses.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-197",
+        "chapter": "chapter-emergencies",
+        "text": "If your vehicle's engine overheats while driving, you should:",
+        "options": [
+            "Drive faster to force cool air into the engine.",
+            "Turn on the air conditioning to maximum.",
+            "Pull over safely, turn off the engine, and let it cool down.",
+            "Open the radiator cap immediately."
+        ],
+        "answer": 2,
+        "explanation": "Stop the car and turn off the engine to prevent severe damage. Never open a hot radiator cap, as boiling coolant can spray and burn you.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-198",
+        "chapter": "chapter-rules",
+        "text": "When you hear a siren but cannot see the emergency vehicle, you should:",
+        "options": [
+            "Keep driving normally until you see it.",
+            "Slow down, look in all directions, and be prepared to pull over.",
+            "Stop immediately in the middle of the road.",
+            "Speed up to get out of the area."
+        ],
+        "answer": 1,
+        "explanation": "If you hear a siren but can't see the vehicle, reduce your speed, scan the intersections and mirrors, and prepare to pull over as soon as you identify where it's coming from.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-199",
+        "chapter": "chapter-rules",
+        "text": "Can a person with a Class 5 license tow a trailer?",
+        "options": [
+            "No, towing requires a commercial license.",
+            "Yes, provided the trailer does not exceed 4,600 kg fully loaded.",
+            "Yes, of any weight.",
+            "Only if it is a boat trailer."
+        ],
+        "answer": 1,
+        "explanation": "With a Class 5 license, you may tow a trailer weighing up to 4,600 kilograms (gross vehicle weight). Heavier trailers require a special endorsement.",
+        "classes": [
+            "class5"
+        ]
+    },
+    {
+        "id": "C5-200",
+        "chapter": "chapter-signs",
+        "text": "A sign indicating 'Maximum 50' means:",
+        "options": [
+            "You must drive exactly 50 km/h.",
+            "You must drive 50 km/h under ideal conditions, but slower if conditions are bad.",
+            "The minimum speed is 50 km/h.",
+            "Recommended speed is 50 km/h."
+        ],
+        "answer": 1,
+        "explanation": "A maximum speed limit sign indicates the maximum legal speed under ideal conditions. You must drive slower if there is rain, snow, heavy traffic, or poor visibility.",
+        "classes": [
+            "class5"
+        ]
     }
 ];

@@ -149,7 +149,7 @@ select {
     background-position: right 1rem center;
     background-size: 0.65rem auto;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: var(--border-radius-md);
+    border-radius: var(--border-radius-md) !important;
     color: var(--text-primary);
     font-family: 'Inter', sans-serif;
     font-size: 0.95rem;
@@ -598,6 +598,7 @@ body.quiz-focus-mode .main-content {
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
         box-sizing: border-box !important;
         margin: 0 !important;
+        border-radius: var(--border-radius-md) !important;
     }
 
     body.quiz-focus-mode .progress-indicator,

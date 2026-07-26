@@ -2,7 +2,6 @@
     const API_URL = '/api/sync';
     const DEVICE_KEY = 'icbc_cloud_sync_device_id';
     const QUESTION_KEY_PATTERN = /^C4-2026-\d{3,}$/;
-    const QUESTION_KEY_PATTERN = /^C4-2026-\d{3,}$/;
 
     function stableHash(value) {
         let hash = 2166136261;

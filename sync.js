@@ -115,7 +115,7 @@
         }
 
         markMistake(questionKey, value) {
-            if (!this.isKent() || !QUESTION_KEY_PATTERN.test(questionKey)) return;
+            if (!this.hasActiveUser() || !QUESTION_KEY_PATTERN.test(questionKey)) return;
             const meta = this.loadMeta();
             meta.mistakes[questionKey] = {
                 status: value.status === 'resolved' ? 'resolved' : 'active',
@@ -138,7 +138,7 @@
 
         async start(app) {
             this.app = app;
-            if (!this.isKent(app)) {
+            if (!this.hasActiveUser(app)) {
                 this.setStatus('disabled');
                 return;
             }

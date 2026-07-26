@@ -84,7 +84,7 @@ export async function GET(request) {
     
     const profileRaw = request.headers.get('x-profile-name');
     if (!profileRaw) return json({ error: 'Profile name missing' }, 400);
-    const profile = decodeURIComponent(profileRaw).replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 50);
+    const profile = decodeURIComponent(profileRaw).trim().slice(0, 50);
     if (!profile) return json({ error: 'Invalid profile name' }, 400);
     
     try {
@@ -105,7 +105,7 @@ export async function POST(request) {
 
     const profileRaw = request.headers.get('x-profile-name');
     if (!profileRaw) return json({ error: 'Profile name missing' }, 400);
-    const profile = decodeURIComponent(profileRaw).replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 50);
+    const profile = decodeURIComponent(profileRaw).trim().slice(0, 50);
     if (!profile) return json({ error: 'Invalid profile name' }, 400);
 
     try {

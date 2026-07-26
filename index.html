@@ -239,6 +239,35 @@
                 </div>
             </section>
 
+            <!-- Premium Upgrade View -->
+            <section id="premium-upgrade-view" class="view hidden" style="text-align: center; max-width: 800px; margin: 0 auto; padding-top: 2rem;">
+                <div class="premium-hero" style="margin-bottom: 3rem;">
+                    <h1 style="font-size: 2.8rem; margin-bottom: 1rem; font-weight: 800; background: linear-gradient(to right, #60a5fa, #c084fc); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Unlock Your Full Potential.</h1>
+                    <h2 style="font-size: 1.3rem; font-weight: normal; color: var(--text-secondary); line-height: 1.5;">Pass your knowledge test on the first try.<br><span style="font-size: 1.1rem; opacity: 0.8;">第一次考试即刻通过。</span></h2>
+                </div>
+                
+                <div class="card glass premium-features" style="text-align: left; margin-bottom: 3rem; background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(59, 130, 246, 0.3);">
+                    <h3 style="margin-bottom: 1.5rem; text-align: center; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 1rem; font-size: 1.5rem;">Premium Benefits / 会员特权</h3>
+                    <ul style="list-style: none; padding: 0 1rem; font-size: 1.1rem; line-height: 2.2;">
+                        <li><span style="color: var(--success-color); margin-right: 12px; font-weight: bold;">✓</span> Unlock all 200+ Class 5 & Class 4 Exam Questions / 解锁所有题库</li>
+                        <li><span style="color: var(--success-color); margin-right: 12px; font-weight: bold;">✓</span> Unlimited AI Tutor Explanations / 无限制的 AI 导师详细解答</li>
+                        <li><span style="color: var(--success-color); margin-right: 12px; font-weight: bold;">✓</span> Advanced Weakness Tracking & Radar Charts / 高级雷达图与错题薄</li>
+                        <li><span style="color: var(--success-color); margin-right: 12px; font-weight: bold;">✓</span> Unlimited Mock Exams & Cloud Sync / 无限制全真模拟考与云同步</li>
+                    </ul>
+                </div>
+                
+                <div class="card glass premium-activation" style="background: rgba(30, 41, 59, 0.8); border-top: 4px solid var(--primary-color);">
+                    <h3 style="font-size: 1.4rem;">Activate Your Access / 激活全部功能</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.6;">Contact your instructor to get a valid registration code.<br><span style="font-size: 0.95rem;">请联系您的教练获取注册激活码。</span></p>
+                    
+                    <div style="display: flex; gap: 10px; justify-content: center; max-width: 400px; margin: 0 auto;">
+                        <input type="text" id="registration-code-input" placeholder="e.g. VIP-XXXXXX" style="flex: 1; padding: 0.85rem; background: rgba(0,0,0,0.4); border: 1px solid rgba(255,255,255,0.2); border-radius: var(--border-radius-sm); color: white; text-transform: uppercase; text-align: center; font-size: 1.1rem; letter-spacing: 2px; outline: none; transition: border-color 0.2s;">
+                    </div>
+                    <button class="primary-btn" id="activate-btn" style="margin-top: 1rem; width: 100%; max-width: 400px; font-size: 1.1rem; padding: 1rem;">Unlock Premium Access / 立即解锁</button>
+                    <p id="activation-error" style="color: var(--danger-color); margin-top: 1rem; display: none;">Invalid registration code. Please try again. / 激活码无效，请重试。</p>
+                </div>
+            </section>
+
         </main>
     </div>
     

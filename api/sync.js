@@ -6,7 +6,6 @@ const token = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TO
 
 const redis = new Redis({ url, token });
 
-const KV_KEY = 'class4/kent-sync-v1';
 const MAX_BODY_BYTES = 512 * 1024;
 
 function json(data, status = 200) {
@@ -30,9 +29,10 @@ function requestAllowed(request) {
     }
 }
 
-async function readCloudState() {
+async function readCloudState(profile) {
     try {
-        const result = await redis.get(KV_KEY);
+        const key = `class4/sync-${profile}`;
+        const result = await redis.get(key);
         if (!result) {
             return { state: emptyState() };
         }
@@ -45,19 +45,20 @@ async function readCloudState() {
     }
 }
 
-async function saveInitialBackup(deviceId, state) {
+async function saveInitialBackup(deviceId, state, profile) {
     const safeDeviceId = /^[a-zA-Z0-9-]{8,80}$/.test(deviceId) ? deviceId : 'unknown-device';
-    const key = `class4/backups/kent-initial-${safeDeviceId}`;
+    const key = `class4/backups/${profile}-initial-${safeDeviceId}`;
     
     // Only set if not exists (NX)
     await redis.set(key, state, { nx: true });
 }
 
-async function mergeAndWrite(incoming, deviceId, initialMigration) {
+async function mergeAndWrite(incoming, deviceId, initialMigration, profile) {
+    const key = `class4/sync-${profile}`;
     for (let attempt = 0; attempt < 3; attempt += 1) {
-        const current = await readCloudState();
+        const current = await readCloudState(profile);
         const needsBackup = initialMigration && !current.state.migrations[deviceId];
-        if (needsBackup) await saveInitialBackup(deviceId, incoming);
+        if (needsBackup) await saveInitialBackup(deviceId, incoming, profile);
 
         const merged = mergeStates(current.state, incoming);
         const now = new Date().toISOString();
@@ -68,7 +69,7 @@ async function mergeAndWrite(incoming, deviceId, initialMigration) {
         }
 
         try {
-            await redis.set(KV_KEY, merged);
+            await redis.set(key, merged);
             return merged;
         } catch (error) {
             if (attempt === 2) throw error;
@@ -81,8 +82,13 @@ export async function GET(request) {
     if (!requestAllowed(request)) return json({ error: 'Forbidden' }, 403);
     if (!url || !token) return json({ error: 'Redis credentials missing' }, 500);
     
+    const profileRaw = request.headers.get('x-profile-name');
+    if (!profileRaw) return json({ error: 'Profile name missing' }, 400);
+    const profile = decodeURIComponent(profileRaw).replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 50);
+    if (!profile) return json({ error: 'Invalid profile name' }, 400);
+    
     try {
-        const { state } = await readCloudState();
+        const { state } = await readCloudState(profile);
         return json({ state });
     } catch (error) {
         console.error('KENT sync read failed', error);
@@ -97,15 +103,20 @@ export async function POST(request) {
     const contentLength = Number(request.headers.get('content-length')) || 0;
     if (contentLength > MAX_BODY_BYTES) return json({ error: 'Payload too large' }, 413);
 
+    const profileRaw = request.headers.get('x-profile-name');
+    if (!profileRaw) return json({ error: 'Profile name missing' }, 400);
+    const profile = decodeURIComponent(profileRaw).replace(/[^a-zA-Z0-9_-]/g, '').slice(0, 50);
+    if (!profile) return json({ error: 'Invalid profile name' }, 400);
+
     try {
         const raw = await request.text();
         if (raw.length > MAX_BODY_BYTES) return json({ error: 'Payload too large' }, 413);
         const body = JSON.parse(raw);
-        if (body?.state?.profile !== 'KENT') return json({ error: 'Invalid profile' }, 400);
+        if (body?.state?.profile !== profile) return json({ error: 'Invalid profile payload' }, 400);
         const deviceId = typeof body.deviceId === 'string' ? body.deviceId.slice(0, 80) : '';
         if (!/^[a-zA-Z0-9-]{8,80}$/.test(deviceId)) return json({ error: 'Invalid device' }, 400);
         
-        const state = await mergeAndWrite(normalizeState(body.state), deviceId, body.initialMigration === true);
+        const state = await mergeAndWrite(normalizeState(body.state), deviceId, body.initialMigration === true, profile);
         return json({ state });
     } catch (error) {
         console.error('KENT sync write failed', error);

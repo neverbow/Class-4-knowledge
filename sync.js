@@ -1,9 +1,7 @@
 (() => {
-    const PROFILE = 'KENT';
     const API_URL = '/api/sync';
-    const META_KEY = 'icbc_cloud_sync_meta_KENT';
     const DEVICE_KEY = 'icbc_cloud_sync_device_id';
-    const BACKUP_KEY = 'icbc_pre_cloud_backup_KENT';
+    const QUESTION_KEY_PATTERN = /^C4-2026-\d{3,}$/;
     const QUESTION_KEY_PATTERN = /^C4-2026-\d{3,}$/;
 
     function stableHash(value) {
@@ -47,8 +45,8 @@
             return value;
         }
 
-        isKent(app = this.app) {
-            return app?.currentUser === PROFILE;
+        hasActiveUser(app = this.app) {
+            return !!app?.currentUser;
         }
 
         setStatus(state, detail = '') {
@@ -66,7 +64,9 @@
         }
 
         backupLocalSnapshot(app) {
-            if (app?.currentUser !== PROFILE || localStorage.getItem(BACKUP_KEY)) return;
+            if (!this.hasActiveUser(app)) return;
+            const backupKey = `icbc_pre_cloud_backup_${app.currentUser}`;
+            if (localStorage.getItem(backupKey)) return;
             const snapshot = {
                 createdAt: new Date().toISOString(),
                 bankVersion: window.QUESTION_BANK_VERSION?.version || 'unknown',
@@ -74,11 +74,11 @@
                 history: app.userHistory || [],
                 practiceProgress: app.practiceProgress || []
             };
-            localStorage.setItem(BACKUP_KEY, JSON.stringify(snapshot));
+            localStorage.setItem(backupKey, JSON.stringify(snapshot));
         }
 
         normalizeLegacyQuestionKeys(app) {
-            if (!this.isKent(app)) return;
+            if (!this.hasActiveUser(app)) return;
             const normalized = {};
             Object.entries(app.mistakesBook || {}).forEach(([key, value]) => {
                 let uid = key;
@@ -98,17 +98,20 @@
         }
 
         loadMeta() {
+            if (!this.app?.currentUser) return { mistakes: {} };
+            const metaKey = `icbc_cloud_sync_meta_${this.app.currentUser}`;
             try {
-                const parsed = JSON.parse(localStorage.getItem(META_KEY));
-                if (parsed?.version === 1 && parsed.mistakes) return parsed;
+                const stored = localStorage.getItem(metaKey);
+                return stored ? JSON.parse(stored) : { version: 1, migrated: false, backupUploaded: false, mistakes: {} };
             } catch {
-                // A damaged sync index must never affect the primary local practice data.
+                return { version: 1, migrated: false, backupUploaded: false, mistakes: {} };
             }
-            return { version: 1, migrated: false, backupUploaded: false, mistakes: {} };
         }
 
         saveMeta(meta) {
-            localStorage.setItem(META_KEY, JSON.stringify(meta));
+            if (!this.app?.currentUser) return;
+            const metaKey = `icbc_cloud_sync_meta_${this.app.currentUser}`;
+            localStorage.setItem(metaKey, JSON.stringify(meta));
         }
 
         markMistake(questionKey, value) {
@@ -148,14 +151,17 @@
         }
 
         schedule() {
-            if (!this.started || !this.isKent()) return;
+            if (!this.started || !this.hasActiveUser()) return;
             window.clearTimeout(this.syncTimer);
             this.syncTimer = window.setTimeout(() => this.sync(), 1000);
         }
 
         async fetchCloud() {
             const response = await fetch(API_URL, {
-                headers: { 'X-Kent-Sync': '1' },
+                headers: { 
+                    'X-Kent-Sync': '1',
+                    'X-Profile-Name': encodeURIComponent(this.app.currentUser)
+                },
                 credentials: 'same-origin',
                 cache: 'no-store'
             });
@@ -196,7 +202,7 @@
             this.saveMeta(meta);
             return {
                 schemaVersion: 1,
-                profile: PROFILE,
+                profile: this.app.currentUser,
                 revision: Number(cloud?.revision) || 0,
                 updatedAt: now,
                 mistakes: meta.mistakes,
@@ -230,7 +236,7 @@
         }
 
         async sync() {
-            if (!this.started || !this.isKent()) return;
+            if (!this.started || !this.hasActiveUser()) return;
             if (this.syncInFlight) {
                 this.syncQueued = true;
                 return this.syncInFlight;
@@ -246,7 +252,8 @@
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
-                            'X-Kent-Sync': '1'
+                            'X-Kent-Sync': '1',
+                            'X-Profile-Name': encodeURIComponent(this.app.currentUser)
                         },
                         credentials: 'same-origin',
                         body: JSON.stringify({

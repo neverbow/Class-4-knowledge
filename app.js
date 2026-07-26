@@ -22,9 +22,9 @@ class App {
         this.geminiApiKey = localStorage.getItem('icbc_gemini_key') || '';
         this.cloudSync = window.KentCloudSync ? new window.KentCloudSync() : null;
         
-        // Registration & Access Control
-        this.isRegistered = localStorage.getItem('icbc_is_registered') === 'true';
-        this.attemptsUsed = parseInt(localStorage.getItem('icbc_attempts_used')) || 0;
+        // Premium state defaults (loaded in selectProfile)
+        this.isRegistered = false;
+        this.attemptsUsed = 0;
         this.validCodeHashes = ["9e1c2839d15319bcf5a052a48f0954e74a4122b0e736be2dca48ebdaea9c8e2e", "2f98967685173c1513dcaeb001668d20bc11f6109618fed04ed487dfe950f623", "25412133ed721101caf0a2c2d54a0a7a594fe05d5cb7bbf0c4d4febfc9f9080d", "7ae8e2e4e669a8fea8bf4451920257c4e1bb311c579c4037f5e8d446ad27ba85", "0c2d365cbaa609f941b7542775553ddd164d4ecf3876483a8cf2ff15cce77ce0", "3f83037ada073b07887fe836151fe9effe844a589e4864221e4ba8e9d0a4852f", "50f632ebc65336b278d300b5147bc0e9688bdc097e011a0f83fbb47dd811f603", "1365e99d33f5dce73edd2c696d734fbcce02e29761d684e38f10f7f1eb343452", "a561b0ed6c806ce3a4a1849a8bc944d6a42669d2c21872a917d9bbbd434cba7f", "20624cb0db1461e6819049cf8d884febb5893720db7a9c0af890797dc22b8c5e", "0ce1b8d7373f6d14c5193749c713ac7d75f17a6fe16d387f3a0201cb9eb0801e", "df27ccdd5819b38a509a25adf5ae6d15bb36c2c0cf8753f61ea54ff3534faedc", "8c05931c71497340e5239c29f57ab409dd0f3cae5aa62dc7be5effa1698cfd7b", "0785159b739900af6bb9d968916f89a16f99688f457a089c485132f00fe40664", "b55d6f122e85ec5ad8ea213c689a76d56ab4042873c1f10f9da029061073573e", "3b3d89c56cbdff123d69078b75a7f462b4979a75a3944507f06d7c2473f19f13", "ad265477c13bcd6e3f5c1f82878e3f709e254e012a72b8caaae90288a0bb716c", "8af83617b378baf120ea71267c6aeb99f3a255e24b03ca7b4b442a281a57ee9f", "aada8651f337e82dd9e4b1ad21625b26ee54b25bb2d408af92b983094d3bf401", "763a5c14f87efcf1faf265d36eca1544a37eb088df044bb43e7224199708bd3d", "c6c15442dbc254052890b36f67cc6398fecc8a8a8ddd44b53b849a40f68bdfc1", "57d4d08df4b8fbb965a8dd94cd489e278109eec31121c92b3573c8f2473e5fa6", "de4ecddf962078fb5ae5a19afafd5590057d526c66698d9b36add9080f659bdb", "0721418eb78c5b2d6c9b3f12c8f241ff1a82a7bec218bb6dd4250c10ad40f4d5", "977a7347b59d699db1084131388cd48ca9d122806e85e50ad9a4ba04d5e3dde8", "6f795c38894cffa963c331edaec79615888a1e95bf9848bbbc6fd40430865872", "007149c20b1c5705f458d75a798fcbe09054b8fff7ca934dba61a299ab4fd016", "983e84700534c0990e5a5a838ed35f8e2cc9b4dd118eb3f50bcbf607bf395638", "ec95693cc5047ac018bc5e5a42a80bb1f043820de98cd9bb5cc524c7fe258a74", "279cda9b08c92b0863670a53a33647d7048a89e61ee662f89b98ff27cecf1be5", "0f7fb3a7a5a101955fa2ca9c8ae3cebcd9be9a82a745ac958b71907a9eea576f", "90f58da00e75256814063bdc2b670a980555d9a0bd47f91ff18f95bd1b5baf16", "6866ffbab2e2c74814b98e5baa9844a6976a2230fe1e6aa5fb374e044d31da5f", "faaf5e17c7562fdd8ff323c67de2e3b6d32a564965d65050cd8b683f0a937809", "75c748c793e4e420d11bd7def75794b55ddb5ec76d6fc75ff48d7488a99dee38", "a5e35bbb39952079f5f2223ec07740191deb83d65acdab31ea2b8715e5d11cdf", "18d866822cf5b4823100a5b8628db6bfeb6577ca891d129200fff7ff317ae638", "a670544b63b35277e69271e6a9d079d19d166c0343222f85250df7626517bb3c", "46279ead7bdeed230bbbdee37f33baec14e94f43e39b451b9895b616346a5724", "b6b26a242d3b4bfb7a9144deb72b152dbd18fdb37ec661ec41c63addb0287020", "a83b1618a91de3fd4b1c12a18ba95c9690997695abd91ff181b93365ce0a3c8d", "05452a296400c6916156f583735ced486e205d37c5093dd8097a0a18af20726e", "d6195c5b859e2a51786f2700eda1ea0f1a08da40a04c61cc79a362524678225d", "3dfd5c8719038a1d2893082eb8db15d7e3f57dcffcd5401947b7ca5e07aed4a1", "d3fbdbf522481938c9f612b673b14f81be624009b2f4223b79487f1885052cd3", "9b016d70aeaacd341c161069725a0a561d2ff8d0428f762f79b07d365e172462", "108a462de41f686d861aa0ca5623918b458e94f6b07b0d62704e83ef45bd5ab5", "9f4b5b687879880e01eb5d9a9f4c3f84748fb60cb4c41fd51d4061a76fcbea13", "46d4b3925f0dc175ed60317fd2edef4abfe22cad86673a3c745d1c93b7ad5403", "f9d38b123f57ca635fde3bfa57cfaa85135d003947a25e68e804a522c6311e4b"];
         
         this.migrateLegacyData();
@@ -47,14 +47,17 @@ class App {
                 if (legacyMistakes) localStorage.setItem('icbc_mistakes_KENT', legacyMistakes);
                 if (legacyProgress) localStorage.setItem('icbc_practice_progress_KENT', legacyProgress);
                 
+                // Keep activation state for KENT
+                if (localStorage.getItem('icbc_is_registered')) {
+                    localStorage.setItem('icbc_is_registered_KENT', localStorage.getItem('icbc_is_registered'));
+                }
+                
                 // Clean up legacy
                 localStorage.removeItem('icbc_history');
                 localStorage.removeItem('icbc_mistakes');
                 localStorage.removeItem('icbc_practice_progress');
-            } else {
-                // First time ever using app
-                this.users.push('KENT');
-                localStorage.setItem('icbc_users', JSON.stringify(this.users));
+                localStorage.removeItem('icbc_is_registered');
+                localStorage.removeItem('icbc_attempts_used');
             }
         }
     }
@@ -76,7 +79,7 @@ class App {
                 btn.style.transform = 'translateY(0)';
                 btn.style.boxShadow = 'none';
             };
-            btn.onclick = () => this.selectProfile(user);
+            btn.onclick = () => this.promptLogin(user);
             
             const initial = user.charAt(0).toUpperCase();
             btn.innerHTML = `
@@ -91,6 +94,32 @@ class App {
         });
     }
     
+    promptLogin(username) {
+        this.pendingLoginUser = username;
+        const passwordRequired = !!localStorage.getItem(`icbc_password_${username}`);
+        
+        if (passwordRequired) {
+            document.getElementById('login-profile-title').textContent = `Login: ${username}`;
+            document.getElementById('login-profile-password').value = '';
+            document.getElementById('login-error-msg').classList.add('hidden');
+            document.getElementById('login-profile-modal').classList.remove('hidden');
+        } else {
+            this.selectProfile(username);
+        }
+    }
+    
+    loginProfile() {
+        const inputPass = document.getElementById('login-profile-password').value;
+        const storedPass = localStorage.getItem(`icbc_password_${this.pendingLoginUser}`);
+        
+        if (inputPass === storedPass) {
+            document.getElementById('login-profile-modal').classList.add('hidden');
+            this.selectProfile(this.pendingLoginUser);
+        } else {
+            document.getElementById('login-error-msg').classList.remove('hidden');
+        }
+    }
+    
     selectProfile(username) {
         this.currentUser = username;
         document.getElementById('active-user-display').textContent = username;
@@ -99,6 +128,11 @@ class App {
         this.userHistory = JSON.parse(localStorage.getItem(`icbc_history_${username}`)) || [];
         this.mistakesBook = JSON.parse(localStorage.getItem(`icbc_mistakes_${username}`)) || {};
         this.practiceProgress = JSON.parse(localStorage.getItem(`icbc_practice_progress_${username}`)) || [];
+        
+        // Load user-specific premium state
+        this.isRegistered = localStorage.getItem(`icbc_is_registered_${username}`) === 'true';
+        this.attemptsUsed = parseInt(localStorage.getItem(`icbc_attempts_used_${username}`)) || 0;
+        
         this.cloudSync?.backupLocalSnapshot(this);
         this.cloudSync?.normalizeLegacyQuestionKeys(this);
         this.resetLearningStateForNewBank();
@@ -112,16 +146,21 @@ class App {
     }
     
     switchProfile() {
+        this.currentUser = null;
         document.getElementById('profile-gate').classList.remove('hidden');
         document.getElementById('app').classList.add('hidden');
     }
     
     showCreateProfile() {
+        document.getElementById('new-profile-name').value = '';
+        document.getElementById('new-profile-password').value = '';
         document.getElementById('create-profile-modal').classList.remove('hidden');
     }
     
     createNewProfile() {
         const name = document.getElementById('new-profile-name').value.trim().toUpperCase();
+        const password = document.getElementById('new-profile-password').value;
+        
         if (!name) return;
         if (this.users.includes(name)) {
             alert('Profile already exists!');
@@ -130,7 +169,10 @@ class App {
         
         this.users.push(name);
         localStorage.setItem('icbc_users', JSON.stringify(this.users));
-        document.getElementById('new-profile-name').value = '';
+        if (password) {
+            localStorage.setItem(`icbc_password_${name}`, password);
+        }
+        
         document.getElementById('create-profile-modal').classList.add('hidden');
         
         this.renderProfiles();
@@ -172,6 +214,8 @@ class App {
         
         // Premium Activation
         document.getElementById('activate-btn').addEventListener('click', async () => {
+            if (!this.currentUser) return;
+            
             const input = document.getElementById('registration-code-input').value.trim().toUpperCase();
             if (!input) return;
             
@@ -181,7 +225,7 @@ class App {
             
             if (this.validCodeHashes.includes(hashHex)) {
                 this.isRegistered = true;
-                localStorage.setItem('icbc_is_registered', 'true');
+                localStorage.setItem(`icbc_is_registered_${this.currentUser}`, 'true');
                 document.getElementById('activation-error').style.display = 'none';
                 alert('Premium Access Unlocked! Welcome!\n会员权限已解锁，欢迎使用！');
                 this.navigate('home-view');
@@ -460,7 +504,9 @@ Please act as an expert driving instructor and explain deeply and clearly why ${
         if (this.isRegistered) return true;
         if (this.attemptsUsed < 1) {
             this.attemptsUsed++;
-            localStorage.setItem('icbc_attempts_used', this.attemptsUsed.toString());
+            if (this.currentUser) {
+                localStorage.setItem(`icbc_attempts_used_${this.currentUser}`, this.attemptsUsed.toString());
+            }
             return true;
         }
         

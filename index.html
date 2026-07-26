@@ -29,9 +29,24 @@
         <div class="card glass" style="padding: 2rem; width: 90%; max-width: 400px; text-align: center;">
             <h3 style="margin-bottom: 1rem;">Add Profile</h3>
             <input type="text" id="new-profile-name" placeholder="Name (e.g. Kent)" style="width: 100%; padding: 0.75rem; background: rgba(0,0,0,0.2); border: 1px solid var(--border-color); border-radius: var(--border-radius-sm); color: white; margin-bottom: 1rem;">
+            <input type="password" id="new-profile-password" placeholder="Password (Optional)" style="width: 100%; padding: 0.75rem; background: rgba(0,0,0,0.2); border: 1px solid var(--border-color); border-radius: var(--border-radius-sm); color: white; margin-bottom: 1.5rem;">
             <div style="display: flex; gap: 1rem;">
                 <button class="secondary-btn" onclick="document.getElementById('create-profile-modal').classList.add('hidden')" style="flex: 1;">Cancel</button>
                 <button class="primary-btn" onclick="app.createNewProfile()" style="flex: 1;">Create</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Profile Modal -->
+    <div id="login-profile-modal" class="hidden" style="position: fixed; inset: 0; background: rgba(0,0,0,0.8); z-index: 2000; display: flex; justify-content: center; align-items: center;">
+        <div class="card glass" style="padding: 2rem; width: 90%; max-width: 400px; text-align: center;">
+            <h3 style="margin-bottom: 1rem;" id="login-profile-title">Enter Password</h3>
+            <p style="color: var(--text-secondary); margin-bottom: 1rem; font-size: 0.9rem;">This profile is protected by a password.</p>
+            <input type="password" id="login-profile-password" placeholder="Password" style="width: 100%; padding: 0.75rem; background: rgba(0,0,0,0.2); border: 1px solid var(--border-color); border-radius: var(--border-radius-sm); color: white; margin-bottom: 1rem;">
+            <p id="login-error-msg" class="hidden" style="color: var(--danger-color); margin-bottom: 1rem; font-size: 0.9rem;">Incorrect password.</p>
+            <div style="display: flex; gap: 1rem;">
+                <button class="secondary-btn" onclick="document.getElementById('login-profile-modal').classList.add('hidden')" style="flex: 1;">Cancel</button>
+                <button class="primary-btn" onclick="app.loginProfile()" style="flex: 1;">Login</button>
             </div>
         </div>
     </div>
